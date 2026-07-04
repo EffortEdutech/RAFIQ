@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-tafsir-english-mukhtasar-266",
+  "name": "QUL English Al-Mukhtasar",
+  "domain": "tafsir",
+  "officialUrl": "https://qul.tarteel.ai/resources/tafsir/266",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "Authenticated QUL download",
+  "licenseUrl": "https://qul.tarteel.ai/resources/266/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "English Al-Mukhtasar; original edition, translator, publisher, and required attribution remain unresolved",
+  "version": "Downloaded 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "JSON and SQLite",
+  "rawFilePath": "data/raw/tafsir/en-tafisr-Al-Mukhtasar.json",
+  "checksumSha256": "8F30054EA8B5F1E19B78FBE2B30CCA5998DA31583A9902A9B7301CD5E81EA766",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Day 4 file audit",
+  "notes": "JSON and SQLite match exactly. Contains 6,216 main passage records and 20 pointer records. All canonical ayah keys are present."
+}

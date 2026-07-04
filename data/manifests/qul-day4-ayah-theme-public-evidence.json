@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-day4-ayah-theme-public-evidence",
+  "name": "QUL Ayah Theme Public Schema Evidence",
+  "domain": "ayah_theme",
+  "officialUrl": "https://qul.tarteel.ai/resources/ayah-theme/62",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "",
+  "licenseUrl": "https://qul.tarteel.ai/resources/62/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "Quranic Universal Library resource page; original source attribution remains unresolved",
+  "version": "Public page accessed 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "HTML audit evidence; advertised dataset format is SQLite",
+  "rawFilePath": "data/raw/day4/qul-evidence/ayah-theme-62.html",
+  "checksumSha256": "65006CD35F3373B0F745F235E4A80ED046EC2EE9077CE9573AD9A88D33CAA15D",
+  "recordCountExpected": 1049,
+  "recordCountActual": null,
+  "status": "schema_discovery_only",
+  "reviewer": "RAFIQ Day 4 audit",
+  "notes": "Public page reports 1,049 grouped themes. Published columns contain no confidence score. Download requires sign-in and the preview shows a likely malformed keyword."
+}

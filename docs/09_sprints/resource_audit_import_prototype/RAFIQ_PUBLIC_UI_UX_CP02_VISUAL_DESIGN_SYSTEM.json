@@ -1,0 +1,65 @@
+{
+  "name": "RAFIQ Public Visual Design System",
+  "version": "CP02-2026-06-20",
+  "colors": {
+    "ink": "#10201C",
+    "deepGreen": "#0F5F55",
+    "deepGreenPressed": "#0A453E",
+    "mint": "#DDEFE8",
+    "sand": "#F8F1E3",
+    "paper": "#FFFDF7",
+    "cream": "#FDF7EA",
+    "gold": "#C99A3A",
+    "goldSoft": "#F3E3B7",
+    "slate": "#53605A",
+    "muted": "#7A867F",
+    "line": "#E7DCC7",
+    "success": "#237A57",
+    "warning": "#A86E00",
+    "danger": "#A13D2D",
+    "info": "#2F6F9F"
+  },
+  "spacing": {
+    "space2": 2,
+    "space4": 4,
+    "space8": 8,
+    "space12": 12,
+    "space16": 16,
+    "space20": 20,
+    "space24": 24,
+    "space32": 32,
+    "space40": 40,
+    "space56": 56
+  },
+  "radii": {
+    "small": 10,
+    "medium": 16,
+    "large": 24,
+    "pill": 999
+  },
+  "typography": {
+    "hero": { "fontSize": 40, "fontWeight": "700", "lineHeight": 43 },
+    "pageTitle": { "fontSize": 30, "fontWeight": "700", "lineHeight": 35 },
+    "sectionTitle": { "fontSize": 22, "fontWeight": "700", "lineHeight": 28 },
+    "body": { "fontSize": 17, "fontWeight": "400", "lineHeight": 26 },
+    "metadata": { "fontSize": 13, "fontWeight": "500", "lineHeight": 18 },
+    "label": { "fontSize": 12, "fontWeight": "700", "lineHeight": 15 },
+    "arabicReading": { "fontSize": 30, "fontWeight": "500", "lineHeight": 57 },
+    "translationReading": { "fontSize": 18, "fontWeight": "400", "lineHeight": 30 }
+  },
+  "components": {
+    "heroPanel": ["headline", "subcopy", "primaryAction", "secondaryAction", "trustBadges"],
+    "contentCard": ["title", "excerpt", "sourceStatus", "action"],
+    "evidencePanel": ["title", "reference", "sourceAttribution", "approvalState", "boundaryNote"],
+    "emptyStatePanel": ["statusBadge", "explanation", "actions"],
+    "boundaryPanel": ["status", "reason", "allowedNextAction"]
+  },
+  "statusBadges": {
+    "approvedPublic": "Approved Public",
+    "approvalPending": "Approval Pending",
+    "privatePreview": "Private Preview",
+    "fixtureDemo": "Demo Fixture",
+    "blocked": "Blocked",
+    "rolledBack": "Rolled Back"
+  }
+}

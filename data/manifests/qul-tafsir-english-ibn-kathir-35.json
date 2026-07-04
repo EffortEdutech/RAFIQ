@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-tafsir-english-ibn-kathir-35",
+  "name": "QUL English Tafsir Ibn Kathir",
+  "domain": "tafsir",
+  "officialUrl": "https://qul.tarteel.ai/resources/tafsir/35",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "Authenticated QUL download",
+  "licenseUrl": "https://qul.tarteel.ai/resources/35/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "English Tafsir Ibn Kathir; exact edition, translator, publisher, and required attribution remain unresolved",
+  "version": "Downloaded 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "JSON and SQLite",
+  "rawFilePath": "data/raw/tafsir/en-tafisr-ibn-kathir.json",
+  "checksumSha256": "F0DA06E9DA263CDB1C5914FBFF4991AF53A736D8F21DEFE1B3C405767565D0AB",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Day 4 file audit",
+  "notes": "JSON and SQLite match exactly. Contains 1,902 main passages and 4,334 pointer records. Maximum observed group size is 20 ayahs."
+}

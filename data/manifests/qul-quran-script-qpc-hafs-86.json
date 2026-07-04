@@ -1,0 +1,17 @@
+{
+  "sourceId": "qul-quran-script-qpc-hafs-86",
+  "name": "QUL QPC Hafs Ayah by Ayah",
+  "domain": "quran",
+  "officialUrl": "https://qul.tarteel.ai/resources/quran-script/86",
+  "licenseUrl": "https://qul.tarteel.ai/resources/86/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "dateAccessed": "2026-06-12",
+  "format": "JSON and SQLite",
+  "rawFilePath": "data/raw/quran/qul/qpc-hafs.json",
+  "checksumSha256": "93864197A949DAC54F324875F41348875455BB138B7ABDFDE43DAEFE87230403",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Days 2-3 amendment audit",
+  "notes": "JSON and SQLite match exactly. Includes ayah-end numerals and requires a compatible QPC Hafs rendering font."
+}

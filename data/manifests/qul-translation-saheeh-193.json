@@ -1,0 +1,17 @@
+{
+  "sourceId": "qul-translation-saheeh-193",
+  "name": "QUL Saheeh International Translation",
+  "domain": "quran_translation",
+  "officialUrl": "https://qul.tarteel.ai/resources/translation/193",
+  "licenseUrl": "https://qul.tarteel.ai/resources/193/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "dateAccessed": "2026-06-12",
+  "format": "Simple, inline-footnote, footnote-tag, and chunk JSON/SQLite variants",
+  "rawFilePath": "data/raw/translations/qul/",
+  "checksumSha256": "",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Days 2-3 amendment audit",
+  "notes": "All JSON/SQLite pairs match. Contains 1904 valid footnotes across 1613 ayahs. QUL and Tanzil Saheeh texts are different editions."
+}

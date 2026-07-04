@@ -1,0 +1,17 @@
+{
+  "sourceId": "qul-quran-script-uthmani-88",
+  "name": "QUL Uthmani Ayah by Ayah",
+  "domain": "quran",
+  "officialUrl": "https://qul.tarteel.ai/resources/quran-script/88",
+  "licenseUrl": "https://qul.tarteel.ai/resources/88/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "dateAccessed": "2026-06-12",
+  "format": "JSON and SQLite",
+  "rawFilePath": "data/raw/quran/qul/uthmani.json",
+  "checksumSha256": "8D8B5E0D0DD6F8BBD3661F0BAEBA91618D3E4B9FA6AE8823C8B2486AFE5A69B8",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Days 2-3 amendment audit",
+  "notes": "JSON and SQLite match exactly. All canonical keys are present. Text is source-specific and must not be silently substituted for Tanzil."
+}

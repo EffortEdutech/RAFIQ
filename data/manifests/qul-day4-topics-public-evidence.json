@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-day4-topics-public-evidence",
+  "name": "QUL Topics and Concepts Public Schema Evidence",
+  "domain": "quran_topics",
+  "officialUrl": "https://qul.tarteel.ai/resources/ayah-topics/45",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "",
+  "licenseUrl": "https://qul.tarteel.ai/resources/45/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "QUL topic resource; ontology attribution includes Quranic Arabic Corpus and thematic attribution includes The Clear Quran",
+  "version": "Public page accessed 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "HTML audit evidence; advertised dataset format is SQLite",
+  "rawFilePath": "data/raw/day4/qul-evidence/topics-45.html",
+  "checksumSha256": "045D027B26FA3872D7A989F09114D37F17518045096203424E9705DB65015754",
+  "recordCountExpected": 2512,
+  "recordCountActual": null,
+  "status": "schema_discovery_only",
+  "reviewer": "RAFIQ Day 4 audit",
+  "notes": "Public page reports 2,512 topics and a mixed ontology/thematic/general hierarchy. Download requires sign-in; dataset count and identifiers were not file-validated."
+}

@@ -1,0 +1,17 @@
+{
+  "sourceId": "qul-quran-metadata-63-70",
+  "name": "QUL Quran Metadata Resources 63-70",
+  "domain": "quran_metadata",
+  "officialUrl": "https://qul.tarteel.ai/resources/quran-metadata",
+  "licenseUrl": "https://qul.tarteel.ai/resources/69/copyright",
+  "licenseName": "No copyright information supplied by QUL for audited metadata resources",
+  "dateAccessed": "2026-06-12",
+  "format": "Eight JSON and eight SQLite files",
+  "rawFilePath": "data/raw/quran/qul/",
+  "checksumSha256": "",
+  "recordCountExpected": null,
+  "recordCountActual": null,
+  "status": "raw_validated_rights_blocked",
+  "reviewer": "RAFIQ Days 2-3 amendment audit",
+  "notes": "Validated counts: 240 rub, 15 sajda, 558 ruku, 7 manzil, 60 hizb, 30 juz, 6236 ayahs, and 114 surahs. Every JSON/SQLite pair matches exactly."
+}

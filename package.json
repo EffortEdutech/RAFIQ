@@ -1,0 +1,21 @@
+{
+  "name": "rafiq",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "build": "corepack pnpm -C packages/shared build && corepack pnpm -C apps/api build",
+    "build:shared": "corepack pnpm -C packages/shared build",
+    "build:api": "corepack pnpm -C apps/api build",
+    "build:mobile:web": "corepack pnpm -C apps/mobile exec expo export --platform web",
+    "check:scaffold": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/check_phase5_scaffold.ps1",
+    "check:runtime": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/check_phase5_runtime.ps1",
+    "check:bridge-parity": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/check_phase5_bridge_parity.ps1",
+    "phase5:start": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/start_phase5_apps.ps1",
+    "local:start": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/start_rafiq_local.ps1",
+    "local:check": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -ExecutionPolicy Bypass -File scripts/check_rafiq_local.ps1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

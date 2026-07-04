@@ -1,0 +1,51 @@
+{
+  "source": {
+    "sourceKey": "",
+    "name": "",
+    "provider": "",
+    "domain": "",
+    "officialUrl": "",
+    "repositoryUrl": "",
+    "documentationUrl": "",
+    "authorityClass": "candidate"
+  },
+  "snapshot": {
+    "snapshotKey": "",
+    "version": "",
+    "branch": "",
+    "commit": "",
+    "acquiredAt": "",
+    "acquisitionMethod": "",
+    "acquiredBy": "",
+    "licenseName": "",
+    "licenseUrl": "",
+    "attribution": "",
+    "technicalStatus": "acquired",
+    "rightsStatus": "unknown",
+    "attributionStatus": "unknown",
+    "contentStatus": "raw",
+    "publicationStatus": "private_only",
+    "expectedRecordCount": null,
+    "actualRecordCount": null,
+    "fileCount": null,
+    "totalBytes": null,
+    "supersedesSnapshotKey": null,
+    "notes": ""
+  },
+  "objects": [
+    {
+      "logicalName": "",
+      "role": "principal",
+      "path": "",
+      "sha256": "",
+      "bytes": null,
+      "format": "",
+      "mediaType": "",
+      "encoding": "",
+      "parentArchivePath": null,
+      "archiveMemberPath": null,
+      "parseEligible": true
+    }
+  ]
+}
+

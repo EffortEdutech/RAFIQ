@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-ayah-themes-62",
+  "name": "QUL Ayah Themes",
+  "domain": "ayah_theme",
+  "officialUrl": "https://qul.tarteel.ai/resources/ayah-theme/62",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "Authenticated QUL download",
+  "licenseUrl": "https://qul.tarteel.ai/resources/62/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "QUL Ayah Themes; original authorship, methodology, and required attribution remain unresolved",
+  "version": "Downloaded 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "SQLite",
+  "rawFilePath": "data/raw/tafsir/ayah-themes.db",
+  "checksumSha256": "B3C20C4FAB472586904543ED12C87E2AC616CE629AC18A125357408E50927A42",
+  "recordCountExpected": 1049,
+  "recordCountActual": 2098,
+  "status": "raw_validated_quality_and_rights_blocked",
+  "reviewer": "RAFIQ Day 4 file audit",
+  "notes": "Contains 1,049 unique records duplicated exactly once, producing 2,098 rows. Unique ranges cover 6,200 ayahs without overlap and leave 36 ayahs uncovered. No confidence field exists."
+}

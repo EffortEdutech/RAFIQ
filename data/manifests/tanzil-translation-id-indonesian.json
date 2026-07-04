@@ -1,0 +1,21 @@
+{
+  "sourceId": "tanzil-translation-id-indonesian",
+  "name": "Bahasa Indonesia Translation",
+  "domain": "quran_translation",
+  "officialUrl": "https://tanzil.net/trans/",
+  "repositoryUrl": "",
+  "downloadUrl": "https://tanzil.net/trans/id.indonesian",
+  "licenseUrl": "https://tanzil.net/trans/",
+  "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+  "attribution": "Indonesian Ministry of Religious Affairs; distributed by Tanzil Project, https://tanzil.net/trans/",
+  "version": "Tanzil update dated 2010-06-04",
+  "dateAccessed": "2026-06-11",
+  "format": "pipe-delimited UTF-8 text",
+  "rawFilePath": "data/raw/translations/tanzil/id.indonesian.txt",
+  "checksumSha256": "70428E875C50C3C42D3829654D2BD386E146F0FA68CC20C34FDD4EA3B53E21A8",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "staging_only",
+  "reviewer": "RAFIQ Day 3 audit",
+  "notes": "Optional Day 3 sample. Structurally complete; production use is blocked pending original-source rights and attribution confirmation."
+}

@@ -1,0 +1,21 @@
+{
+  "sourceId": "tanzil-translation-en-sahih",
+  "name": "Saheeh International English Translation",
+  "domain": "quran_translation",
+  "officialUrl": "https://tanzil.net/trans/",
+  "repositoryUrl": "",
+  "downloadUrl": "https://tanzil.net/trans/en.sahih",
+  "licenseUrl": "https://tanzil.net/trans/",
+  "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+  "attribution": "Saheeh International; distributed by Tanzil Project, https://tanzil.net/trans/",
+  "version": "Tanzil update dated 2011-04-24",
+  "dateAccessed": "2026-06-11",
+  "format": "pipe-delimited UTF-8 text",
+  "rawFilePath": "data/raw/translations/tanzil/en.sahih.txt",
+  "checksumSha256": "A1778A1A56695D9B59AE910809EC46D9F4A55F05961DE51CD56E6EBCF9040883",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "staging_only",
+  "reviewer": "RAFIQ Day 3 audit",
+  "notes": "Structurally complete. Production and commercial use are blocked until permission from the translator or publisher and required attribution are confirmed."
+}

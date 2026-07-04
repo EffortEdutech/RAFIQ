@@ -1,0 +1,21 @@
+{
+  "sourceId": "tanzil-quran-metadata-v1.0",
+  "name": "Tanzil Quran Metadata",
+  "domain": "quran_metadata",
+  "officialUrl": "https://tanzil.net/docs/Quran_Metadata",
+  "repositoryUrl": "",
+  "downloadUrl": "https://tanzil.net/res/text/metadata/quran-data.xml",
+  "licenseUrl": "https://tanzil.net/docs/Text_License",
+  "licenseName": "License applicability to metadata requires confirmation",
+  "attribution": "Tanzil Project, https://tanzil.net",
+  "version": "1.0",
+  "dateAccessed": "2026-06-10",
+  "format": "XML",
+  "rawFilePath": "data/raw/quran/tanzil/quran-data.xml",
+  "checksumSha256": "8867C1D88191472ADEC9DB694B3CD9F135B1A2EF580574D32CF888DCB22C5C7A",
+  "recordCountExpected": 114,
+  "recordCountActual": 114,
+  "status": "staging_only",
+  "reviewer": "RAFIQ Day 2 audit",
+  "notes": "Contains surahs, 30 juz starts, 240 hizb-quarter starts, 7 manzil starts, 556 ruku starts, 604 page starts, and 15 sajda records. Metadata-specific license should be confirmed."
+}

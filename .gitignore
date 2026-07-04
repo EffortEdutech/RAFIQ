@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+
+# Generated/local artifacts
+artifacts/
+data/staging_reports/
+data/manifests/hadith-raw-objects-*.csv
+supabase/.branches/
+supabase/.temp/
+
+# Raw vendored datasets and cloned source snapshots
+data/raw/

@@ -1,0 +1,76 @@
+{
+  "policyId": "phase6_public_attribution_and_rollback_checkpoint_05",
+  "status": "prepared_for_review",
+  "date": "2026-06-19",
+  "publicLaunchDecision": "no_go",
+  "minimumAttributionPayload": [
+    "entityType",
+    "entityId",
+    "sourceKey",
+    "sourceName",
+    "snapshotKey",
+    "licenseName",
+    "licenseUrl",
+    "attributionText",
+    "rightsStatus",
+    "attributionStatus",
+    "editorialStatus",
+    "scholarContentStatus",
+    "publicationStatus",
+    "publicReleaseGatePassed",
+    "lastApprovedAt",
+    "rollbackContact"
+  ],
+  "placementRules": {
+    "publicQuranReader": ["editionSelector", "ayahSourceInfoPanel", "publicSourceDetailLink"],
+    "publicTranslationDisplay": ["translationSelector", "translationInfoPanel", "publicSourceDetailLink"],
+    "publicTafsirDisplay": ["tafsirHeading", "expandedSourcePanel", "publicSourceDetailLink"],
+    "publicTopicsThemes": ["topicThemeSourcePanel", "publicSourceDetailLink"],
+    "publicHadithList": ["collectionHeader", "resultCardSourceLabel", "publicSourceDetailLink"],
+    "publicHadithDetail": ["topSourcePanel", "textVersionSourceSection", "gradeVerificationAttribution"],
+    "publicSearchResult": ["resultCardSourceEdition", "releaseStatus", "sourceDetailTarget"],
+    "publicAnswerCitation": ["citationSourceEdition", "releaseStatus", "sourceDetailTarget"],
+    "publicApiResponse": ["machineReadableAttribution", "releaseGateStatus", "sourceDetailTarget"]
+  },
+  "rollbackTriggers": [
+    "rights_revoked_or_limited",
+    "attribution_non_compliant",
+    "source_provenance_disputed",
+    "scholar_content_rejected",
+    "technical_integrity_mismatch",
+    "hadith_grade_or_verification_misrepresented",
+    "translation_identity_disputed",
+    "misleading_tafsir_topic_theme_mapping",
+    "private_or_pending_content_leak",
+    "public_model_used_uncited_or_unapproved_evidence"
+  ],
+  "allowedPublicPublicationStatuses": ["public", "published"],
+  "blockedPublicationStatuses": [
+    "private_only",
+    "pending_review",
+    "revoked",
+    "retired",
+    "rejected"
+  ],
+  "rollbackWorkflow": [
+    "intake",
+    "containment",
+    "impact_analysis",
+    "user_facing_handling",
+    "correction",
+    "reapproval",
+    "post_incident_record"
+  ],
+  "verificationRequirements": [
+    "public_result_has_attribution_payload",
+    "public_result_has_source_detail_target",
+    "public_search_shows_source_edition",
+    "public_answer_citations_show_source_edition",
+    "public_api_includes_machine_readable_attribution",
+    "public_source_detail_excludes_private_fields",
+    "rollback_removes_approved_fixture_from_public_search",
+    "rollback_removes_approved_fixture_from_public_answer_evidence",
+    "rollback_does_not_delete_private_records",
+    "product_owner_reapproval_required_before_restore"
+  ]
+}

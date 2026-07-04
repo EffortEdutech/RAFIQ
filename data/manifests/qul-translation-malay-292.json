@@ -1,0 +1,17 @@
+{
+  "sourceId": "qul-translation-malay-292",
+  "name": "QUL Abdullah Basamia Malay Translation",
+  "domain": "quran_translation",
+  "officialUrl": "https://qul.tarteel.ai/resources/translation/292",
+  "licenseUrl": "https://qul.tarteel.ai/resources/292/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "dateAccessed": "2026-06-12",
+  "format": "Simple JSON and SQLite",
+  "rawFilePath": "data/raw/translations/qul/abdullah-basamia-simple.json",
+  "checksumSha256": "E01351D5826A6D97EAC05FD76ABB9EECC66A331CF86C2C9FADFC667E06E38E9D",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_rights_and_attribution_blocked",
+  "reviewer": "RAFIQ Days 2-3 amendment audit",
+  "notes": "JSON and SQLite match exactly. QUL and Tanzil Malay texts differ in 2092 records, with approximately 52 substantive differences after aggressive typography normalization. Basamia/Basmeih attribution remains unresolved."
+}

@@ -1,0 +1,688 @@
+﻿<!--
+Extracted from docs/RAFIQ_raw_info.md lines 13934-14601.
+Extraction label: current database schema specification.
+Do not treat earlier archived drafts as canonical when this document supersedes them.
+-->
+
+# RAFIQ Database Schema & ERD Specification V2
+Quran + Hadith Intelligence Platform
+
+Day 9 canonical-schema override, 2026-06-14:
+
+The content-domain tables in this document are superseded for implementation
+planning by
+`../09_sprints/resource_audit_import_prototype/canonical_schema_recommendation.md`.
+The audited model uses editioned Quran and Hadith text, passage-based tafsir,
+source taxonomies separate from RAFIQ themes, attributed grade/verification
+claims, and record-level provenance and release state. User, guidance, and
+operational sections remain subject to later implementation review.
+
+Build note:
+
+Use `RAFIQ_Supabase_Specification_V1.md` and `../07_governance/RAFIQ_Privacy_Safety_Policy_V1.md` for RLS, privacy, and table exposure decisions before writing migrations.
+
+Version: 2.0
+Status: Architecture Design
+Supersedes: Database Schema & ERD Specification V1
+
+1. Database Philosophy
+
+RAFIQ is not a CRUD application.
+
+RAFIQ is a Knowledge Retrieval System.
+
+The database must support:
+
+Knowledge Storage
+
+Knowledge Relationships
+
+Knowledge Retrieval
+
+AI Personalization
+
+Future Semantic Search
+
+Therefore we separate the database into:
+
+Foundation Layer
+Knowledge Layer
+Relationship Layer
+Personalization Layer
+System Layer
+2. High-Level ERD
+USERS
+ │
+ ├── user_profiles
+ ├── user_preferences
+ ├── user_moods
+ ├── user_journeys
+ │
+ ▼
+
+THEMES
+ │
+ ├── topics
+ ├── topic_relations
+ │
+ ▼
+
+QURAN
+ │
+ ├── surahs
+ ├── ayahs
+ ├── translations
+ ├── tafsir
+ ├── ayah_themes
+ │
+ ▼
+
+HADITH
+ │
+ ├── hadith_books
+ ├── hadith_chapters
+ ├── hadiths
+ ├── hadith_grades
+ ├── hadith_topics
+ │
+ ▼
+
+KNOWLEDGE GRAPH
+ │
+ ├── quran_hadith_links
+ ├── related_ayahs
+ ├── related_hadiths
+ │
+ ▼
+
+GUIDANCE ENGINE
+ │
+ ├── guidance_packages
+ ├── reflections
+ ├── actions
+3. Foundation Layer
+users
+
+Managed by Supabase Auth.
+
+id UUID PK
+
+email
+
+created_at
+user_profiles
+id UUID PK
+
+user_id UUID FK
+
+display_name
+
+language
+
+country
+
+timezone
+
+created_at
+updated_at
+user_preferences
+id UUID PK
+
+user_id UUID FK
+
+preferred_language
+
+translation_source
+
+tafsir_source
+
+daily_reminder_enabled
+
+theme_preferences
+4. Quran Domain
+quran_surahs
+id BIGINT PK
+
+surah_number
+
+name_ar
+
+name_en
+
+name_ms
+
+name_id
+
+revelation_type
+
+ayah_count
+
+description
+quran_ayahs
+id BIGINT PK
+
+surah_id FK
+
+ayah_number
+
+text_ar
+
+juz
+
+hizb
+
+rub
+
+manzil
+
+page
+
+sajdah
+
+Index:
+
+surah_id
+ayah_number
+quran_translations
+id BIGINT PK
+
+ayah_id FK
+
+language
+
+translator
+
+text
+
+version
+
+Indexes:
+
+ayah_id
+
+language
+quran_tafsir
+id BIGINT PK
+
+ayah_id FK
+
+source
+
+language
+
+content
+
+Indexes:
+
+ayah_id
+
+source
+surah_information
+id BIGINT PK
+
+surah_id FK
+
+language
+
+summary
+
+themes
+
+revelation_context
+5. Theme Domain
+topics
+id BIGINT PK
+
+slug
+
+name_ar
+
+name_en
+
+name_ms
+
+name_id
+
+description
+
+Examples:
+
+sabr
+
+tawakkul
+
+rahmah
+
+shukr
+
+tawbah
+topic_relations
+id BIGINT PK
+
+parent_topic_id FK
+
+child_topic_id FK
+
+relationship_type
+
+Example:
+
+Tawakkul
+ └─ Sabr
+ayah_themes
+id BIGINT PK
+
+ayah_id FK
+
+topic_id FK
+
+confidence_score
+6. Hadith Domain
+hadith_books
+id BIGINT PK
+
+slug
+
+name_ar
+
+name_en
+
+author
+
+total_hadiths
+
+priority
+
+Examples:
+
+Bukhari
+Muslim
+Tirmidhi
+hadith_chapters
+id BIGINT PK
+
+book_id FK
+
+chapter_number
+
+title_ar
+
+title_en
+
+title_ms
+
+title_id
+hadiths
+id BIGINT PK
+
+book_id FK
+
+chapter_id FK
+
+hadith_number
+
+text_ar
+
+text_en
+
+text_ms
+
+text_id
+
+narrator
+
+source_reference
+
+Indexes:
+
+book_id
+
+chapter_id
+
+hadith_number
+hadith_grades
+id BIGINT PK
+
+hadith_id FK
+
+grade
+
+scholar
+
+reference
+
+Allowed grades:
+
+SAHIH
+
+HASAN
+
+DAIF
+
+MAWDU
+
+UNKNOWN
+hadith_topics
+id BIGINT PK
+
+hadith_id FK
+
+topic_id FK
+
+confidence_score
+7. Hadith Intelligence Domain
+
+From LK-Hadith-Corpus.
+
+hadith_isnad
+id BIGINT PK
+
+hadith_id FK
+
+chain_text
+
+narrators_json
+hadith_annotations
+id BIGINT PK
+
+hadith_id FK
+
+section
+
+chapter
+
+keywords_json
+
+metadata_json
+hadith_embeddings
+id UUID PK
+
+hadith_id FK
+
+embedding vector(1536)
+
+model_version
+
+For PostgreSQL + pgvector.
+
+8. Verification Domain
+hadith_verifications
+id BIGINT PK
+
+hadith_id FK NULL
+
+claim_text
+
+source
+
+status
+
+explanation
+
+reference_url
+
+verified_at
+
+Status:
+
+VERIFIED
+
+WEAK
+
+FABRICATED
+
+DISPUTED
+9. Relationship Domain
+quran_hadith_links
+
+This table is the heart of RAFIQ.
+
+id BIGINT PK
+
+ayah_id FK
+
+hadith_id FK
+
+relationship_type
+
+confidence_score
+
+Types:
+
+SUPPORTS
+
+EXPLAINS
+
+EXPANDS
+
+EXAMPLE_OF
+related_ayahs
+id BIGINT PK
+
+ayah_id FK
+
+related_ayah_id FK
+
+similarity_score
+
+Source:
+
+QUL Similar Ayahs
+
+related_hadiths
+id BIGINT PK
+
+hadith_id FK
+
+related_hadith_id FK
+
+similarity_score
+
+Generated by RAFIQ.
+
+10. Guidance Domain
+guidance_sessions
+
+Stores user interactions.
+
+id UUID PK
+
+user_id FK
+
+detected_theme
+
+mood
+
+created_at
+guidance_packages
+
+Generated recommendations.
+
+id UUID PK
+
+session_id FK
+
+ayah_id FK
+
+hadith_id FK
+
+reflection
+
+action_item
+
+created_at
+saved_guidance
+
+Bookmarks.
+
+id UUID PK
+
+user_id FK
+
+guidance_id FK
+
+saved_at
+11. Personalization Domain
+user_moods
+id UUID PK
+
+user_id FK
+
+mood
+
+confidence
+
+captured_at
+
+Examples:
+
+anxious
+
+sad
+
+grateful
+
+hopeful
+
+confused
+user_journeys
+
+Tracks growth.
+
+id UUID PK
+
+user_id FK
+
+theme
+
+progress
+
+started_at
+12. AI Retrieval Layer Tables
+retrieval_logs
+id UUID PK
+
+user_id FK
+
+query
+
+detected_theme
+
+result_count
+
+created_at
+ranking_feedback
+id UUID PK
+
+user_id FK
+
+guidance_id FK
+
+rating
+
+feedback
+13. Recommended Supabase Extensions
+pgvector
+
+Required.
+
+CREATE EXTENSION vector;
+
+Used by:
+
+hadith_embeddings
+future ayah_embeddings
+pg_trgm
+
+Required.
+
+CREATE EXTENSION pg_trgm;
+
+Used for:
+
+Arabic Search
+
+Malay Search
+
+English Search
+14. Future V3 Tables
+
+Not required initially.
+
+ayah_embeddings
+ayah_id
+
+embedding
+scholar_notes
+scholar
+
+commentary
+learning_paths
+topic
+
+milestones
+15. Final ERD (Simplified)
+TOPICS
+ │
+ ├─ ayah_themes
+ │
+ ▼
+
+QURAN_AYAHS
+ │
+ ├─ translations
+ ├─ tafsir
+ │
+ ▼
+
+QURAN_HADITH_LINKS
+ │
+ ▼
+
+HADITHS
+ │
+ ├─ grades
+ ├─ topics
+ ├─ isnad
+ ├─ annotations
+ │
+ ▼
+
+GUIDANCE_PACKAGES
+ │
+ ▼
+
+USERS
+Database Sizing Estimate (V1)
+Domain	Records
+Quran Ayahs	6,236
+Translations	25,000+
+Tafsir	10,000+
+Topics	2,500+
+Ayah Themes	1,000+
+Hadiths	~50,000
+Hadith Grades	~50,000
+Quran-Hadith Links	10,000–30,000
+Embeddings	50,000+
+
+Estimated Supabase Postgres size:
+
+1–3 GB initially, which is very manageable.
+
+Architecture Decision
+
+RAFIQ V2 should be built as a Knowledge Graph backed by PostgreSQL + pgvector, not as a traditional relational app.
+
+This decision enables future capabilities such as:
+
+AI Companion
+Semantic Quran Search
+Semantic Hadith Search
+Theme-Based Guidance
+Quran ↔ Hadith Discovery
+Personalized Growth Journeys
+Scholar Mode
+
+without redesigning the database later. Bismillah.
+
+

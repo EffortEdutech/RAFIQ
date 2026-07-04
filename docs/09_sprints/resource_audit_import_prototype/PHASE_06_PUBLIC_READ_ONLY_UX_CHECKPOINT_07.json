@@ -1,0 +1,73 @@
+{
+  "policyId": "phase6_public_read_only_ux_checkpoint_07",
+  "date": "2026-06-20",
+  "status": "prepared_for_review",
+  "publicLaunchDecision": "no_go",
+  "allowedApiPrefixes": [
+    "/api/health",
+    "/api/public-content/"
+  ],
+  "blockedApiPrefixes": [
+    "/api/private-content/",
+    "/api/private-content/review/",
+    "/api/private-content/source/detail",
+    "/api/private-content/search/trace",
+    "/api/private-content/answer/model-adapter",
+    "/api/private-content/answer/validation"
+  ],
+  "currentPublicRoutes": [
+    {
+      "route": "/public",
+      "status": "design_ready",
+      "allowedApis": ["/api/health"],
+      "currentBehavior": "public_release_not_open"
+    },
+    {
+      "route": "/public/search",
+      "status": "design_ready",
+      "allowedApis": ["/api/public-content/search"],
+      "currentBehavior": "empty_release_filtered_results"
+    },
+    {
+      "route": "/public/answer",
+      "status": "design_ready",
+      "allowedApis": ["/api/public-content/answer/draft"],
+      "currentBehavior": "source_unavailable_without_public_evidence"
+    }
+  ],
+  "blockedPublicRoutes": [
+    "/public/quran/:surahNumber",
+    "/public/hadith",
+    "/public/hadith/:hadithRecordId",
+    "/public/source-detail"
+  ],
+  "forbiddenPublicUiElements": [
+    "private_notice_banner",
+    "internal_review_queue",
+    "reviewer_actions",
+    "private_retrieval_trace_id",
+    "private_source_detail",
+    "model_adapter_controls",
+    "answer_validation_controls",
+    "raw_object_paths",
+    "internal_approval_notes"
+  ],
+  "requiredPublicStates": {
+    "searchWithoutApprovedEvidence": "empty_release_filtered_results",
+    "answerWithoutApprovedEvidence": "source_unavailable",
+    "guidedAnswerWithoutApprovedEvidence": "blocked_no_public_evidence",
+    "quranWithoutApprovedSource": "route_hidden_or_unavailable",
+    "hadithWithoutApprovedSource": "route_hidden_or_unavailable"
+  },
+  "implementationAcceptanceChecks": [
+    "public_pages_call_only_allowed_apis",
+    "public_pages_do_not_import_private_api_services",
+    "public_navigation_hides_private_routes",
+    "public_search_shows_zero_real_content_while_blocked",
+    "public_answer_shows_source_unavailable_while_blocked",
+    "public_pages_show_release_filter_notice",
+    "public_results_include_attribution_when_available",
+    "blocked_direct_routes_do_not_reveal_private_content",
+    "browser_tests_verify_no_private_traces_or_review_controls"
+  ]
+}

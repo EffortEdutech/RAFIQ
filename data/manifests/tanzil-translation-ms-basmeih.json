@@ -1,0 +1,21 @@
+{
+  "sourceId": "tanzil-translation-ms-basmeih",
+  "name": "Basmeih Malay Translation",
+  "domain": "quran_translation",
+  "officialUrl": "https://tanzil.net/trans/",
+  "repositoryUrl": "",
+  "downloadUrl": "https://tanzil.net/trans/ms.basmeih",
+  "licenseUrl": "https://tanzil.net/trans/",
+  "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+  "attribution": "Abdullah Muhammad Basmeih; distributed by Tanzil Project, https://tanzil.net/trans/",
+  "version": "Tanzil update dated 2012-09-07",
+  "dateAccessed": "2026-06-11",
+  "format": "pipe-delimited UTF-8 text",
+  "rawFilePath": "data/raw/translations/tanzil/ms.basmeih.txt",
+  "checksumSha256": "51548B7D7C65F36C4B26B58D81C9C994D96869D06577EFB350968968B4AB01B6",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "staging_only",
+  "reviewer": "RAFIQ Day 3 audit",
+  "notes": "Structurally complete. Use Abdullah Muhammad Basmeih as the audited attribution; QUL's Abdullah Basamia label remains an unresolved alias. Production use is blocked pending rights confirmation."
+}

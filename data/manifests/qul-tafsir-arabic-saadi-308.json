@@ -1,0 +1,21 @@
+{
+  "sourceId": "qul-tafsir-arabic-saadi-308",
+  "name": "QUL Arabic Tafsir As-Saadi",
+  "domain": "tafsir",
+  "officialUrl": "https://qul.tarteel.ai/resources/tafsir/308",
+  "repositoryUrl": "https://github.com/TarteelAI/quranic-universal-library",
+  "downloadUrl": "Authenticated QUL download",
+  "licenseUrl": "https://qul.tarteel.ai/resources/308/copyright",
+  "licenseName": "No copyright information supplied by QUL",
+  "attribution": "Arabic Tafsir As-Saadi; exact edition, publisher, and required attribution remain unresolved",
+  "version": "Downloaded 2026-06-12",
+  "dateAccessed": "2026-06-12",
+  "format": "JSON and SQLite",
+  "rawFilePath": "data/raw/tafsir/ar-tafseer-al-saddi.json",
+  "checksumSha256": "DFE6DB95A2AF4A3D22524A30F3D54CE4A7741D5937064FF7A8EDDECCFC1A098A",
+  "recordCountExpected": 6236,
+  "recordCountActual": 6236,
+  "status": "raw_validated_quality_and_rights_blocked",
+  "reviewer": "RAFIQ Day 4 file audit",
+  "notes": "JSON and SQLite match exactly and contain valid Arabic Unicode. All records are verse-level, but 59 records have blank tafsir text."
+}
