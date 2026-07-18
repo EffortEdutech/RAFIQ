@@ -140,17 +140,36 @@ expect('CP27 graph counts are stable', latestGraph?.counts?.totalNodes === 147 &
 expect('CP27 vault counts are stable', latestVault?.counts?.artifacts === 26 && latestVault?.counts?.categories === 4 && latestVault?.counts?.graphNodesReferenced === 147, JSON.stringify(latestVault?.counts));
 expect('CP27 public-safe counts remain zero', latestGraph?.counts?.publicSafeNodes === 0 && latestGraph?.counts?.publicSafeEdges === 0 && latestVault?.counts?.publicSafeArtifacts === 0, 'zero public-safe graph/vault counts');
 
+const acceptedSprintStatuses = [
+  'Status: CP28-R01 complete; CP28-R02 next',
+  'Status: CP28-R02 complete; CP28-R03 next',
+  'Status: CP28-R03 complete; CP28-R04 next',
+  'Status: CP28-R04 complete; CP28-R05 next',
+  'Status: CP28-R05 complete; CP28-R06 next',
+  'Status: CP28-R06 complete; CP28-R07 next',
+  'Status: CP28 complete; recommended next scope',
+];
+const acceptedNextActions = [
+  'Start `CP28-R02 - Candidate Collection From Snapshot-Backed Graph Indexes`',
+  'Start `CP28-R03 - Ranking And Explanation Using Allowed Operational Signals`',
+  'Start `CP28-R04 - Evidence Route Rebuild And Validation Handoff`',
+  'Start `CP28-R05 - Retrieval API And Private UI Integration`',
+  'Start `CP28-R06 - Retrieval Regression Suite And Public-Boundary Verifier`',
+  'Start `CP28-R07 - Close-Out`',
+  'Start `CP29 - Retrieval Remediation And Selected-Candidate Unlock`',
+];
+
 expect('CP28 sprint plan title exists', sprintPlan.includes('# CP28 - Retrieval Engine Integration From Refreshed Graph Sprint Plan'), 'sprint plan title');
-expect('CP28 sprint plan is at or beyond R01 complete', sprintPlan.includes('Status: CP28-R01 complete; CP28-R02 next') || sprintPlan.includes('Status: CP28-R02 complete; CP28-R03 next'), 'sprint status');
+expect('CP28 sprint plan is at or beyond R01 complete', acceptedSprintStatuses.some((status) => sprintPlan.includes(status)), 'sprint status');
 expect('CP28 sprint plan includes all checkpoints', ['CP28-R01', 'CP28-R02', 'CP28-R03', 'CP28-R04', 'CP28-R05', 'CP28-R06', 'CP28-R07'].every((id) => sprintPlan.includes(id)), 'R01-R07');
 expect('CP28 sprint plan recommends R02 next', sprintPlan.includes('CP28-R02 - Candidate Collection From Snapshot-Backed Graph Indexes'), 'R02 next');
 expect('CP28 checklist title exists', checklist.includes('# CP28 - Retrieval Engine Integration From Refreshed Graph Acceptance Checklist'), 'checklist title');
-expect('CP28 checklist is at or beyond R01 complete', checklist.includes('Status: CP28-R01 complete; CP28-R02 next') || checklist.includes('Status: CP28-R02 complete; CP28-R03 next'), 'checklist status');
+expect('CP28 checklist is at or beyond R01 complete', acceptedSprintStatuses.some((status) => checklist.includes(status)), 'checklist status');
 expect('CP28 checklist R01 rows pass', ['CP28-R01-01', 'CP28-R01-02', 'CP28-R01-03', 'CP28-R01-04', 'CP28-R01-05'].every((id) => {
   const row = checklist.split(/\r?\n/).find((line) => line.includes(`| ${id} |`)) || '';
   return row.includes('| Pass |');
 }), 'R01 rows pass');
-expect('CP28 checklist includes a valid post-R01 next action', checklist.includes('Start `CP28-R02 - Candidate Collection From Snapshot-Backed Graph Indexes`') || checklist.includes('Start `CP28-R03 - Ranking And Explanation Using Allowed Operational Signals`'), 'post-R01 next');
+expect('CP28 checklist includes a valid post-R01 next action', acceptedNextActions.some((action) => checklist.includes(action)), 'post-R01 next');
 
 expect('No private CP28 API route is introduced yet', !controller.includes("graph-aware-retrieval/cp28") && !mobileApi.includes('/api/private-content/graph-aware-retrieval/cp28'), 'no CP28 API yet');
 expect('No public CP28 route exists', !controller.includes('public-content/graph-aware-retrieval/cp28') && !mobileApi.includes('/api/public-content/graph-aware-retrieval/cp28'), 'no public route');

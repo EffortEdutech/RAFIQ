@@ -2,7 +2,7 @@
 
 Date: 2026-07-17
 
-Status: CP28-R02 complete; CP28-R03 next
+Status: CP28 complete; recommended next scope CP29
 
 Owner: RAFIQ private retrieval, refreshed graph/vault, validation, reviewer, and product intelligence workstream
 
@@ -132,31 +132,115 @@ Acceptance:
 
 Purpose: rerun ranking and explanations against CP27 refreshed graph/vault evidence while preserving prohibited-inference gates.
 
-Status: Planned.
+Status: Complete. See `CP28_R03_RANKING_AND_EXPLANATION_USING_ALLOWED_OPERATIONAL_SIGNALS.md`.
+
+Deliverables:
+
+- `scripts/generate_cp28_r03_ranking_explanation.mjs`;
+- `scripts/check_cp28_r03_ranking_explanation.mjs`;
+- `data/retrieval/cp28/ranking-selection.json`;
+- updated `data/retrieval/cp28/manifest.json`;
+- updated `data/retrieval/cp28/latest-retrieval.json`;
+- CP28-R03 report.
+
+Acceptance:
+
+- ranking uses allowed operational metadata signals only;
+- prohibited-inference scan passes;
+- escalation candidates are excluded from ordinary averages;
+- CP27 unresolved references and high/critical blockers keep candidates held;
+- public-safe candidate count remains zero.
 
 ### CP28-R04 - Evidence Route Rebuild And Validation Handoff
 
 Purpose: rebuild evidence routes and validation handoff from CP28 refreshed candidates.
 
-Status: Planned.
+Status: Complete. See `CP28_R04_EVIDENCE_ROUTE_REBUILD_AND_VALIDATION_HANDOFF.md`.
+
+Deliverables:
+
+- `scripts/generate_cp28_r04_validation_handoff.mjs`;
+- `scripts/check_cp28_r04_validation_handoff.mjs`;
+- `data/retrieval/cp28/validation-handoff.json`;
+- updated `data/retrieval/cp28/manifest.json`;
+- updated `data/retrieval/cp28/latest-retrieval.json`;
+- CP28-R04 report.
+
+Acceptance:
+
+- evidence routes are rebuilt from CP28-R03 ranking output;
+- validation handoff keeps all gates explicit;
+- remediation records are generated for held/escalation candidates;
+- selected route item count remains zero while CP27 blockers remain;
+- public-safe route item count remains zero.
 
 ### CP28-R05 - Retrieval API And Private UI Integration
 
 Purpose: expose CP28 refreshed retrieval through bounded private API/UI proof.
 
-Status: Planned.
+Status: Complete. See `CP28_R05_RETRIEVAL_API_AND_PRIVATE_UI_INTEGRATION.md`.
+
+Deliverables:
+
+- `scripts/generate_cp28_r05_private_api_ui_proof.mjs`;
+- `scripts/check_cp28_r05_private_api_ui_proof.mjs`;
+- `data/retrieval/cp28/private-api-ui-proof.json`;
+- updated `data/retrieval/cp28/manifest.json`;
+- updated `data/retrieval/cp28/latest-retrieval.json`;
+- CP28-R05 report.
+
+Acceptance:
+
+- bounded private API/UI payload shape is proven;
+- source CP28 route is explicitly deferred while selected route item count is zero;
+- full graph/vault dumps are not exposed;
+- raw source text bodies are not exported;
+- public route exposure remains false.
 
 ### CP28-R06 - Retrieval Regression Suite And Public-Boundary Verifier
 
 Purpose: provide one verifier for CP24 regression, CP27 refreshed inputs, CP28 artifacts, API/UI boundaries, and public-safe metadata.
 
-Status: Planned.
+Status: Complete. See `CP28_R06_RETRIEVAL_REGRESSION_SUITE_AND_PUBLIC_BOUNDARY_VERIFIER.md`.
+
+Deliverables:
+
+- `scripts/generate_cp28_r06_combined_verification.mjs`;
+- `scripts/check_cp28_combined_verification.mjs`;
+- `data/retrieval/cp28/combined-verification.json`;
+- updated `data/retrieval/cp28/manifest.json`;
+- updated `data/retrieval/cp28/latest-retrieval.json`;
+- CP28-R06 report.
+
+Acceptance:
+
+- CP24 regression baseline checks pass;
+- CP27 refreshed graph/vault checks pass;
+- CP28 artifacts are verified end to end;
+- source route deferral remains explicit;
+- public-boundary checks pass.
 
 ### CP28-R07 - Close-Out
 
 Purpose: close CP28 and select the next private scope.
 
-Status: Planned.
+Status: Complete. See `CP28_R07_CLOSE_OUT.md`.
+
+Deliverables:
+
+- `scripts/check_cp28_close_out.mjs`;
+- CP28-R07 close-out report;
+- final CP28 sprint plan status;
+- final CP28 acceptance checklist status;
+- next scope decision.
+
+Acceptance:
+
+- CP28-R06 combined verification passes;
+- known limitations are documented;
+- final artifact counts are recorded;
+- next private scope is selected;
+- public release remains blocked.
 
 ## 6. Acceptance Gates
 
@@ -178,7 +262,7 @@ CP28 cannot close unless:
 Proceed next with:
 
 ```text
-CP28-R03 - Ranking And Explanation Using Allowed Operational Signals
+CP29 - Retrieval Remediation And Selected-Candidate Unlock
 ```
 
-Reason: CP28-R02 now generates refreshed candidate collection artifacts from CP27 snapshot-backed graph indexes. CP28-R03 should rank and explain those candidates using allowed operational signals while preserving prohibited-inference and escalation boundaries.
+Reason: CP28 closes with selected candidate and selected route item counts at zero because CP27 unresolved references and high/critical blockers remain visible. CP29 should remediate those blocker families and rerun CP27/CP28 until selected candidates can be unlocked without bypassing validation gates.

@@ -133,13 +133,30 @@ for (const term of [
   expect(`R02 report includes ${term}`, report.includes(term), term);
 }
 
-expect('Sprint plan marks R02 complete', sprintPlan.includes('Status: CP28-R02 complete; CP28-R03 next'), 'sprint status');
-expect('Checklist marks R02 complete', checklist.includes('Status: CP28-R02 complete; CP28-R03 next'), 'checklist status');
+const acceptedPostR02Statuses = [
+  'Status: CP28-R02 complete; CP28-R03 next',
+  'Status: CP28-R03 complete; CP28-R04 next',
+  'Status: CP28-R04 complete; CP28-R05 next',
+  'Status: CP28-R05 complete; CP28-R06 next',
+  'Status: CP28-R06 complete; CP28-R07 next',
+  'Status: CP28 complete; recommended next scope',
+];
+const acceptedPostR02NextActions = [
+  'Start `CP28-R03 - Ranking And Explanation Using Allowed Operational Signals`',
+  'Start `CP28-R04 - Evidence Route Rebuild And Validation Handoff`',
+  'Start `CP28-R05 - Retrieval API And Private UI Integration`',
+  'Start `CP28-R06 - Retrieval Regression Suite And Public-Boundary Verifier`',
+  'Start `CP28-R07 - Close-Out`',
+  'Start `CP29 - Retrieval Remediation And Selected-Candidate Unlock`',
+];
+
+expect('Sprint plan marks R02 complete or later', acceptedPostR02Statuses.some((status) => sprintPlan.includes(status)), 'sprint status');
+expect('Checklist marks R02 complete or later', acceptedPostR02Statuses.some((status) => checklist.includes(status)), 'checklist status');
 expect('Checklist R02 rows pass', ['CP28-R02-01', 'CP28-R02-02', 'CP28-R02-03', 'CP28-R02-04', 'CP28-R02-05'].every((id) => {
   const row = checklist.split(/\r?\n/).find((line) => line.includes(`| ${id} |`)) || '';
   return row.includes('| Pass |');
 }), 'R02 rows pass');
-expect('Checklist recommends R03 next', checklist.includes('Start `CP28-R03 - Ranking And Explanation Using Allowed Operational Signals`'), 'R03 next');
+expect('Checklist recommends a valid post-R02 next checkpoint', acceptedPostR02NextActions.some((action) => checklist.includes(action)), 'post-R02 next');
 expect('Generator reads CP27 latest graph and vault pointers', generator.includes('LATEST_GRAPH_PATH') && generator.includes('LATEST_VAULT_PATH'), 'latest pointers');
 expect('Generator reads CP27 graph indexes', ['by-ayah-key', 'by-hadith-key', 'by-topic-key', 'by-source-id', 'by-quality-state', 'public-boundary'].every((term) => generator.includes(term)), 'index names');
 expect('Generator does not read env files', !generator.includes('.env'), 'no .env');

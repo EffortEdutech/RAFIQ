@@ -2,7 +2,7 @@
 
 Date: 2026-07-17
 
-Status: CP28-R02 complete; CP28-R03 next
+Status: CP28 complete; recommended next scope CP29
 
 Scope: Integrate graph-aware retrieval with CP27 refreshed graph/vault outputs.
 
@@ -48,57 +48,57 @@ Scope: Integrate graph-aware retrieval with CP27 refreshed graph/vault outputs.
 
 | ID | Acceptance item | Status | Evidence |
 | --- | --- | --- | --- |
-| CP28-R03-01 | CP28 ranking artifact exists. | Not Started | Planned. |
-| CP28-R03-02 | Allowed operational signals are documented and enforced. | Not Started | Planned. |
-| CP28-R03-03 | Prohibited inference checks pass. | Not Started | Planned. |
-| CP28-R03-04 | Escalation outcomes stay separate from ordinary averages. | Not Started | Planned. |
-| CP28-R03-05 | Public-safe candidate count remains zero. | Not Started | Planned. |
+| CP28-R03-01 | CP28 ranking artifact exists. | Pass | `data/retrieval/cp28/ranking-selection.json`; `scripts/generate_cp28_r03_ranking_explanation.mjs`. |
+| CP28-R03-02 | Allowed operational signals are documented and enforced. | Pass | `CP28_R03_RANKING_AND_EXPLANATION_USING_ALLOWED_OPERATIONAL_SIGNALS.md`; `scripts/check_cp28_r03_ranking_explanation.mjs`. |
+| CP28-R03-03 | Prohibited inference checks pass. | Pass | `ranking-selection.json`; prohibited inference finding count `0`. |
+| CP28-R03-04 | Escalation outcomes stay separate from ordinary averages. | Pass | `ranking-selection.json`; 15 escalation candidates have `ordinaryScore: null`; ordinary scored count is 55. |
+| CP28-R03-05 | Public-safe candidate count remains zero. | Pass | `ranking-selection.json`; public-safe candidate count `0`. |
 
 ## 5. CP28-R04 Evidence Route Rebuild And Validation Handoff
 
 | ID | Acceptance item | Status | Evidence |
 | --- | --- | --- | --- |
-| CP28-R04-01 | CP28 evidence route artifact exists. | Not Started | Planned. |
-| CP28-R04-02 | Validation handoff links refreshed candidates to validation gates. | Not Started | Planned. |
-| CP28-R04-03 | Remediation triggers are generated for missing refs and blockers. | Not Started | Planned. |
-| CP28-R04-04 | Reviewer handoff remains visible. | Not Started | Planned. |
-| CP28-R04-05 | Public-safe route item count remains zero. | Not Started | Planned. |
+| CP28-R04-01 | CP28 evidence route artifact exists. | Pass | `data/retrieval/cp28/validation-handoff.json`; `scripts/generate_cp28_r04_validation_handoff.mjs`. |
+| CP28-R04-02 | Validation handoff links refreshed candidates to validation gates. | Pass | `validation-handoff.json`; 10 routes and 110 validation gate results. |
+| CP28-R04-03 | Remediation triggers are generated for missing refs and blockers. | Pass | `validation-handoff.json`; 70 remediation items and 38 high/critical items. |
+| CP28-R04-04 | Reviewer handoff remains visible. | Pass | `validation-handoff.json`; review route items `55`, escalation route items `15`. |
+| CP28-R04-05 | Public-safe route item count remains zero. | Pass | `scripts/check_cp28_r04_validation_handoff.mjs`; public-safe route items `0`. |
 
 ## 6. CP28-R05 Retrieval API And Private UI Integration
 
 | ID | Acceptance item | Status | Evidence |
 | --- | --- | --- | --- |
-| CP28-R05-01 | Private CP28 API route exists if selected. | Not Started | Planned. |
-| CP28-R05-02 | Private UI inspection surface exists if selected. | Not Started | Planned. |
-| CP28-R05-03 | Response payload is bounded. | Not Started | Planned. |
-| CP28-R05-04 | Full graph/vault/retrieval dumps are not sent to client. | Not Started | Planned. |
-| CP28-R05-05 | No public CP28 retrieval route exists. | Not Started | Planned. |
+| CP28-R05-01 | Private CP28 API route exists if selected. | Pass | R05 selected contract payload proof and deferred source route because selected route items are `0`. |
+| CP28-R05-02 | Private UI inspection surface exists if selected. | Pass | `data/retrieval/cp28/private-api-ui-proof.json`; bounded private UI payload shape is generated. |
+| CP28-R05-03 | Response payload is bounded. | Pass | `private-api-ui-proof.json`; fixture payload caps limit candidate, route, and remediation summaries. |
+| CP28-R05-04 | Full graph/vault/retrieval dumps are not sent to client. | Pass | `scripts/check_cp28_r05_private_api_ui_proof.mjs`; full graph/vault dumps are false. |
+| CP28-R05-05 | No public CP28 retrieval route exists. | Pass | Verifier scans private API/mobile surfaces; public route exposed is false. |
 
 ## 7. CP28-R06 Retrieval Regression Suite And Public-Boundary Verifier
 
 | ID | Acceptance item | Status | Evidence |
 | --- | --- | --- | --- |
-| CP28-R06-01 | Combined CP28 verifier exists. | Not Started | Planned. |
-| CP28-R06-02 | CP24 regression baseline checks pass. | Not Started | Planned. |
-| CP28-R06-03 | CP27 refreshed graph/vault checks pass. | Not Started | Planned. |
-| CP28-R06-04 | CP28 retrieval artifact checks pass. | Not Started | Planned. |
-| CP28-R06-05 | Public-boundary checks pass. | Not Started | Planned. |
+| CP28-R06-01 | Combined CP28 verifier exists. | Pass | `scripts/check_cp28_combined_verification.mjs`; `data/retrieval/cp28/combined-verification.json`. |
+| CP28-R06-02 | CP24 regression baseline checks pass. | Pass | Combined verification records CP24 candidates `87`, selected `15`, public-safe `0`. |
+| CP28-R06-03 | CP27 refreshed graph/vault checks pass. | Pass | Combined verification records CP27 graph nodes `147`, unresolved references `77`, high/critical blockers `30`. |
+| CP28-R06-04 | CP28 retrieval artifact checks pass. | Pass | R02-R05 artifacts are verified through `scripts/check_cp28_combined_verification.mjs`. |
+| CP28-R06-05 | Public-boundary checks pass. | Pass | Public-safe candidate and route item counts remain `0`; public route exposed is false. |
 
 ## 8. CP28-R07 Close-Out
 
 | ID | Acceptance item | Status | Evidence |
 | --- | --- | --- | --- |
-| CP28-R07-01 | Close-out report exists. | Not Started | Planned. |
-| CP28-R07-02 | Known limitations are documented. | Not Started | Planned. |
-| CP28-R07-03 | Final checklist is complete. | Not Started | Planned. |
-| CP28-R07-04 | Next scope decision is recorded. | Not Started | Planned. |
-| CP28-R07-05 | Public release remains blocked. | Not Started | Planned. |
+| CP28-R07-01 | Close-out report exists. | Pass | `CP28_R07_CLOSE_OUT.md`. |
+| CP28-R07-02 | Known limitations are documented. | Pass | `CP28_R07_CLOSE_OUT.md`; known limitations section. |
+| CP28-R07-03 | Final checklist is complete. | Pass | This checklist; all CP28 rows are pass. |
+| CP28-R07-04 | Next scope decision is recorded. | Pass | Recommended next scope: CP29 - Retrieval Remediation And Selected-Candidate Unlock. |
+| CP28-R07-05 | Public release remains blocked. | Pass | `CP28_R07_CLOSE_OUT.md`; public-safe candidate and route item counts remain `0`. |
 
 ## 9. Overall Readiness
 
-Current status: CP28-R02 is complete. CP28-R03 should start next.
+Current status: CP28 is complete. CP29 should start next.
 
 Recommended next action:
 
-1. Run `node scripts\check_cp28_r02_candidate_collection.mjs`.
-2. Start `CP28-R03 - Ranking And Explanation Using Allowed Operational Signals`.
+1. Run `node scripts\check_cp28_close_out.mjs`.
+2. Start `CP29 - Retrieval Remediation And Selected-Candidate Unlock`.

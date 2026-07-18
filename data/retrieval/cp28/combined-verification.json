@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "cp28.combined-verification.v1",
+  "checkpoint": "CP28-R06",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp28_r06_combined_verification.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "cp28_combined_regression_public_boundary_verification",
+  "sourceArtifacts": {
+    "cp24Manifest": {
+      "path": "data/retrieval/cp24/manifest.json",
+      "checksumSha256": "269F0B97C708929C68E680F445971D88890B99AD002F770257DC562A7F63B1AE",
+      "byteCount": 2451
+    },
+    "cp27LatestGraph": {
+      "path": "data/graphify/cp27-refresh/latest-graph.json",
+      "checksumSha256": "D0BDD93CD09A26D514E3057D3B992E0860EB3B08C773BB86FDBD6DF8C08F7051",
+      "byteCount": 1936
+    },
+    "cp27LatestVault": {
+      "path": "data/vault/cp27-refresh/latest-vault.json",
+      "checksumSha256": "20E2EC5BB17259AD81679F5797AC6EA994F3AB92B2EECF61984066C0C197F36C",
+      "byteCount": 1896
+    },
+    "cp28CandidateCollection": {
+      "path": "data/retrieval/cp28/candidate-collection.json",
+      "checksumSha256": "2586B628DCACDCB0F0BC18E6186530C474C41D2C8F1D23D07416F959E4158B8E",
+      "byteCount": 197829
+    },
+    "cp28RankingSelection": {
+      "path": "data/retrieval/cp28/ranking-selection.json",
+      "checksumSha256": "5F93293494AF96F2CBB33D417EE9AB41BD7FE440472FB2DC020605B78795FC77",
+      "byteCount": 392421
+    },
+    "cp28ValidationHandoff": {
+      "path": "data/retrieval/cp28/validation-handoff.json",
+      "checksumSha256": "C724F661A5494E25D4517532C88F25347C640A681708DEE8CD2499B12E0A8CF1",
+      "byteCount": 553909
+    },
+    "cp28PrivateApiUiProof": {
+      "path": "data/retrieval/cp28/private-api-ui-proof.json",
+      "checksumSha256": "73BABE0E7E77D4CD8241C1417177AAF219C0803BDC87C99B0895F0328EEF8241",
+      "byteCount": 117012
+    }
+  },
+  "regressionBaseline": {
+    "cp24CandidateCount": 87,
+    "cp24SelectedCandidateCount": 15,
+    "cp24PublicSafeCandidateCount": 0
+  },
+  "refreshedInputs": {
+    "cp27GraphNodes": 147,
+    "cp27GraphEdges": 125,
+    "cp27VaultArtifacts": 26,
+    "cp27UnresolvedReferenceCount": 77,
+    "cp27HighOrCriticalBlockerCount": 30,
+    "publicSafeGraphNodes": 0,
+    "publicSafeGraphEdges": 0,
+    "publicSafeVaultArtifacts": 0
+  },
+  "cp28Results": {
+    "candidateCount": 70,
+    "selectedCandidateCount": 0,
+    "heldCandidateCount": 55,
+    "escalationCandidateCount": 15,
+    "ordinaryAverageScore": 15.4,
+    "evidenceRouteCount": 10,
+    "selectedRouteItemCount": 0,
+    "reviewRouteItemCount": 55,
+    "escalationRouteItemCount": 15,
+    "remediationCount": 70,
+    "highOrCriticalRemediationCount": 38,
+    "privateApiUiFixturePayloadCount": 10,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicRouteExposed": false
+  },
+  "checks": [
+    {
+      "id": "cp24-regression-baseline",
+      "status": "pass",
+      "evidence": "CP24 manifest remains available as regression baseline."
+    },
+    {
+      "id": "cp27-refreshed-inputs",
+      "status": "pass",
+      "evidence": "CP27 graph/vault refreshed pointers remain private and blocker-visible."
+    },
+    {
+      "id": "cp28-candidate-collection",
+      "status": "pass",
+      "evidence": "CP28-R02 candidate collection exists and remains private metadata."
+    },
+    {
+      "id": "cp28-ranking-boundary",
+      "status": "pass",
+      "evidence": "CP28-R03 selects zero candidates and keeps escalation separate."
+    },
+    {
+      "id": "cp28-validation-handoff",
+      "status": "pass",
+      "evidence": "CP28-R04 creates remediation-first validation handoff."
+    },
+    {
+      "id": "cp28-api-ui-proof",
+      "status": "pass",
+      "evidence": "CP28-R05 produces bounded private proof payloads only."
+    },
+    {
+      "id": "public-boundary",
+      "status": "pass",
+      "evidence": "Public-safe and public-route counts remain zero."
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP28-R06 combined verification passed. Public release remains blocked and public-safe counts remain zero."
+  }
+}

@@ -1,0 +1,2466 @@
+{
+  "schemaVersion": "cp28.private-api-ui-proof.v1",
+  "checkpoint": "CP28-R05",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp28_r05_private_api_ui_proof.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "bounded_private_api_ui_integration_proof",
+  "sourceArtifacts": {
+    "rankingSelectionPath": "data/retrieval/cp28/ranking-selection.json",
+    "rankingSelectionSha256": "5F93293494AF96F2CBB33D417EE9AB41BD7FE440472FB2DC020605B78795FC77",
+    "validationHandoffPath": "data/retrieval/cp28/validation-handoff.json",
+    "validationHandoffSha256": "C724F661A5494E25D4517532C88F25347C640A681708DEE8CD2499B12E0A8CF1"
+  },
+  "integrationDecision": {
+    "privateApiRoutePlanned": "POST /api/private-content/graph-aware-retrieval/cp28",
+    "privateApiSourceRouteImplemented": false,
+    "privateUiSourceScreenImplemented": false,
+    "reasonSourceRouteDeferred": "CP28-R04 has zero selected route items and remains remediation-first; source route implementation is deferred until CP28 artifacts can safely return selected validation-handoff candidates.",
+    "proofType": "contract_payload_and_boundary_proof"
+  },
+  "outputCaps": {
+    "maxCandidateSummariesPerFixture": 8,
+    "maxRouteItemIdsPerFixture": 8,
+    "maxRemediationIdsPerFixture": 8,
+    "rawTextBodies": 0,
+    "fullGraphDump": false,
+    "fullVaultDump": false
+  },
+  "fixturePayloads": [
+    {
+      "fixtureId": "cp28-fixture-quran-anchor-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-quran-anchor-001",
+        "regressionFixtureId": "cp24-fixture-quran-anchor-001",
+        "intent": "guidance",
+        "domain": "quran",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:edge_family:quran_surah_to_ayah",
+          "graphNodeId": "cp27:quran:quran:edge_family:quran_surah_to_ayah",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+          "graphNodeId": "cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah:quran_ayah",
+          "graphNodeId": "cp27:quran:quran:quran_ayah:quran_ayah",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+          "graphNodeId": "cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition:quran_partition",
+          "graphNodeId": "cp27:quran:quran:quran_partition:quran_partition",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_surah:quran_surah",
+          "graphNodeId": "cp27:quran:quran:quran_surah:quran_surah",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_text_edition:quran_text_edition",
+          "graphNodeId": "cp27:quran:quran:quran_text_edition:quran_text_edition",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:snapshot_group:quran",
+          "graphNodeId": "cp27:quran:quran:snapshot_group:quran",
+          "graphPartition": "quran",
+          "sourceGroupKey": "quran",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-quran-anchor-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:edge_family:quran_surah_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah:quran_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition:quran_partition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_surah:quran_surah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_text_edition:quran_text_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:snapshot_group:quran"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:edge_family:quran_surah_to_ayah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah:quran_ayah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition:quran_partition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_surah:quran_surah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_text_edition:quran_text_edition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:snapshot_group:quran"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:edge_family:quran_surah_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_ayah:quran_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_partition:quran_partition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_surah:quran_surah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:quran_text_edition:quran_text_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-quran-anchor-001:cp27:quran:quran:snapshot_group:quran"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-quran-anchor-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-translation-context-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-translation-context-001",
+        "regressionFixtureId": "cp24-fixture-translation-context-001",
+        "intent": "learning",
+        "domain": "translation",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+          "graphNodeId": "cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+          "graphNodeId": "cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+          "graphNodeId": "cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:snapshot_group:translations",
+          "graphNodeId": "cp27:translations:translations:snapshot_group:translations",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_chunk:translation_chunk",
+          "graphNodeId": "cp27:translations:translations:translation_chunk:translation_chunk",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_edition:translation_edition",
+          "graphNodeId": "cp27:translations:translations:translation_edition:translation_edition",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+          "graphNodeId": "cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_text_reference:translation_text_reference",
+          "graphNodeId": "cp27:translations:translations:translation_text_reference:translation_text_reference",
+          "graphPartition": "translations",
+          "sourceGroupKey": "translations",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-translation-context-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:snapshot_group:translations",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_chunk:translation_chunk",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_edition:translation_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_text_reference:translation_text_reference"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:snapshot_group:translations",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_chunk:translation_chunk",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_edition:translation_edition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_text_reference:translation_text_reference"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:snapshot_group:translations",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_chunk:translation_chunk",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_edition:translation_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-translation-context-001:cp27:translations:translations:translation_text_reference:translation_text_reference"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-translation-context-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-tafsir-context-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-tafsir-context-001",
+        "regressionFixtureId": "cp24-fixture-tafsir-context-001",
+        "intent": "learning",
+        "domain": "tafsir",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 7,
+        "routeItemsShown": 7,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 7,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 7,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+          "graphNodeId": "cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+          "graphNodeId": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+          "graphNodeId": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:snapshot_group:tafsir",
+          "graphNodeId": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+          "graphNodeId": "cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+          "graphNodeId": "cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference",
+          "graphNodeId": "cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference",
+          "graphPartition": "tafsir",
+          "sourceGroupKey": "tafsir",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-tafsir-context-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:snapshot_group:tafsir",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:snapshot_group:tafsir",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:snapshot_group:tafsir",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-tafsir-context-001:cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-tafsir-context-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-hadith-support-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-hadith-support-001",
+        "regressionFixtureId": "cp24-fixture-hadith-support-001",
+        "intent": "guidance",
+        "domain": "hadith",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_book:hadith_book",
+          "graphNodeId": "cp27:hadith:hadith:hadith_book:hadith_book",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+          "graphNodeId": "cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_collection:hadith_collection",
+          "graphNodeId": "cp27:hadith:hadith:hadith_collection:hadith_collection",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_edition:hadith_edition",
+          "graphNodeId": "cp27:hadith:hadith:hadith_edition:hadith_edition",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_record:hadith_record",
+          "graphNodeId": "cp27:hadith:hadith:hadith_record:hadith_record",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_reference:hadith_reference",
+          "graphNodeId": "cp27:hadith:hadith:hadith_reference:hadith_reference",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+          "graphNodeId": "cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:snapshot_group:hadith",
+          "graphNodeId": "cp27:hadith:hadith:snapshot_group:hadith",
+          "graphPartition": "hadith",
+          "sourceGroupKey": "hadith",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-hadith-support-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_book:hadith_book",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_collection:hadith_collection",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_edition:hadith_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_record:hadith_record",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_reference:hadith_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:snapshot_group:hadith"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_book:hadith_book",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_collection:hadith_collection",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_edition:hadith_edition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_record:hadith_record",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_reference:hadith_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:snapshot_group:hadith"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_book:hadith_book",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_collection:hadith_collection",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_edition:hadith_edition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_record:hadith_record",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_reference:hadith_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-support-001:cp27:hadith:hadith:snapshot_group:hadith"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-hadith-support-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-hadith-grade-escalation-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-hadith-grade-escalation-001",
+        "regressionFixtureId": "cp24-fixture-hadith-grade-escalation-001",
+        "intent": "search",
+        "domain": "hadith",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 7,
+        "routeItemsShown": 7,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 7,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 0,
+        "escalationRouteItems": 7
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality",
+          "graphNodeId": "cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality",
+          "graphPartition": "hadith-grades",
+          "sourceGroupKey": "hadith_quality",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "grade_uncertainty_requires_escalation_review"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-hadith-grade-escalation-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [],
+        "escalationEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+          "cp28:route-item:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+        ],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "pass",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+          "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+        ],
+        "escalationCandidateIds": [
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+          "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+        ],
+        "missingCitationIds": [],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-hadith-grade-escalation-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-topic-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-topic-001",
+        "regressionFixtureId": "cp24-fixture-topic-001",
+        "intent": "search",
+        "domain": "topic",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+          "graphNodeId": "cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+          "graphNodeId": "cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:snapshot_group:topics_themes",
+          "graphNodeId": "cp27:topics:topics_themes:snapshot_group:topics_themes",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+          "graphNodeId": "cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+          "graphNodeId": "cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_topic:source_topic",
+          "graphNodeId": "cp27:topics:topics_themes:source_topic:source_topic",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme_label:theme_label",
+          "graphNodeId": "cp27:topics:topics_themes:theme_label:theme_label",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme:theme",
+          "graphNodeId": "cp27:topics:topics_themes:theme:theme",
+          "graphPartition": "topics",
+          "sourceGroupKey": "topics_themes",
+          "selectionState": "held",
+          "ordinaryScore": 26,
+          "remediationReasons": [
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-topic-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:snapshot_group:topics_themes",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_topic:source_topic",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme_label:theme_label",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme:theme"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:snapshot_group:topics_themes",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_topic:source_topic",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme_label:theme_label",
+          "cp28:remediation:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme:theme"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:snapshot_group:topics_themes",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:source_topic:source_topic",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme_label:theme_label",
+          "cp28:route-item:cp28:candidate:cp28-fixture-topic-001:cp27:topics:topics_themes:theme:theme"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-topic-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-validation-history-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-validation-history-001",
+        "regressionFixtureId": "cp24-fixture-validation-history-001",
+        "intent": "search",
+        "domain": "validation",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:audit_event:audit_event",
+          "graphNodeId": "cp27:product-evidence:private_audit:audit_event:audit_event",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry",
+          "graphNodeId": "cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:remediation_transition:remediation_transition",
+          "graphNodeId": "cp27:product-evidence:private_audit:remediation_transition:remediation_transition",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:snapshot_group:private_audit",
+          "graphNodeId": "cp27:product-evidence:private_audit:snapshot_group:private_audit",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:audit_actor_reference:audit_actor_reference",
+          "graphNodeId": "cp27:quality:private_audit:audit_actor_reference:audit_actor_reference",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry",
+          "graphNodeId": "cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition",
+          "graphNodeId": "cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:snapshot_group:private_audit",
+          "graphNodeId": "cp27:quality:private_audit:snapshot_group:private_audit",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_audit",
+          "selectionState": "held",
+          "ordinaryScore": 1,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-validation-history-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:audit_event:audit_event",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:remediation_transition:remediation_transition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:snapshot_group:private_audit",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:audit_actor_reference:audit_actor_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:snapshot_group:private_audit"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:audit_event:audit_event",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:remediation_transition:remediation_transition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:snapshot_group:private_audit",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:audit_actor_reference:audit_actor_reference",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition",
+          "cp28:remediation:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:snapshot_group:private_audit"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:audit_event:audit_event",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:remediation_transition:remediation_transition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:product-evidence:private_audit:snapshot_group:private_audit",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:audit_actor_reference:audit_actor_reference",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition",
+          "cp28:route-item:cp28:candidate:cp28-fixture-validation-history-001:cp27:quality:private_audit:snapshot_group:private_audit"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-validation-history-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-source-gap-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-source-gap-001",
+        "regressionFixtureId": "cp24-fixture-source-gap-001",
+        "intent": "search",
+        "domain": "source",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 8,
+        "escalationRouteItems": 0
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run",
+          "graphNodeId": "cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run",
+          "graphPartition": "quality",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:parser_assignment:parser_assignment",
+          "graphNodeId": "cp27:quality:raw_lineage:parser_assignment:parser_assignment",
+          "graphPartition": "quality",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary",
+          "graphNodeId": "cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary",
+          "graphPartition": "quality",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+          "graphNodeId": "cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+          "graphPartition": "quality",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:validation_finding:validation_finding",
+          "graphNodeId": "cp27:quality:raw_lineage:validation_finding:validation_finding",
+          "graphPartition": "quality",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:import_run:import_run",
+          "graphNodeId": "cp27:sources:raw_lineage:import_run:import_run",
+          "graphPartition": "sources",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:snapshot_group:raw_lineage",
+          "graphNodeId": "cp27:sources:raw_lineage:snapshot_group:raw_lineage",
+          "graphPartition": "sources",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:transformation_event:transformation_event",
+          "graphNodeId": "cp27:sources:raw_lineage:transformation_event:transformation_event",
+          "graphPartition": "sources",
+          "sourceGroupKey": "raw_lineage",
+          "selectionState": "held",
+          "ordinaryScore": 0,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "source_or_provenance_gap_fixture"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-source-gap-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:parser_assignment:parser_assignment",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:validation_finding:validation_finding",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:import_run:import_run",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:transformation_event:transformation_event"
+        ],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "requires_review",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "requires_review",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:parser_assignment:parser_assignment",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:validation_finding:validation_finding",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:import_run:import_run",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:remediation:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:transformation_event:transformation_event"
+        ],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:parser_assignment:parser_assignment",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:quality:raw_lineage:validation_finding:validation_finding",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:import_run:import_run",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:snapshot_group:raw_lineage",
+          "cp28:route-item:cp28:candidate:cp28-fixture-source-gap-001:cp27:sources:raw_lineage:transformation_event:transformation_event"
+        ],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-source-gap-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-public-boundary-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-public-boundary-001",
+        "regressionFixtureId": "cp24-fixture-public-boundary-001",
+        "intent": "search",
+        "domain": "public_boundary",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 0,
+        "routeItemsShown": 0,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 0,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 0,
+        "escalationRouteItems": 0
+      },
+      "candidates": [],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-public-boundary-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [],
+        "escalationEvidenceIds": [],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "pass",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [],
+        "escalationCandidateIds": [],
+        "missingCitationIds": [],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-public-boundary-001 is a bounded private API/UI proof payload only."
+      }
+    },
+    {
+      "fixtureId": "cp28-fixture-safety-escalation-001",
+      "checkpoint": "CP28-R05",
+      "route": "POST /api/private-content/graph-aware-retrieval/cp28",
+      "routeImplementationStatus": "prototype_contract_only_not_source_route",
+      "uiSurface": "internal_cp28_retrieval_inspector_contract",
+      "query": {
+        "fixtureId": "cp28-fixture-safety-escalation-001",
+        "regressionFixtureId": "cp24-fixture-safety-escalation-001",
+        "intent": "crisis",
+        "domain": "safety",
+        "graphMode": "rank_route_validate"
+      },
+      "counts": {
+        "rankedCandidatesShown": 8,
+        "routeItemsShown": 8,
+        "validationGatesShown": 11,
+        "remediationItemsShown": 8,
+        "selectedRouteItems": 0,
+        "reviewRouteItems": 0,
+        "escalationRouteItems": 8
+      },
+      "candidates": [
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+          "graphNodeId": "cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+          "graphNodeId": "cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+          "graphNodeId": "cp27:product-evidence:private_review:review_blocker:review_blocker",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+          "graphNodeId": "cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review",
+          "graphNodeId": "cp27:product-evidence:private_review:snapshot_group:private_review",
+          "graphPartition": "product-evidence",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+          "graphNodeId": "cp27:quality:private_review:remediation_state:remediation_state",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+          "graphNodeId": "cp27:quality:private_review:review_assignment:review_assignment",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        },
+        {
+          "candidateId": "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review",
+          "graphNodeId": "cp27:quality:private_review:snapshot_group:private_review",
+          "graphPartition": "quality",
+          "sourceGroupKey": "private_review",
+          "selectionState": "requires_escalation",
+          "ordinaryScore": null,
+          "remediationReasons": [
+            "cp27_quality_state_review_required",
+            "cp27_unresolved_references_present",
+            "safety_escalation_required"
+          ],
+          "publicSafe": false,
+          "authorityBoundary": "operational_metadata_only"
+        }
+      ],
+      "evidenceRoute": {
+        "evidenceRouteId": "cp28:evidence-route:cp28-fixture-safety-escalation-001:r04",
+        "selectedEvidenceIds": [],
+        "reviewEvidenceIds": [],
+        "escalationEvidenceIds": [
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+          "cp28:route-item:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+        ],
+        "validationGates": [
+          {
+            "gate": "intent",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "source_retrieval",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "quran_reference",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "translation",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "tafsir",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "hadith_reference",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "grade",
+            "status": "escalated",
+            "graphLinked": false,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "authority_boundary",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "medical_legal_crisis",
+            "status": "escalated",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "personalization",
+            "status": "pass",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          },
+          {
+            "gate": "final_citation",
+            "status": "blocked",
+            "graphLinked": true,
+            "authorityBoundary": "operational_metadata_only"
+          }
+        ]
+      },
+      "reviewerHandoff": {
+        "remediationIds": [
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+          "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+        ],
+        "escalationCandidateIds": [
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+          "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+        ],
+        "missingCitationIds": [],
+        "publicReleaseApproved": false
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP28-R05 fixture cp28-fixture-safety-escalation-001 is a bounded private API/UI proof payload only."
+      }
+    }
+  ],
+  "summary": {
+    "fixturePayloadCount": 10,
+    "boundedCandidateSummaryCount": 70,
+    "selectedRouteItemCount": 0,
+    "reviewRouteItemCount": 55,
+    "escalationRouteItemCount": 15,
+    "validationGateResultCount": 110,
+    "remediationCount": 70,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicRouteExposed": false
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP28-R05 is a private API/UI proof artifact. No source route or public route is exposed. Public-safe counts remain zero."
+  }
+}
