@@ -1,0 +1,3478 @@
+[
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-uthmani-88"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1.1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1.1 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-tafsir-arabic-saadi-308"
+    ],
+    "graphNodeIds": [
+      "tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:ayah:1:1",
+      "vault:tafsir:summary",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:ayah:1:1",
+    "queueType": "source_gap",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:ayah:1:1",
+    "title": "HIGH missing_source review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:ayah:1:1 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Attach source reference before validation can select this candidate.",
+    "severity": "high",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [],
+    "graphNodeIds": [
+      "ayah:1:1"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:quran:summary",
+      "vault:ayah:1:1",
+      "vault:validation:cp21c_case:cp21c-ay-002",
+      "vault:tafsir:summary",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:full-private:manifest-index"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:ayah:1:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:ayah:1:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:ayah:1:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:surah:1",
+    "queueType": "source_gap",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-quran-anchor-001:surah:1",
+    "title": "HIGH missing_source review",
+    "summary": "Review candidate:cp24-fixture-quran-anchor-001:surah:1 from evidence-route:cp24-fixture-quran-anchor-001:cp24-g05. Attach source reference before validation can select this candidate.",
+    "severity": "high",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [],
+    "graphNodeIds": [
+      "surah:1"
+    ],
+    "graphEdgeIds": [
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:1:ayah:1:1:source_map_result-1",
+      "edge:search_document_represents_entity:search_document:cp21c-ay-002:source_map_result:2:ayah:1:1:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:quran:summary"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-quran-anchor-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-quran-anchor-001:surah:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-quran-anchor-001:surah:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-quran-anchor-001:surah:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-translation-malay-292"
+    ],
+    "graphNodeIds": [
+      "translation_text:qul-translation-malay-292:1"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292"
+    ],
+    "vaultPackIds": [
+      "vault:ayah:1:1",
+      "vault:quran:summary",
+      "vault:validation:cp21c_case:cp21c-ay-002",
+      "vault:tafsir:summary",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "snapshot:qul-translation-malay-292"
+    ],
+    "graphNodeIds": [
+      "translation_edition:qul-translation-malay-292"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:quran:summary"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-uthmani-88"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1.1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1.1 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-translation-context-001:ayah:1:1",
+    "queueType": "source_gap",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-translation-context-001:ayah:1:1",
+    "title": "HIGH missing_source review",
+    "summary": "Review candidate:cp24-fixture-translation-context-001:ayah:1:1 from evidence-route:cp24-fixture-translation-context-001:cp24-g05. Attach source reference before validation can select this candidate.",
+    "severity": "high",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [],
+    "graphNodeIds": [
+      "ayah:1:1"
+    ],
+    "graphEdgeIds": [
+      "edge:ayah_has_translation:ayah:1:1:translation_text:qul-translation-malay-292:1:qul-translation-malay-292",
+      "edge:translation_uses_edition:translation_text:qul-translation-malay-292:1:translation_edition:qul-translation-malay-292:qul-translation-malay-292",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:quran:summary",
+      "vault:ayah:1:1"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-translation-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-translation-context-001:ayah:1:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-translation-context-001:ayah:1:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-translation-context-001:ayah:1:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-quran-script-uthmani-88"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1.1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1.1 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphNodeIds": [
+      "quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1.1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-tafsir-arabic-saadi-308"
+    ],
+    "graphNodeIds": [
+      "tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308"
+    ],
+    "vaultPackIds": [
+      "vault:ayah:1:1",
+      "vault:tafsir:summary",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+      "vault:quran:summary",
+      "vault:tafsir:tafsir_edition:qul-tafsir-arabic-saadi-308",
+      "vault:validation:cp21c_case:cp21c-ay-002",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:10",
+      "vault:tafsir:tafsir_passage:qul-tafsir-arabic-saadi-308:100"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "snapshot:qul-tafsir-arabic-saadi-308"
+    ],
+    "graphNodeIds": [
+      "tafsir_edition:qul-tafsir-arabic-saadi-308"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:tafsir:summary",
+      "vault:tafsir:tafsir_edition:qul-tafsir-arabic-saadi-308"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-tafsir-context-001:ayah:1:1",
+    "queueType": "source_gap",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-tafsir-context-001:ayah:1:1",
+    "title": "HIGH missing_source review",
+    "summary": "Review candidate:cp24-fixture-tafsir-context-001:ayah:1:1 from evidence-route:cp24-fixture-tafsir-context-001:cp24-g05. Attach source reference before validation can select this candidate.",
+    "severity": "high",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [],
+    "graphNodeIds": [
+      "ayah:1:1"
+    ],
+    "graphEdgeIds": [
+      "edge:tafsir_explains_ayah:tafsir_passage:qul-tafsir-arabic-saadi-308:1:ayah:1:1:qul-tafsir-arabic-saadi-308",
+      "edge:tafsir_passage_uses_edition:tafsir_passage:qul-tafsir-arabic-saadi-308:1:tafsir_edition:qul-tafsir-arabic-saadi-308:qul-tafsir-arabic-saadi-308",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:source_map_result-3",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-1",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-2",
+      "edge:retrieval_trace_cites_entity:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:ayah:1:1:verification_evidence-3"
+    ],
+    "vaultPackIds": [
+      "vault:quran:summary",
+      "vault:ayah:1:1"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-tafsir-context-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-tafsir-context-001:ayah:1:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-tafsir-context-001:ayah:1:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-tafsir-context-001:ayah:1:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate",
+    "queueType": "grade_assertion",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "scholar_review",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_record:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory"
+    ],
+    "vaultPackIds": [
+      "vault:hadith:summary",
+      "vault:hadith:hadith_record:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books",
+    "queueType": "verification_claim",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_collection:collections_abdullah-naseer-six-books"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [
+      "vault:hadith:summary"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src",
+    "queueType": "verification_claim",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_book:collections_abdullah-naseer-six-books_src"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate",
+    "queueType": "verification_claim",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory",
+    "queueType": "verification_claim",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_edition:collections_abdullah-naseer-six-books:inventory"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate",
+    "queueType": "verification_claim",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_reference:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate",
+    "queueType": "grade_assertion",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate from evidence-route:cp24-fixture-hadith-support-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "scholar_review",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_abdullah-naseer-six-books"
+    ],
+    "graphNodeIds": [
+      "hadith_text:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_abdullah-naseer-six-books_src:aggregate:hadith_text:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_book_has_chapter:hadith_book:collections_abdullah-naseer-six-books_src:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate:inventory",
+      "edge:hadith_collection_has_edition:hadith_collection:collections_abdullah-naseer-six-books:hadith_edition:collections_abdullah-naseer-six-books:inventory:inventory",
+      "edge:hadith_edition_has_book:hadith_edition:collections_abdullah-naseer-six-books:inventory:hadith_book:collections_abdullah-naseer-six-books_src:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-support-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate"
+    ],
+    "vaultPackIds": [
+      "vault:hadith:summary",
+      "vault:hadith:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+      "vault:hadith:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "hadith_edition:collections_fawaz-hadith-api-v1:inventory"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [
+      "vault:hadith:summary",
+      "vault:hadith:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate from evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05. Route scholar_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "scholar_reviewer",
+    "sourceIds": [
+      "source:hadith-category:collections",
+      "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+    ],
+    "graphNodeIds": [
+      "hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "graphEdgeIds": [
+      "edge:grade_assertion_has_normalization:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_has_grade_assertion:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:aggregate",
+      "edge:hadith_chapter_has_record:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_edition_has_record:hadith_edition:collections_fawaz-hadith-api-v1:inventory:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_reference:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory",
+      "edge:hadith_has_text_version:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate:inventory"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-hadith-grade-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "requiredActions": [
+      "request_scholar_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1",
+    "queueType": "remediation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1",
+    "title": "MEDIUM missing_citation review",
+    "summary": "Review candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1 from evidence-route:cp24-fixture-topic-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "medium",
+    "reviewStatus": "content_review",
+    "assignedRole": "knowledge_editor",
+    "sourceIds": [
+      "snapshot:qul-ayah-themes-62"
+    ],
+    "graphNodeIds": [
+      "source_ayah_theme_group:qul-ayah-themes-62:1"
+    ],
+    "graphEdgeIds": [],
+    "vaultPackIds": [
+      "vault:topics:summary",
+      "vault:topic:source_ayah_theme_group:qul-ayah-themes-62:1"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-topic-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1"
+    ],
+    "requiredActions": [
+      "request_content_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:1"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:2"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:3"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:4"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:5"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:source_map_result:6"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:verification_evidence:1"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:verification_evidence:2"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:verification_evidence:3"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4",
+    "queueType": "answer_validation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4 from evidence-route:cp24-fixture-validation-history-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-001:verification_evidence:4"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-validation-history-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-source-gap-001:unresolved",
+    "queueType": "source_gap",
+    "subjectType": "candidate",
+    "subjectId": "route-item:candidate:cp24-fixture-source-gap-001:unresolved",
+    "title": "HIGH missing_source review",
+    "summary": "Review candidate:cp24-fixture-source-gap-001:unresolved from evidence-route:cp24-fixture-source-gap-001:cp24-g05. Attach source reference before validation can select this candidate.",
+    "severity": "high",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [],
+    "graphNodeIds": [],
+    "graphEdgeIds": [],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-source-gap-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-source-gap-001:unresolved"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-source-gap-001:unresolved"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-source-gap-001:unresolved"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:1"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:2"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:4"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:5"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:source_map_result:6"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4",
+    "queueType": "release_boundary",
+    "subjectType": "public_boundary",
+    "subjectId": "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4",
+    "title": "LOW missing_citation review",
+    "summary": "Review candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4 from evidence-route:cp24-fixture-public-boundary-001:cp24-g05. Review citation coverage and decide whether the candidate can proceed to validation.",
+    "severity": "low",
+    "reviewStatus": "technical_review",
+    "assignedRole": "technical_reviewer",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "search_document:cp21c-ay-002:verification_evidence:4"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:3:source_map_result-3",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:4:source_map_result-4",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:5:source_map_result-5",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:6:source_map_result-6"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-public-boundary-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4"
+    ],
+    "requiredActions": [
+      "request_technical_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001",
+    "queueType": "escalation",
+    "subjectType": "guided_answer",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001 from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "answer_draft:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c",
+      "edge:answer_validation_checks_guided_answer:answer_validation_run:cp21c-bl-001:guided_answer_run:cp21c-bl-001:cp21c",
+      "edge:answer_draft_uses_retrieval_trace:answer_draft:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-bl-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001",
+    "queueType": "escalation",
+    "subjectType": "answer_validation_run",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001 from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "answer_validation_run:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c",
+      "edge:answer_validation_checks_guided_answer:answer_validation_run:cp21c-bl-001:guided_answer_run:cp21c-bl-001:cp21c",
+      "edge:answer_draft_uses_retrieval_trace:answer_draft:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-bl-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:answer_validation_run:cp21c-bl-001"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001",
+    "queueType": "escalation",
+    "subjectType": "route_item",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001 from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-bl-001",
+      "vault:full-private:manifest-index"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:cp21c_case:cp21c-bl-001"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001",
+    "queueType": "escalation",
+    "subjectType": "guided_answer",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001 from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "guided_answer_run:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c",
+      "edge:answer_validation_checks_guided_answer:answer_validation_run:cp21c-bl-001:guided_answer_run:cp21c-bl-001:cp21c",
+      "edge:answer_draft_uses_retrieval_trace:answer_draft:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:validation:cp21c_case:cp21c-bl-001"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:guided_answer_run:cp21c-bl-001"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb",
+    "queueType": "escalation",
+    "subjectType": "retrieval_trace",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c",
+      "edge:answer_validation_checks_guided_answer:answer_validation_run:cp21c-bl-001:guided_answer_run:cp21c-bl-001:cp21c",
+      "edge:answer_draft_uses_retrieval_trace:answer_draft:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:cp21c"
+    ],
+    "vaultPackIds": [],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001",
+    "queueType": "escalation",
+    "subjectType": "vault_pack",
+    "subjectId": "route-item:candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001",
+    "title": "CRITICAL escalation_required review",
+    "summary": "Review candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001 from evidence-route:cp24-fixture-safety-escalation-001:cp24-g05. Route safety_escalation to the required reviewer path before ordinary guidance.",
+    "severity": "critical",
+    "reviewStatus": "remediation_required",
+    "assignedRole": "product_owner",
+    "sourceIds": [
+      "data/vault/cp21c/ranking-cases/cp21c-bl-001.md"
+    ],
+    "graphNodeIds": [
+      "vault_note:cp21c:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c",
+      "edge:answer_validation_checks_guided_answer:answer_validation_run:cp21c-bl-001:guided_answer_run:cp21c-bl-001:cp21c",
+      "edge:answer_draft_uses_retrieval_trace:answer_draft:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:manifest-index"
+    ],
+    "evidenceRouteIds": [
+      "evidence-route:cp24-fixture-safety-escalation-001:cp24-g05"
+    ],
+    "routeItemIds": [
+      "route-item:candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001"
+    ],
+    "candidateIds": [
+      "candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "remediation:candidate:cp24-fixture-safety-escalation-001:vault_note:cp21c:cp21c-bl-001"
+    ],
+    "requiredActions": [
+      "request_product_owner_review",
+      "request_remediation"
+    ],
+    "notesRequired": true,
+    "publicReleaseApproved": false,
+    "createdAt": "2026-07-15T00:00:00.000Z",
+    "updatedAt": "2026-07-15T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "cp26.topics_themes.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "topics_themes",
+  "label": "Source Topic, Theme, Mapping, And Ayah Group Snapshot Summary",
+  "sourceTables": [
+    "content.source_taxonomies",
+    "content.source_topics",
+    "content.source_topic_relations",
+    "content.source_topic_ayahs",
+    "content.themes",
+    "content.theme_labels",
+    "content.theme_relations",
+    "content.source_topic_theme_mappings",
+    "content.source_ayah_theme_groups",
+    "content.source_ayah_theme_group_ayahs"
+  ],
+  "sourceFiles": [
+    "data/manifests/quran-translation-tafsir-topic manifests",
+    "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "topics_graph_partition_summary",
+      "partition": "topics",
+      "nodeCount": 3562,
+      "edgeCount": 2512,
+      "topicIndexEntryCount": 3561
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 topics_themes snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Topic and theme rows are metadata/mapping aids, not religious authority."
+  ]
+}

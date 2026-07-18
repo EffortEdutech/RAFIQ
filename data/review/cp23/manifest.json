@@ -1,0 +1,29 @@
+{
+  "exportId": "cp23-a07-reviewer-audit-remediation-export",
+  "checkpoint": "CP23-A07",
+  "generatedAt": "2026-07-13T00:00:00.000Z",
+  "sourceCheckpoint": "CP22-G06",
+  "sourceGraphId": "rafiq-full-private-resource-graph",
+  "sourceGraphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactPaths": {
+    "manifest": "data\\review\\cp23\\manifest.json",
+    "auditTrail": "data\\review\\cp23\\audit-trail-export.json",
+    "remediation": "data\\review\\cp23\\remediation-export.json"
+  },
+  "counts": {
+    "auditEvents": 8,
+    "remediationItems": 8,
+    "highOrCriticalRemediationItems": 0,
+    "openBlockingRemediationItems": 8
+  },
+  "checksums": {
+    "auditTrailSha256": "ee0771c885667557234fc5c9b987af565a7bcefd34625f65c9f1c470126ba932",
+    "remediationSha256": "59108d669c6e580fe7c6e7b781b23db42565fd3c9d45214a64f2b9b9db41132c"
+  },
+  "verifier": {
+    "command": "node scripts\\check_cp23_reviewer_exports.mjs",
+    "status": "pass"
+  }
+}

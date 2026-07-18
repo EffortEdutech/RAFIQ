@@ -1,0 +1,823 @@
+{
+  "schemaVersion": "cp27.graph-index.v1",
+  "checkpoint": "CP27-G03",
+  "index": "by-canonical-ref",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "entryCount": 263,
+  "entries": {
+    "snapshot_group:cross_domain_links": [
+      "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "cp27:hadith:cross_domain_links:snapshot_group:cross_domain_links",
+      "cp27:topics:cross_domain_links:snapshot_group:cross_domain_links",
+      "cp27:product-evidence:cross_domain_links:snapshot_group:cross_domain_links"
+    ],
+    "snapshot_group:cross_domain_links:cross_domain_link": [
+      "cp27:quran:cross_domain_links:cross_domain_link:cross_domain_link"
+    ],
+    "snapshot_group:cross_domain_links:edge_family:ayah_to_hadith": [
+      "cp27:quran:cross_domain_links:edge_family:ayah_to_hadith"
+    ],
+    "snapshot_group:cross_domain_links:edge_family:related_ayah_to_ayah": [
+      "cp27:product-evidence:cross_domain_links:edge_family:related_ayah_to_ayah"
+    ],
+    "snapshot_group:cross_domain_links:edge_family:related_hadith_to_hadith": [
+      "cp27:quran:cross_domain_links:edge_family:related_hadith_to_hadith"
+    ],
+    "snapshot_group:cross_domain_links:edge_family:theme_to_ayah": [
+      "cp27:topics:cross_domain_links:edge_family:theme_to_ayah"
+    ],
+    "snapshot_group:cross_domain_links:edge_family:theme_to_hadith": [
+      "cp27:hadith:cross_domain_links:edge_family:theme_to_hadith"
+    ],
+    "snapshot_group:cross_domain_links:edge:ayah_to_hadith": [
+      "cp27:edge:ayah_to_hadith:7929fe4b10d10291"
+    ],
+    "snapshot_group:cross_domain_links:edge:related_ayah_to_ayah": [
+      "cp27:edge:related_ayah_to_ayah:6cd341174c62cf89"
+    ],
+    "snapshot_group:cross_domain_links:edge:related_hadith_to_hadith": [
+      "cp27:edge:related_hadith_to_hadith:4b3a945309a3a354"
+    ],
+    "snapshot_group:cross_domain_links:edge:theme_to_ayah": [
+      "cp27:edge:theme_to_ayah:a4a0ddd4d4668582"
+    ],
+    "snapshot_group:cross_domain_links:edge:theme_to_hadith": [
+      "cp27:edge:theme_to_hadith:c6f6171e8afc2bd6"
+    ],
+    "snapshot_group:cross_domain_links:node_family:cross_domain_link": [
+      "cp27:edge:snapshot_group_to_node_family:dcac1b354c87973a"
+    ],
+    "snapshot_group:cross_domain_links:node_family:quran_hadith_link": [
+      "cp27:edge:snapshot_group_to_node_family:a9999c1ef07a5ca6"
+    ],
+    "snapshot_group:cross_domain_links:node_family:related_ayah_link": [
+      "cp27:edge:snapshot_group_to_node_family:67f8c8a1d0a0268c"
+    ],
+    "snapshot_group:cross_domain_links:node_family:related_hadith_link": [
+      "cp27:edge:snapshot_group_to_node_family:93d1489be2080976"
+    ],
+    "snapshot_group:cross_domain_links:node_family:theme_resource_link": [
+      "cp27:edge:snapshot_group_to_node_family:b9d1668c77008412"
+    ],
+    "snapshot_group:cross_domain_links:quran_hadith_link": [
+      "cp27:hadith:cross_domain_links:quran_hadith_link:quran_hadith_link"
+    ],
+    "snapshot_group:cross_domain_links:related_ayah_link": [
+      "cp27:topics:cross_domain_links:related_ayah_link:related_ayah_link"
+    ],
+    "snapshot_group:cross_domain_links:related_hadith_link": [
+      "cp27:product-evidence:cross_domain_links:related_hadith_link:related_hadith_link"
+    ],
+    "snapshot_group:cross_domain_links:theme_resource_link": [
+      "cp27:quran:cross_domain_links:theme_resource_link:theme_resource_link"
+    ],
+    "snapshot_group:graph_vault_baseline": [
+      "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "cp27:sources:graph_vault_baseline:snapshot_group:graph_vault_baseline"
+    ],
+    "snapshot_group:graph_vault_baseline:baseline_graph_index": [
+      "cp27:sources:graph_vault_baseline:baseline_graph_index:baseline_graph_index"
+    ],
+    "snapshot_group:graph_vault_baseline:baseline_graph_manifest": [
+      "cp27:governance:graph_vault_baseline:baseline_graph_manifest:baseline_graph_manifest"
+    ],
+    "snapshot_group:graph_vault_baseline:baseline_graph_partition": [
+      "cp27:governance:graph_vault_baseline:baseline_graph_partition:baseline_graph_partition"
+    ],
+    "snapshot_group:graph_vault_baseline:baseline_vault_artifact": [
+      "cp27:governance:graph_vault_baseline:baseline_vault_artifact:baseline_vault_artifact"
+    ],
+    "snapshot_group:graph_vault_baseline:baseline_vault_manifest": [
+      "cp27:sources:graph_vault_baseline:baseline_vault_manifest:baseline_vault_manifest"
+    ],
+    "snapshot_group:graph_vault_baseline:edge_family:baseline_graph_manifest_to_index": [
+      "cp27:sources:graph_vault_baseline:edge_family:baseline_graph_manifest_to_index"
+    ],
+    "snapshot_group:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition": [
+      "cp27:governance:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition"
+    ],
+    "snapshot_group:graph_vault_baseline:edge_family:baseline_to_refresh_mapper": [
+      "cp27:governance:graph_vault_baseline:edge_family:baseline_to_refresh_mapper"
+    ],
+    "snapshot_group:graph_vault_baseline:edge_family:baseline_to_snapshot_batch": [
+      "cp27:sources:graph_vault_baseline:edge_family:baseline_to_snapshot_batch"
+    ],
+    "snapshot_group:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact": [
+      "cp27:governance:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact"
+    ],
+    "snapshot_group:graph_vault_baseline:edge:baseline_graph_manifest_to_index": [
+      "cp27:edge:baseline_graph_manifest_to_index:1e6dd669b5a5711c"
+    ],
+    "snapshot_group:graph_vault_baseline:edge:baseline_graph_manifest_to_partition": [
+      "cp27:edge:baseline_graph_manifest_to_partition:a51e256e2cee66ba"
+    ],
+    "snapshot_group:graph_vault_baseline:edge:baseline_to_refresh_mapper": [
+      "cp27:edge:baseline_to_refresh_mapper:7fe28d66b432683b"
+    ],
+    "snapshot_group:graph_vault_baseline:edge:baseline_to_snapshot_batch": [
+      "cp27:edge:baseline_to_snapshot_batch:464ae7f988240fc2"
+    ],
+    "snapshot_group:graph_vault_baseline:edge:baseline_vault_manifest_to_artifact": [
+      "cp27:edge:baseline_vault_manifest_to_artifact:0a8a981bd2fc4004"
+    ],
+    "snapshot_group:graph_vault_baseline:node_family:baseline_graph_index": [
+      "cp27:edge:snapshot_group_to_node_family:7e9f29ba07bc9f72"
+    ],
+    "snapshot_group:graph_vault_baseline:node_family:baseline_graph_manifest": [
+      "cp27:edge:snapshot_group_to_node_family:9f1f9d59633b849b"
+    ],
+    "snapshot_group:graph_vault_baseline:node_family:baseline_graph_partition": [
+      "cp27:edge:snapshot_group_to_node_family:014856abea864368"
+    ],
+    "snapshot_group:graph_vault_baseline:node_family:baseline_vault_artifact": [
+      "cp27:edge:snapshot_group_to_node_family:4e70b6d07d3bf930"
+    ],
+    "snapshot_group:graph_vault_baseline:node_family:baseline_vault_manifest": [
+      "cp27:edge:snapshot_group_to_node_family:51164a7f82fe94b3"
+    ],
+    "snapshot_group:hadith": [
+      "cp27:hadith:hadith:snapshot_group:hadith"
+    ],
+    "snapshot_group:hadith_quality": [
+      "cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality",
+      "cp27:quality:hadith_quality:snapshot_group:hadith_quality"
+    ],
+    "snapshot_group:hadith_quality:edge_family:grade_assertion_to_normalization": [
+      "cp27:quality:hadith_quality:edge_family:grade_assertion_to_normalization"
+    ],
+    "snapshot_group:hadith_quality:edge_family:grade_assertion_to_quality_state": [
+      "cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state"
+    ],
+    "snapshot_group:hadith_quality:edge_family:hadith_record_to_grade_assertion": [
+      "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion"
+    ],
+    "snapshot_group:hadith_quality:edge_family:hadith_record_to_verification_claim": [
+      "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim"
+    ],
+    "snapshot_group:hadith_quality:edge_family:verification_claim_to_reference": [
+      "cp27:quality:hadith_quality:edge_family:verification_claim_to_reference"
+    ],
+    "snapshot_group:hadith_quality:edge:grade_assertion_to_normalization": [
+      "cp27:edge:grade_assertion_to_normalization:d6d02970291bf706"
+    ],
+    "snapshot_group:hadith_quality:edge:grade_assertion_to_quality_state": [
+      "cp27:edge:grade_assertion_to_quality_state:3ce9d9cd5334d4af"
+    ],
+    "snapshot_group:hadith_quality:edge:hadith_record_to_grade_assertion": [
+      "cp27:edge:hadith_record_to_grade_assertion:c98ceafb08610136"
+    ],
+    "snapshot_group:hadith_quality:edge:hadith_record_to_verification_claim": [
+      "cp27:edge:hadith_record_to_verification_claim:0507715c51b5d2a4"
+    ],
+    "snapshot_group:hadith_quality:edge:verification_claim_to_reference": [
+      "cp27:edge:verification_claim_to_reference:18b7f35e406f02fb"
+    ],
+    "snapshot_group:hadith_quality:hadith_grade_assertion": [
+      "cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion"
+    ],
+    "snapshot_group:hadith_quality:hadith_grade_normalization": [
+      "cp27:quality:hadith_quality:hadith_grade_normalization:hadith_grade_normalization"
+    ],
+    "snapshot_group:hadith_quality:hadith_verification_claim": [
+      "cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim"
+    ],
+    "snapshot_group:hadith_quality:hadith_verification_reference": [
+      "cp27:quality:hadith_quality:hadith_verification_reference:hadith_verification_reference"
+    ],
+    "snapshot_group:hadith_quality:node_family:hadith_grade_assertion": [
+      "cp27:edge:snapshot_group_to_node_family:5f3458db9d82fbcf"
+    ],
+    "snapshot_group:hadith_quality:node_family:hadith_grade_normalization": [
+      "cp27:edge:snapshot_group_to_node_family:9c9996df0f3ca2c8"
+    ],
+    "snapshot_group:hadith_quality:node_family:hadith_verification_claim": [
+      "cp27:edge:snapshot_group_to_node_family:ef2fef0d2be51e42"
+    ],
+    "snapshot_group:hadith_quality:node_family:hadith_verification_reference": [
+      "cp27:edge:snapshot_group_to_node_family:dbe4cc57a9283fe1"
+    ],
+    "snapshot_group:hadith_quality:node_family:quality_finding": [
+      "cp27:edge:snapshot_group_to_node_family:1af3411fb682d7fc"
+    ],
+    "snapshot_group:hadith_quality:quality_finding": [
+      "cp27:hadith-grades:hadith_quality:quality_finding:quality_finding"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_book_to_chapter": [
+      "cp27:hadith:hadith:edge_family:hadith_book_to_chapter"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_chapter_to_record": [
+      "cp27:hadith:hadith:edge_family:hadith_chapter_to_record"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_collection_to_edition": [
+      "cp27:hadith:hadith:edge_family:hadith_collection_to_edition"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_edition_to_book": [
+      "cp27:hadith:hadith:edge_family:hadith_edition_to_book"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_record_to_reference": [
+      "cp27:hadith:hadith:edge_family:hadith_record_to_reference"
+    ],
+    "snapshot_group:hadith:edge_family:hadith_record_to_text_version_reference": [
+      "cp27:hadith:hadith:edge_family:hadith_record_to_text_version_reference"
+    ],
+    "snapshot_group:hadith:edge:hadith_book_to_chapter": [
+      "cp27:edge:hadith_book_to_chapter:27a2d01fd1274eb3"
+    ],
+    "snapshot_group:hadith:edge:hadith_chapter_to_record": [
+      "cp27:edge:hadith_chapter_to_record:2324d4aaf95ce47a"
+    ],
+    "snapshot_group:hadith:edge:hadith_collection_to_edition": [
+      "cp27:edge:hadith_collection_to_edition:c584ceb709178113"
+    ],
+    "snapshot_group:hadith:edge:hadith_edition_to_book": [
+      "cp27:edge:hadith_edition_to_book:2b9215b6af9f9e80"
+    ],
+    "snapshot_group:hadith:edge:hadith_record_to_reference": [
+      "cp27:edge:hadith_record_to_reference:dd343a8f339e9733"
+    ],
+    "snapshot_group:hadith:edge:hadith_record_to_text_version_reference": [
+      "cp27:edge:hadith_record_to_text_version_reference:1000fe3680e44f1a"
+    ],
+    "snapshot_group:hadith:hadith_book": [
+      "cp27:hadith:hadith:hadith_book:hadith_book"
+    ],
+    "snapshot_group:hadith:hadith_chapter": [
+      "cp27:hadith:hadith:hadith_chapter:hadith_chapter"
+    ],
+    "snapshot_group:hadith:hadith_collection": [
+      "cp27:hadith:hadith:hadith_collection:hadith_collection"
+    ],
+    "snapshot_group:hadith:hadith_edition": [
+      "cp27:hadith:hadith:hadith_edition:hadith_edition"
+    ],
+    "snapshot_group:hadith:hadith_record": [
+      "cp27:hadith:hadith:hadith_record:hadith_record"
+    ],
+    "snapshot_group:hadith:hadith_reference": [
+      "cp27:hadith:hadith:hadith_reference:hadith_reference"
+    ],
+    "snapshot_group:hadith:hadith_text_version_reference": [
+      "cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference"
+    ],
+    "snapshot_group:hadith:node_family:hadith_book": [
+      "cp27:edge:snapshot_group_to_node_family:2bfdc3eb73f97aea"
+    ],
+    "snapshot_group:hadith:node_family:hadith_chapter": [
+      "cp27:edge:snapshot_group_to_node_family:15411886ce07a8ae"
+    ],
+    "snapshot_group:hadith:node_family:hadith_collection": [
+      "cp27:edge:snapshot_group_to_node_family:9da27fdc97da4746"
+    ],
+    "snapshot_group:hadith:node_family:hadith_edition": [
+      "cp27:edge:snapshot_group_to_node_family:6c58f12bddd3f1f3"
+    ],
+    "snapshot_group:hadith:node_family:hadith_record": [
+      "cp27:edge:snapshot_group_to_node_family:3bf0a0590910ea00"
+    ],
+    "snapshot_group:hadith:node_family:hadith_reference": [
+      "cp27:edge:snapshot_group_to_node_family:295010ac9310188a"
+    ],
+    "snapshot_group:hadith:node_family:hadith_text_version_reference": [
+      "cp27:edge:snapshot_group_to_node_family:2dc0819ed00544d0"
+    ],
+    "snapshot_group:private_audit": [
+      "cp27:product-evidence:private_audit:snapshot_group:private_audit",
+      "cp27:quality:private_audit:snapshot_group:private_audit"
+    ],
+    "snapshot_group:private_audit:audit_actor_reference": [
+      "cp27:quality:private_audit:audit_actor_reference:audit_actor_reference"
+    ],
+    "snapshot_group:private_audit:audit_event": [
+      "cp27:product-evidence:private_audit:audit_event:audit_event"
+    ],
+    "snapshot_group:private_audit:decision_ledger_entry": [
+      "cp27:quality:private_audit:decision_ledger_entry:decision_ledger_entry"
+    ],
+    "snapshot_group:private_audit:edge_family:audit_event_to_decision_ledger_entry": [
+      "cp27:product-evidence:private_audit:edge_family:audit_event_to_decision_ledger_entry"
+    ],
+    "snapshot_group:private_audit:edge_family:audit_event_to_graph_ref": [
+      "cp27:quality:private_audit:edge_family:audit_event_to_graph_ref"
+    ],
+    "snapshot_group:private_audit:edge_family:audit_event_to_review_queue_item": [
+      "cp27:product-evidence:private_audit:edge_family:audit_event_to_review_queue_item"
+    ],
+    "snapshot_group:private_audit:edge_family:decision_ledger_entry_to_remediation_transition": [
+      "cp27:quality:private_audit:edge_family:decision_ledger_entry_to_remediation_transition"
+    ],
+    "snapshot_group:private_audit:edge:audit_event_to_decision_ledger_entry": [
+      "cp27:edge:audit_event_to_decision_ledger_entry:277576240ca685d7"
+    ],
+    "snapshot_group:private_audit:edge:audit_event_to_graph_ref": [
+      "cp27:edge:audit_event_to_graph_ref:843e9b177d50d4f4"
+    ],
+    "snapshot_group:private_audit:edge:audit_event_to_review_queue_item": [
+      "cp27:edge:audit_event_to_review_queue_item:ddeab4a1df5233a1"
+    ],
+    "snapshot_group:private_audit:edge:decision_ledger_entry_to_remediation_transition": [
+      "cp27:edge:decision_ledger_entry_to_remediation_transition:6bf5b5f77b5b7530"
+    ],
+    "snapshot_group:private_audit:node_family:audit_actor_reference": [
+      "cp27:edge:snapshot_group_to_node_family:8dcbc30bc8797776"
+    ],
+    "snapshot_group:private_audit:node_family:audit_event": [
+      "cp27:edge:snapshot_group_to_node_family:75b0f4becd8dd04e"
+    ],
+    "snapshot_group:private_audit:node_family:decision_ledger_entry": [
+      "cp27:edge:snapshot_group_to_node_family:ad928e460e72670c"
+    ],
+    "snapshot_group:private_audit:node_family:remediation_transition": [
+      "cp27:edge:snapshot_group_to_node_family:c671eb60a5ad7493"
+    ],
+    "snapshot_group:private_audit:remediation_transition": [
+      "cp27:product-evidence:private_audit:remediation_transition:remediation_transition"
+    ],
+    "snapshot_group:private_retrieval": [
+      "cp27:product-evidence:private_retrieval:snapshot_group:private_retrieval"
+    ],
+    "snapshot_group:private_retrieval:edge_family:candidate_to_evidence_route": [
+      "cp27:product-evidence:private_retrieval:edge_family:candidate_to_evidence_route"
+    ],
+    "snapshot_group:private_retrieval:edge_family:evidence_route_to_validation_handoff": [
+      "cp27:product-evidence:private_retrieval:edge_family:evidence_route_to_validation_handoff"
+    ],
+    "snapshot_group:private_retrieval:edge_family:retrieval_trace_to_candidate": [
+      "cp27:product-evidence:private_retrieval:edge_family:retrieval_trace_to_candidate"
+    ],
+    "snapshot_group:private_retrieval:edge_family:search_document_to_graph_ref": [
+      "cp27:product-evidence:private_retrieval:edge_family:search_document_to_graph_ref"
+    ],
+    "snapshot_group:private_retrieval:edge_family:validation_handoff_to_validation_gate": [
+      "cp27:product-evidence:private_retrieval:edge_family:validation_handoff_to_validation_gate"
+    ],
+    "snapshot_group:private_retrieval:edge:candidate_to_evidence_route": [
+      "cp27:edge:candidate_to_evidence_route:8d25ecc5e6e11b6e"
+    ],
+    "snapshot_group:private_retrieval:edge:evidence_route_to_validation_handoff": [
+      "cp27:edge:evidence_route_to_validation_handoff:2a1e0db4ffe68cde"
+    ],
+    "snapshot_group:private_retrieval:edge:retrieval_trace_to_candidate": [
+      "cp27:edge:retrieval_trace_to_candidate:f43597d09c46728a"
+    ],
+    "snapshot_group:private_retrieval:edge:search_document_to_graph_ref": [
+      "cp27:edge:search_document_to_graph_ref:d562e3a2c5140b15"
+    ],
+    "snapshot_group:private_retrieval:edge:validation_handoff_to_validation_gate": [
+      "cp27:edge:validation_handoff_to_validation_gate:40452810e293cd3c"
+    ],
+    "snapshot_group:private_retrieval:evidence_route": [
+      "cp27:product-evidence:private_retrieval:evidence_route:evidence_route"
+    ],
+    "snapshot_group:private_retrieval:node_family:evidence_route": [
+      "cp27:edge:snapshot_group_to_node_family:da912851a38a036b"
+    ],
+    "snapshot_group:private_retrieval:node_family:private_retrieval_trace": [
+      "cp27:edge:snapshot_group_to_node_family:07684bf7ea7221dc"
+    ],
+    "snapshot_group:private_retrieval:node_family:private_search_document": [
+      "cp27:edge:snapshot_group_to_node_family:250b13656d911405"
+    ],
+    "snapshot_group:private_retrieval:node_family:retrieval_candidate": [
+      "cp27:edge:snapshot_group_to_node_family:c6d66703d4b3ed35"
+    ],
+    "snapshot_group:private_retrieval:node_family:validation_handoff": [
+      "cp27:edge:snapshot_group_to_node_family:07bda016994e2cae"
+    ],
+    "snapshot_group:private_retrieval:private_retrieval_trace": [
+      "cp27:product-evidence:private_retrieval:private_retrieval_trace:private_retrieval_trace"
+    ],
+    "snapshot_group:private_retrieval:private_search_document": [
+      "cp27:product-evidence:private_retrieval:private_search_document:private_search_document"
+    ],
+    "snapshot_group:private_retrieval:retrieval_candidate": [
+      "cp27:product-evidence:private_retrieval:retrieval_candidate:retrieval_candidate"
+    ],
+    "snapshot_group:private_retrieval:validation_handoff": [
+      "cp27:product-evidence:private_retrieval:validation_handoff:validation_handoff"
+    ],
+    "snapshot_group:private_review": [
+      "cp27:product-evidence:private_review:snapshot_group:private_review",
+      "cp27:quality:private_review:snapshot_group:private_review"
+    ],
+    "snapshot_group:private_review:edge_family:review_blocker_to_remediation_state": [
+      "cp27:quality:private_review:edge_family:review_blocker_to_remediation_state"
+    ],
+    "snapshot_group:private_review:edge_family:review_queue_item_to_assignment": [
+      "cp27:quality:private_review:edge_family:review_queue_item_to_assignment"
+    ],
+    "snapshot_group:private_review:edge_family:review_queue_item_to_blocker": [
+      "cp27:product-evidence:private_review:edge_family:review_queue_item_to_blocker"
+    ],
+    "snapshot_group:private_review:edge_family:review_queue_item_to_graph_ref": [
+      "cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref"
+    ],
+    "snapshot_group:private_review:edge_family:review_queue_item_to_review_state": [
+      "cp27:product-evidence:private_review:edge_family:review_queue_item_to_review_state"
+    ],
+    "snapshot_group:private_review:edge:review_blocker_to_remediation_state": [
+      "cp27:edge:review_blocker_to_remediation_state:ca211e135c562ed4"
+    ],
+    "snapshot_group:private_review:edge:review_queue_item_to_assignment": [
+      "cp27:edge:review_queue_item_to_assignment:abfd5621959f20fc"
+    ],
+    "snapshot_group:private_review:edge:review_queue_item_to_blocker": [
+      "cp27:edge:review_queue_item_to_blocker:c4dda3220c9e5e89"
+    ],
+    "snapshot_group:private_review:edge:review_queue_item_to_graph_ref": [
+      "cp27:edge:review_queue_item_to_graph_ref:ea41d0c0da9d8769"
+    ],
+    "snapshot_group:private_review:edge:review_queue_item_to_review_state": [
+      "cp27:edge:review_queue_item_to_review_state:f6c168d2edc1ec66"
+    ],
+    "snapshot_group:private_review:node_family:private_review_queue_item": [
+      "cp27:edge:snapshot_group_to_node_family:3df33538ecc43960"
+    ],
+    "snapshot_group:private_review:node_family:remediation_state": [
+      "cp27:edge:snapshot_group_to_node_family:fff839e72eb1f410"
+    ],
+    "snapshot_group:private_review:node_family:review_assignment": [
+      "cp27:edge:snapshot_group_to_node_family:54557274349fcd91"
+    ],
+    "snapshot_group:private_review:node_family:review_blocker": [
+      "cp27:edge:snapshot_group_to_node_family:5d57e45845a0ca8b"
+    ],
+    "snapshot_group:private_review:node_family:review_decision_context": [
+      "cp27:edge:snapshot_group_to_node_family:6d0c098f643f0dcc"
+    ],
+    "snapshot_group:private_review:private_review_queue_item": [
+      "cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item"
+    ],
+    "snapshot_group:private_review:remediation_state": [
+      "cp27:quality:private_review:remediation_state:remediation_state"
+    ],
+    "snapshot_group:private_review:review_assignment": [
+      "cp27:quality:private_review:review_assignment:review_assignment"
+    ],
+    "snapshot_group:private_review:review_blocker": [
+      "cp27:product-evidence:private_review:review_blocker:review_blocker"
+    ],
+    "snapshot_group:private_review:review_decision_context": [
+      "cp27:product-evidence:private_review:review_decision_context:review_decision_context"
+    ],
+    "snapshot_group:quran": [
+      "cp27:quran:quran:snapshot_group:quran"
+    ],
+    "snapshot_group:quran:edge_family:quran_ayah_to_partition": [
+      "cp27:quran:quran:edge_family:quran_ayah_to_partition"
+    ],
+    "snapshot_group:quran:edge_family:quran_ayah_to_text_edition": [
+      "cp27:quran:quran:edge_family:quran_ayah_to_text_edition"
+    ],
+    "snapshot_group:quran:edge_family:quran_partition_scheme_to_partition": [
+      "cp27:quran:quran:edge_family:quran_partition_scheme_to_partition"
+    ],
+    "snapshot_group:quran:edge_family:quran_surah_to_ayah": [
+      "cp27:quran:quran:edge_family:quran_surah_to_ayah"
+    ],
+    "snapshot_group:quran:edge:quran_ayah_to_partition": [
+      "cp27:edge:quran_ayah_to_partition:06433848a7113371"
+    ],
+    "snapshot_group:quran:edge:quran_ayah_to_text_edition": [
+      "cp27:edge:quran_ayah_to_text_edition:92d37d7146c374e7"
+    ],
+    "snapshot_group:quran:edge:quran_partition_scheme_to_partition": [
+      "cp27:edge:quran_partition_scheme_to_partition:dbe65fdbcc070b4d"
+    ],
+    "snapshot_group:quran:edge:quran_surah_to_ayah": [
+      "cp27:edge:quran_surah_to_ayah:56aa469042ffa91b"
+    ],
+    "snapshot_group:quran:node_family:quran_ayah": [
+      "cp27:edge:snapshot_group_to_node_family:999ed32b366f9338"
+    ],
+    "snapshot_group:quran:node_family:quran_ayah_text_reference": [
+      "cp27:edge:snapshot_group_to_node_family:982b51acd69f4fec"
+    ],
+    "snapshot_group:quran:node_family:quran_partition": [
+      "cp27:edge:snapshot_group_to_node_family:9e9396b211c3e840"
+    ],
+    "snapshot_group:quran:node_family:quran_partition_scheme": [
+      "cp27:edge:snapshot_group_to_node_family:5f3dfb1f2f161d44"
+    ],
+    "snapshot_group:quran:node_family:quran_surah": [
+      "cp27:edge:snapshot_group_to_node_family:cdae9f2c0be09140"
+    ],
+    "snapshot_group:quran:node_family:quran_text_edition": [
+      "cp27:edge:snapshot_group_to_node_family:06536bfcb506cdc2"
+    ],
+    "snapshot_group:quran:quran_ayah": [
+      "cp27:quran:quran:quran_ayah:quran_ayah"
+    ],
+    "snapshot_group:quran:quran_ayah_text_reference": [
+      "cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference"
+    ],
+    "snapshot_group:quran:quran_partition": [
+      "cp27:quran:quran:quran_partition:quran_partition"
+    ],
+    "snapshot_group:quran:quran_partition_scheme": [
+      "cp27:quran:quran:quran_partition_scheme:quran_partition_scheme"
+    ],
+    "snapshot_group:quran:quran_surah": [
+      "cp27:quran:quran:quran_surah:quran_surah"
+    ],
+    "snapshot_group:quran:quran_text_edition": [
+      "cp27:quran:quran:quran_text_edition:quran_text_edition"
+    ],
+    "snapshot_group:raw_lineage": [
+      "cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+      "cp27:sources:raw_lineage:snapshot_group:raw_lineage"
+    ],
+    "snapshot_group:raw_lineage:edge_family:parser_assignment_to_source_snapshot": [
+      "cp27:sources:raw_lineage:edge_family:parser_assignment_to_source_snapshot"
+    ],
+    "snapshot_group:raw_lineage:edge_family:raw_lineage_summary_to_import_run": [
+      "cp27:quality:raw_lineage:edge_family:raw_lineage_summary_to_import_run"
+    ],
+    "snapshot_group:raw_lineage:edge_family:raw_lineage_summary_to_validation_finding": [
+      "cp27:sources:raw_lineage:edge_family:raw_lineage_summary_to_validation_finding"
+    ],
+    "snapshot_group:raw_lineage:edge_family:validation_finding_to_quality_state": [
+      "cp27:quality:raw_lineage:edge_family:validation_finding_to_quality_state"
+    ],
+    "snapshot_group:raw_lineage:edge:parser_assignment_to_source_snapshot": [
+      "cp27:edge:parser_assignment_to_source_snapshot:d9298cd3c74e8c1b"
+    ],
+    "snapshot_group:raw_lineage:edge:raw_lineage_summary_to_import_run": [
+      "cp27:edge:raw_lineage_summary_to_import_run:b72fa34070e40dee"
+    ],
+    "snapshot_group:raw_lineage:edge:raw_lineage_summary_to_validation_finding": [
+      "cp27:edge:raw_lineage_summary_to_validation_finding:97bff4db0e6b5493"
+    ],
+    "snapshot_group:raw_lineage:edge:validation_finding_to_quality_state": [
+      "cp27:edge:validation_finding_to_quality_state:1459671a3b640566"
+    ],
+    "snapshot_group:raw_lineage:import_run": [
+      "cp27:sources:raw_lineage:import_run:import_run"
+    ],
+    "snapshot_group:raw_lineage:node_family:import_run": [
+      "cp27:edge:snapshot_group_to_node_family:4572806ff57fc8ed"
+    ],
+    "snapshot_group:raw_lineage:node_family:parser_assignment": [
+      "cp27:edge:snapshot_group_to_node_family:dab12074644aa280"
+    ],
+    "snapshot_group:raw_lineage:node_family:raw_lineage_summary": [
+      "cp27:edge:snapshot_group_to_node_family:899068d22f4fdf65"
+    ],
+    "snapshot_group:raw_lineage:node_family:transformation_event": [
+      "cp27:edge:snapshot_group_to_node_family:68f59000da16dd00"
+    ],
+    "snapshot_group:raw_lineage:node_family:validation_finding": [
+      "cp27:edge:snapshot_group_to_node_family:be924e0da49085f8"
+    ],
+    "snapshot_group:raw_lineage:parser_assignment": [
+      "cp27:quality:raw_lineage:parser_assignment:parser_assignment"
+    ],
+    "snapshot_group:raw_lineage:raw_lineage_summary": [
+      "cp27:quality:raw_lineage:raw_lineage_summary:raw_lineage_summary"
+    ],
+    "snapshot_group:raw_lineage:transformation_event": [
+      "cp27:sources:raw_lineage:transformation_event:transformation_event"
+    ],
+    "snapshot_group:raw_lineage:validation_finding": [
+      "cp27:quality:raw_lineage:validation_finding:validation_finding"
+    ],
+    "snapshot_group:source_registry": [
+      "cp27:sources:source_registry:snapshot_group:source_registry",
+      "cp27:governance:source_registry:snapshot_group:source_registry"
+    ],
+    "snapshot_group:source_registry:attribution_policy": [
+      "cp27:sources:source_registry:attribution_policy:attribution_policy"
+    ],
+    "snapshot_group:source_registry:edge_family:source_registry_entry_to_manifest": [
+      "cp27:sources:source_registry:edge_family:source_registry_entry_to_manifest"
+    ],
+    "snapshot_group:source_registry:edge_family:source_snapshot_to_checksum": [
+      "cp27:governance:source_registry:edge_family:source_snapshot_to_checksum"
+    ],
+    "snapshot_group:source_registry:edge_family:source_snapshot_to_provenance": [
+      "cp27:sources:source_registry:edge_family:source_snapshot_to_provenance"
+    ],
+    "snapshot_group:source_registry:edge_family:source_snapshot_to_release_state": [
+      "cp27:governance:source_registry:edge_family:source_snapshot_to_release_state"
+    ],
+    "snapshot_group:source_registry:edge_family:source_to_licensing_boundary": [
+      "cp27:sources:source_registry:edge_family:source_to_licensing_boundary"
+    ],
+    "snapshot_group:source_registry:edge:source_registry_entry_to_manifest": [
+      "cp27:edge:source_registry_entry_to_manifest:cbbed836af81a4e7"
+    ],
+    "snapshot_group:source_registry:edge:source_snapshot_to_checksum": [
+      "cp27:edge:source_snapshot_to_checksum:f7c65547e3418881"
+    ],
+    "snapshot_group:source_registry:edge:source_snapshot_to_provenance": [
+      "cp27:edge:source_snapshot_to_provenance:ecf9fecde8435609"
+    ],
+    "snapshot_group:source_registry:edge:source_snapshot_to_release_state": [
+      "cp27:edge:source_snapshot_to_release_state:e05e38c58ebf9fec"
+    ],
+    "snapshot_group:source_registry:edge:source_to_licensing_boundary": [
+      "cp27:edge:source_to_licensing_boundary:a8552414c6c4c5b3"
+    ],
+    "snapshot_group:source_registry:licensing_boundary": [
+      "cp27:governance:source_registry:licensing_boundary:licensing_boundary"
+    ],
+    "snapshot_group:source_registry:node_family:attribution_policy": [
+      "cp27:edge:snapshot_group_to_node_family:37aadefa7de0ab88"
+    ],
+    "snapshot_group:source_registry:node_family:licensing_boundary": [
+      "cp27:edge:snapshot_group_to_node_family:984889e0ba44463d"
+    ],
+    "snapshot_group:source_registry:node_family:source_checksum": [
+      "cp27:edge:snapshot_group_to_node_family:1fa34a2540cc1bd4"
+    ],
+    "snapshot_group:source_registry:node_family:source_manifest": [
+      "cp27:edge:snapshot_group_to_node_family:669c334b3c8b4263"
+    ],
+    "snapshot_group:source_registry:node_family:source_registry_entry": [
+      "cp27:edge:snapshot_group_to_node_family:0853d79b7f683dbe"
+    ],
+    "snapshot_group:source_registry:node_family:source_snapshot": [
+      "cp27:edge:snapshot_group_to_node_family:0f6f11d9bdf71738"
+    ],
+    "snapshot_group:source_registry:source_checksum": [
+      "cp27:governance:source_registry:source_checksum:source_checksum"
+    ],
+    "snapshot_group:source_registry:source_manifest": [
+      "cp27:sources:source_registry:source_manifest:source_manifest"
+    ],
+    "snapshot_group:source_registry:source_registry_entry": [
+      "cp27:governance:source_registry:source_registry_entry:source_registry_entry"
+    ],
+    "snapshot_group:source_registry:source_snapshot": [
+      "cp27:sources:source_registry:source_snapshot:source_snapshot"
+    ],
+    "snapshot_group:tafsir": [
+      "cp27:tafsir:tafsir:snapshot_group:tafsir"
+    ],
+    "snapshot_group:tafsir:edge_family:tafsir_edition_to_passage_reference": [
+      "cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference"
+    ],
+    "snapshot_group:tafsir:edge_family:tafsir_passage_reference_to_ayah": [
+      "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah"
+    ],
+    "snapshot_group:tafsir:edge_family:tafsir_passage_reference_to_source": [
+      "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source"
+    ],
+    "snapshot_group:tafsir:edge:tafsir_edition_to_passage_reference": [
+      "cp27:edge:tafsir_edition_to_passage_reference:95645b178ed3acbb"
+    ],
+    "snapshot_group:tafsir:edge:tafsir_passage_reference_to_ayah": [
+      "cp27:edge:tafsir_passage_reference_to_ayah:bdd415b610482319"
+    ],
+    "snapshot_group:tafsir:edge:tafsir_passage_reference_to_source": [
+      "cp27:edge:tafsir_passage_reference_to_source:78de4a6a4f3f45f7"
+    ],
+    "snapshot_group:tafsir:node_family:tafsir_ayah_link": [
+      "cp27:edge:snapshot_group_to_node_family:be16e223fa0130b7"
+    ],
+    "snapshot_group:tafsir:node_family:tafsir_edition": [
+      "cp27:edge:snapshot_group_to_node_family:1217de4d84ffef99"
+    ],
+    "snapshot_group:tafsir:node_family:tafsir_passage_reference": [
+      "cp27:edge:snapshot_group_to_node_family:fb75d6f3ea838df4"
+    ],
+    "snapshot_group:tafsir:tafsir_ayah_link": [
+      "cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link"
+    ],
+    "snapshot_group:tafsir:tafsir_edition": [
+      "cp27:tafsir:tafsir:tafsir_edition:tafsir_edition"
+    ],
+    "snapshot_group:tafsir:tafsir_passage_reference": [
+      "cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference"
+    ],
+    "snapshot_group:topics_themes": [
+      "cp27:topics:topics_themes:snapshot_group:topics_themes"
+    ],
+    "snapshot_group:topics_themes:edge_family:source_ayah_theme_group_to_ayah": [
+      "cp27:topics:topics_themes:edge_family:source_ayah_theme_group_to_ayah"
+    ],
+    "snapshot_group:topics_themes:edge_family:source_topic_to_ayah": [
+      "cp27:topics:topics_themes:edge_family:source_topic_to_ayah"
+    ],
+    "snapshot_group:topics_themes:edge_family:source_topic_to_theme": [
+      "cp27:topics:topics_themes:edge_family:source_topic_to_theme"
+    ],
+    "snapshot_group:topics_themes:edge_family:theme_to_label": [
+      "cp27:topics:topics_themes:edge_family:theme_to_label"
+    ],
+    "snapshot_group:topics_themes:edge_family:theme_to_theme": [
+      "cp27:topics:topics_themes:edge_family:theme_to_theme"
+    ],
+    "snapshot_group:topics_themes:edge:source_ayah_theme_group_to_ayah": [
+      "cp27:edge:source_ayah_theme_group_to_ayah:d38288b7d737db6a"
+    ],
+    "snapshot_group:topics_themes:edge:source_topic_to_ayah": [
+      "cp27:edge:source_topic_to_ayah:e8cbb3fc8a873de7"
+    ],
+    "snapshot_group:topics_themes:edge:source_topic_to_theme": [
+      "cp27:edge:source_topic_to_theme:481e92ddcf5a5a63"
+    ],
+    "snapshot_group:topics_themes:edge:theme_to_label": [
+      "cp27:edge:theme_to_label:cbd343ccc8da1cc3"
+    ],
+    "snapshot_group:topics_themes:edge:theme_to_theme": [
+      "cp27:edge:theme_to_theme:431bb57ca850aa52"
+    ],
+    "snapshot_group:topics_themes:node_family:source_ayah_theme_group": [
+      "cp27:edge:snapshot_group_to_node_family:b9248220a41eb211"
+    ],
+    "snapshot_group:topics_themes:node_family:source_taxonomy": [
+      "cp27:edge:snapshot_group_to_node_family:06c4f01863868b1f"
+    ],
+    "snapshot_group:topics_themes:node_family:source_topic": [
+      "cp27:edge:snapshot_group_to_node_family:26fd4763d275227a"
+    ],
+    "snapshot_group:topics_themes:node_family:theme": [
+      "cp27:edge:snapshot_group_to_node_family:11a9d929cea3b67a"
+    ],
+    "snapshot_group:topics_themes:node_family:theme_label": [
+      "cp27:edge:snapshot_group_to_node_family:01a0701e86774eb5"
+    ],
+    "snapshot_group:topics_themes:source_ayah_theme_group": [
+      "cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group"
+    ],
+    "snapshot_group:topics_themes:source_taxonomy": [
+      "cp27:topics:topics_themes:source_taxonomy:source_taxonomy"
+    ],
+    "snapshot_group:topics_themes:source_topic": [
+      "cp27:topics:topics_themes:source_topic:source_topic"
+    ],
+    "snapshot_group:topics_themes:theme": [
+      "cp27:topics:topics_themes:theme:theme"
+    ],
+    "snapshot_group:topics_themes:theme_label": [
+      "cp27:topics:topics_themes:theme_label:theme_label"
+    ],
+    "snapshot_group:translations": [
+      "cp27:translations:translations:snapshot_group:translations"
+    ],
+    "snapshot_group:translations:edge_family:translation_chunk_to_translation_text_reference": [
+      "cp27:translations:translations:edge_family:translation_chunk_to_translation_text_reference"
+    ],
+    "snapshot_group:translations:edge_family:translation_edition_to_text_reference": [
+      "cp27:translations:translations:edge_family:translation_edition_to_text_reference"
+    ],
+    "snapshot_group:translations:edge_family:translation_text_reference_to_ayah": [
+      "cp27:translations:translations:edge_family:translation_text_reference_to_ayah"
+    ],
+    "snapshot_group:translations:edge_family:translation_text_reference_to_footnote": [
+      "cp27:translations:translations:edge_family:translation_text_reference_to_footnote"
+    ],
+    "snapshot_group:translations:edge:translation_chunk_to_translation_text_reference": [
+      "cp27:edge:translation_chunk_to_translation_text_reference:d9655dc736eccee2"
+    ],
+    "snapshot_group:translations:edge:translation_edition_to_text_reference": [
+      "cp27:edge:translation_edition_to_text_reference:1531e9e39c778a96"
+    ],
+    "snapshot_group:translations:edge:translation_text_reference_to_ayah": [
+      "cp27:edge:translation_text_reference_to_ayah:7b148f5cfcd2382e"
+    ],
+    "snapshot_group:translations:edge:translation_text_reference_to_footnote": [
+      "cp27:edge:translation_text_reference_to_footnote:dba7b221a217c29b"
+    ],
+    "snapshot_group:translations:node_family:translation_chunk": [
+      "cp27:edge:snapshot_group_to_node_family:ceed39e8780ab873"
+    ],
+    "snapshot_group:translations:node_family:translation_edition": [
+      "cp27:edge:snapshot_group_to_node_family:b7298b2018ab80bf"
+    ],
+    "snapshot_group:translations:node_family:translation_footnote_reference": [
+      "cp27:edge:snapshot_group_to_node_family:3a288a9c4308e558"
+    ],
+    "snapshot_group:translations:node_family:translation_text_reference": [
+      "cp27:edge:snapshot_group_to_node_family:4049c24521d9f094"
+    ],
+    "snapshot_group:translations:translation_chunk": [
+      "cp27:translations:translations:translation_chunk:translation_chunk"
+    ],
+    "snapshot_group:translations:translation_edition": [
+      "cp27:translations:translations:translation_edition:translation_edition"
+    ],
+    "snapshot_group:translations:translation_footnote_reference": [
+      "cp27:translations:translations:translation_footnote_reference:translation_footnote_reference"
+    ],
+    "snapshot_group:translations:translation_text_reference": [
+      "cp27:translations:translations:translation_text_reference:translation_text_reference"
+    ]
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 by-canonical-ref index is private-only."
+  }
+}

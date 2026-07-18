@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "cp26.combined-verification-summary.v1",
+  "checkpoint": "CP26-S07",
+  "proofId": "cp26-combined-verification-s07",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "inheritedVerifierScripts": [],
+  "inheritedBoundaryChecks": [
+    {
+      "checkpoint": "CP22-G10",
+      "mode": "persisted_manifest_and_closeout_boundary_check",
+      "graphManifestPath": "data/graphify/full-private/manifest.json",
+      "vaultManifestPath": "data/vault/full-private/manifest.json",
+      "closeOutPath": "docs/09_sprints/resource_audit_import_prototype/CP22_G10_CLOSE_OUT_REPORT.md"
+    },
+    {
+      "checkpoint": "CP23-A10",
+      "mode": "persisted_reviewer_export_and_closeout_boundary_check",
+      "manifestPath": "data/review/cp23/manifest.json",
+      "closeOutPath": "docs/09_sprints/resource_audit_import_prototype/CP23_A10_CLOSE_OUT_AND_NEXT_SCOPE_DECISION_REPORT.md"
+    },
+    {
+      "checkpoint": "CP24-G09",
+      "mode": "persisted_retrieval_manifest_and_closeout_boundary_check",
+      "manifestPath": "data/retrieval/cp24/manifest.json",
+      "closeOutPath": "docs/09_sprints/resource_audit_import_prototype/CP24_G09_CLOSE_OUT_AND_NEXT_SCOPE_DECISION.md"
+    },
+    {
+      "checkpoint": "CP25-A09",
+      "mode": "persisted_review_action_export_and_closeout_boundary_check",
+      "manifestPath": "data/review/cp25/a07-export-manifest.json",
+      "closeOutPath": "docs/09_sprints/resource_audit_import_prototype/CP25_A09_CLOSE_OUT_AND_NEXT_SCOPE_DECISION.md"
+    }
+  ],
+  "cp26VerifierScripts": [
+    "scripts/check_cp26_s01_snapshot_architecture_source_map.mjs",
+    "scripts/check_cp26_s02_snapshot_contracts.mjs",
+    "scripts/check_cp26_s03_private_snapshot_export.mjs",
+    "scripts/check_cp26_s04_refresh_pipeline.mjs",
+    "scripts/check_cp26_s05_checksum_diff_rollback.mjs",
+    "scripts/check_cp26_s06_private_status_proof.mjs",
+    "scripts/check_cp26_s07_combined_verification.mjs"
+  ],
+  "sourcePointers": {
+    "snapshot": {
+      "snapshotBatchId": "cp26-snapshot-prototype-s03",
+      "manifestPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+      "manifestSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2"
+    },
+    "refresh": {
+      "refreshRunId": "cp26-refresh-prototype-s04",
+      "refreshRunPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+      "refreshRunSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22"
+    },
+    "diff": {
+      "proofId": "cp26-checksum-diff-rollback-proof-s05",
+      "manifestPath": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/manifest.json",
+      "manifestSha256": "6EA40B4E4837FA51AADC51E82807E670C232BE981ED39076256885B111E5F2FD"
+    },
+    "status": {
+      "proofId": "cp26-private-status-proof-s06",
+      "statusProofPath": "data/snapshots/cp26/status/cp26-private-status-proof-s06/status-proof.json",
+      "statusProofSha256": "354BF697CC3386193772B3A3EC6890D00018A4B086A3A56B14ED7C101C8D9ACC"
+    }
+  },
+  "counts": {
+    "inheritedVerifierCount": 0,
+    "inheritedBoundaryCheckCount": 4,
+    "inheritedGateCount": 4,
+    "cp26VerifierCount": 7,
+    "missingRequiredFileCount": 0,
+    "cp22GraphNodeCount": 79657,
+    "cp22GraphEdgeCount": 147689,
+    "cp22VaultArtifactCount": 158,
+    "cp22PublicSafeGraphNodeCount": 0,
+    "cp22PublicSafeGraphEdgeCount": 0,
+    "cp22PublicSafeVaultArtifactCount": 0,
+    "cp23AuditEventCount": 8,
+    "cp23RemediationItemCount": 8,
+    "cp23OpenBlockingRemediationItems": 8,
+    "cp24FixtureCount": 10,
+    "cp24SelectedCandidateCount": 15,
+    "cp24RemediationCount": 72,
+    "cp24PublicSafeCandidateCount": 0,
+    "cp25AuditExportEventCount": 72,
+    "cp25RemediationTransitionCount": 72,
+    "cp25UnresolvedActionCount": 66,
+    "cp25OpenBlockingCount": 12,
+    "cp25PublicSafeCandidateCount": 0,
+    "cp25PublicSafeRouteItemCount": 0,
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "refreshOutputCount": 4,
+    "totalChecksumEntryCount": 17,
+    "unchangedCount": 13,
+    "addedCount": 4,
+    "changedCount": 0,
+    "removedCount": 0,
+    "staleArtifactCount": 0,
+    "mismatchedArtifactCount": 0,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "routeBoundary": {
+    "privateStatusRoute": "GET /api/private-content/snapshots/cp26",
+    "publicSnapshotRouteExists": false,
+    "internalUiRoute": "/review-workbench",
+    "boundedClientPayload": true
+  },
+  "cp22Boundary": {
+    "graphId": "rafiq-full-private-resource-graph",
+    "graphCheckpoint": "CP22-G06",
+    "graphNodeCount": 79657,
+    "graphEdgeCount": 147689,
+    "vaultId": "rafiq-full-private-knowledge-vault",
+    "vaultCheckpoint": "CP22-G07",
+    "vaultArtifactCount": 158,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicReleaseApproved": false
+  },
+  "cp23Boundary": {
+    "exportId": "cp23-a07-reviewer-audit-remediation-export",
+    "checkpoint": "CP23-A07",
+    "auditEvents": 8,
+    "remediationItems": 8,
+    "openBlockingRemediationItems": 8,
+    "privateOnly": true,
+    "publicReleaseApproved": false
+  },
+  "cp24Boundary": {
+    "checkpoint": "CP24-G05",
+    "fixtureCount": 10,
+    "selectedCandidateCount": 15,
+    "remediationCount": 72,
+    "publicSafeCandidateCount": 0,
+    "privateOnly": true,
+    "publicReleaseApproved": false
+  },
+  "cp25Boundary": {
+    "checkpoint": "CP25-A07",
+    "auditExportEventCount": 72,
+    "remediationTransitionCount": 72,
+    "unresolvedActionCount": 66,
+    "openBlockingCount": 12,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "privateOnly": true,
+    "publicReleaseApproved": false
+  },
+  "requiredDocs": [
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S01_SNAPSHOT_ARCHITECTURE_AND_SOURCE_MAP.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S02_SNAPSHOT_CONTRACTS_AND_MANIFEST_SCHEMA.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S03_PRIVATE_SNAPSHOT_EXPORT_PROTOTYPE.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S04_REFRESH_PIPELINE_PROTOTYPE.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S05_CHECKSUM_DIFF_AND_ROLLBACK_PROOF.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S06_PRIVATE_API_AND_INTERNAL_UI_STATUS_PROOF.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_S07_COMBINED_VERIFICATION.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_LIVE_SNAPSHOT_EXPORT_AND_REFRESH_SPRINT_PLAN.md",
+    "docs/09_sprints/resource_audit_import_prototype/CP26_LIVE_SNAPSHOT_EXPORT_AND_REFRESH_ACCEPTANCE_CHECKLIST.md"
+  ],
+  "missingRequiredFiles": [],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S07 combines inherited CP22-CP25 and CP26 S01-S06 private verification gates. Public release remains blocked and no public snapshot route is approved."
+  }
+}

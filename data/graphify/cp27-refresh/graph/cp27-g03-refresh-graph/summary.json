@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "cp27.refresh-graph-summary.v1",
+  "checkpoint": "CP27-G03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "graphId": "rafiq-cp27-refresh-private-resource-graph",
+  "counts": {
+    "totalNodes": 147,
+    "totalEdges": 125,
+    "partitions": 10,
+    "indexes": 12,
+    "sourceGroupCount": 13,
+    "mappedSourceGroupCount": 13,
+    "deferredItemCount": 3,
+    "blockedItemCount": 1,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeNodes": 0,
+    "publicSafeEdges": 0,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "partitionSummary": [
+    {
+      "name": "governance",
+      "path": "partitions/governance.json",
+      "nodeCount": 13,
+      "edgeCount": 11,
+      "checksumSha256": "9F55C698193007ECBB85A25F046A1A79F35146A0688DA0F570BC9851D90447E6",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "hadith",
+      "path": "partitions/hadith.json",
+      "nodeCount": 17,
+      "edgeCount": 15,
+      "checksumSha256": "3B1FE31AE75D3AF6334336C36EBF315013F9AB256C695D5D37776E170B2FC96D",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "hadith-grades",
+      "path": "partitions/hadith-grades.json",
+      "nodeCount": 7,
+      "edgeCount": 6,
+      "checksumSha256": "FB0D6CF66D638736D14040F203A76ADFDA27762A99118CE676E81BCF836E69D8",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "product-evidence",
+      "path": "partitions/product-evidence.json",
+      "nodeCount": 26,
+      "edgeCount": 22,
+      "checksumSha256": "860C73BD8FB01F9A07216F2B613230293850029356AA4987C700699AD458D9A5",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "quality",
+      "path": "partitions/quality.json",
+      "nodeCount": 21,
+      "edgeCount": 17,
+      "checksumSha256": "4ACFEB6C1629489525193FD6EA899A119B50708A8231B2B71DB79E9714B15402",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "quran",
+      "path": "partitions/quran.json",
+      "nodeCount": 16,
+      "edgeCount": 14,
+      "checksumSha256": "ABBAAC98F097A877CC899D8967D0D9786F920E2CC7968877F73FFFCCA36B86F5",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "sources",
+      "path": "partitions/sources.json",
+      "nodeCount": 17,
+      "edgeCount": 14,
+      "checksumSha256": "4C109C6B51D63A27B358A19D8C7A938162BFE7C150EE2610C655241105BB19FB",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "tafsir",
+      "path": "partitions/tafsir.json",
+      "nodeCount": 7,
+      "edgeCount": 6,
+      "checksumSha256": "F3DE4BE035D4F2233DB8BE80142B785A6DFB464B8B873669B0AB9095370B7782",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "topics",
+      "path": "partitions/topics.json",
+      "nodeCount": 14,
+      "edgeCount": 12,
+      "checksumSha256": "76A9780841D9EB15F49C5BC8C12968A175843601F4942FD49B15A4B3C6963008",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "translations",
+      "path": "partitions/translations.json",
+      "nodeCount": 9,
+      "edgeCount": 8,
+      "checksumSha256": "9D9566EA87FAAF05FDE0B06901C97081091277C1042CE17205C730CCC020AB7A",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    }
+  ],
+  "indexSummary": [
+    {
+      "name": "by-ayah-key",
+      "path": "indexes/by-ayah-key.json",
+      "checksumSha256": "BF063F13F606661D7FB037E7457C068BFF4FE62A7483DCFE47492D1404B7F743",
+      "entryCount": 2
+    },
+    {
+      "name": "by-canonical-ref",
+      "path": "indexes/by-canonical-ref.json",
+      "checksumSha256": "C52C0655330B9FA1CC550A5E793776B4E95AEFF1D6854D1ABB1B670FC4D261F9",
+      "entryCount": 263
+    },
+    {
+      "name": "by-edge-id",
+      "path": "indexes/by-edge-id.json",
+      "checksumSha256": "AA2C7132AB9AB167999E3D2C49AF6D2DBFBFA2995BD0D2B30B4E4FF6AE0D1DF2",
+      "entryCount": 125
+    },
+    {
+      "name": "by-hadith-key",
+      "path": "indexes/by-hadith-key.json",
+      "checksumSha256": "D2634AF6091968BE944190678890A63773F0FFBDD1C534F4320ABA3F95D42487",
+      "entryCount": 3
+    },
+    {
+      "name": "by-node-id",
+      "path": "indexes/by-node-id.json",
+      "checksumSha256": "E04EBA5E4863399EC0CEB68D79155BA064B19958C99DF08B9B70A9E09E0FC5E3",
+      "entryCount": 147
+    },
+    {
+      "name": "by-quality-state",
+      "path": "indexes/by-quality-state.json",
+      "checksumSha256": "1917032B6FF34594979E86DA5F50BEA7A6D6BDF3168565FE3ECE911B14DB21D1",
+      "entryCount": 2
+    },
+    {
+      "name": "by-release-state",
+      "path": "indexes/by-release-state.json",
+      "checksumSha256": "4AA51F4B19E85C760929A10B50DF9AFF68EF9ACED6235310BF32F10D5359FED8",
+      "entryCount": 1
+    },
+    {
+      "name": "by-review-state",
+      "path": "indexes/by-review-state.json",
+      "checksumSha256": "146B097320E7A191B7DFBAD0DAE7C73FCD1747DA9C86864D80C6F7295F65F272",
+      "entryCount": 0
+    },
+    {
+      "name": "by-snapshot-id",
+      "path": "indexes/by-snapshot-id.json",
+      "checksumSha256": "2C5B6AAB1D8326CAB46D5879676A150ECC3D6D574CA3D723DA496B06D01A2FEA",
+      "entryCount": 1
+    },
+    {
+      "name": "by-source-id",
+      "path": "indexes/by-source-id.json",
+      "checksumSha256": "C2CCBDD6706B13623DFCEC3B1FA3C8928175ED670249A579C57567E6157BC870",
+      "entryCount": 13
+    },
+    {
+      "name": "by-topic-key",
+      "path": "indexes/by-topic-key.json",
+      "checksumSha256": "B179E9BB947426343907ED1B29E1F91272BC6FF761D418C14C9DB2CA6BF6E694",
+      "entryCount": 2
+    },
+    {
+      "name": "public-boundary",
+      "path": "indexes/public-boundary.json",
+      "checksumSha256": "3DAA26942825A7286F41E308BECE8CBF4AC579A6118A1ACB0CB0F3C48330B3A1",
+      "entryCount": 8
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 refreshed graph is private-only. Public release remains blocked."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "cp27.graph-index.v1",
+  "checkpoint": "CP27-G03",
+  "index": "by-review-state",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "entryCount": 0,
+  "entries": {},
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 by-review-state index is private-only."
+  }
+}

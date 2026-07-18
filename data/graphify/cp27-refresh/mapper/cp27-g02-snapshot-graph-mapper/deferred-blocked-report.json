@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "cp27.mapper-deferred-blocked-report.v1",
+  "checkpoint": "CP27-G02",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "mapperId": "cp27-g02-snapshot-graph-mapper",
+  "unmappedSourceGroups": [],
+  "deferredOrBlockedItems": [
+    {
+      "id": "cp27:g02:deferred:raw-text-bodies",
+      "sourceGroups": [
+        "quran",
+        "translations",
+        "tafsir",
+        "hadith"
+      ],
+      "status": "deferred",
+      "reason": "Raw Quran, translation, tafsir, and hadith text bodies are intentionally not exported by the CP26 prototype snapshot.",
+      "requiredBeforeExpansion": "Approved private source snapshot with licensing, attribution, and validation coverage."
+    },
+    {
+      "id": "cp27:g02:deferred:record-level-raw-lineage",
+      "sourceGroups": [
+        "raw_lineage",
+        "hadith"
+      ],
+      "status": "deferred",
+      "reason": "Raw object inventory is summarized by checked-in manifests and is not expanded to every raw object row.",
+      "requiredBeforeExpansion": "Safe ingest schema snapshot or live export path that does not require secret access."
+    },
+    {
+      "id": "cp27:g02:deferred:live-provenance-release-rows",
+      "sourceGroups": [
+        "source_registry",
+        "quran",
+        "translations",
+        "tafsir",
+        "hadith",
+        "hadith_quality"
+      ],
+      "status": "deferred",
+      "reason": "Live provenance and release-state database rows are not available in CP26-S03 checked-in snapshots.",
+      "requiredBeforeExpansion": "Approved live snapshot export or checked-in safe database extract."
+    },
+    {
+      "id": "cp27:g02:blocked:public-safe-export",
+      "sourceGroups": [
+        "source_registry",
+        "raw_lineage",
+        "quran",
+        "translations",
+        "tafsir",
+        "topics_themes",
+        "hadith",
+        "hadith_quality",
+        "cross_domain_links",
+        "private_retrieval",
+        "private_review",
+        "private_audit",
+        "graph_vault_baseline"
+      ],
+      "status": "blocked",
+      "reason": "Public release remains blocked. Mapper outputs must keep all public-safe graph, edge, vault, and snapshot counts at zero.",
+      "requiredBeforeExpansion": "Separate governance approval and release contract outside CP27."
+    }
+  ],
+  "unresolvedReferenceCount": 77,
+  "highOrCriticalBlockerCount": 30,
+  "counts": {
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "mappedSourceGroupCount": 13,
+    "unmappedSourceGroupCount": 0,
+    "targetPartitionCount": 10,
+    "nodeFamilyCount": 65,
+    "edgeFamilyCount": 60,
+    "indexContributionCount": 12,
+    "deferredItemCount": 3,
+    "blockedItemCount": 1,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G02 mapper outputs are private-only. Public release remains blocked."
+  }
+}

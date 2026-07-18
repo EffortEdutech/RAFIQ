@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "cp26.private-status-proof.v1",
+  "proofId": "cp26-private-status-proof-s06",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s06_private_status_proof.mjs",
+  "apiRoute": "GET /api/private-content/snapshots/cp26",
+  "uiRoute": "/review-workbench",
+  "checkpoint": "CP26-S06",
+  "sourceCheckpoint": "CP26-S05",
+  "notice": {
+    "label": "UNAPPROVED CONTENT - NOT FOR PUBLICATION",
+    "message": "Private RAFIQ development and testing only. Do not expose through public API, public app, exports, or AI answers until approval gates pass.",
+    "publicationStatus": "private_only"
+  },
+  "snapshot": {
+    "snapshotBatchId": "cp26-snapshot-prototype-s03",
+    "checkpoint": "CP26-S03",
+    "generatedAt": "2026-07-16T00:00:00.000Z",
+    "manifestPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+    "manifestSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2",
+    "checksumLedgerPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/checksum-ledger.json",
+    "checksumLedgerSha256": "B491E10824F83D79ACD7E37E2700D378265A5CD5D2BF6005D336DAF56781295A",
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "checksum": {
+    "totalEntries": 13,
+    "newCount": 13,
+    "unchangedCount": 0,
+    "changedCount": 0,
+    "removedCount": 0,
+    "missingCount": 0,
+    "staleCount": 0
+  },
+  "refresh": {
+    "refreshRunId": "cp26-refresh-prototype-s04",
+    "status": "completed_with_unresolved_references",
+    "refreshRunPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+    "refreshRunSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+    "refreshedOutputCount": 4,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30
+  },
+  "diff": {
+    "proofId": "cp26-checksum-diff-rollback-proof-s05",
+    "manifestPath": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/manifest.json",
+    "manifestSha256": "6EA40B4E4837FA51AADC51E82807E670C232BE981ED39076256885B111E5F2FD",
+    "totalChecksumEntryCount": 17,
+    "unchangedCount": 13,
+    "addedCount": 4,
+    "changedCount": 0,
+    "removedCount": 0,
+    "staleArtifactCount": 0,
+    "mismatchedArtifactCount": 0,
+    "detectedMismatchProbeCount": 1
+  },
+  "unresolved": {
+    "reportPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/unresolved-reference-report.json",
+    "total": 77,
+    "blocking": 2,
+    "reviewRequired": 2,
+    "highOrCritical": 2,
+    "sampleCount": 4,
+    "samples": [
+      {
+        "referenceId": "cp26:s04:unresolved:cross_domain_links",
+        "referenceType": "canonical_ref",
+        "sourceGroupKey": "cross_domain_links",
+        "severity": "medium",
+        "blockingStatus": "review_required",
+        "message": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary has 5 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+        "affectedArtifactIds": [
+          "cp26:s04:refresh:cross_domain_links"
+        ]
+      },
+      {
+        "referenceId": "cp26:s04:unresolved:private_retrieval",
+        "referenceType": "retrieval_candidate",
+        "sourceGroupKey": "private_retrieval",
+        "severity": "medium",
+        "blockingStatus": "review_required",
+        "message": "Private Retrieval Candidate, Ranking, Evidence Route, And Validation Handoff Snapshot Summary has 5 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+        "affectedArtifactIds": [
+          "cp26:s04:refresh:private_retrieval"
+        ]
+      },
+      {
+        "referenceId": "cp26:s04:unresolved:private_review",
+        "referenceType": "review_queue_item",
+        "sourceGroupKey": "private_review",
+        "severity": "high",
+        "blockingStatus": "blocking",
+        "message": "Private Review Queue, Assignment, Blocker, And Remediation State Snapshot Summary has 1 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+        "affectedArtifactIds": [
+          "cp26:s04:refresh:private_review"
+        ]
+      },
+      {
+        "referenceId": "cp26:s04:unresolved:private_audit",
+        "referenceType": "audit_event",
+        "sourceGroupKey": "private_audit",
+        "severity": "critical",
+        "blockingStatus": "blocking",
+        "message": "Private Reviewer Action, Decision Ledger, Audit Export, And Remediation Transition Snapshot Summary has 66 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+        "affectedArtifactIds": [
+          "cp26:s04:refresh:private_audit"
+        ]
+      }
+    ]
+  },
+  "rollback": {
+    "manifestPath": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/rollback-manifest.json",
+    "rollbackManifestId": "cp26-rollback-manifest-s05",
+    "rollbackTarget": "generated_private_artifacts_only",
+    "restoreStepCount": 6
+  },
+  "payloadBoundary": {
+    "sendsFullSourceRows": false,
+    "sendsFullGraphDump": false,
+    "sendsFullVaultDump": false,
+    "sendsFullAuditDump": false,
+    "sendsSnapshotRowBodies": false,
+    "boundedUnresolvedSamples": 4
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S06 exposes bounded private snapshot status only. Public release remains blocked and full source, graph, vault, review, and audit dumps are not sent to the client."
+  }
+}

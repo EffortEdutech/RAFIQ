@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "cp26.refreshed-graph-input-summary.v1",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s04_refresh_pipeline.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "graphId": "rafiq-full-private-resource-graph",
+  "deterministicIdPolicy": {
+    "mode": "preserve_existing_ids_when_snapshot_group_identity_matches",
+    "replacementMappingRequired": false,
+    "replacementMappingPath": null
+  },
+  "sourceGroups": [
+    {
+      "groupKey": "source_registry",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "checksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+      "rowCount": 2,
+      "canonicalRefCount": 3,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "raw_lineage",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "checksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B",
+      "rowCount": 1,
+      "canonicalRefCount": 0,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91
+    },
+    {
+      "groupKey": "quran",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "checksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+      "rowCount": 1,
+      "canonicalRefCount": 25061,
+      "provenanceRefCount": 25061,
+      "releaseStateRefCount": 25061,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "translations",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "checksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+      "rowCount": 1,
+      "canonicalRefCount": 31185,
+      "provenanceRefCount": 31185,
+      "releaseStateRefCount": 31185,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "tafsir",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "checksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+      "rowCount": 1,
+      "canonicalRefCount": 18711,
+      "provenanceRefCount": 18711,
+      "releaseStateRefCount": 18711,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 2
+    },
+    {
+      "groupKey": "topics_themes",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "checksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80",
+      "rowCount": 1,
+      "canonicalRefCount": 3562,
+      "provenanceRefCount": 3562,
+      "releaseStateRefCount": 3562,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "hadith",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "checksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+      "rowCount": 1,
+      "canonicalRefCount": 483,
+      "provenanceRefCount": 483,
+      "releaseStateRefCount": 483,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "hadith_quality",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "checksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5",
+      "rowCount": 1,
+      "canonicalRefCount": 211,
+      "provenanceRefCount": 120,
+      "releaseStateRefCount": 120,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91
+    },
+    {
+      "groupKey": "cross_domain_links",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "checksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+      "rowCount": 1,
+      "canonicalRefCount": 79656,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 0
+    },
+    {
+      "groupKey": "private_retrieval",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "checksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313",
+      "rowCount": 1,
+      "canonicalRefCount": 87,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 59
+    },
+    {
+      "groupKey": "private_review",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "checksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462",
+      "rowCount": 1,
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 1,
+      "qualityWarningCount": 18
+    },
+    {
+      "groupKey": "private_audit",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "checksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B",
+      "rowCount": 1,
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 66,
+      "qualityWarningCount": 12
+    },
+    {
+      "groupKey": "graph_vault_baseline",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "checksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+      "rowCount": 1,
+      "canonicalRefCount": 79657,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0
+    }
+  ],
+  "counts": {
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "canonicalRefCount": 238760,
+    "provenanceRefCount": 79158,
+    "releaseStateRefCount": 79128,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "baseline": {
+    "graphNodeCount": 79657,
+    "graphUnresolvedReferenceCount": 5
+  },
+  "warnings": [
+    "CP26-S04 rebuilds a graph input summary from CP26 snapshot groups; it does not regenerate canonical source tables.",
+    "Graph and vault IDs are preserved because the source snapshot identity matches the CP22 baseline."
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S04 graph input summary is private-only. Public release remains blocked."
+  }
+}

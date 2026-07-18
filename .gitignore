@@ -39,3 +39,7 @@ supabase/.temp/
 
 # Raw vendored datasets and cloned source snapshots
 data/raw/
+
+# Graphify generated graph output
+graphify-out/
+.graphify-work/

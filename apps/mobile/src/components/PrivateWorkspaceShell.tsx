@@ -113,7 +113,9 @@ const styles = StyleSheet.create({
     padding: publicSpacing.space32,
   },
   heroCopy: {
-    flex: 1,
+    flexBasis: 0,
+    flexGrow: 1,
+    flexShrink: 1,
     gap: publicSpacing.space8,
     minWidth: 260,
   },
@@ -136,9 +138,11 @@ const styles = StyleSheet.create({
     maxWidth: 780,
   },
   heroAction: {
+    alignSelf: 'flex-start',
     backgroundColor: publicColors.deepGreen,
     borderRadius: publicRadii.pill,
     color: publicColors.white,
+    flexShrink: 0,
     fontWeight: '900',
     minHeight: 52,
     overflow: 'hidden',

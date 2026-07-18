@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "cp27.graph-index.v1",
+  "checkpoint": "CP27-G03",
+  "index": "by-ayah-key",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "entryCount": 2,
+  "entries": {
+    "cross_domain_links": [
+      "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "cp27:quran:cross_domain_links:cross_domain_link:cross_domain_link",
+      "cp27:quran:cross_domain_links:theme_resource_link:theme_resource_link",
+      "cp27:quran:cross_domain_links:edge_family:ayah_to_hadith",
+      "cp27:quran:cross_domain_links:edge_family:related_hadith_to_hadith"
+    ],
+    "quran": [
+      "cp27:quran:quran:snapshot_group:quran",
+      "cp27:quran:quran:quran_surah:quran_surah",
+      "cp27:quran:quran:quran_ayah:quran_ayah",
+      "cp27:quran:quran:quran_text_edition:quran_text_edition",
+      "cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+      "cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+      "cp27:quran:quran:quran_partition:quran_partition",
+      "cp27:quran:quran:edge_family:quran_surah_to_ayah",
+      "cp27:quran:quran:edge_family:quran_ayah_to_text_edition",
+      "cp27:quran:quran:edge_family:quran_ayah_to_partition",
+      "cp27:quran:quran:edge_family:quran_partition_scheme_to_partition"
+    ]
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 by-ayah-key index is private-only."
+  }
+}

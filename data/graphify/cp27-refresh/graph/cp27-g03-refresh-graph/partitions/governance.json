@@ -1,0 +1,974 @@
+{
+  "schemaVersion": "cp27.graph-partition.v1",
+  "checkpoint": "CP27-G03",
+  "partition": "governance",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "nodeCount": 13,
+  "edgeCount": 11,
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "rawTextBodiesExported": false,
+  "nodes": [
+    {
+      "id": "cp27:governance:graph_vault_baseline:baseline_graph_manifest:baseline_graph_manifest",
+      "type": "baseline_graph_manifest",
+      "label": "graph_vault_baseline baseline_graph_manifest",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:baseline_graph_manifest"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:baseline_graph_manifest:baseline_graph_manifest is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:baseline_graph_partition:baseline_graph_partition",
+      "type": "baseline_graph_partition",
+      "label": "graph_vault_baseline baseline_graph_partition",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:baseline_graph_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:baseline_graph_partition:baseline_graph_partition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:baseline_vault_artifact:baseline_vault_artifact",
+      "type": "baseline_vault_artifact",
+      "label": "graph_vault_baseline baseline_vault_artifact",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:baseline_vault_artifact"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:baseline_vault_artifact:baseline_vault_artifact is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition",
+      "type": "edge_family",
+      "label": "graph_vault_baseline baseline_graph_manifest_to_partition",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_graph_manifest_to_partition",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:edge_family:baseline_to_refresh_mapper",
+      "type": "edge_family",
+      "label": "graph_vault_baseline baseline_to_refresh_mapper",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge_family:baseline_to_refresh_mapper"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:edge_family:baseline_to_refresh_mapper is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_to_refresh_mapper",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact",
+      "type": "edge_family",
+      "label": "graph_vault_baseline baseline_vault_manifest_to_artifact",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_vault_manifest_to_artifact",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "type": "snapshot_group",
+      "label": "Existing CP22 Graph And Vault Baseline Snapshot Summary",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 79657,
+        "provenanceRefCount": 18,
+        "releaseStateRefCount": 3,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:edge_family:source_snapshot_to_checksum",
+      "type": "edge_family",
+      "label": "source_registry source_snapshot_to_checksum",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:edge_family:source_snapshot_to_checksum"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:edge_family:source_snapshot_to_checksum is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "source_snapshot_to_checksum",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:edge_family:source_snapshot_to_release_state",
+      "type": "edge_family",
+      "label": "source_registry source_snapshot_to_release_state",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:edge_family:source_snapshot_to_release_state"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:edge_family:source_snapshot_to_release_state is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "source_snapshot_to_release_state",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:licensing_boundary:licensing_boundary",
+      "type": "licensing_boundary",
+      "label": "source_registry licensing_boundary",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:licensing_boundary"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:licensing_boundary:licensing_boundary is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "type": "snapshot_group",
+      "label": "Source Registry, Manifest, Licensing, Attribution, And Checksum Backbone",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:snapshot_group:source_registry is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 2,
+        "canonicalRefCount": 3,
+        "provenanceRefCount": 18,
+        "releaseStateRefCount": 3,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:source_checksum:source_checksum",
+      "type": "source_checksum",
+      "label": "source_registry source_checksum",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:source_checksum"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:source_checksum:source_checksum is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:governance:source_registry:source_registry_entry:source_registry_entry",
+      "type": "source_registry_entry",
+      "label": "source_registry source_registry_entry",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:source_registry_entry"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:governance:source_registry:source_registry_entry:source_registry_entry is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cp27:edge:baseline_graph_manifest_to_partition:a51e256e2cee66ba",
+      "type": "baseline_graph_manifest_to_partition",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:edge_family:baseline_graph_manifest_to_partition",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge:baseline_graph_manifest_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:baseline_graph_manifest_to_partition:a51e256e2cee66ba is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_graph_manifest_to_partition",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:baseline_to_refresh_mapper:7fe28d66b432683b",
+      "type": "baseline_to_refresh_mapper",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:edge_family:baseline_to_refresh_mapper",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge:baseline_to_refresh_mapper"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:baseline_to_refresh_mapper:7fe28d66b432683b is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_to_refresh_mapper",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:baseline_vault_manifest_to_artifact:0a8a981bd2fc4004",
+      "type": "baseline_vault_manifest_to_artifact",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:edge_family:baseline_vault_manifest_to_artifact",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:edge:baseline_vault_manifest_to_artifact"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:baseline_vault_manifest_to_artifact:0a8a981bd2fc4004 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "baseline_vault_manifest_to_artifact",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:014856abea864368",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:baseline_graph_partition:baseline_graph_partition",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:node_family:baseline_graph_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:014856abea864368 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:0853d79b7f683dbe",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "to": "cp27:governance:source_registry:source_registry_entry:source_registry_entry",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:node_family:source_registry_entry"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:0853d79b7f683dbe is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:1fa34a2540cc1bd4",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "to": "cp27:governance:source_registry:source_checksum:source_checksum",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:node_family:source_checksum"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:1fa34a2540cc1bd4 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:4e70b6d07d3bf930",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:baseline_vault_artifact:baseline_vault_artifact",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:node_family:baseline_vault_artifact"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:4e70b6d07d3bf930 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:984889e0ba44463d",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "to": "cp27:governance:source_registry:licensing_boundary:licensing_boundary",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:node_family:licensing_boundary"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:984889e0ba44463d is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:9f1f9d59633b849b",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+      "to": "cp27:governance:graph_vault_baseline:baseline_graph_manifest:baseline_graph_manifest",
+      "partition": "governance",
+      "sourceGroupKey": "graph_vault_baseline",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline:node_family:baseline_graph_manifest"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+        "cp26:s03:snapshot:graph_vault_baseline",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:9f1f9d59633b849b is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:source_snapshot_to_checksum:f7c65547e3418881",
+      "type": "source_snapshot_to_checksum",
+      "from": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "to": "cp27:governance:source_registry:edge_family:source_snapshot_to_checksum",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:edge:source_snapshot_to_checksum"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:source_snapshot_to_checksum:f7c65547e3418881 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "source_snapshot_to_checksum",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:source_snapshot_to_release_state:e05e38c58ebf9fec",
+      "type": "source_snapshot_to_release_state",
+      "from": "cp27:governance:source_registry:snapshot_group:source_registry",
+      "to": "cp27:governance:source_registry:edge_family:source_snapshot_to_release_state",
+      "partition": "governance",
+      "sourceGroupKey": "source_registry",
+      "canonicalRefs": [
+        "snapshot_group:source_registry:edge:source_snapshot_to_release_state"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+        "cp26:s03:snapshot:source_registry",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:source_snapshot_to_release_state:e05e38c58ebf9fec is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "source_snapshot_to_release_state",
+        "baselineComparisonMode": "matched"
+      }
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 governance partition is private-only."
+  }
+}

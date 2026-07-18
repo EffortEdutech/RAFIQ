@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "cp26.latest-verification-pointer.v1",
+  "proofId": "cp26-combined-verification-s07",
+  "summaryPath": "data/snapshots/cp26/verification/cp26-combined-verification-s07/combined-verification-summary.json",
+  "summarySha256": "2822E2DDC46E0048D8A21E8C0EE79AA54D2F81FF80C7F132747D9EE2FF82B38A",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S07 combines inherited CP22-CP25 and CP26 S01-S06 private verification gates. Public release remains blocked and no public snapshot route is approved."
+  },
+  "refs": {
+    "summary": {
+      "path": "data/snapshots/cp26/verification/cp26-combined-verification-s07/combined-verification-summary.json",
+      "sha256": "2822E2DDC46E0048D8A21E8C0EE79AA54D2F81FF80C7F132747D9EE2FF82B38A"
+    },
+    "latestSnapshot": {
+      "path": "data/snapshots/cp26/latest-manifest.json",
+      "sha256": "E24ACBE75CABC1EC19AD32C5904B4D52F6B1B4D25F925953435842200AF3889A"
+    },
+    "latestRefresh": {
+      "path": "data/snapshots/cp26/latest-refresh.json",
+      "sha256": "E1743494BCA7C7DA6D703F854F16331343DE4DE0C06CE559362CEFCDBAEA2BBE"
+    },
+    "latestDiff": {
+      "path": "data/snapshots/cp26/latest-diff.json",
+      "sha256": "5617CB688CE71FC1E67372F62E67F7FE9667A08766C9EF3118C946385A72EFE4"
+    },
+    "latestStatus": {
+      "path": "data/snapshots/cp26/latest-status.json",
+      "sha256": "80FA76D62C5908328C2FB51CBDF44E004DF4E4D847A8BC1796A9185EDB0AE7D0"
+    }
+  }
+}

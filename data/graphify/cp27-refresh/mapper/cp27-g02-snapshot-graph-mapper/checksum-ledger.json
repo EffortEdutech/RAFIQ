@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "cp27.mapper-checksum-ledger.v1",
+  "checkpoint": "CP27-G02",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "mapperId": "cp27-g02-snapshot-graph-mapper",
+  "artifacts": [
+    {
+      "path": "data/graphify/cp27-refresh/mapper/cp27-g02-snapshot-graph-mapper/mapper-contract.json",
+      "checksumSha256": "2B479D11D1C34E5825FAFB5857B5AB0D18E85AFF9725CF05CA335CD3FBF64571",
+      "byteCount": 3766
+    },
+    {
+      "path": "data/graphify/cp27-refresh/mapper/cp27-g02-snapshot-graph-mapper/source-group-mapping.json",
+      "checksumSha256": "6A8606AE3ED757821C4FDD0F118142E34344D815AFA4E37811840774B33FB179",
+      "byteCount": 31607
+    },
+    {
+      "path": "data/graphify/cp27-refresh/mapper/cp27-g02-snapshot-graph-mapper/node-edge-plan.json",
+      "checksumSha256": "BA0FF705CA0F9BBC5BB7B1E4A4357F8D03492C737F7BD68D5A460459611F803D",
+      "byteCount": 15893
+    },
+    {
+      "path": "data/graphify/cp27-refresh/mapper/cp27-g02-snapshot-graph-mapper/deferred-blocked-report.json",
+      "checksumSha256": "914B6019E28F20DBE9B44235C289773E4D1E67364AC4A80BE03F8030E6DEA4FE",
+      "byteCount": 3453
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G02 mapper outputs are private-only. Public release remains blocked."
+  }
+}

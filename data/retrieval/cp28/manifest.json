@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "cp28.retrieval-artifact-manifest.v1",
+  "checkpoint": "CP28-R02",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp28_r02_candidate_collection.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactPaths": {
+    "candidateCollection": "data/retrieval/cp28/candidate-collection.json"
+  },
+  "checksums": {
+    "candidateCollectionSha256": "2586B628DCACDCB0F0BC18E6186530C474C41D2C8F1D23D07416F959E4158B8E",
+    "cp27GraphManifestSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+    "cp27VaultManifestSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+    "cp24ManifestSha256": "269F0B97C708929C68E680F445971D88890B99AD002F770257DC562A7F63B1AE"
+  },
+  "counts": {
+    "fixtureCount": 10,
+    "candidateCount": 70,
+    "collectedCount": 0,
+    "requiresReviewCandidateCount": 55,
+    "requiresEscalationCandidateCount": 15,
+    "unresolvedSeedCount": 0,
+    "remediationReasonCount": 5,
+    "sourceIndexCount": 6,
+    "cp27UnresolvedReferenceCount": 77,
+    "cp27HighOrCriticalBlockerCount": 30,
+    "publicSafeCandidateCount": 0
+  },
+  "sourceGraph": {
+    "graphId": "rafiq-cp27-refresh-private-resource-graph",
+    "graphPointerPath": "data/graphify/cp27-refresh/latest-graph.json",
+    "graphManifestPath": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/manifest.json",
+    "graphManifestSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+    "graphChecksumSha256": "87A6E4DEDE1E1D5F2BB481119767BF8D9193832C6FDE410C9A3325B0AB6F8335",
+    "nodeCount": 147,
+    "edgeCount": 125,
+    "indexCount": 12,
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0
+  },
+  "sourceVault": {
+    "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+    "vaultPointerPath": "data/vault/cp27-refresh/latest-vault.json",
+    "vaultManifestPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+    "vaultManifestSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+    "artifactCount": 26,
+    "publicSafeArtifactCount": 0
+  },
+  "regressionBaseline": {
+    "cp24ManifestPath": "data/retrieval/cp24/manifest.json",
+    "cp24CandidateCount": 87,
+    "cp24SelectedCandidateCount": 15,
+    "cp24PublicSafeCandidateCount": 0,
+    "note": "CP24 fixtures are regression labels only. CP28-R02 collects candidates from CP27 snapshot-backed graph indexes."
+  },
+  "verifier": {
+    "command": "node scripts/check_cp28_r02_candidate_collection.mjs",
+    "status": "pending"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP28-R02 candidate collection is private-only. Public release remains blocked and public-safe candidate count is zero."
+  }
+}

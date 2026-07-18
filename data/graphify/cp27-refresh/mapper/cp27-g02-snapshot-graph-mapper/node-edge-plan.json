@@ -1,0 +1,586 @@
+{
+  "schemaVersion": "cp27.node-edge-family-plan.v1",
+  "checkpoint": "CP27-G02",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "mapperId": "cp27-g02-snapshot-graph-mapper",
+  "targetPartitions": [
+    "governance",
+    "hadith",
+    "hadith-grades",
+    "product-evidence",
+    "quality",
+    "quran",
+    "sources",
+    "tafsir",
+    "topics",
+    "translations"
+  ],
+  "nodeFamilies": [
+    "attribution_policy",
+    "audit_actor_reference",
+    "audit_event",
+    "baseline_graph_index",
+    "baseline_graph_manifest",
+    "baseline_graph_partition",
+    "baseline_vault_artifact",
+    "baseline_vault_manifest",
+    "cross_domain_link",
+    "decision_ledger_entry",
+    "evidence_route",
+    "hadith_book",
+    "hadith_chapter",
+    "hadith_collection",
+    "hadith_edition",
+    "hadith_grade_assertion",
+    "hadith_grade_normalization",
+    "hadith_record",
+    "hadith_reference",
+    "hadith_text_version_reference",
+    "hadith_verification_claim",
+    "hadith_verification_reference",
+    "import_run",
+    "licensing_boundary",
+    "parser_assignment",
+    "private_retrieval_trace",
+    "private_review_queue_item",
+    "private_search_document",
+    "quality_finding",
+    "quran_ayah",
+    "quran_ayah_text_reference",
+    "quran_hadith_link",
+    "quran_partition",
+    "quran_partition_scheme",
+    "quran_surah",
+    "quran_text_edition",
+    "raw_lineage_summary",
+    "related_ayah_link",
+    "related_hadith_link",
+    "remediation_state",
+    "remediation_transition",
+    "retrieval_candidate",
+    "review_assignment",
+    "review_blocker",
+    "review_decision_context",
+    "source_ayah_theme_group",
+    "source_checksum",
+    "source_manifest",
+    "source_registry_entry",
+    "source_snapshot",
+    "source_taxonomy",
+    "source_topic",
+    "tafsir_ayah_link",
+    "tafsir_edition",
+    "tafsir_passage_reference",
+    "theme",
+    "theme_label",
+    "theme_resource_link",
+    "transformation_event",
+    "translation_chunk",
+    "translation_edition",
+    "translation_footnote_reference",
+    "translation_text_reference",
+    "validation_finding",
+    "validation_handoff"
+  ],
+  "edgeFamilies": [
+    "audit_event_to_decision_ledger_entry",
+    "audit_event_to_graph_ref",
+    "audit_event_to_review_queue_item",
+    "ayah_to_hadith",
+    "baseline_graph_manifest_to_index",
+    "baseline_graph_manifest_to_partition",
+    "baseline_to_refresh_mapper",
+    "baseline_to_snapshot_batch",
+    "baseline_vault_manifest_to_artifact",
+    "candidate_to_evidence_route",
+    "decision_ledger_entry_to_remediation_transition",
+    "evidence_route_to_validation_handoff",
+    "grade_assertion_to_normalization",
+    "grade_assertion_to_quality_state",
+    "hadith_book_to_chapter",
+    "hadith_chapter_to_record",
+    "hadith_collection_to_edition",
+    "hadith_edition_to_book",
+    "hadith_record_to_grade_assertion",
+    "hadith_record_to_reference",
+    "hadith_record_to_text_version_reference",
+    "hadith_record_to_verification_claim",
+    "parser_assignment_to_source_snapshot",
+    "quran_ayah_to_partition",
+    "quran_ayah_to_text_edition",
+    "quran_partition_scheme_to_partition",
+    "quran_surah_to_ayah",
+    "raw_lineage_summary_to_import_run",
+    "raw_lineage_summary_to_validation_finding",
+    "related_ayah_to_ayah",
+    "related_hadith_to_hadith",
+    "retrieval_trace_to_candidate",
+    "review_blocker_to_remediation_state",
+    "review_queue_item_to_assignment",
+    "review_queue_item_to_blocker",
+    "review_queue_item_to_graph_ref",
+    "review_queue_item_to_review_state",
+    "search_document_to_graph_ref",
+    "source_ayah_theme_group_to_ayah",
+    "source_registry_entry_to_manifest",
+    "source_snapshot_to_checksum",
+    "source_snapshot_to_provenance",
+    "source_snapshot_to_release_state",
+    "source_to_licensing_boundary",
+    "source_topic_to_ayah",
+    "source_topic_to_theme",
+    "tafsir_edition_to_passage_reference",
+    "tafsir_passage_reference_to_ayah",
+    "tafsir_passage_reference_to_source",
+    "theme_to_ayah",
+    "theme_to_hadith",
+    "theme_to_label",
+    "theme_to_theme",
+    "translation_chunk_to_translation_text_reference",
+    "translation_edition_to_text_reference",
+    "translation_text_reference_to_ayah",
+    "translation_text_reference_to_footnote",
+    "validation_finding_to_quality_state",
+    "validation_handoff_to_validation_gate",
+    "verification_claim_to_reference"
+  ],
+  "indexContributions": [
+    "by-ayah-key",
+    "by-canonical-ref",
+    "by-edge-id",
+    "by-hadith-key",
+    "by-node-id",
+    "by-quality-state",
+    "by-release-state",
+    "by-review-state",
+    "by-snapshot-id",
+    "by-source-id",
+    "by-topic-key",
+    "public-boundary"
+  ],
+  "baselineComparisonModes": [
+    "added",
+    "changed",
+    "deferred",
+    "matched"
+  ],
+  "groupPlan": [
+    {
+      "sourceGroupKey": "source_registry",
+      "targetPartitions": [
+        "sources",
+        "governance"
+      ],
+      "nodeFamilies": [
+        "source_manifest",
+        "source_registry_entry",
+        "source_snapshot",
+        "source_checksum",
+        "attribution_policy",
+        "licensing_boundary"
+      ],
+      "edgeFamilies": [
+        "source_registry_entry_to_manifest",
+        "source_snapshot_to_checksum",
+        "source_snapshot_to_provenance",
+        "source_snapshot_to_release_state",
+        "source_to_licensing_boundary"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-source-id",
+        "by-snapshot-id",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "raw_lineage",
+      "targetPartitions": [
+        "quality",
+        "sources"
+      ],
+      "nodeFamilies": [
+        "raw_lineage_summary",
+        "import_run",
+        "validation_finding",
+        "transformation_event",
+        "parser_assignment"
+      ],
+      "edgeFamilies": [
+        "raw_lineage_summary_to_import_run",
+        "raw_lineage_summary_to_validation_finding",
+        "validation_finding_to_quality_state",
+        "parser_assignment_to_source_snapshot"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-snapshot-id",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "deferred"
+    },
+    {
+      "sourceGroupKey": "quran",
+      "targetPartitions": [
+        "quran"
+      ],
+      "nodeFamilies": [
+        "quran_surah",
+        "quran_ayah",
+        "quran_text_edition",
+        "quran_ayah_text_reference",
+        "quran_partition_scheme",
+        "quran_partition"
+      ],
+      "edgeFamilies": [
+        "quran_surah_to_ayah",
+        "quran_ayah_to_text_edition",
+        "quran_ayah_to_partition",
+        "quran_partition_scheme_to_partition"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "translations",
+      "targetPartitions": [
+        "translations"
+      ],
+      "nodeFamilies": [
+        "translation_edition",
+        "translation_text_reference",
+        "translation_footnote_reference",
+        "translation_chunk"
+      ],
+      "edgeFamilies": [
+        "translation_edition_to_text_reference",
+        "translation_text_reference_to_ayah",
+        "translation_text_reference_to_footnote",
+        "translation_chunk_to_translation_text_reference"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "tafsir",
+      "targetPartitions": [
+        "tafsir"
+      ],
+      "nodeFamilies": [
+        "tafsir_edition",
+        "tafsir_passage_reference",
+        "tafsir_ayah_link"
+      ],
+      "edgeFamilies": [
+        "tafsir_edition_to_passage_reference",
+        "tafsir_passage_reference_to_ayah",
+        "tafsir_passage_reference_to_source"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "topics_themes",
+      "targetPartitions": [
+        "topics"
+      ],
+      "nodeFamilies": [
+        "source_taxonomy",
+        "source_topic",
+        "theme",
+        "theme_label",
+        "source_ayah_theme_group"
+      ],
+      "edgeFamilies": [
+        "source_topic_to_ayah",
+        "source_topic_to_theme",
+        "theme_to_label",
+        "theme_to_theme",
+        "source_ayah_theme_group_to_ayah"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-topic-key",
+        "by-ayah-key",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "hadith",
+      "targetPartitions": [
+        "hadith"
+      ],
+      "nodeFamilies": [
+        "hadith_collection",
+        "hadith_edition",
+        "hadith_book",
+        "hadith_chapter",
+        "hadith_record",
+        "hadith_text_version_reference",
+        "hadith_reference"
+      ],
+      "edgeFamilies": [
+        "hadith_collection_to_edition",
+        "hadith_edition_to_book",
+        "hadith_book_to_chapter",
+        "hadith_chapter_to_record",
+        "hadith_record_to_text_version_reference",
+        "hadith_record_to_reference"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-hadith-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "hadith_quality",
+      "targetPartitions": [
+        "hadith-grades",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "hadith_grade_assertion",
+        "hadith_grade_normalization",
+        "hadith_verification_claim",
+        "hadith_verification_reference",
+        "quality_finding"
+      ],
+      "edgeFamilies": [
+        "hadith_record_to_grade_assertion",
+        "grade_assertion_to_normalization",
+        "hadith_record_to_verification_claim",
+        "verification_claim_to_reference",
+        "grade_assertion_to_quality_state"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-hadith-key",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    },
+    {
+      "sourceGroupKey": "cross_domain_links",
+      "targetPartitions": [
+        "quran",
+        "hadith",
+        "topics",
+        "product-evidence"
+      ],
+      "nodeFamilies": [
+        "cross_domain_link",
+        "quran_hadith_link",
+        "related_ayah_link",
+        "related_hadith_link",
+        "theme_resource_link"
+      ],
+      "edgeFamilies": [
+        "ayah_to_hadith",
+        "theme_to_hadith",
+        "theme_to_ayah",
+        "related_ayah_to_ayah",
+        "related_hadith_to_hadith"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-hadith-key",
+        "by-topic-key",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "changed"
+    },
+    {
+      "sourceGroupKey": "private_retrieval",
+      "targetPartitions": [
+        "product-evidence"
+      ],
+      "nodeFamilies": [
+        "private_search_document",
+        "private_retrieval_trace",
+        "retrieval_candidate",
+        "evidence_route",
+        "validation_handoff"
+      ],
+      "edgeFamilies": [
+        "search_document_to_graph_ref",
+        "retrieval_trace_to_candidate",
+        "candidate_to_evidence_route",
+        "evidence_route_to_validation_handoff",
+        "validation_handoff_to_validation_gate"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "changed"
+    },
+    {
+      "sourceGroupKey": "private_review",
+      "targetPartitions": [
+        "product-evidence",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "private_review_queue_item",
+        "review_assignment",
+        "review_blocker",
+        "remediation_state",
+        "review_decision_context"
+      ],
+      "edgeFamilies": [
+        "review_queue_item_to_graph_ref",
+        "review_queue_item_to_assignment",
+        "review_queue_item_to_blocker",
+        "review_blocker_to_remediation_state",
+        "review_queue_item_to_review_state"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "added"
+    },
+    {
+      "sourceGroupKey": "private_audit",
+      "targetPartitions": [
+        "product-evidence",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "audit_event",
+        "decision_ledger_entry",
+        "remediation_transition",
+        "audit_actor_reference"
+      ],
+      "edgeFamilies": [
+        "audit_event_to_decision_ledger_entry",
+        "decision_ledger_entry_to_remediation_transition",
+        "audit_event_to_review_queue_item",
+        "audit_event_to_graph_ref"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "added"
+    },
+    {
+      "sourceGroupKey": "graph_vault_baseline",
+      "targetPartitions": [
+        "governance",
+        "sources"
+      ],
+      "nodeFamilies": [
+        "baseline_graph_manifest",
+        "baseline_vault_manifest",
+        "baseline_graph_partition",
+        "baseline_graph_index",
+        "baseline_vault_artifact"
+      ],
+      "edgeFamilies": [
+        "baseline_graph_manifest_to_partition",
+        "baseline_graph_manifest_to_index",
+        "baseline_vault_manifest_to_artifact",
+        "baseline_to_snapshot_batch",
+        "baseline_to_refresh_mapper"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-snapshot-id",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched"
+    }
+  ],
+  "counts": {
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "mappedSourceGroupCount": 13,
+    "unmappedSourceGroupCount": 0,
+    "targetPartitionCount": 10,
+    "nodeFamilyCount": 65,
+    "edgeFamilyCount": 60,
+    "indexContributionCount": 12,
+    "deferredItemCount": 3,
+    "blockedItemCount": 1,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G02 mapper outputs are private-only. Public release remains blocked."
+  }
+}

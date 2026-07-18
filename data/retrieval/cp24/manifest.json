@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "cp24.retrieval-artifact-manifest.v1",
+  "checkpoint": "CP24-G05",
+  "generatedAt": "2026-07-16T10:40:47.577Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactPaths": {
+    "candidateExpansion": "data/retrieval/cp24/candidate-expansion.json",
+    "rankingSelection": "data/retrieval/cp24/ranking-selection.json",
+    "validationHandoff": "data/retrieval/cp24/validation-handoff.json"
+  },
+  "checksums": {
+    "candidateExpansionSha256": "5E75C3D85FF8FA13E0F14914B5613DA12EA7D27542C27C2DBBBA3425BE645F9D",
+    "rankingSelectionSha256": "CEA23A0FB15E06C5B76771DDC9B461CE4B6C8C4DDA2C4917E45409215B8E5A6D",
+    "validationHandoffSha256": "F8C2F720A4FFBB7FBC98539FA856600FF931217AFBB8EB65D993C58C41E93016"
+  },
+  "counts": {
+    "fixtureCount": 10,
+    "candidateCount": 87,
+    "selectedCandidateCount": 0,
+    "requiresReviewCandidateCount": 74,
+    "requiresEscalationCandidateCount": 13,
+    "rejectedCandidateCount": 0,
+    "unresolvedSeedCount": 1,
+    "publicSafeCandidateCount": 0,
+    "rankingSelection": {
+      "fixtureCount": 10,
+      "candidateCount": 87,
+      "selectedCandidateCount": 15,
+      "heldCandidateCount": 58,
+      "rejectedCandidateCount": 1,
+      "requiresEscalationCandidateCount": 13,
+      "ordinaryScoredCandidateCount": 74,
+      "ordinaryAverageScore": 62.86,
+      "escalationOutcomeCount": 13,
+      "publicSafeCandidateCount": 0,
+      "prohibitedInferenceFindingCount": 0
+    },
+    "validationHandoff": {
+      "fixtureCount": 10,
+      "evidenceRouteCount": 10,
+      "selectedRouteItemCount": 15,
+      "rejectedRouteItemCount": 59,
+      "escalationRouteItemCount": 13,
+      "validationGateResultCount": 110,
+      "remediationCount": 72,
+      "highOrCriticalRemediationCount": 18,
+      "unresolvedReferenceCount": 5,
+      "missingCitationCount": 59,
+      "escalationOutcomeCount": 2,
+      "publicSafeRouteItemCount": 0
+    }
+  },
+  "sourceGraph": {
+    "graphId": "rafiq-full-private-resource-graph",
+    "graphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98",
+    "nodeCount": 79657,
+    "edgeCount": 147689,
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0
+  },
+  "sourceVault": {
+    "vaultId": "rafiq-full-private-knowledge-vault",
+    "artifactCount": 158,
+    "publicSafeArtifactCount": 0
+  },
+  "verifier": {
+    "command": "node scripts/check_cp24_g05_validation_handoff.mjs",
+    "status": "pending"
+  }
+}

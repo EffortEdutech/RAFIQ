@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "cp25.transition-rules.v1",
+  "checkpoint": "CP25-A04",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "actionTargetStatus": {
+    "claim": "in_review",
+    "request_technical_review": "technical_review",
+    "request_content_review": "content_review",
+    "request_scholar_review": "scholar_review",
+    "request_product_owner_review": "product_owner_review",
+    "request_remediation": "remediation_required",
+    "approve_private": "resolved_private",
+    "mark_public_candidate": "approved_public_candidate",
+    "reject": "rejected",
+    "defer": "deferred",
+    "retire": "retired"
+  },
+  "allowedTransitions": {
+    "queued": [
+      "in_review",
+      "technical_review",
+      "content_review",
+      "scholar_review",
+      "deferred",
+      "rejected"
+    ],
+    "in_review": [
+      "technical_review",
+      "content_review",
+      "scholar_review",
+      "product_owner_review",
+      "remediation_required",
+      "resolved_private",
+      "rejected",
+      "deferred"
+    ],
+    "technical_review": [
+      "content_review",
+      "scholar_review",
+      "remediation_required",
+      "resolved_private",
+      "rejected"
+    ],
+    "content_review": [
+      "scholar_review",
+      "product_owner_review",
+      "remediation_required",
+      "resolved_private",
+      "rejected"
+    ],
+    "scholar_review": [
+      "product_owner_review",
+      "remediation_required",
+      "resolved_private",
+      "rejected"
+    ],
+    "product_owner_review": [
+      "approved_public_candidate",
+      "resolved_private",
+      "rejected",
+      "deferred"
+    ],
+    "remediation_required": [
+      "technical_review",
+      "content_review",
+      "scholar_review",
+      "resolved_private",
+      "rejected"
+    ],
+    "resolved_private": [
+      "product_owner_review",
+      "retired"
+    ],
+    "approved_public_candidate": [
+      "retired",
+      "rejected"
+    ],
+    "rejected": [
+      "retired"
+    ],
+    "deferred": [
+      "queued",
+      "retired"
+    ]
+  },
+  "requiredNotesPolicy": [
+    "Notes are required for every action except low/medium claim actions.",
+    "Notes are required for all high and critical queue items.",
+    "Notes are required for scholar, Product Owner, remediation, rejection, deferral, retirement, private approval, and public-candidate routing.",
+    "Notes must not contain secrets, service keys, raw private prompts, or private user reflections."
+  ],
+  "immutableEventOrdering": {
+    "appendOnly": true,
+    "eventSequenceStartsAt": 1,
+    "eventSequenceMustBeContiguous": true,
+    "auditEventsMustNotBeOverwritten": true
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+  }
+}

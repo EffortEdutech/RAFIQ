@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "cp25.review-queue-remediation-state-summary.v1",
+  "checkpoint": "CP25-A03",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "sourceCheckpoint": "CP24-G09",
+  "sourceArtifacts": {
+    "cp24Manifest": "data/retrieval/cp24/manifest.json",
+    "cp24ValidationHandoff": "data/retrieval/cp24/validation-handoff.json"
+  },
+  "counts": {
+    "cp24RemediationCount": 72,
+    "representedCp24RemediationCount": 72,
+    "explicitlyDeferredCp24RemediationCount": 0,
+    "queueItemCount": 72,
+    "remediationStateCount": 72,
+    "highOrCriticalQueueItemCount": 18,
+    "openBlockingCount": 18,
+    "unresolvedReferenceCount": 1,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "roleAssignmentSummary": {
+    "technical_reviewer": 41,
+    "knowledge_editor": 16,
+    "scholar_reviewer": 9,
+    "product_owner": 6
+  },
+  "queueTypeSummary": {
+    "remediation": 27,
+    "source_gap": 5,
+    "grade_assertion": 2,
+    "verification_claim": 5,
+    "escalation": 13,
+    "answer_validation": 10,
+    "release_boundary": 10
+  },
+  "severitySummary": {
+    "low": 32,
+    "medium": 22,
+    "high": 5,
+    "critical": 13
+  },
+  "blockerSummary": {
+    "review_required": 54,
+    "blocking": 18
+  },
+  "unresolvedReferences": [
+    {
+      "queueItemId": "cp25-queue:candidate:cp24-fixture-source-gap-001:unresolved",
+      "candidateId": "candidate:cp24-fixture-source-gap-001:unresolved",
+      "remediationId": "remediation:candidate:cp24-fixture-source-gap-001:unresolved",
+      "evidenceRouteId": "evidence-route:cp24-fixture-source-gap-001:cp24-g05",
+      "assignedRole": "technical_reviewer",
+      "requiredActions": [
+        "request_technical_review",
+        "request_remediation"
+      ]
+    }
+  ],
+  "explicitlyDeferredCp24RemediationIds": [],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A03 exports private reviewer workbench state only. Public release remains blocked."
+  }
+}

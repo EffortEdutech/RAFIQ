@@ -35,6 +35,13 @@ function themesText(ayah: QuranSurahAyah) {
   return combined.length ? combined.join(' - ') : 'Related themes will appear here when available.';
 }
 
+const TRANSLATION_OPTIONS = [
+  { key: 'qul-en-sahih-simple', label: 'English', detail: 'Saheeh' },
+  { key: 'tanzil-en-sahih', label: 'English', detail: 'Tanzil' },
+  { key: 'qul-ms-basamia-simple', label: 'Malay', detail: 'Basamia' },
+  { key: 'tanzil-ms-basmeih', label: 'Malay', detail: 'Basmeih' },
+];
+
 export default function AyahStudyRoom() {
   const params = useLocalSearchParams<{ surahNumber: string; ayahNumber: string }>();
   const surahNumber = Number(params.surahNumber ?? 1);
@@ -45,13 +52,14 @@ export default function AyahStudyRoom() {
   const [guidanceLoading, setGuidanceLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [arabicFontFamily] = useState(getArabicFontPreference);
+  const [selectedTranslation, setSelectedTranslation] = useState(TRANSLATION_OPTIONS[0].key);
 
   useEffect(() => {
     let mounted = true;
     setLoading(true);
     setError(null);
     setPayload(null);
-    getQuranSurah(surahNumber)
+    getQuranSurah(surahNumber, { translation: selectedTranslation })
       .then((nextPayload) => {
         if (mounted) setPayload(nextPayload);
       })
@@ -65,7 +73,7 @@ export default function AyahStudyRoom() {
     return () => {
       mounted = false;
     };
-  }, [surahNumber]);
+  }, [selectedTranslation, surahNumber]);
 
   const ayah = useMemo(
     () => payload?.ayahs.find((item) => item.ayahNumber === ayahNumber) ?? null,
@@ -131,12 +139,43 @@ export default function AyahStudyRoom() {
 
       <View style={styles.panel}>
         <Text style={styles.kicker}>Meaning</Text>
+        <View style={styles.translationSelector} accessibilityRole="tablist">
+          {TRANSLATION_OPTIONS.map((option) => {
+            const active = selectedTranslation === option.key;
+            return (
+              <Pressable
+                accessibilityRole="tab"
+                accessibilityState={{ selected: active }}
+                key={option.key}
+                onPress={() => setSelectedTranslation(option.key)}
+                style={[styles.translationOption, active ? styles.translationOptionActive : null]}
+              >
+                <Text style={[styles.translationOptionLabel, active ? styles.translationOptionLabelActive : null]}>
+                  {option.label}
+                </Text>
+                <Text style={[styles.translationOptionDetail, active ? styles.translationOptionDetailActive : null]}>
+                  {option.detail}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
         <Text style={styles.body}>{ayah.translation?.text ?? 'No translation is available for this ayah yet.'}</Text>
+        <Text style={styles.translationMeta}>
+          {payload.editions.translation.translatorName ??
+            payload.editions.translation.title ??
+            payload.editions.translation.editionKey}
+        </Text>
       </View>
 
       <View style={styles.panel}>
         <Text style={styles.kicker}>Tafsir</Text>
         <Text style={styles.body}>{tafsirText(ayah)}</Text>
+        {tafsir ? (
+          <Link href={`/tafsir/${tafsir.passageId}` as never} style={styles.inlineStudyLink}>
+            Open tafsir room
+          </Link>
+        ) : null}
       </View>
 
       <View style={styles.panel}>
@@ -253,6 +292,61 @@ const styles = StyleSheet.create({
   body: {
     ...companionTypography.body,
     color: companionColors.ink,
+  },
+  translationSelector: {
+    backgroundColor: companionColors.paperWarm,
+    borderColor: companionColors.line,
+    borderRadius: companionRadii.sm,
+    borderWidth: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 4,
+    padding: 4,
+  },
+  translationOption: {
+    borderRadius: companionRadii.xs,
+    minHeight: 34,
+    minWidth: 74,
+    paddingHorizontal: companionSpacing.xs,
+    paddingVertical: 5,
+  },
+  translationOptionActive: {
+    backgroundColor: companionColors.night,
+  },
+  translationOptionLabel: {
+    color: companionColors.ink,
+    fontSize: 11,
+    fontWeight: '900',
+  },
+  translationOptionLabelActive: {
+    color: companionColors.white,
+  },
+  translationOptionDetail: {
+    color: companionColors.inkSoft,
+    fontSize: 10,
+    fontWeight: '700',
+  },
+  translationOptionDetailActive: {
+    color: companionColors.mint,
+  },
+  translationMeta: {
+    color: companionColors.inkSoft,
+    fontSize: 11,
+    fontWeight: '700',
+  },
+  inlineStudyLink: {
+    alignSelf: 'flex-start',
+    backgroundColor: companionColors.paperWarm,
+    borderColor: companionColors.line,
+    borderRadius: companionRadii.sm,
+    borderWidth: 1,
+    color: companionColors.ink,
+    fontSize: 12,
+    fontWeight: '800',
+    minHeight: 38,
+    overflow: 'hidden',
+    paddingHorizontal: companionSpacing.sm,
+    paddingVertical: companionSpacing.sm,
   },
   linkRow: {
     flexDirection: 'row',

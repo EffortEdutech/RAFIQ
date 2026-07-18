@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "cp27.graph-index.v1",
+  "checkpoint": "CP27-G03",
+  "index": "by-topic-key",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "entryCount": 2,
+  "entries": {
+    "cross_domain_links": [
+      "cp27:topics:cross_domain_links:snapshot_group:cross_domain_links",
+      "cp27:topics:cross_domain_links:related_ayah_link:related_ayah_link",
+      "cp27:topics:cross_domain_links:edge_family:theme_to_ayah"
+    ],
+    "topics_themes": [
+      "cp27:topics:topics_themes:snapshot_group:topics_themes",
+      "cp27:topics:topics_themes:source_taxonomy:source_taxonomy",
+      "cp27:topics:topics_themes:source_topic:source_topic",
+      "cp27:topics:topics_themes:theme:theme",
+      "cp27:topics:topics_themes:theme_label:theme_label",
+      "cp27:topics:topics_themes:source_ayah_theme_group:source_ayah_theme_group",
+      "cp27:topics:topics_themes:edge_family:source_topic_to_ayah",
+      "cp27:topics:topics_themes:edge_family:source_topic_to_theme",
+      "cp27:topics:topics_themes:edge_family:theme_to_label",
+      "cp27:topics:topics_themes:edge_family:theme_to_theme",
+      "cp27:topics:topics_themes:edge_family:source_ayah_theme_group_to_ayah"
+    ]
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 by-topic-key index is private-only."
+  }
+}

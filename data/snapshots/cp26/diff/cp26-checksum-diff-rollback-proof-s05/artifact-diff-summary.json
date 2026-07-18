@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "cp26.artifact-diff-summary.v1",
+  "proofId": "cp26-checksum-diff-rollback-proof-s05",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s05_checksum_diff_rollback.mjs",
+  "beforeArtifacts": [
+    {
+      "artifactId": "cp26:s03:snapshot:source_registry",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:raw_lineage",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:quran",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:translations",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:tafsir",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:topics_themes",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith_quality",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:cross_domain_links",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_retrieval",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_review",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_audit",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B"
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:graph_vault_baseline",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "status": "unchanged",
+      "checksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA"
+    }
+  ],
+  "afterArtifacts": [
+    {
+      "artifactId": "cp26:s04:refreshed:graph-input-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-graph-input-summary.json",
+      "status": "added",
+      "checksumSha256": "EB3833382D3A8DD131B4C51172ABF2DD6AC4AE834BF645FECF05CD5B6C2E9BA8"
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:retrieval-handoff-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-retrieval-handoff-summary.json",
+      "status": "added",
+      "checksumSha256": "EF563CF2A69F436D9556677359B8E6A23BD5A89FBFE128DDBEC384F9E51332A3"
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:reviewer-remediation-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-reviewer-remediation-summary.json",
+      "status": "added",
+      "checksumSha256": "B78A6EFA958AD2A3D2D47995DC0B327C9FBD928864D3D80565B152BC37135B16"
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:unresolved-reference-report",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/unresolved-reference-report.json",
+      "status": "added",
+      "checksumSha256": "22749490296B2E178C3B4FCC992427D59A6A1AC0816CE4DA3830929A681CD391"
+    }
+  ],
+  "counts": {
+    "beforeArtifactCount": 13,
+    "afterArtifactCount": 4,
+    "unchangedArtifactCount": 13,
+    "addedArtifactCount": 4,
+    "changedArtifactCount": 0,
+    "removedArtifactCount": 0,
+    "staleArtifactCount": 0,
+    "mismatchedArtifactCount": 0,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S05 artifact diff summary is private-only. Public release remains blocked."
+  }
+}

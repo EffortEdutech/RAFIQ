@@ -24,6 +24,7 @@ export type GuidanceSessionStatus =
   | 'ready'
   | 'blocked_no_evidence'
   | 'scholar_escalation'
+  | 'safety_escalation'
   | 'saved'
   | 'completed';
 
@@ -74,6 +75,30 @@ export type GuidanceSessionVerification = {
   requiresScholarReview: boolean;
   reviewStatus: string;
   evidence: PrivateAnswerEvidenceItem[];
+};
+
+export type GuidanceSessionRiskClass =
+  | 'ordinary_reflection'
+  | 'no_evidence'
+  | 'scholar_escalation'
+  | 'safety_escalation'
+  | 'medical_legal'
+  | 'weak_or_unverified_hadith';
+
+export type GuidanceSessionEscalationRoute =
+  | 'none'
+  | 'scholar'
+  | 'safety'
+  | 'professional'
+  | 'source_search';
+
+export type GuidanceSessionRiskAssessment = {
+  riskClass: GuidanceSessionRiskClass;
+  responseState: PrivateAnswerResponseState;
+  summary: string;
+  matchedTerms: string[];
+  escalationRoute: GuidanceSessionEscalationRoute;
+  userBoundary: string;
 };
 
 export type GuidanceSessionGuidance = {
@@ -142,6 +167,7 @@ export type GuidanceSession = {
   quranAnchor: GuidanceSessionQuranAnchor | null;
   sunnahSupport: GuidanceSessionSunnahSupport[];
   verification: GuidanceSessionVerification;
+  riskAssessment: GuidanceSessionRiskAssessment;
   guidance: GuidanceSessionGuidance;
   learningPath?: GuidanceSessionLearningPath;
   researchSuggestions?: GuidanceResearchSuggestion[];

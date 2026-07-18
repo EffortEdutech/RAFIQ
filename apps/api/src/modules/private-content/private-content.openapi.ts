@@ -179,6 +179,63 @@ export class QuranSurahResponseDto {
   ayahs!: QuranAyahDto[];
 }
 
+export class TafsirStudyPassageDto {
+  @ApiProperty()
+  passageId!: string;
+
+  @ApiProperty()
+  passageKey!: string;
+
+  @ApiProperty()
+  text!: string;
+
+  @ApiProperty()
+  blankText!: boolean;
+
+  @ApiPropertyOptional()
+  sourceRole?: string;
+
+  @ApiPropertyOptional()
+  sourceOrder?: number;
+
+  @ApiProperty({ type: QuranEditionSummaryDto })
+  edition!: QuranEditionSummaryDto;
+
+  @ApiPropertyOptional({ type: Object, nullable: true })
+  sourceDetailTarget?: Record<string, unknown> | null;
+}
+
+export class TafsirStudyAyahDto {
+  @ApiProperty()
+  surahNumber!: number;
+
+  @ApiProperty()
+  ayahNumber!: number;
+
+  @ApiProperty()
+  verseKey!: string;
+
+  @ApiPropertyOptional()
+  quranText?: string;
+
+  @ApiPropertyOptional()
+  translationText?: string;
+}
+
+export class TafsirStudyResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiPropertyOptional({ type: TafsirStudyPassageDto, nullable: true })
+  passage?: TafsirStudyPassageDto | null;
+
+  @ApiProperty({ type: [TafsirStudyAyahDto] })
+  ayahs!: TafsirStudyAyahDto[];
+
+  @ApiProperty({ type: [TafsirStudyPassageDto] })
+  comparisons!: TafsirStudyPassageDto[];
+}
+
 export class HadithCollectionDto {
   @ApiProperty()
   collectionId!: string;
@@ -316,6 +373,35 @@ export class HadithTextVersionDto {
 
   @ApiPropertyOptional()
   textHash?: string;
+
+  @ApiPropertyOptional({
+    enum: ['blank_text', 'known_broken_phrase', 'repeated_word', 'suspicious_short', 'suspicious_long'],
+    isArray: true,
+  })
+  qualityFlags?: string[];
+
+  @ApiPropertyOptional({ enum: ['ok', 'review', 'withheld'] })
+  qualitySeverity?: string;
+
+  @ApiPropertyOptional()
+  qualitySummary?: string;
+}
+
+export class HadithTextQualitySummaryDto {
+  @ApiProperty({ enum: ['ok', 'review_needed'] })
+  status!: string;
+
+  @ApiProperty()
+  flaggedTextVersionCount!: number;
+
+  @ApiProperty()
+  withheldTextVersionCount!: number;
+
+  @ApiPropertyOptional()
+  displayTextVersionId?: string;
+
+  @ApiProperty()
+  summary!: string;
 }
 
 export class HadithGradeAssertionDto extends HadithGradeSummaryDto {
@@ -371,6 +457,9 @@ export class HadithDetailResponseDto {
   @ApiProperty({ type: [HadithTextVersionDto] })
   textVersions!: HadithTextVersionDto[];
 
+  @ApiPropertyOptional({ type: HadithTextQualitySummaryDto })
+  qualitySummary?: HadithTextQualitySummaryDto;
+
   @ApiProperty({ type: [HadithGradeAssertionDto] })
   gradeAssertions!: HadithGradeAssertionDto[];
 
@@ -398,6 +487,9 @@ export class PrivateSearchReferenceDto {
 export class PrivateSearchTargetDto extends PrivateSearchReferenceDto {
   @ApiProperty()
   route!: string;
+
+  @ApiPropertyOptional()
+  translationTextId?: string;
 
   @ApiPropertyOptional()
   passageId?: string;
@@ -677,6 +769,304 @@ export class PrivateSourceDetailResponseDto {
 
   @ApiProperty({ type: PrivateSourceDetailDto })
   sourceDetail!: PrivateSourceDetailDto;
+}
+
+export class PrivateKnowledgeGraphifyCp21cResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ type: Object })
+  verifier!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  artifactPaths!: Record<string, string>;
+
+  @ApiProperty({ type: Object })
+  scaleBoundary!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  matrix!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  graph!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  vault!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  rankingSummary!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  escalation!: Record<string, unknown>;
+
+  @ApiProperty({ type: [Object] })
+  caseExplorer!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: Object })
+  graphExplorer!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  vaultExplorer!: Record<string, unknown>;
+
+  @ApiProperty({ type: [Object] })
+  lowScoringCases!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: [Object] })
+  remediationList!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: Object })
+  publicSafeBoundary!: Record<string, unknown>;
+}
+
+export class PrivateKnowledgeGraphifyCp22ResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ type: Object })
+  verifier!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  artifactPaths!: Record<string, string>;
+
+  @ApiProperty({ type: Object })
+  graph!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  vault!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  partitionExplorer!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  graphExplorer!: Record<string, unknown>;
+
+  @ApiProperty({ type: [Object] })
+  lookupPaths!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: Object })
+  vaultExplorer!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicSafeBoundary!: Record<string, unknown>;
+}
+
+export class PrivateReviewWorkbenchCp23ResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ type: Object })
+  verifier!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  prototype!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  retrieval!: Record<string, unknown>;
+
+  @ApiProperty({ type: [Object] })
+  evidenceRoutes!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: Object })
+  reviewWorkbench!: Record<string, unknown>;
+
+  @ApiProperty({ type: [Object] })
+  remediationItems!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: [Object] })
+  auditEvents!: Array<Record<string, unknown>>;
+
+  @ApiPropertyOptional({ type: Object })
+  reviewerExports?: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  uiPayloadBoundary!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicSafeBoundary!: Record<string, unknown>;
+}
+
+export class PrivateCp24GraphAwareRetrievalResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ example: 'CP24-G06' })
+  checkpoint!: string;
+
+  @ApiProperty({ example: 'POST /api/private-content/graph-aware-retrieval/cp24' })
+  route!: string;
+
+  @ApiProperty()
+  retrievalTraceId!: string;
+
+  @ApiProperty()
+  graphMode!: string;
+
+  @ApiProperty({ type: Object })
+  query!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  outputCaps!: Record<string, number>;
+
+  @ApiProperty({ type: [Object] })
+  candidates!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: [String] })
+  selectedCandidateIds!: string[];
+
+  @ApiProperty({ type: [String] })
+  heldCandidateIds!: string[];
+
+  @ApiProperty({ type: [String] })
+  rejectedCandidateIds!: string[];
+
+  @ApiProperty({ type: [String] })
+  requiresReviewCandidateIds!: string[];
+
+  @ApiProperty({ type: [String] })
+  requiresEscalationCandidateIds!: string[];
+
+  @ApiProperty({ type: Object })
+  evidenceRoute!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  validationHandoff!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  reviewerHandoff!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  graphProof!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicBoundary!: Record<string, unknown>;
+}
+
+export class PrivateCp25WorkbenchStateResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ example: 'CP25-A05' })
+  checkpoint!: string;
+
+  @ApiProperty({ example: 'GET /api/private-content/reviewer-workbench/cp25' })
+  route!: string;
+
+  @ApiProperty({ example: 'CP24-G09' })
+  sourceCheckpoint!: string;
+
+  @ApiProperty({ type: [Object] })
+  queueItems!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: [Object] })
+  remediationStates!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: [Object] })
+  auditEvents!: Array<Record<string, unknown>>;
+
+  @ApiProperty({ type: Object })
+  counts!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicBoundary!: Record<string, unknown>;
+}
+
+export class PrivateCp25ReviewerActionResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ example: 'CP25-A05' })
+  checkpoint!: string;
+
+  @ApiProperty({ example: 'POST /api/private-content/reviewer-workbench/cp25/actions' })
+  route!: string;
+
+  @ApiProperty({ type: Object })
+  request!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  validation!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  queueItem!: Record<string, unknown>;
+
+  @ApiPropertyOptional({ type: Object, nullable: true })
+  remediationState?: Record<string, unknown> | null;
+
+  @ApiProperty({ type: Object })
+  auditEvent!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicBoundary!: Record<string, unknown>;
+}
+
+export class PrivateCp26SnapshotStatusResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ example: 'CP26-S06' })
+  checkpoint!: string;
+
+  @ApiProperty({ example: 'GET /api/private-content/snapshots/cp26' })
+  route!: string;
+
+  @ApiProperty({ example: 'CP26-S05' })
+  sourceCheckpoint!: string;
+
+  @ApiProperty({ type: Object })
+  snapshot!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  checksum!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  refresh!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  diff!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  unresolved!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  rollback!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicBoundary!: Record<string, unknown>;
+}
+
+export class PrivateCp27InternalUiInspectionResponseDto {
+  @ApiProperty({ type: PrivateContentNoticeDto })
+  notice!: PrivateContentNoticeDto;
+
+  @ApiProperty({ example: 'CP27-G06' })
+  checkpoint!: string;
+
+  @ApiProperty({ example: 'GET /api/private-content/knowledge-graphify/cp27' })
+  route!: string;
+
+  @ApiProperty({ type: Object })
+  sourceCheckpoints!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  verifier!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  graph!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  vault!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  diff!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  responseBoundary!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  artifactPaths!: Record<string, unknown>;
+
+  @ApiProperty({ type: Object })
+  publicBoundary!: Record<string, unknown>;
 }
 
 export class PrivateAnswerEvidenceItemDto {

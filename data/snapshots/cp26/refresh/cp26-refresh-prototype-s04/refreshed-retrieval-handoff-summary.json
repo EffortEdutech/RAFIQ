@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "cp26.refreshed-retrieval-handoff-summary.v1",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s04_refresh_pipeline.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "sourceGroupKey": "private_retrieval",
+  "deterministicIdPolicy": {
+    "mode": "preserve_cp24_candidate_and_route_ids",
+    "replacementMappingRequired": false
+  },
+  "counts": {
+    "candidateRefCount": 87,
+    "unresolvedReferenceCount": 5,
+    "missingCitationOrQualityWarningCount": 59,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "sourceFiles": [
+    "data/retrieval/cp24/candidate-expansion.json",
+    "data/retrieval/cp24/ranking-selection.json",
+    "data/retrieval/cp24/validation-handoff.json"
+  ],
+  "warnings": [
+    "Retrieval refresh summary is derived from CP26 snapshot inputs and remains operational metadata only.",
+    "Unresolved retrieval references are carried forward for reviewer visibility."
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S04 retrieval handoff summary is private-only. Public release remains blocked."
+  }
+}

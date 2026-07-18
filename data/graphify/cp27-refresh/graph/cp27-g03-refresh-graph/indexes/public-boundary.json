@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "cp27.graph-index.v1",
+  "checkpoint": "CP27-G03",
+  "index": "public-boundary",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "entryCount": 8,
+  "entries": {
+    "message": "CP27-G03 refreshed graph partitions and indexes are private-only. Public release remains blocked.",
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "rawTextBodiesExported": false
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 public-boundary index is private-only."
+  }
+}

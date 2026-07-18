@@ -1,0 +1,855 @@
+{
+  "schemaVersion": "cp27.source-group-node-edge-map.v1",
+  "checkpoint": "CP27-G02",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "mapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "mappings": [
+    {
+      "sourceGroupKey": "source_registry",
+      "label": "Source Registry, Manifest, Licensing, Attribution, And Checksum Backbone",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "snapshotChecksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+      "snapshotArtifactId": "cp26:s03:snapshot:source_registry",
+      "rowCount": 2,
+      "canonicalRefCount": 3,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "sources",
+        "governance"
+      ],
+      "nodeFamilies": [
+        "source_manifest",
+        "source_registry_entry",
+        "source_snapshot",
+        "source_checksum",
+        "attribution_policy",
+        "licensing_boundary"
+      ],
+      "edgeFamilies": [
+        "source_registry_entry_to_manifest",
+        "source_snapshot_to_checksum",
+        "source_snapshot_to_provenance",
+        "source_snapshot_to_release_state",
+        "source_to_licensing_boundary"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-source-id",
+        "by-snapshot-id",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:sources:source_registry:snapshot_group:source_registry",
+        "snapshotArtifact": "cp27:sources:source_registry:snapshot_artifact:cp26:s03:snapshot:source_registry"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:afb803283a9739fa"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for source_registry remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "raw_lineage",
+      "label": "Raw Object, Import, Validation, Transformation, And Lineage Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "snapshotChecksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B",
+      "snapshotArtifactId": "cp26:s03:snapshot:raw_lineage",
+      "rowCount": 1,
+      "canonicalRefCount": 0,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91,
+      "targetPartitions": [
+        "quality",
+        "sources"
+      ],
+      "nodeFamilies": [
+        "raw_lineage_summary",
+        "import_run",
+        "validation_finding",
+        "transformation_event",
+        "parser_assignment"
+      ],
+      "edgeFamilies": [
+        "raw_lineage_summary_to_import_run",
+        "raw_lineage_summary_to_validation_finding",
+        "validation_finding_to_quality_state",
+        "parser_assignment_to_source_snapshot"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-snapshot-id",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "deferred",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:quality:raw_lineage:snapshot_group:raw_lineage",
+        "snapshotArtifact": "cp27:quality:raw_lineage:snapshot_artifact:cp26:s03:snapshot:raw_lineage"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:402f19170469b459"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for raw_lineage remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "quran",
+      "label": "Quran Identity, Text Edition, Ayah, And Partition Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "snapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+      "snapshotArtifactId": "cp26:s03:snapshot:quran",
+      "rowCount": 1,
+      "canonicalRefCount": 25061,
+      "provenanceRefCount": 25061,
+      "releaseStateRefCount": 25061,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "quran"
+      ],
+      "nodeFamilies": [
+        "quran_surah",
+        "quran_ayah",
+        "quran_text_edition",
+        "quran_ayah_text_reference",
+        "quran_partition_scheme",
+        "quran_partition"
+      ],
+      "edgeFamilies": [
+        "quran_surah_to_ayah",
+        "quran_ayah_to_text_edition",
+        "quran_ayah_to_partition",
+        "quran_partition_scheme_to_partition"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:quran:quran:snapshot_group:quran",
+        "snapshotArtifact": "cp27:quran:quran:snapshot_artifact:cp26:s03:snapshot:quran"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:f39244f8ae4f122d"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for quran remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "translations",
+      "label": "Translation Edition, Text, Footnote, And Chunk Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "snapshotChecksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+      "snapshotArtifactId": "cp26:s03:snapshot:translations",
+      "rowCount": 1,
+      "canonicalRefCount": 31185,
+      "provenanceRefCount": 31185,
+      "releaseStateRefCount": 31185,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "translations"
+      ],
+      "nodeFamilies": [
+        "translation_edition",
+        "translation_text_reference",
+        "translation_footnote_reference",
+        "translation_chunk"
+      ],
+      "edgeFamilies": [
+        "translation_edition_to_text_reference",
+        "translation_text_reference_to_ayah",
+        "translation_text_reference_to_footnote",
+        "translation_chunk_to_translation_text_reference"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:translations:translations:snapshot_group:translations",
+        "snapshotArtifact": "cp27:translations:translations:snapshot_artifact:cp26:s03:snapshot:translations"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:f490583a1653a965"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for translations remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "tafsir",
+      "label": "Tafsir Edition, Passage, And Ayah Link Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "snapshotChecksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+      "snapshotArtifactId": "cp26:s03:snapshot:tafsir",
+      "rowCount": 1,
+      "canonicalRefCount": 18711,
+      "provenanceRefCount": 18711,
+      "releaseStateRefCount": 18711,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 2,
+      "targetPartitions": [
+        "tafsir"
+      ],
+      "nodeFamilies": [
+        "tafsir_edition",
+        "tafsir_passage_reference",
+        "tafsir_ayah_link"
+      ],
+      "edgeFamilies": [
+        "tafsir_edition_to_passage_reference",
+        "tafsir_passage_reference_to_ayah",
+        "tafsir_passage_reference_to_source"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-release-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+        "snapshotArtifact": "cp27:tafsir:tafsir:snapshot_artifact:cp26:s03:snapshot:tafsir"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:b9f3d26ec2927437"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for tafsir remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "topics_themes",
+      "label": "Source Topic, Theme, Mapping, And Ayah Group Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "snapshotChecksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80",
+      "snapshotArtifactId": "cp26:s03:snapshot:topics_themes",
+      "rowCount": 1,
+      "canonicalRefCount": 3562,
+      "provenanceRefCount": 3562,
+      "releaseStateRefCount": 3562,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "topics"
+      ],
+      "nodeFamilies": [
+        "source_taxonomy",
+        "source_topic",
+        "theme",
+        "theme_label",
+        "source_ayah_theme_group"
+      ],
+      "edgeFamilies": [
+        "source_topic_to_ayah",
+        "source_topic_to_theme",
+        "theme_to_label",
+        "theme_to_theme",
+        "source_ayah_theme_group_to_ayah"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-topic-key",
+        "by-ayah-key",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:topics:topics_themes:snapshot_group:topics_themes",
+        "snapshotArtifact": "cp27:topics:topics_themes:snapshot_artifact:cp26:s03:snapshot:topics_themes"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:7ebbe4e4c1bf64fb"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for topics_themes remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "hadith",
+      "label": "Hadith Collection, Edition, Book, Chapter, Record, Text Version, And Reference Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "snapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+      "snapshotArtifactId": "cp26:s03:snapshot:hadith",
+      "rowCount": 1,
+      "canonicalRefCount": 483,
+      "provenanceRefCount": 483,
+      "releaseStateRefCount": 483,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "hadith"
+      ],
+      "nodeFamilies": [
+        "hadith_collection",
+        "hadith_edition",
+        "hadith_book",
+        "hadith_chapter",
+        "hadith_record",
+        "hadith_text_version_reference",
+        "hadith_reference"
+      ],
+      "edgeFamilies": [
+        "hadith_collection_to_edition",
+        "hadith_edition_to_book",
+        "hadith_book_to_chapter",
+        "hadith_chapter_to_record",
+        "hadith_record_to_text_version_reference",
+        "hadith_record_to_reference"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-hadith-key",
+        "by-release-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:hadith:hadith:snapshot_group:hadith",
+        "snapshotArtifact": "cp27:hadith:hadith:snapshot_artifact:cp26:s03:snapshot:hadith"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:d1dcc5fc0e6c6a96"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for hadith remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "hadith_quality",
+      "label": "Hadith Grade, Normalization, Verification, And Quality Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "snapshotChecksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5",
+      "snapshotArtifactId": "cp26:s03:snapshot:hadith_quality",
+      "rowCount": 1,
+      "canonicalRefCount": 211,
+      "provenanceRefCount": 120,
+      "releaseStateRefCount": 120,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91,
+      "targetPartitions": [
+        "hadith-grades",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "hadith_grade_assertion",
+        "hadith_grade_normalization",
+        "hadith_verification_claim",
+        "hadith_verification_reference",
+        "quality_finding"
+      ],
+      "edgeFamilies": [
+        "hadith_record_to_grade_assertion",
+        "grade_assertion_to_normalization",
+        "hadith_record_to_verification_claim",
+        "verification_claim_to_reference",
+        "grade_assertion_to_quality_state"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-hadith-key",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality",
+        "snapshotArtifact": "cp27:hadith-grades:hadith_quality:snapshot_artifact:cp26:s03:snapshot:hadith_quality"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:0fdf6dea4dd92dd6"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for hadith_quality remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "cross_domain_links",
+      "label": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "snapshotChecksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+      "snapshotArtifactId": "cp26:s03:snapshot:cross_domain_links",
+      "rowCount": 1,
+      "canonicalRefCount": 79656,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "quran",
+        "hadith",
+        "topics",
+        "product-evidence"
+      ],
+      "nodeFamilies": [
+        "cross_domain_link",
+        "quran_hadith_link",
+        "related_ayah_link",
+        "related_hadith_link",
+        "theme_resource_link"
+      ],
+      "edgeFamilies": [
+        "ayah_to_hadith",
+        "theme_to_hadith",
+        "theme_to_ayah",
+        "related_ayah_to_ayah",
+        "related_hadith_to_hadith"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-ayah-key",
+        "by-hadith-key",
+        "by-topic-key",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "changed",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+        "snapshotArtifact": "cp27:quran:cross_domain_links:snapshot_artifact:cp26:s03:snapshot:cross_domain_links"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:a3e7c4b5b1edadef"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for cross_domain_links remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "private_retrieval",
+      "label": "Private Retrieval Candidate, Ranking, Evidence Route, And Validation Handoff Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "snapshotChecksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313",
+      "snapshotArtifactId": "cp26:s03:snapshot:private_retrieval",
+      "rowCount": 1,
+      "canonicalRefCount": 87,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 59,
+      "targetPartitions": [
+        "product-evidence"
+      ],
+      "nodeFamilies": [
+        "private_search_document",
+        "private_retrieval_trace",
+        "retrieval_candidate",
+        "evidence_route",
+        "validation_handoff"
+      ],
+      "edgeFamilies": [
+        "search_document_to_graph_ref",
+        "retrieval_trace_to_candidate",
+        "candidate_to_evidence_route",
+        "evidence_route_to_validation_handoff",
+        "validation_handoff_to_validation_gate"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "changed",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:product-evidence:private_retrieval:snapshot_group:private_retrieval",
+        "snapshotArtifact": "cp27:product-evidence:private_retrieval:snapshot_artifact:cp26:s03:snapshot:private_retrieval"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:58405ecff2c047d0"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for private_retrieval remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "private_review",
+      "label": "Private Review Queue, Assignment, Blocker, And Remediation State Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "snapshotChecksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462",
+      "snapshotArtifactId": "cp26:s03:snapshot:private_review",
+      "rowCount": 1,
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 1,
+      "qualityWarningCount": 18,
+      "targetPartitions": [
+        "product-evidence",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "private_review_queue_item",
+        "review_assignment",
+        "review_blocker",
+        "remediation_state",
+        "review_decision_context"
+      ],
+      "edgeFamilies": [
+        "review_queue_item_to_graph_ref",
+        "review_queue_item_to_assignment",
+        "review_queue_item_to_blocker",
+        "review_blocker_to_remediation_state",
+        "review_queue_item_to_review_state"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "added",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:product-evidence:private_review:snapshot_group:private_review",
+        "snapshotArtifact": "cp27:product-evidence:private_review:snapshot_artifact:cp26:s03:snapshot:private_review"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:200cfa164a5fd417"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for private_review remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "private_audit",
+      "label": "Private Reviewer Action, Decision Ledger, Audit Export, And Remediation Transition Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "snapshotChecksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B",
+      "snapshotArtifactId": "cp26:s03:snapshot:private_audit",
+      "rowCount": 1,
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 66,
+      "qualityWarningCount": 12,
+      "targetPartitions": [
+        "product-evidence",
+        "quality"
+      ],
+      "nodeFamilies": [
+        "audit_event",
+        "decision_ledger_entry",
+        "remediation_transition",
+        "audit_actor_reference"
+      ],
+      "edgeFamilies": [
+        "audit_event_to_decision_ledger_entry",
+        "decision_ledger_entry_to_remediation_transition",
+        "audit_event_to_review_queue_item",
+        "audit_event_to_graph_ref"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-review-state",
+        "by-quality-state",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "added",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:product-evidence:private_audit:snapshot_group:private_audit",
+        "snapshotArtifact": "cp27:product-evidence:private_audit:snapshot_artifact:cp26:s03:snapshot:private_audit"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:1e12188bdd39f41d"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for private_audit remains private-only. Public release remains blocked."
+      }
+    },
+    {
+      "sourceGroupKey": "graph_vault_baseline",
+      "label": "Existing CP22 Graph And Vault Baseline Snapshot Summary",
+      "status": "mapped",
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "snapshotChecksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+      "snapshotArtifactId": "cp26:s03:snapshot:graph_vault_baseline",
+      "rowCount": 1,
+      "canonicalRefCount": 79657,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "targetPartitions": [
+        "governance",
+        "sources"
+      ],
+      "nodeFamilies": [
+        "baseline_graph_manifest",
+        "baseline_vault_manifest",
+        "baseline_graph_partition",
+        "baseline_graph_index",
+        "baseline_vault_artifact"
+      ],
+      "edgeFamilies": [
+        "baseline_graph_manifest_to_partition",
+        "baseline_graph_manifest_to_index",
+        "baseline_vault_manifest_to_artifact",
+        "baseline_to_snapshot_batch",
+        "baseline_to_refresh_mapper"
+      ],
+      "indexContributions": [
+        "by-node-id",
+        "by-edge-id",
+        "by-canonical-ref",
+        "by-snapshot-id",
+        "public-boundary"
+      ],
+      "baselineComparisonMode": "matched",
+      "exampleNodeIds": {
+        "snapshotGroup": "cp27:governance:graph_vault_baseline:snapshot_group:graph_vault_baseline",
+        "snapshotArtifact": "cp27:governance:graph_vault_baseline:snapshot_artifact:cp26:s03:snapshot:graph_vault_baseline"
+      },
+      "exampleEdgeIds": {
+        "snapshotGroupToArtifact": "cp27:edge:snapshot_group_to_artifact:ae5b2d8f152a39ff"
+      },
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G02 mapper for graph_vault_baseline remains private-only. Public release remains blocked."
+      }
+    }
+  ],
+  "counts": {
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "mappedSourceGroupCount": 13,
+    "unmappedSourceGroupCount": 0,
+    "targetPartitionCount": 10,
+    "nodeFamilyCount": 65,
+    "edgeFamilyCount": 60,
+    "indexContributionCount": 12,
+    "deferredItemCount": 3,
+    "blockedItemCount": 1,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G02 mapper outputs are private-only. Public release remains blocked."
+  }
+}

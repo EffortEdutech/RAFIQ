@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "cp26.hadith.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "hadith",
+  "label": "Hadith Collection, Edition, Book, Chapter, Record, Text Version, And Reference Snapshot Summary",
+  "sourceTables": [
+    "content.hadith_collections",
+    "content.hadith_editions",
+    "content.hadith_books",
+    "content.hadith_chapters",
+    "content.hadith_records",
+    "content.hadith_text_versions",
+    "content.hadith_references",
+    "content.hadith_record_mappings"
+  ],
+  "sourceFiles": [
+    "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+    "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+    "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "hadith_graph_partition_summary",
+      "partition": "hadith",
+      "nodeCount": 483,
+      "edgeCount": 546,
+      "hadithIndexEntryCount": 87
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 hadith snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Hadith raw text bodies are not exported in CP26-S03. Public rights remain blocked."
+  ]
+}

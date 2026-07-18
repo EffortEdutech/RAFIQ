@@ -1,0 +1,1206 @@
+{
+  "schemaVersion": "cp27.graph-partition.v1",
+  "checkpoint": "CP27-G03",
+  "partition": "quran",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "nodeCount": 16,
+  "edgeCount": 14,
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "rawTextBodiesExported": false,
+  "nodes": [
+    {
+      "id": "cp27:quran:cross_domain_links:cross_domain_link:cross_domain_link",
+      "type": "cross_domain_link",
+      "label": "cross_domain_links cross_domain_link",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:cross_domain_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:cross_domain_links:cross_domain_link:cross_domain_link is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:cross_domain_links:edge_family:ayah_to_hadith",
+      "type": "edge_family",
+      "label": "cross_domain_links ayah_to_hadith",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge_family:ayah_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:cross_domain_links:edge_family:ayah_to_hadith is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "ayah_to_hadith",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:cross_domain_links:edge_family:related_hadith_to_hadith",
+      "type": "edge_family",
+      "label": "cross_domain_links related_hadith_to_hadith",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge_family:related_hadith_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:cross_domain_links:edge_family:related_hadith_to_hadith is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "related_hadith_to_hadith",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "type": "snapshot_group",
+      "label": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:cross_domain_links:snapshot_group:cross_domain_links is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 79656,
+        "provenanceRefCount": 0,
+        "releaseStateRefCount": 0,
+        "unresolvedReferenceCount": 5,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:cross_domain_links:theme_resource_link:theme_resource_link",
+      "type": "theme_resource_link",
+      "label": "cross_domain_links theme_resource_link",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:theme_resource_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:cross_domain_links:theme_resource_link:theme_resource_link is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:edge_family:quran_ayah_to_partition",
+      "type": "edge_family",
+      "label": "quran quran_ayah_to_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge_family:quran_ayah_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:edge_family:quran_ayah_to_partition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_ayah_to_partition",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:edge_family:quran_ayah_to_text_edition",
+      "type": "edge_family",
+      "label": "quran quran_ayah_to_text_edition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge_family:quran_ayah_to_text_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:edge_family:quran_ayah_to_text_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_ayah_to_text_edition",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:edge_family:quran_partition_scheme_to_partition",
+      "type": "edge_family",
+      "label": "quran quran_partition_scheme_to_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge_family:quran_partition_scheme_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:edge_family:quran_partition_scheme_to_partition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_partition_scheme_to_partition",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:edge_family:quran_surah_to_ayah",
+      "type": "edge_family",
+      "label": "quran quran_surah_to_ayah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge_family:quran_surah_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:edge_family:quran_surah_to_ayah is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_surah_to_ayah",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+      "type": "quran_ayah_text_reference",
+      "label": "quran quran_ayah_text_reference",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_ayah_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_ayah:quran_ayah",
+      "type": "quran_ayah",
+      "label": "quran quran_ayah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_ayah:quran_ayah is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+      "type": "quran_partition_scheme",
+      "label": "quran quran_partition_scheme",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_partition_scheme"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_partition_scheme:quran_partition_scheme is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_partition:quran_partition",
+      "type": "quran_partition",
+      "label": "quran quran_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_partition:quran_partition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_surah:quran_surah",
+      "type": "quran_surah",
+      "label": "quran quran_surah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_surah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_surah:quran_surah is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:quran_text_edition:quran_text_edition",
+      "type": "quran_text_edition",
+      "label": "quran quran_text_edition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:quran_text_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:quran_text_edition:quran_text_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:quran:quran:snapshot_group:quran",
+      "type": "snapshot_group",
+      "label": "Quran Identity, Text Edition, Ayah, And Partition Snapshot Summary",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:quran:quran:snapshot_group:quran is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 25061,
+        "provenanceRefCount": 25061,
+        "releaseStateRefCount": 25061,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cp27:edge:ayah_to_hadith:7929fe4b10d10291",
+      "type": "ayah_to_hadith",
+      "from": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:quran:cross_domain_links:edge_family:ayah_to_hadith",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge:ayah_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:ayah_to_hadith:7929fe4b10d10291 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "ayah_to_hadith",
+        "baselineComparisonMode": "changed"
+      }
+    },
+    {
+      "id": "cp27:edge:quran_ayah_to_partition:06433848a7113371",
+      "type": "quran_ayah_to_partition",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:edge_family:quran_ayah_to_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge:quran_ayah_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:quran_ayah_to_partition:06433848a7113371 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_ayah_to_partition",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:quran_ayah_to_text_edition:92d37d7146c374e7",
+      "type": "quran_ayah_to_text_edition",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:edge_family:quran_ayah_to_text_edition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge:quran_ayah_to_text_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:quran_ayah_to_text_edition:92d37d7146c374e7 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_ayah_to_text_edition",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:quran_partition_scheme_to_partition:dbe65fdbcc070b4d",
+      "type": "quran_partition_scheme_to_partition",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:edge_family:quran_partition_scheme_to_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge:quran_partition_scheme_to_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:quran_partition_scheme_to_partition:dbe65fdbcc070b4d is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_partition_scheme_to_partition",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:quran_surah_to_ayah:56aa469042ffa91b",
+      "type": "quran_surah_to_ayah",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:edge_family:quran_surah_to_ayah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:edge:quran_surah_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:quran_surah_to_ayah:56aa469042ffa91b is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "quran_surah_to_ayah",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:related_hadith_to_hadith:4b3a945309a3a354",
+      "type": "related_hadith_to_hadith",
+      "from": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:quran:cross_domain_links:edge_family:related_hadith_to_hadith",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge:related_hadith_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:related_hadith_to_hadith:4b3a945309a3a354 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "related_hadith_to_hadith",
+        "baselineComparisonMode": "changed"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:06536bfcb506cdc2",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_text_edition:quran_text_edition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_text_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:06536bfcb506cdc2 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:5f3dfb1f2f161d44",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_partition_scheme:quran_partition_scheme",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_partition_scheme"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:5f3dfb1f2f161d44 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:982b51acd69f4fec",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_ayah_text_reference:quran_ayah_text_reference",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_ayah_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:982b51acd69f4fec is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:999ed32b366f9338",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_ayah:quran_ayah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:999ed32b366f9338 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:9e9396b211c3e840",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_partition:quran_partition",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_partition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:9e9396b211c3e840 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:b9d1668c77008412",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:quran:cross_domain_links:theme_resource_link:theme_resource_link",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:node_family:theme_resource_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:b9d1668c77008412 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "changed"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:cdae9f2c0be09140",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:quran:snapshot_group:quran",
+      "to": "cp27:quran:quran:quran_surah:quran_surah",
+      "partition": "quran",
+      "sourceGroupKey": "quran",
+      "canonicalRefs": [
+        "snapshot_group:quran:node_family:quran_surah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+        "cp26:s03:snapshot:quran",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:cdae9f2c0be09140 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:dcac1b354c87973a",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:quran:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:quran:cross_domain_links:cross_domain_link:cross_domain_link",
+      "partition": "quran",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:node_family:cross_domain_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:dcac1b354c87973a is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "changed"
+      }
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 quran partition is private-only."
+  }
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "auditEventId": "cp23-a07-audit:1:cp21c_case:cp21c-ay-001",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-ay-001",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:1:cp21c_case:cp21c-ay-001",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-ay-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:answer_validation_run:cp21c-ay-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:retrieval_trace:c3dde93a-a89f-43bf-b615-5166f12a98aa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-001:search_document:cp21c-ay-001:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-ay-001"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:1:cp21c_case:cp21c-ay-001"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:2:cp21c_case:cp21c-ay-002",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-ay-002",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:2:cp21c_case:cp21c-ay-002",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-ay-002"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:answer_validation_run:cp21c-ay-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:retrieval_trace:58ab55e2-e666-4935-8cdc-b3a73af8202d:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-002:search_document:cp21c-ay-002:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-ay-002"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:2:cp21c_case:cp21c-ay-002"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:3:cp21c_case:cp21c-ay-003",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-ay-003",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:3:cp21c_case:cp21c-ay-003",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-ay-003"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-003:answer_validation_run:cp21c-ay-003:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-003:retrieval_trace:5afdae6d-9ce5-4f40-a275-2ae123b6b57b:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-003:search_document:cp21c-ay-003:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ay-003:search_document:cp21c-ay-003:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-ay-003"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:3:cp21c_case:cp21c-ay-003"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:4:cp21c_case:cp21c-bl-001",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-bl-001",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:4:cp21c_case:cp21c-bl-001",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-bl-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:answer_validation_run:cp21c-bl-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-bl-001:retrieval_trace:e7a47301-c06f-4996-a73b-4ff2186febdb:retrieval",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-bl-001:cp21c_case:cp21c-bl-001:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:full-private:release-boundary",
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-bl-001"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:4:cp21c_case:cp21c-bl-001"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:5:cp21c_case:cp21c-es-001",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-es-001",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:5:cp21c_case:cp21c-es-001",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-es-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-001:answer_validation_run:cp21c-es-001:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-001:retrieval_trace:6fd2846f-0007-4a24-af2a-4a5d69fadaaa:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-001:search_document:cp21c-es-001:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-001:search_document:cp21c-es-001:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-es-001",
+      "vault:full-private:manifest-index"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:5:cp21c_case:cp21c-es-001"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:6:cp21c_case:cp21c-es-002",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-es-002",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:6:cp21c_case:cp21c-es-002",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-es-002"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-002:answer_validation_run:cp21c-es-002:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-002:retrieval_trace:c961bd8d-5ca1-4c6a-a6b6-c90f89927532:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-002:search_document:cp21c-es-002:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-002:search_document:cp21c-es-002:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-es-002",
+      "vault:full-private:manifest-index"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:6:cp21c_case:cp21c-es-002"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:7:cp21c_case:cp21c-es-003",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-es-003",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:7:cp21c_case:cp21c-es-003",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-es-003"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-003:answer_validation_run:cp21c-es-003:validation",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-003:retrieval_trace:2146befe-e3e8-4a1c-acc8-f42602565b4c:retrieval",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-003:search_document:cp21c-es-003:source_map_result:1:source_map_result-1",
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-es-003:search_document:cp21c-es-003:source_map_result:2:source_map_result-2"
+    ],
+    "vaultPackIds": [
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-es-003",
+      "vault:full-private:manifest-index"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:7:cp21c_case:cp21c-es-003"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "auditEventId": "cp23-a07-audit:8:cp21c_case:cp21c-ex-001",
+    "eventType": "remediation_exported",
+    "actorRole": "system_exporter",
+    "action": "request_remediation",
+    "fromStatus": "queued",
+    "toStatus": "remediation_required",
+    "reviewerRole": "knowledge_editor",
+    "reviewerId": null,
+    "subjectType": "cp21c_case",
+    "subjectId": "cp21c_case:cp21c-ex-001",
+    "evidenceRouteId": "cp23-route:prototype-graph-aware-guidance",
+    "queueItemId": "cp23-a07-queue:8:cp21c_case:cp21c-ex-001",
+    "sourceIds": [
+      "cp21c-resource-graphify-evidence-v1"
+    ],
+    "graphNodeIds": [
+      "cp21c_case:cp21c-ex-001"
+    ],
+    "graphEdgeIds": [
+      "edge:cp21c_case_uses_evidence:cp21c_case:cp21c-ex-001:answer_validation_run:cp21c-ex-001:validation",
+      "edge:vault_note_describes:vault_note:cp21c:cp21c-ex-001:cp21c_case:cp21c-ex-001:cp21c"
+    ],
+    "vaultPackIds": [
+      "vault:validation:summary",
+      "vault:validation:cp21c_case:cp21c-ex-001",
+      "vault:full-private:manifest-index"
+    ],
+    "remediationIds": [
+      "cp23-a07-remediation:8:cp21c_case:cp21c-ex-001"
+    ],
+    "notes": "Confirm source, provenance, release state, text quality, and reviewer status before guidance use.",
+    "createdAt": "2026-07-13T00:00:00.000Z"
+  }
+]

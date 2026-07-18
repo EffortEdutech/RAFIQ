@@ -198,6 +198,16 @@ export default function AskScreen() {
             )}
           </View>
 
+          {session.riskAssessment.escalationRoute !== 'none' ? (
+            <View style={styles.blockedPanel}>
+              <Text style={styles.panelKicker}>
+                {session.riskAssessment.escalationRoute === 'scholar' ? 'Scholar Boundary' : 'Care Boundary'}
+              </Text>
+              <Text style={styles.blockedText}>{session.riskAssessment.userBoundary}</Text>
+              <Text style={styles.verificationText}>{session.guidance.action.label}</Text>
+            </View>
+          ) : null}
+
           <View style={styles.guidanceLayer}>
             <Text style={styles.layerKicker}>Guidance</Text>
             <Text style={styles.layerText}>

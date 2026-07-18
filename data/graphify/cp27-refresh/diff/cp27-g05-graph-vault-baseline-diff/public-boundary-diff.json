@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "cp27.public-boundary-diff.v1",
+  "proofId": "cp27-g05-graph-vault-baseline-diff",
+  "checkpoint": "CP27-G05",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp27_g05_graph_vault_diff.mjs",
+  "graph": {
+    "baselinePublicSafeNodes": 0,
+    "baselinePublicSafeEdges": 0,
+    "refreshedPublicSafeNodes": 0,
+    "refreshedPublicSafeEdges": 0,
+    "status": "matched"
+  },
+  "vault": {
+    "baselinePublicSafeArtifacts": 0,
+    "refreshedPublicSafeArtifacts": 0,
+    "status": "matched"
+  },
+  "publicRelease": {
+    "baselineApproved": false,
+    "refreshedApproved": false,
+    "status": "blocked"
+  },
+  "counts": {
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "blockedCount": 1
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G05 public boundary diff remains blocked for public release."
+  }
+}

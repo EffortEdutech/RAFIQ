@@ -1,0 +1,3479 @@
+{
+  "schemaVersion": "cp22.full-private.v1",
+  "graphId": "rafiq-full-private-resource-graph",
+  "partition": "sources",
+  "generatedAt": "2026-07-12T04:13:21.626Z",
+  "nodes": [
+    {
+      "id": "checksum_manifest:hadith_principal_sha256_2026-06-14.csv",
+      "type": "checksum_manifest",
+      "label": "HADITH_PRINCIPAL_SHA256_2026-06-14.csv",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "checksums",
+        "id": "data/checksums/HADITH_PRINCIPAL_SHA256_2026-06-14.csv"
+      },
+      "sourceRefs": [],
+      "provenanceRefs": [],
+      "releaseStateRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "path": "data/checksums/HADITH_PRINCIPAL_SHA256_2026-06-14.csv",
+        "checksumCount": 164,
+        "generatedAt": null,
+        "checksumSha256": "23F084885905BCD23E80DADDB0B18A7F3CE664AA8744B880719428C5F4F3CAED"
+      }
+    },
+    {
+      "id": "checksum_manifest:sha256sums.txt",
+      "type": "checksum_manifest",
+      "label": "SHA256SUMS.txt",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "checksums",
+        "id": "data/checksums/SHA256SUMS.txt"
+      },
+      "sourceRefs": [],
+      "provenanceRefs": [],
+      "releaseStateRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "path": "data/checksums/SHA256SUMS.txt",
+        "checksumCount": 56,
+        "generatedAt": null,
+        "checksumSha256": "B759C1E00A150B9FCAC3B326AD6021013F67861FE80CE83A6716EEE1AC289411"
+      }
+    },
+    {
+      "id": "manifest:qul-ayah-themes-62",
+      "type": "source_manifest",
+      "label": "qul-ayah-themes-62.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-ayah-themes-62.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-ayah-themes-62"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-ayah-themes-62",
+        "manifestPath": "data/manifests/qul-ayah-themes-62.json",
+        "status": "raw_validated_quality_and_rights_blocked",
+        "recordCountExpected": 1049,
+        "recordCountActual": 2098,
+        "checksumSha256": "080BA8140363C30CC92CE0B526FC0A0BBEA6267ADA8A6AC5D4102D29F6F8BC81",
+        "rawFilePath": "data/raw/tafsir/ayah-themes.db"
+      }
+    },
+    {
+      "id": "manifest:qul-day4-ayah-theme-public-evidence",
+      "type": "source_manifest",
+      "label": "qul-day4-ayah-theme-public-evidence.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-day4-ayah-theme-public-evidence.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-ayah-theme-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-day4-ayah-theme-public-evidence",
+        "manifestPath": "data/manifests/qul-day4-ayah-theme-public-evidence.json",
+        "status": "schema_discovery_only",
+        "recordCountExpected": 1049,
+        "recordCountActual": null,
+        "checksumSha256": "C51AB5E7FC942200FB547D217524C1F72405315EF1110B42178FA0E93C22F9A0",
+        "rawFilePath": "data/raw/day4/qul-evidence/ayah-theme-62.html"
+      }
+    },
+    {
+      "id": "manifest:qul-day4-tafsir-public-evidence",
+      "type": "source_manifest",
+      "label": "qul-day4-tafsir-public-evidence.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-day4-tafsir-public-evidence.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-tafsir-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-day4-tafsir-public-evidence",
+        "manifestPath": "data/manifests/qul-day4-tafsir-public-evidence.json",
+        "status": "schema_discovery_only",
+        "recordCountExpected": null,
+        "recordCountActual": null,
+        "checksumSha256": "0BE1B38EE26E9A155E207365508CC039834CD079720481836DF36C04B919E7BE",
+        "rawFilePath": "data/raw/day4/qul-evidence/"
+      }
+    },
+    {
+      "id": "manifest:qul-day4-topics-public-evidence",
+      "type": "source_manifest",
+      "label": "qul-day4-topics-public-evidence.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-day4-topics-public-evidence.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-topics-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-day4-topics-public-evidence",
+        "manifestPath": "data/manifests/qul-day4-topics-public-evidence.json",
+        "status": "schema_discovery_only",
+        "recordCountExpected": 2512,
+        "recordCountActual": null,
+        "checksumSha256": "3EB7A87B03325E6E5193804464387B3970371CDF83D79238BB11A1F8CE0C835D",
+        "rawFilePath": "data/raw/day4/qul-evidence/topics-45.html"
+      }
+    },
+    {
+      "id": "manifest:qul-quran-metadata-63-70",
+      "type": "source_manifest",
+      "label": "qul-quran-metadata-63-70.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-quran-metadata-63-70.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-metadata-63-70"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-quran-metadata-63-70",
+        "manifestPath": "data/manifests/qul-quran-metadata-63-70.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": null,
+        "recordCountActual": null,
+        "checksumSha256": "DF993B0DF1929FCB9C2B57E4396AEBC7A2CE55B71A14C7FC57A343087295DC83",
+        "rawFilePath": "data/raw/quran/qul/"
+      }
+    },
+    {
+      "id": "manifest:qul-quran-script-qpc-hafs-86",
+      "type": "source_manifest",
+      "label": "qul-quran-script-qpc-hafs-86.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-quran-script-qpc-hafs-86.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-script-qpc-hafs-86"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-quran-script-qpc-hafs-86",
+        "manifestPath": "data/manifests/qul-quran-script-qpc-hafs-86.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "3C99D5A01494BEA62004941EED8275C884B67D96DFF22148580F0CB6DC0660F3",
+        "rawFilePath": "data/raw/quran/qul/qpc-hafs.json"
+      }
+    },
+    {
+      "id": "manifest:qul-quran-script-uthmani-88",
+      "type": "source_manifest",
+      "label": "qul-quran-script-uthmani-88.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-quran-script-uthmani-88.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-script-uthmani-88"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-quran-script-uthmani-88",
+        "manifestPath": "data/manifests/qul-quran-script-uthmani-88.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "74B3267FE6594B5A0897A285214331428BCD667FCA81CE0D3C43AB7F9394267D",
+        "rawFilePath": "data/raw/quran/qul/uthmani.json"
+      }
+    },
+    {
+      "id": "manifest:qul-tafsir-arabic-saadi-308",
+      "type": "source_manifest",
+      "label": "qul-tafsir-arabic-saadi-308.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-tafsir-arabic-saadi-308.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-arabic-saadi-308"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-tafsir-arabic-saadi-308",
+        "manifestPath": "data/manifests/qul-tafsir-arabic-saadi-308.json",
+        "status": "raw_validated_quality_and_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "6FF887DD949C48F41D9AAC89B41F8CB7643DC51BC21E975A905167F55E08F07A",
+        "rawFilePath": "data/raw/tafsir/ar-tafseer-al-saddi.json"
+      }
+    },
+    {
+      "id": "manifest:qul-tafsir-english-ibn-kathir-35",
+      "type": "source_manifest",
+      "label": "qul-tafsir-english-ibn-kathir-35.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-tafsir-english-ibn-kathir-35.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-english-ibn-kathir-35"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-tafsir-english-ibn-kathir-35",
+        "manifestPath": "data/manifests/qul-tafsir-english-ibn-kathir-35.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "A99063D58C41ABE9C419CC824AB9C06BB01DB939F472382F73DF1E93B9C86BAD",
+        "rawFilePath": "data/raw/tafsir/en-tafisr-ibn-kathir.json"
+      }
+    },
+    {
+      "id": "manifest:qul-tafsir-english-mukhtasar-266",
+      "type": "source_manifest",
+      "label": "qul-tafsir-english-mukhtasar-266.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-tafsir-english-mukhtasar-266.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-english-mukhtasar-266"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-tafsir-english-mukhtasar-266",
+        "manifestPath": "data/manifests/qul-tafsir-english-mukhtasar-266.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "D41C48A5D133289BC1E9B245848BC92889052E22989CD79DC267423F1CA8B4C4",
+        "rawFilePath": "data/raw/tafsir/en-tafisr-Al-Mukhtasar.json"
+      }
+    },
+    {
+      "id": "manifest:qul-topics-45",
+      "type": "source_manifest",
+      "label": "qul-topics-45.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-topics-45.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-topics-45"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-topics-45",
+        "manifestPath": "data/manifests/qul-topics-45.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 2512,
+        "recordCountActual": 2512,
+        "checksumSha256": "D52AB080321A270D65C90F2C4892833E60A2C77002BCE9F22209451BCBB1BAB7",
+        "rawFilePath": "data/raw/tafsir/topics.db"
+      }
+    },
+    {
+      "id": "manifest:qul-translation-malay-292",
+      "type": "source_manifest",
+      "label": "qul-translation-malay-292.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-translation-malay-292.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-translation-malay-292"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-translation-malay-292",
+        "manifestPath": "data/manifests/qul-translation-malay-292.json",
+        "status": "raw_validated_rights_and_attribution_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "9D2482144E89D0F1B0FD1261E68FFA7FE0EE011DC188A1D21DAFF2A684F21010",
+        "rawFilePath": "data/raw/translations/qul/abdullah-basamia-simple.json"
+      }
+    },
+    {
+      "id": "manifest:qul-translation-saheeh-193",
+      "type": "source_manifest",
+      "label": "qul-translation-saheeh-193.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/qul-translation-saheeh-193.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-translation-saheeh-193"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul-translation-saheeh-193",
+        "manifestPath": "data/manifests/qul-translation-saheeh-193.json",
+        "status": "raw_validated_rights_blocked",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "3F43617311C8F95AC6003FC33DC01D676837A2A30490796370FA529B3A711F14",
+        "rawFilePath": "data/raw/translations/qul/"
+      }
+    },
+    {
+      "id": "manifest:tanzil-quran-metadata-v1.0",
+      "type": "source_manifest",
+      "label": "tanzil-quran-metadata-v1.0.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/tanzil-quran-metadata-v1.0.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-quran-metadata-v1.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil-quran-metadata-v1.0",
+        "manifestPath": "data/manifests/tanzil-quran-metadata-v1.0.json",
+        "status": "staging_only",
+        "recordCountExpected": 114,
+        "recordCountActual": 114,
+        "checksumSha256": "E0E7479B96AC8C078A01997A8D4525786989FA977E729EFF3E7A69DF6B092B4D",
+        "rawFilePath": "data/raw/quran/tanzil/quran-data.xml"
+      }
+    },
+    {
+      "id": "manifest:tanzil-quran-uthmani-v1.1",
+      "type": "source_manifest",
+      "label": "tanzil-quran-uthmani-v1.1.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/tanzil-quran-uthmani-v1.1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-quran-uthmani-v1.1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil-quran-uthmani-v1.1",
+        "manifestPath": "data/manifests/tanzil-quran-uthmani-v1.1.json",
+        "status": "staging_only",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "091AE1BAA7F2D86C0B8F0915D490B181B1B8550442B28C2B1A6892D81C9A6D21",
+        "rawFilePath": "data/raw/quran/tanzil/quran-uthmani-with-ayah-numbers.txt"
+      }
+    },
+    {
+      "id": "manifest:tanzil-translation-en-sahih",
+      "type": "source_manifest",
+      "label": "tanzil-translation-en-sahih.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/tanzil-translation-en-sahih.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-en-sahih"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil-translation-en-sahih",
+        "manifestPath": "data/manifests/tanzil-translation-en-sahih.json",
+        "status": "staging_only",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "405DE1E4EF0E849833F60A81A62051BB69A2F29421449E7B6CBADBD74E4312A4",
+        "rawFilePath": "data/raw/translations/tanzil/en.sahih.txt"
+      }
+    },
+    {
+      "id": "manifest:tanzil-translation-id-indonesian",
+      "type": "source_manifest",
+      "label": "tanzil-translation-id-indonesian.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/tanzil-translation-id-indonesian.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-id-indonesian"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil-translation-id-indonesian",
+        "manifestPath": "data/manifests/tanzil-translation-id-indonesian.json",
+        "status": "staging_only",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "2D3F762E002E815E7C500D06D70CD49DE29CF9F889BEFE8D147EB0AF5D02DF7B",
+        "rawFilePath": "data/raw/translations/tanzil/id.indonesian.txt"
+      }
+    },
+    {
+      "id": "manifest:tanzil-translation-ms-basmeih",
+      "type": "source_manifest",
+      "label": "tanzil-translation-ms-basmeih.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "manifests",
+        "id": "data/manifests/tanzil-translation-ms-basmeih.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-ms-basmeih"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil-translation-ms-basmeih",
+        "manifestPath": "data/manifests/tanzil-translation-ms-basmeih.json",
+        "status": "staging_only",
+        "recordCountExpected": 6236,
+        "recordCountActual": 6236,
+        "checksumSha256": "955714C34F0974D56448374EB1A8A6DD21D4E0C3C22257784055D1DCDC8D7FB8",
+        "rawFilePath": "data/raw/translations/tanzil/ms.basmeih.txt"
+      }
+    },
+    {
+      "id": "raw_object:qul-ayah-themes-62:principal",
+      "type": "raw_object",
+      "label": "data/raw/tafsir/ayah-themes.db",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-ayah-themes-62:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-ayah-themes-62"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-ayah-themes-62",
+        "objectRole": "principal",
+        "logicalName": "QUL Ayah Themes",
+        "pathOrObjectKey": "data/raw/tafsir/ayah-themes.db",
+        "checksumSha256": "B3C20C4FAB472586904543ED12C87E2AC616CE629AC18A125357408E50927A42",
+        "byteLength": null,
+        "mediaType": "SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-day4-ayah-theme-public-evidence:principal",
+      "type": "raw_object",
+      "label": "data/raw/day4/qul-evidence/ayah-theme-62.html",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-day4-ayah-theme-public-evidence:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-ayah-theme-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-day4-ayah-theme-public-evidence",
+        "objectRole": "principal",
+        "logicalName": "QUL Ayah Theme Public Schema Evidence",
+        "pathOrObjectKey": "data/raw/day4/qul-evidence/ayah-theme-62.html",
+        "checksumSha256": "65006CD35F3373B0F745F235E4A80ED046EC2EE9077CE9573AD9A88D33CAA15D",
+        "byteLength": null,
+        "mediaType": "HTML audit evidence; advertised dataset format is SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-day4-tafsir-public-evidence:principal",
+      "type": "raw_object",
+      "label": "data/raw/day4/qul-evidence/",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-day4-tafsir-public-evidence:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-tafsir-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-day4-tafsir-public-evidence",
+        "objectRole": "principal",
+        "logicalName": "QUL Tafsir Public Schema Evidence",
+        "pathOrObjectKey": "data/raw/day4/qul-evidence/",
+        "checksumSha256": "",
+        "byteLength": null,
+        "mediaType": "HTML audit evidence; advertised dataset formats are JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-day4-topics-public-evidence:principal",
+      "type": "raw_object",
+      "label": "data/raw/day4/qul-evidence/topics-45.html",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-day4-topics-public-evidence:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-day4-topics-public-evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-day4-topics-public-evidence",
+        "objectRole": "principal",
+        "logicalName": "QUL Topics and Concepts Public Schema Evidence",
+        "pathOrObjectKey": "data/raw/day4/qul-evidence/topics-45.html",
+        "checksumSha256": "045D027B26FA3872D7A989F09114D37F17518045096203424E9705DB65015754",
+        "byteLength": null,
+        "mediaType": "HTML audit evidence; advertised dataset format is SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-quran-metadata-63-70:principal",
+      "type": "raw_object",
+      "label": "data/raw/quran/qul/",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-quran-metadata-63-70:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-metadata-63-70"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-quran-metadata-63-70",
+        "objectRole": "principal",
+        "logicalName": "QUL Quran Metadata Resources 63-70",
+        "pathOrObjectKey": "data/raw/quran/qul/",
+        "checksumSha256": "",
+        "byteLength": null,
+        "mediaType": "Eight JSON and eight SQLite files",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-quran-script-qpc-hafs-86:principal",
+      "type": "raw_object",
+      "label": "data/raw/quran/qul/qpc-hafs.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-quran-script-qpc-hafs-86:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-script-qpc-hafs-86"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-quran-script-qpc-hafs-86",
+        "objectRole": "principal",
+        "logicalName": "QUL QPC Hafs Ayah by Ayah",
+        "pathOrObjectKey": "data/raw/quran/qul/qpc-hafs.json",
+        "checksumSha256": "93864197A949DAC54F324875F41348875455BB138B7ABDFDE43DAEFE87230403",
+        "byteLength": null,
+        "mediaType": "JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-quran-script-uthmani-88:principal",
+      "type": "raw_object",
+      "label": "data/raw/quran/qul/uthmani.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-quran-script-uthmani-88:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-quran-script-uthmani-88"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-quran-script-uthmani-88",
+        "objectRole": "principal",
+        "logicalName": "QUL Uthmani Ayah by Ayah",
+        "pathOrObjectKey": "data/raw/quran/qul/uthmani.json",
+        "checksumSha256": "8D8B5E0D0DD6F8BBD3661F0BAEBA91618D3E4B9FA6AE8823C8B2486AFE5A69B8",
+        "byteLength": null,
+        "mediaType": "JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-tafsir-arabic-saadi-308:principal",
+      "type": "raw_object",
+      "label": "data/raw/tafsir/ar-tafseer-al-saddi.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-tafsir-arabic-saadi-308:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-arabic-saadi-308"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-tafsir-arabic-saadi-308",
+        "objectRole": "principal",
+        "logicalName": "QUL Arabic Tafsir As-Saadi",
+        "pathOrObjectKey": "data/raw/tafsir/ar-tafseer-al-saddi.json",
+        "checksumSha256": "DFE6DB95A2AF4A3D22524A30F3D54CE4A7741D5937064FF7A8EDDECCFC1A098A",
+        "byteLength": null,
+        "mediaType": "JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-tafsir-english-ibn-kathir-35:principal",
+      "type": "raw_object",
+      "label": "data/raw/tafsir/en-tafisr-ibn-kathir.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-tafsir-english-ibn-kathir-35:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-english-ibn-kathir-35"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-tafsir-english-ibn-kathir-35",
+        "objectRole": "principal",
+        "logicalName": "QUL English Tafsir Ibn Kathir",
+        "pathOrObjectKey": "data/raw/tafsir/en-tafisr-ibn-kathir.json",
+        "checksumSha256": "F0DA06E9DA263CDB1C5914FBFF4991AF53A736D8F21DEFE1B3C405767565D0AB",
+        "byteLength": null,
+        "mediaType": "JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-tafsir-english-mukhtasar-266:principal",
+      "type": "raw_object",
+      "label": "data/raw/tafsir/en-tafisr-Al-Mukhtasar.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-tafsir-english-mukhtasar-266:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-tafsir-english-mukhtasar-266"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-tafsir-english-mukhtasar-266",
+        "objectRole": "principal",
+        "logicalName": "QUL English Al-Mukhtasar",
+        "pathOrObjectKey": "data/raw/tafsir/en-tafisr-Al-Mukhtasar.json",
+        "checksumSha256": "8F30054EA8B5F1E19B78FBE2B30CCA5998DA31583A9902A9B7301CD5E81EA766",
+        "byteLength": null,
+        "mediaType": "JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-topics-45:principal",
+      "type": "raw_object",
+      "label": "data/raw/tafsir/topics.db",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-topics-45:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-topics-45"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-topics-45",
+        "objectRole": "principal",
+        "logicalName": "QUL Topics and Concepts",
+        "pathOrObjectKey": "data/raw/tafsir/topics.db",
+        "checksumSha256": "1190772E8735965A8035B3F886C2F44CAB04A204352F16EDCE59B7A5ACF760AD",
+        "byteLength": null,
+        "mediaType": "SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-translation-malay-292:principal",
+      "type": "raw_object",
+      "label": "data/raw/translations/qul/abdullah-basamia-simple.json",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-translation-malay-292:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-translation-malay-292"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-translation-malay-292",
+        "objectRole": "principal",
+        "logicalName": "QUL Abdullah Basamia Malay Translation",
+        "pathOrObjectKey": "data/raw/translations/qul/abdullah-basamia-simple.json",
+        "checksumSha256": "E01351D5826A6D97EAC05FD76ABB9EECC66A331CF86C2C9FADFC667E06E38E9D",
+        "byteLength": null,
+        "mediaType": "Simple JSON and SQLite",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:qul-translation-saheeh-193:principal",
+      "type": "raw_object",
+      "label": "data/raw/translations/qul/",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "qul-translation-saheeh-193:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:qul-translation-saheeh-193"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "qul-translation-saheeh-193",
+        "objectRole": "principal",
+        "logicalName": "QUL Saheeh International Translation",
+        "pathOrObjectKey": "data/raw/translations/qul/",
+        "checksumSha256": "",
+        "byteLength": null,
+        "mediaType": "Simple, inline-footnote, footnote-tag, and chunk JSON/SQLite variants",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:tanzil-quran-metadata-v1.0:principal",
+      "type": "raw_object",
+      "label": "data/raw/quran/tanzil/quran-data.xml",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "tanzil-quran-metadata-v1.0:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-quran-metadata-v1.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "tanzil-quran-metadata-v1.0",
+        "objectRole": "principal",
+        "logicalName": "Tanzil Quran Metadata",
+        "pathOrObjectKey": "data/raw/quran/tanzil/quran-data.xml",
+        "checksumSha256": "8867C1D88191472ADEC9DB694B3CD9F135B1A2EF580574D32CF888DCB22C5C7A",
+        "byteLength": null,
+        "mediaType": "XML",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:tanzil-quran-uthmani-v1.1:principal",
+      "type": "raw_object",
+      "label": "data/raw/quran/tanzil/quran-uthmani-with-ayah-numbers.txt",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "tanzil-quran-uthmani-v1.1:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-quran-uthmani-v1.1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "tanzil-quran-uthmani-v1.1",
+        "objectRole": "principal",
+        "logicalName": "Tanzil Quran Text - Uthmani",
+        "pathOrObjectKey": "data/raw/quran/tanzil/quran-uthmani-with-ayah-numbers.txt",
+        "checksumSha256": "18C719BB3BA26D32EF457F40DAD77CD28C4C5A34156833E26A8E5FCFDD246FB1",
+        "byteLength": null,
+        "mediaType": "pipe-delimited text",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:tanzil-translation-en-sahih:principal",
+      "type": "raw_object",
+      "label": "data/raw/translations/tanzil/en.sahih.txt",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "tanzil-translation-en-sahih:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-en-sahih"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "tanzil-translation-en-sahih",
+        "objectRole": "principal",
+        "logicalName": "Saheeh International English Translation",
+        "pathOrObjectKey": "data/raw/translations/tanzil/en.sahih.txt",
+        "checksumSha256": "A1778A1A56695D9B59AE910809EC46D9F4A55F05961DE51CD56E6EBCF9040883",
+        "byteLength": null,
+        "mediaType": "pipe-delimited UTF-8 text",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:tanzil-translation-id-indonesian:principal",
+      "type": "raw_object",
+      "label": "data/raw/translations/tanzil/id.indonesian.txt",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "tanzil-translation-id-indonesian:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-id-indonesian"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "tanzil-translation-id-indonesian",
+        "objectRole": "principal",
+        "logicalName": "Bahasa Indonesia Translation",
+        "pathOrObjectKey": "data/raw/translations/tanzil/id.indonesian.txt",
+        "checksumSha256": "70428E875C50C3C42D3829654D2BD386E146F0FA68CC20C34FDD4EA3B53E21A8",
+        "byteLength": null,
+        "mediaType": "pipe-delimited UTF-8 text",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "raw_object:tanzil-translation-ms-basmeih:principal",
+      "type": "raw_object",
+      "label": "data/raw/translations/tanzil/ms.basmeih.txt",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "raw_objects",
+        "id": "tanzil-translation-ms-basmeih:principal"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:tanzil-translation-ms-basmeih"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "snapshotId": "tanzil-translation-ms-basmeih",
+        "objectRole": "principal",
+        "logicalName": "Basmeih Malay Translation",
+        "pathOrObjectKey": "data/raw/translations/tanzil/ms.basmeih.txt",
+        "checksumSha256": "51548B7D7C65F36C4B26B58D81C9C994D96869D06577EFB350968968B4AB01B6",
+        "byteLength": null,
+        "mediaType": "pipe-delimited UTF-8 text",
+        "parseEligibility": "manifest_registered"
+      }
+    },
+    {
+      "id": "snapshot:qul-ayah-themes-62",
+      "type": "source_snapshot",
+      "label": "QUL Ayah Themes",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-ayah-themes-62"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-ayah-themes-62.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-ayah-themes-62:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-ayah-themes-62",
+        "versionLabel": "Downloaded 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_quality_and_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/ayah-theme/62",
+        "licenseUrl": "https://qul.tarteel.ai/resources/62/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "QUL Ayah Themes; original authorship, methodology, and required attribution remain unresolved",
+        "reviewer": "RAFIQ Day 4 file audit",
+        "notes": "Contains 1,049 unique records duplicated exactly once, producing 2,098 rows. Unique ranges cover 6,200 ayahs without overlap and leave 36 ayahs uncovered. No confidence field exists."
+      }
+    },
+    {
+      "id": "snapshot:qul-day4-ayah-theme-public-evidence",
+      "type": "source_snapshot",
+      "label": "QUL Ayah Theme Public Schema Evidence",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-day4-ayah-theme-public-evidence"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-ayah-theme-public-evidence.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-ayah-theme-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-day4-ayah-theme-public-evidence",
+        "versionLabel": "Public page accessed 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "schema_discovery_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/ayah-theme/62",
+        "licenseUrl": "https://qul.tarteel.ai/resources/62/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "Quranic Universal Library resource page; original source attribution remains unresolved",
+        "reviewer": "RAFIQ Day 4 audit",
+        "notes": "Public page reports 1,049 grouped themes. Published columns contain no confidence score. Download requires sign-in and the preview shows a likely malformed keyword."
+      }
+    },
+    {
+      "id": "snapshot:qul-day4-tafsir-public-evidence",
+      "type": "source_snapshot",
+      "label": "QUL Tafsir Public Schema Evidence",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-day4-tafsir-public-evidence"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-tafsir-public-evidence.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-tafsir-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-day4-tafsir-public-evidence",
+        "versionLabel": "Public pages accessed 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "schema_discovery_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/tafsir",
+        "licenseUrl": "https://qul.tarteel.ai/resources/266/copyright",
+        "licenseName": "No copyright information supplied by QUL for audited resources",
+        "attribution": "Quranic Universal Library resource pages; original tafsir attribution and rights remain required",
+        "reviewer": "RAFIQ Day 4 audit",
+        "notes": "English Al-Mukhtasar 266, English Ibn Kathir 35, and Arabic As-Saadi 308 inspected. Authenticated dataset downloads unavailable; file-level counts and integrity remain unverified."
+      }
+    },
+    {
+      "id": "snapshot:qul-day4-topics-public-evidence",
+      "type": "source_snapshot",
+      "label": "QUL Topics and Concepts Public Schema Evidence",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-day4-topics-public-evidence"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-topics-public-evidence.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-day4-topics-public-evidence:manifest"
+      ],
+      "releaseState": "private_available",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-day4-topics-public-evidence",
+        "versionLabel": "Public page accessed 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "schema_discovery_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/ayah-topics/45",
+        "licenseUrl": "https://qul.tarteel.ai/resources/45/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "QUL topic resource; ontology attribution includes Quranic Arabic Corpus and thematic attribution includes The Clear Quran",
+        "reviewer": "RAFIQ Day 4 audit",
+        "notes": "Public page reports 2,512 topics and a mixed ontology/thematic/general hierarchy. Download requires sign-in; dataset count and identifiers were not file-validated."
+      }
+    },
+    {
+      "id": "snapshot:qul-quran-metadata-63-70",
+      "type": "source_snapshot",
+      "label": "QUL Quran Metadata Resources 63-70",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-quran-metadata-63-70"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-metadata-63-70.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-metadata-63-70:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-quran-metadata-63-70",
+        "versionLabel": "2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/quran-metadata",
+        "licenseUrl": "https://qul.tarteel.ai/resources/69/copyright",
+        "licenseName": "No copyright information supplied by QUL for audited metadata resources",
+        "attribution": null,
+        "reviewer": "RAFIQ Days 2-3 amendment audit",
+        "notes": "Validated counts: 240 rub, 15 sajda, 558 ruku, 7 manzil, 60 hizb, 30 juz, 6236 ayahs, and 114 surahs. Every JSON/SQLite pair matches exactly."
+      }
+    },
+    {
+      "id": "snapshot:qul-quran-script-qpc-hafs-86",
+      "type": "source_snapshot",
+      "label": "QUL QPC Hafs Ayah by Ayah",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-quran-script-qpc-hafs-86"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-qpc-hafs-86.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-qpc-hafs-86:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-quran-script-qpc-hafs-86",
+        "versionLabel": "2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/quran-script/86",
+        "licenseUrl": "https://qul.tarteel.ai/resources/86/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": null,
+        "reviewer": "RAFIQ Days 2-3 amendment audit",
+        "notes": "JSON and SQLite match exactly. Includes ayah-end numerals and requires a compatible QPC Hafs rendering font."
+      }
+    },
+    {
+      "id": "snapshot:qul-quran-script-uthmani-88",
+      "type": "source_snapshot",
+      "label": "QUL Uthmani Ayah by Ayah",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-quran-script-uthmani-88"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-uthmani-88.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-quran-script-uthmani-88:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-quran-script-uthmani-88",
+        "versionLabel": "2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/quran-script/88",
+        "licenseUrl": "https://qul.tarteel.ai/resources/88/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": null,
+        "reviewer": "RAFIQ Days 2-3 amendment audit",
+        "notes": "JSON and SQLite match exactly. All canonical keys are present. Text is source-specific and must not be silently substituted for Tanzil."
+      }
+    },
+    {
+      "id": "snapshot:qul-tafsir-arabic-saadi-308",
+      "type": "source_snapshot",
+      "label": "QUL Arabic Tafsir As-Saadi",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-tafsir-arabic-saadi-308"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-arabic-saadi-308.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-arabic-saadi-308:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-tafsir-arabic-saadi-308",
+        "versionLabel": "Downloaded 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_quality_and_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/tafsir/308",
+        "licenseUrl": "https://qul.tarteel.ai/resources/308/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "Arabic Tafsir As-Saadi; exact edition, publisher, and required attribution remain unresolved",
+        "reviewer": "RAFIQ Day 4 file audit",
+        "notes": "JSON and SQLite match exactly and contain valid Arabic Unicode. All records are verse-level, but 59 records have blank tafsir text."
+      }
+    },
+    {
+      "id": "snapshot:qul-tafsir-english-ibn-kathir-35",
+      "type": "source_snapshot",
+      "label": "QUL English Tafsir Ibn Kathir",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-tafsir-english-ibn-kathir-35"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-ibn-kathir-35.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-ibn-kathir-35:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-tafsir-english-ibn-kathir-35",
+        "versionLabel": "Downloaded 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/tafsir/35",
+        "licenseUrl": "https://qul.tarteel.ai/resources/35/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "English Tafsir Ibn Kathir; exact edition, translator, publisher, and required attribution remain unresolved",
+        "reviewer": "RAFIQ Day 4 file audit",
+        "notes": "JSON and SQLite match exactly. Contains 1,902 main passages and 4,334 pointer records. Maximum observed group size is 20 ayahs."
+      }
+    },
+    {
+      "id": "snapshot:qul-tafsir-english-mukhtasar-266",
+      "type": "source_snapshot",
+      "label": "QUL English Al-Mukhtasar",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-tafsir-english-mukhtasar-266"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-mukhtasar-266.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-tafsir-english-mukhtasar-266:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-tafsir-english-mukhtasar-266",
+        "versionLabel": "Downloaded 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/tafsir/266",
+        "licenseUrl": "https://qul.tarteel.ai/resources/266/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "English Al-Mukhtasar; original edition, translator, publisher, and required attribution remain unresolved",
+        "reviewer": "RAFIQ Day 4 file audit",
+        "notes": "JSON and SQLite match exactly. Contains 6,216 main passage records and 20 pointer records. All canonical ayah keys are present."
+      }
+    },
+    {
+      "id": "snapshot:qul-topics-45",
+      "type": "source_snapshot",
+      "label": "QUL Topics and Concepts",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-topics-45"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-topics-45.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-topics-45:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-topics-45",
+        "versionLabel": "Downloaded 2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/ayah-topics/45",
+        "licenseUrl": "https://qul.tarteel.ai/resources/45/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": "Composite QUL topic resource with upstream Quranic Arabic Corpus and The Clear Quran attribution; complete per-namespace rights remain unresolved",
+        "reviewer": "RAFIQ Day 4 file audit",
+        "notes": "2,512 unique IDs, 30,687 valid ayah links, no broken parents, no hierarchy cycles, and no invalid related-topic references."
+      }
+    },
+    {
+      "id": "snapshot:qul-translation-malay-292",
+      "type": "source_snapshot",
+      "label": "QUL Abdullah Basamia Malay Translation",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-translation-malay-292"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-malay-292.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-malay-292:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-translation-malay-292",
+        "versionLabel": "2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "blocked_or_pending",
+        "technicalStatus": "raw_validated_rights_and_attribution_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/translation/292",
+        "licenseUrl": "https://qul.tarteel.ai/resources/292/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": null,
+        "reviewer": "RAFIQ Days 2-3 amendment audit",
+        "notes": "JSON and SQLite match exactly. QUL and Tanzil Malay texts differ in 2092 records, with approximately 52 substantive differences after aggressive typography normalization. Basamia/Basmeih attribution remains unresolved."
+      }
+    },
+    {
+      "id": "snapshot:qul-translation-saheeh-193",
+      "type": "source_snapshot",
+      "label": "QUL Saheeh International Translation",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "qul-translation-saheeh-193"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-saheeh-193.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:qul-translation-saheeh-193:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "clean",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "qul",
+        "snapshotKey": "qul-translation-saheeh-193",
+        "versionLabel": "2026-06-12",
+        "acquiredAt": "2026-06-12",
+        "rightsStatus": "blocked_or_pending",
+        "attributionStatus": "unknown",
+        "technicalStatus": "raw_validated_rights_blocked",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://qul.tarteel.ai/resources/translation/193",
+        "licenseUrl": "https://qul.tarteel.ai/resources/193/copyright",
+        "licenseName": "No copyright information supplied by QUL",
+        "attribution": null,
+        "reviewer": "RAFIQ Days 2-3 amendment audit",
+        "notes": "All JSON/SQLite pairs match. Contains 1904 valid footnotes across 1613 ayahs. QUL and Tanzil Saheeh texts are different editions."
+      }
+    },
+    {
+      "id": "snapshot:tanzil-quran-metadata-v1.0",
+      "type": "source_snapshot",
+      "label": "Tanzil Quran Metadata",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "tanzil-quran-metadata-v1.0"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-metadata-v1.0.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-metadata-v1.0:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil",
+        "snapshotKey": "tanzil-quran-metadata-v1.0",
+        "versionLabel": "1.0",
+        "acquiredAt": "2026-06-10",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "staging_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://tanzil.net/docs/Quran_Metadata",
+        "licenseUrl": "https://tanzil.net/docs/Text_License",
+        "licenseName": "License applicability to metadata requires confirmation",
+        "attribution": "Tanzil Project, https://tanzil.net",
+        "reviewer": "RAFIQ Day 2 audit",
+        "notes": "Contains surahs, 30 juz starts, 240 hizb-quarter starts, 7 manzil starts, 556 ruku starts, 604 page starts, and 15 sajda records. Metadata-specific license should be confirmed."
+      }
+    },
+    {
+      "id": "snapshot:tanzil-quran-uthmani-v1.1",
+      "type": "source_snapshot",
+      "label": "Tanzil Quran Text - Uthmani",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "tanzil-quran-uthmani-v1.1"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-uthmani-v1.1.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-quran-uthmani-v1.1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil",
+        "snapshotKey": "tanzil-quran-uthmani-v1.1",
+        "versionLabel": "1.1",
+        "acquiredAt": "2026-06-10",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "staging_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://tanzil.net/download/",
+        "licenseUrl": "https://tanzil.net/docs/Text_License",
+        "licenseName": "Creative Commons Attribution 3.0 with Tanzil text terms",
+        "attribution": "Tanzil Quran Text, Tanzil Project, https://tanzil.net",
+        "reviewer": "RAFIQ Day 2 audit",
+        "notes": "Verbatim source must not be changed. The selected download prepends Bismillah to the first ayah of most surahs except At-Tawbah; presentation handling requires a deliberate design."
+      }
+    },
+    {
+      "id": "snapshot:tanzil-translation-en-sahih",
+      "type": "source_snapshot",
+      "label": "Saheeh International English Translation",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "tanzil-translation-en-sahih"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-en-sahih.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-en-sahih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil",
+        "snapshotKey": "tanzil-translation-en-sahih",
+        "versionLabel": "Tanzil update dated 2011-04-24",
+        "acquiredAt": "2026-06-11",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "staging_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://tanzil.net/trans/",
+        "licenseUrl": "https://tanzil.net/trans/",
+        "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+        "attribution": "Saheeh International; distributed by Tanzil Project, https://tanzil.net/trans/",
+        "reviewer": "RAFIQ Day 3 audit",
+        "notes": "Structurally complete. Production and commercial use are blocked until permission from the translator or publisher and required attribution are confirmed."
+      }
+    },
+    {
+      "id": "snapshot:tanzil-translation-id-indonesian",
+      "type": "source_snapshot",
+      "label": "Bahasa Indonesia Translation",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "tanzil-translation-id-indonesian"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-id-indonesian.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-id-indonesian:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil",
+        "snapshotKey": "tanzil-translation-id-indonesian",
+        "versionLabel": "Tanzil update dated 2010-06-04",
+        "acquiredAt": "2026-06-11",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "staging_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://tanzil.net/trans/",
+        "licenseUrl": "https://tanzil.net/trans/",
+        "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+        "attribution": "Indonesian Ministry of Religious Affairs; distributed by Tanzil Project, https://tanzil.net/trans/",
+        "reviewer": "RAFIQ Day 3 audit",
+        "notes": "Optional Day 3 sample. Structurally complete; production use is blocked pending original-source rights and attribution confirmation."
+      }
+    },
+    {
+      "id": "snapshot:tanzil-translation-ms-basmeih",
+      "type": "source_snapshot",
+      "label": "Basmeih Malay Translation",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_snapshots",
+        "id": "tanzil-translation-ms-basmeih"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-ms-basmeih.json"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:tanzil-translation-ms-basmeih:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceId": "tanzil",
+        "snapshotKey": "tanzil-translation-ms-basmeih",
+        "versionLabel": "Tanzil update dated 2012-09-07",
+        "acquiredAt": "2026-06-11",
+        "rightsStatus": "unknown",
+        "attributionStatus": "unknown",
+        "technicalStatus": "staging_only",
+        "publicationStatus": "public_blocked",
+        "officialUrl": "https://tanzil.net/trans/",
+        "licenseUrl": "https://tanzil.net/trans/",
+        "licenseName": "Tanzil translation catalog terms: non-commercial use only unless separate permission is obtained",
+        "attribution": "Abdullah Muhammad Basmeih; distributed by Tanzil Project, https://tanzil.net/trans/",
+        "reviewer": "RAFIQ Day 3 audit",
+        "notes": "Structurally complete. Use Abdullah Muhammad Basmeih as the audited attribution; QUL's Abdullah Basamia label remains an unresolved alias. Production use is blocked pending rights confirmation."
+      }
+    },
+    {
+      "id": "source:hadith-category:unknown",
+      "type": "source",
+      "label": "Hadith undefined",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_acquisition_category_summary"
+      },
+      "sourceRefs": [],
+      "provenanceRefs": [],
+      "releaseStateRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceKey": "hadith-category:undefined",
+        "name": "Hadith undefined",
+        "provider": "RAFIQ hadith acquisition inventory",
+        "domain": "hadith",
+        "authorityClassification": "inventory_summary",
+        "activeState": "active",
+        "resourceDirectories": 1,
+        "fileCount": 47,
+        "bytes": 1891466
+      }
+    },
+    {
+      "id": "source:qul",
+      "type": "source",
+      "label": "Quranic Universal Library resources",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_registry",
+        "id": "qul"
+      },
+      "sourceRefs": [],
+      "provenanceRefs": [],
+      "releaseStateRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceKey": "qul",
+        "name": "Quranic Universal Library resources",
+        "provider": "TarteelAI / QUL",
+        "domain": "ayah_theme",
+        "authorityClassification": "manifest_derived",
+        "activeState": "active"
+      }
+    },
+    {
+      "id": "source:tanzil",
+      "type": "source",
+      "label": "Tanzil resources",
+      "partition": "sources",
+      "canonicalRef": {
+        "schema": "ingest",
+        "table": "source_registry",
+        "id": "tanzil"
+      },
+      "sourceRefs": [],
+      "provenanceRefs": [],
+      "releaseStateRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "qualityState": "unverified",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "sourceKey": "tanzil",
+        "name": "Tanzil resources",
+        "provider": "Tanzil Project",
+        "domain": "quran_metadata",
+        "authorityClassification": "manifest_derived",
+        "activeState": "active"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-ayah-themes-62:raw_object:qul-ayah-themes-62:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-ayah-themes-62",
+      "to": "raw_object:qul-ayah-themes-62:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-ayah-themes-62.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-day4-ayah-theme-public-evidence:raw_object:qul-day4-ayah-theme-public-evidence:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-day4-ayah-theme-public-evidence",
+      "to": "raw_object:qul-day4-ayah-theme-public-evidence:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-ayah-theme-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-day4-tafsir-public-evidence:raw_object:qul-day4-tafsir-public-evidence:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-day4-tafsir-public-evidence",
+      "to": "raw_object:qul-day4-tafsir-public-evidence:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-tafsir-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-day4-topics-public-evidence:raw_object:qul-day4-topics-public-evidence:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-day4-topics-public-evidence",
+      "to": "raw_object:qul-day4-topics-public-evidence:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-topics-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-quran-metadata-63-70:raw_object:qul-quran-metadata-63-70:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-quran-metadata-63-70",
+      "to": "raw_object:qul-quran-metadata-63-70:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-metadata-63-70.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-quran-script-qpc-hafs-86:raw_object:qul-quran-script-qpc-hafs-86:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-quran-script-qpc-hafs-86",
+      "to": "raw_object:qul-quran-script-qpc-hafs-86:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-qpc-hafs-86.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-quran-script-uthmani-88:raw_object:qul-quran-script-uthmani-88:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-quran-script-uthmani-88",
+      "to": "raw_object:qul-quran-script-uthmani-88:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-uthmani-88.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-tafsir-arabic-saadi-308:raw_object:qul-tafsir-arabic-saadi-308:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-tafsir-arabic-saadi-308",
+      "to": "raw_object:qul-tafsir-arabic-saadi-308:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-arabic-saadi-308.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-tafsir-english-ibn-kathir-35:raw_object:qul-tafsir-english-ibn-kathir-35:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-tafsir-english-ibn-kathir-35",
+      "to": "raw_object:qul-tafsir-english-ibn-kathir-35:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-ibn-kathir-35.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-tafsir-english-mukhtasar-266:raw_object:qul-tafsir-english-mukhtasar-266:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-tafsir-english-mukhtasar-266",
+      "to": "raw_object:qul-tafsir-english-mukhtasar-266:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-mukhtasar-266.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-topics-45:raw_object:qul-topics-45:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-topics-45",
+      "to": "raw_object:qul-topics-45:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-topics-45.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-translation-malay-292:raw_object:qul-translation-malay-292:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-translation-malay-292",
+      "to": "raw_object:qul-translation-malay-292:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-malay-292.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:qul-translation-saheeh-193:raw_object:qul-translation-saheeh-193:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:qul-translation-saheeh-193",
+      "to": "raw_object:qul-translation-saheeh-193:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-saheeh-193.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:tanzil-quran-metadata-v1.0:raw_object:tanzil-quran-metadata-v1.0:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:tanzil-quran-metadata-v1.0",
+      "to": "raw_object:tanzil-quran-metadata-v1.0:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-metadata-v1.0.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:tanzil-quran-uthmani-v1.1:raw_object:tanzil-quran-uthmani-v1.1:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:tanzil-quran-uthmani-v1.1",
+      "to": "raw_object:tanzil-quran-uthmani-v1.1:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-uthmani-v1.1.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:tanzil-translation-en-sahih:raw_object:tanzil-translation-en-sahih:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:tanzil-translation-en-sahih",
+      "to": "raw_object:tanzil-translation-en-sahih:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-en-sahih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:tanzil-translation-id-indonesian:raw_object:tanzil-translation-id-indonesian:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:tanzil-translation-id-indonesian",
+      "to": "raw_object:tanzil-translation-id-indonesian:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-id-indonesian.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_contains_raw_object:snapshot:tanzil-translation-ms-basmeih:raw_object:tanzil-translation-ms-basmeih:principal:principal",
+      "type": "snapshot_contains_raw_object",
+      "from": "snapshot:tanzil-translation-ms-basmeih",
+      "to": "raw_object:tanzil-translation-ms-basmeih:principal",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-ms-basmeih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-ayah-themes-62:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-ayah-themes-62",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-ayah-themes-62.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-day4-ayah-theme-public-evidence:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-day4-ayah-theme-public-evidence",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-ayah-theme-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-day4-tafsir-public-evidence:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-day4-tafsir-public-evidence",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-tafsir-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-day4-topics-public-evidence:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-day4-topics-public-evidence",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-topics-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-quran-metadata-63-70:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-quran-metadata-63-70",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-metadata-63-70.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-quran-script-qpc-hafs-86:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-quran-script-qpc-hafs-86",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-qpc-hafs-86.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-quran-script-uthmani-88:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-quran-script-uthmani-88",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-uthmani-88.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-tafsir-arabic-saadi-308:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-tafsir-arabic-saadi-308",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-arabic-saadi-308.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-tafsir-english-ibn-kathir-35:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-tafsir-english-ibn-kathir-35",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-ibn-kathir-35.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-tafsir-english-mukhtasar-266:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-tafsir-english-mukhtasar-266",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-mukhtasar-266.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-topics-45:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-topics-45",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-topics-45.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-translation-malay-292:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-translation-malay-292",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-malay-292.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:qul-translation-saheeh-193:source:qul:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:qul-translation-saheeh-193",
+      "to": "source:qul",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-saheeh-193.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:tanzil-quran-metadata-v1.0:source:tanzil:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:tanzil-quran-metadata-v1.0",
+      "to": "source:tanzil",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-metadata-v1.0.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:tanzil-quran-uthmani-v1.1:source:tanzil:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:tanzil-quran-uthmani-v1.1",
+      "to": "source:tanzil",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-uthmani-v1.1.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:tanzil-translation-en-sahih:source:tanzil:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:tanzil-translation-en-sahih",
+      "to": "source:tanzil",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-en-sahih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:tanzil-translation-id-indonesian:source:tanzil:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:tanzil-translation-id-indonesian",
+      "to": "source:tanzil",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-id-indonesian.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:snapshot_of_source:snapshot:tanzil-translation-ms-basmeih:source:tanzil:manifest",
+      "type": "snapshot_of_source",
+      "from": "snapshot:tanzil-translation-ms-basmeih",
+      "to": "source:tanzil",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-ms-basmeih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-ayah-themes-62:snapshot:qul-ayah-themes-62:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-ayah-themes-62",
+      "to": "snapshot:qul-ayah-themes-62",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-ayah-themes-62.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-day4-ayah-theme-public-evidence:snapshot:qul-day4-ayah-theme-public-evidence:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-day4-ayah-theme-public-evidence",
+      "to": "snapshot:qul-day4-ayah-theme-public-evidence",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-ayah-theme-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-day4-tafsir-public-evidence:snapshot:qul-day4-tafsir-public-evidence:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-day4-tafsir-public-evidence",
+      "to": "snapshot:qul-day4-tafsir-public-evidence",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-tafsir-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-day4-topics-public-evidence:snapshot:qul-day4-topics-public-evidence:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-day4-topics-public-evidence",
+      "to": "snapshot:qul-day4-topics-public-evidence",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-day4-topics-public-evidence.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-quran-metadata-63-70:snapshot:qul-quran-metadata-63-70:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-quran-metadata-63-70",
+      "to": "snapshot:qul-quran-metadata-63-70",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-metadata-63-70.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-quran-script-qpc-hafs-86:snapshot:qul-quran-script-qpc-hafs-86:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-quran-script-qpc-hafs-86",
+      "to": "snapshot:qul-quran-script-qpc-hafs-86",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-qpc-hafs-86.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-quran-script-uthmani-88:snapshot:qul-quran-script-uthmani-88:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-quran-script-uthmani-88",
+      "to": "snapshot:qul-quran-script-uthmani-88",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-quran-script-uthmani-88.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-tafsir-arabic-saadi-308:snapshot:qul-tafsir-arabic-saadi-308:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-tafsir-arabic-saadi-308",
+      "to": "snapshot:qul-tafsir-arabic-saadi-308",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-arabic-saadi-308.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-tafsir-english-ibn-kathir-35:snapshot:qul-tafsir-english-ibn-kathir-35:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-tafsir-english-ibn-kathir-35",
+      "to": "snapshot:qul-tafsir-english-ibn-kathir-35",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-ibn-kathir-35.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-tafsir-english-mukhtasar-266:snapshot:qul-tafsir-english-mukhtasar-266:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-tafsir-english-mukhtasar-266",
+      "to": "snapshot:qul-tafsir-english-mukhtasar-266",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-tafsir-english-mukhtasar-266.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-topics-45:snapshot:qul-topics-45:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-topics-45",
+      "to": "snapshot:qul-topics-45",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-topics-45.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-translation-malay-292:snapshot:qul-translation-malay-292:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-translation-malay-292",
+      "to": "snapshot:qul-translation-malay-292",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-malay-292.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:qul-translation-saheeh-193:snapshot:qul-translation-saheeh-193:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:qul-translation-saheeh-193",
+      "to": "snapshot:qul-translation-saheeh-193",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/qul-translation-saheeh-193.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:tanzil-quran-metadata-v1.0:snapshot:tanzil-quran-metadata-v1.0:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:tanzil-quran-metadata-v1.0",
+      "to": "snapshot:tanzil-quran-metadata-v1.0",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-metadata-v1.0.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:tanzil-quran-uthmani-v1.1:snapshot:tanzil-quran-uthmani-v1.1:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:tanzil-quran-uthmani-v1.1",
+      "to": "snapshot:tanzil-quran-uthmani-v1.1",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-quran-uthmani-v1.1.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:tanzil-translation-en-sahih:snapshot:tanzil-translation-en-sahih:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:tanzil-translation-en-sahih",
+      "to": "snapshot:tanzil-translation-en-sahih",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-en-sahih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:tanzil-translation-id-indonesian:snapshot:tanzil-translation-id-indonesian:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:tanzil-translation-id-indonesian",
+      "to": "snapshot:tanzil-translation-id-indonesian",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-id-indonesian.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:source_manifest_describes_snapshot:manifest:tanzil-translation-ms-basmeih:snapshot:tanzil-translation-ms-basmeih:manifest",
+      "type": "source_manifest_describes_snapshot",
+      "from": "manifest:tanzil-translation-ms-basmeih",
+      "to": "snapshot:tanzil-translation-ms-basmeih",
+      "fromPartition": "sources",
+      "toPartition": "sources",
+      "status": "source_declared",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/tanzil-translation-ms-basmeih.json"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "pending",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    }
+  ],
+  "stats": {
+    "nodeCount": 59,
+    "edgeCount": 54,
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0
+  }
+}

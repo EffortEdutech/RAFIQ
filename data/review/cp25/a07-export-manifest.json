@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "cp25.a07-export-manifest.v1",
+  "checkpoint": "CP25-A07",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp25_a07_audit_remediation_exports.mjs",
+  "sourceCheckpoint": "CP25-A04",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "sourceArtifacts": {
+    "a03Manifest": "data\\review\\cp25\\manifest.json",
+    "a03ManifestSha256": "8C0D8E86E2F859E47FEA4012FFFCD7674A406D16540B0639C23E5380D765813A",
+    "a04Manifest": "data\\review\\cp25\\audit-decision-ledger-manifest.json",
+    "a04ManifestSha256": "B7D96D663DC52E221926DC4091AC91054D341E03D52BE4399FBE6A4DF6B01010",
+    "reviewQueue": "data\\review\\cp25\\review-queue.json",
+    "reviewQueueSha256": "945C9595F71DE51798D1D6F520382A09B9A781E2F07358AC20A7FF71A091EFFD",
+    "remediationState": "data\\review\\cp25\\remediation-state.json",
+    "remediationStateSha256": "F83E10E2F09DE9D1877A477E19BF87965DBB4F907A197FFB28FE8780032C2E73",
+    "auditEvents": "data\\review\\cp25\\audit-events.json",
+    "auditEventsSha256": "B56BC03E087713B9837F9AD6CD9B65A689724973CD65306A120646EF8371F3FD",
+    "decisionLedger": "data\\review\\cp25\\decision-ledger.json",
+    "decisionLedgerSha256": "FAE9D1738CEE84B7009B45D556CBEC2388E9B75A9920017EFCA0894B82072592"
+  },
+  "artifactPaths": {
+    "manifest": "data\\review\\cp25\\a07-export-manifest.json",
+    "auditExport": "data\\review\\cp25\\a07-audit-event-export.json",
+    "remediationTransitionExport": "data\\review\\cp25\\a07-remediation-transition-export.json",
+    "reviewerWorkloadSummary": "data\\review\\cp25\\a07-reviewer-workload-summary.json",
+    "unresolvedActionReport": "data\\review\\cp25\\a07-unresolved-action-report.json"
+  },
+  "counts": {
+    "auditExportEventCount": 72,
+    "remediationTransitionCount": 72,
+    "reviewerRoleCount": 4,
+    "unresolvedActionCount": 66,
+    "highOrCriticalUnresolvedActionCount": 12,
+    "openBlockingCount": 12,
+    "publicReleaseApprovedEventCount": 0,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "roleSummary": {
+    "technical_reviewer": 41,
+    "knowledge_editor": 16,
+    "scholar_reviewer": 9,
+    "product_owner": 6
+  },
+  "actionSummary": {
+    "request_remediation": 54,
+    "request_content_review": 3,
+    "request_technical_review": 2,
+    "request_scholar_review": 7,
+    "reject": 6
+  },
+  "finalStateSummary": {
+    "open": 66,
+    "resolved_private": 0,
+    "deferred": 0,
+    "rejected": 6,
+    "retired": 0
+  },
+  "checksums": {
+    "auditExportSha256": "FF91498099B8677F4962A65567095D8330F2FEEC4BB2D3E43D5F9C446B0B46C1",
+    "remediationTransitionExportSha256": "EC771F0A1507889DE5D36F9A0DF568D5BCD1F783EBE4E7EE0141040F2A6A346E",
+    "reviewerWorkloadSummarySha256": "34B374C1E83EE9D7079A6FFFC12B5B281CA4CBB4DCAA5B73AC3F552891192B59",
+    "unresolvedActionReportSha256": "7131016C3F162BDE3042B2243F8C52132B7D611A9DF80A3048A73D4E04CE0C4F"
+  },
+  "verifier": {
+    "command": "node scripts\\check_cp25_a07_audit_remediation_exports.mjs",
+    "status": "pass"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A07 exports are private reviewer proof only. Public release remains blocked."
+  }
+}

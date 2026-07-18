@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "cp26.stale-artifact-detection.v1",
+  "proofId": "cp26-checksum-diff-rollback-proof-s05",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s05_checksum_diff_rollback.mjs",
+  "probes": [
+    {
+      "probeId": "latest-snapshot-pointer-checksum",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+      "expectedChecksumSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2",
+      "actualChecksumSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2",
+      "status": "pass"
+    },
+    {
+      "probeId": "latest-refresh-pointer-checksum",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+      "expectedChecksumSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+      "actualChecksumSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+      "status": "pass"
+    },
+    {
+      "probeId": "intentional-mismatched-manifest-detection",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+      "expectedChecksumSha256": "INTENTIONAL_MISMATCH_FOR_VERIFIER_PROOF",
+      "actualChecksumSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+      "status": "detected"
+    }
+  ],
+  "counts": {
+    "probeCount": 3,
+    "passCount": 2,
+    "detectedMismatchCount": 1,
+    "failCount": 0,
+    "staleArtifactCount": 0,
+    "mismatchedManifestCount": 1
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S05 stale artifact detection proof is private-only. Public release remains blocked."
+  }
+}

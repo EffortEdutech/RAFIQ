@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "cp26.refresh-run.v1",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "sourceSnapshotManifestPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+  "sourceSnapshotManifestSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2",
+  "checkpoint": "CP26-S04",
+  "startedAt": "2026-07-16T00:00:00.000Z",
+  "completedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s04_refresh_pipeline.mjs",
+  "status": "completed_with_unresolved_references",
+  "refreshedOutputs": [
+    {
+      "artifactId": "cp26:s04:refreshed:graph-input-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-graph-input-summary.json",
+      "checksumSha256": "EB3833382D3A8DD131B4C51172ABF2DD6AC4AE834BF645FECF05CD5B6C2E9BA8",
+      "rowCount": 13,
+      "byteCount": 7530,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S04",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S04 refreshed artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:retrieval-handoff-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-retrieval-handoff-summary.json",
+      "checksumSha256": "EF563CF2A69F436D9556677359B8E6A23BD5A89FBFE128DDBEC384F9E51332A3",
+      "rowCount": 1,
+      "byteCount": 1669,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S04",
+      "canonicalRefs": [
+        "snapshot_group:private_retrieval"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S04 refreshed artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:reviewer-remediation-summary",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-reviewer-remediation-summary.json",
+      "checksumSha256": "B78A6EFA958AD2A3D2D47995DC0B327C9FBD928864D3D80565B152BC37135B16",
+      "rowCount": 1,
+      "byteCount": 2444,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S04",
+      "canonicalRefs": [
+        "snapshot_group:private_review",
+        "snapshot_group:private_audit"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S04 refreshed artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s04:refreshed:unresolved-reference-report",
+      "artifactFamily": "refresh_output",
+      "path": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/unresolved-reference-report.json",
+      "checksumSha256": "22749490296B2E178C3B4FCC992427D59A6A1AC0816CE4DA3830929A681CD391",
+      "rowCount": 4,
+      "byteCount": 2820,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S04",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links",
+        "snapshot_group:private_retrieval",
+        "snapshot_group:private_review",
+        "snapshot_group:private_audit"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S04 refreshed artifact is private-only. Public release remains blocked."
+      }
+    }
+  ],
+  "unresolvedReferenceReportPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/unresolved-reference-report.json",
+  "rollbackManifestPath": null,
+  "counts": {
+    "refreshedOutputCount": 4,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S04 refresh run is private-only. Public release remains blocked."
+  }
+}

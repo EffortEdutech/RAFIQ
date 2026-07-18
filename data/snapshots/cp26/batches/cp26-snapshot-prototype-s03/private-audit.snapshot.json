@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "cp26.private_audit.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "private_audit",
+  "label": "Private Reviewer Action, Decision Ledger, Audit Export, And Remediation Transition Snapshot Summary",
+  "sourceTables": [],
+  "sourceFiles": [
+    "data\\review\\cp25\\audit-decision-ledger-manifest.json",
+    "data\\review\\cp25\\audit-events.json",
+    "data\\review\\cp25\\decision-ledger.json",
+    "data\\review\\cp25\\invalid-action-fixtures.json",
+    "data\\review\\cp25\\transition-rules.json",
+    "data\\review\\cp25\\a07-export-manifest.json",
+    "data\\review\\cp25\\a07-audit-event-export.json",
+    "data\\review\\cp25\\a07-remediation-transition-export.json",
+    "data\\review\\cp25\\a07-reviewer-workload-summary.json",
+    "data\\review\\cp25\\a07-unresolved-action-report.json"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "cp25_audit_summary",
+      "auditEventCount": 72,
+      "decisionLedgerEntryCount": 72,
+      "auditExportEventCount": 72,
+      "remediationTransitionCount": 72,
+      "unresolvedActionCount": 66
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 private_audit snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Audit snapshot rows are append-aware proof artifacts and must not be overwritten silently."
+  ]
+}

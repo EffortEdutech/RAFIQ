@@ -1,0 +1,697 @@
+{
+  "schemaVersion": "cp27.graph-partition.v1",
+  "checkpoint": "CP27-G03",
+  "partition": "translations",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "nodeCount": 9,
+  "edgeCount": 8,
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "rawTextBodiesExported": false,
+  "nodes": [
+    {
+      "id": "cp27:translations:translations:edge_family:translation_chunk_to_translation_text_reference",
+      "type": "edge_family",
+      "label": "translations translation_chunk_to_translation_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge_family:translation_chunk_to_translation_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:edge_family:translation_chunk_to_translation_text_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_chunk_to_translation_text_reference",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+      "type": "edge_family",
+      "label": "translations translation_edition_to_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge_family:translation_edition_to_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:edge_family:translation_edition_to_text_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_edition_to_text_reference",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+      "type": "edge_family",
+      "label": "translations translation_text_reference_to_ayah",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge_family:translation_text_reference_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:edge_family:translation_text_reference_to_ayah is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_text_reference_to_ayah",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+      "type": "edge_family",
+      "label": "translations translation_text_reference_to_footnote",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge_family:translation_text_reference_to_footnote"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:edge_family:translation_text_reference_to_footnote is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_text_reference_to_footnote",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:snapshot_group:translations",
+      "type": "snapshot_group",
+      "label": "Translation Edition, Text, Footnote, And Chunk Snapshot Summary",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:snapshot_group:translations is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 31185,
+        "provenanceRefCount": 31185,
+        "releaseStateRefCount": 31185,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:translation_chunk:translation_chunk",
+      "type": "translation_chunk",
+      "label": "translations translation_chunk",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:translation_chunk"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:translation_chunk:translation_chunk is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:translation_edition:translation_edition",
+      "type": "translation_edition",
+      "label": "translations translation_edition",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:translation_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:translation_edition:translation_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+      "type": "translation_footnote_reference",
+      "label": "translations translation_footnote_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:translation_footnote_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:translation_footnote_reference:translation_footnote_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:translations:translations:translation_text_reference:translation_text_reference",
+      "type": "translation_text_reference",
+      "label": "translations translation_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:translation_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:translations:translations:translation_text_reference:translation_text_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:3a288a9c4308e558",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:translation_footnote_reference:translation_footnote_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:node_family:translation_footnote_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:3a288a9c4308e558 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:4049c24521d9f094",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:translation_text_reference:translation_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:node_family:translation_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:4049c24521d9f094 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:b7298b2018ab80bf",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:translation_edition:translation_edition",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:node_family:translation_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:b7298b2018ab80bf is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:ceed39e8780ab873",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:translation_chunk:translation_chunk",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:node_family:translation_chunk"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:ceed39e8780ab873 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:translation_chunk_to_translation_text_reference:d9655dc736eccee2",
+      "type": "translation_chunk_to_translation_text_reference",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:edge_family:translation_chunk_to_translation_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge:translation_chunk_to_translation_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:translation_chunk_to_translation_text_reference:d9655dc736eccee2 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_chunk_to_translation_text_reference",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:translation_edition_to_text_reference:1531e9e39c778a96",
+      "type": "translation_edition_to_text_reference",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:edge_family:translation_edition_to_text_reference",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge:translation_edition_to_text_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:translation_edition_to_text_reference:1531e9e39c778a96 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_edition_to_text_reference",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:translation_text_reference_to_ayah:7b148f5cfcd2382e",
+      "type": "translation_text_reference_to_ayah",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:edge_family:translation_text_reference_to_ayah",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge:translation_text_reference_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:translation_text_reference_to_ayah:7b148f5cfcd2382e is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_text_reference_to_ayah",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:translation_text_reference_to_footnote:dba7b221a217c29b",
+      "type": "translation_text_reference_to_footnote",
+      "from": "cp27:translations:translations:snapshot_group:translations",
+      "to": "cp27:translations:translations:edge_family:translation_text_reference_to_footnote",
+      "partition": "translations",
+      "sourceGroupKey": "translations",
+      "canonicalRefs": [
+        "snapshot_group:translations:edge:translation_text_reference_to_footnote"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+        "cp26:s03:snapshot:translations",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:translation_text_reference_to_footnote:dba7b221a217c29b is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "translation_text_reference_to_footnote",
+        "baselineComparisonMode": "matched"
+      }
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 translations partition is private-only."
+  }
+}

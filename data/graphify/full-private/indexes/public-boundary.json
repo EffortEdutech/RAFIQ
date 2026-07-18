@@ -1,0 +1,12 @@
+{
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "publicSafeNodes": [],
+  "publicSafeEdges": [],
+  "blockerCategories": {
+    "publicBlocked": 213891,
+    "privateOnly": 227346,
+    "approvalMissing": 214715,
+    "escalationBoundary": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "cp26.latest-status-pointer.v1",
+  "proofId": "cp26-private-status-proof-s06",
+  "statusProofPath": "data/snapshots/cp26/status/cp26-private-status-proof-s06/status-proof.json",
+  "statusProofSha256": "354BF697CC3386193772B3A3EC6890D00018A4B086A3A56B14ED7C101C8D9ACC",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S06 exposes bounded private snapshot status only. Public release remains blocked and full source, graph, vault, review, and audit dumps are not sent to the client."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "cp26.checksum-diff-rollback-proof-manifest.v1",
+  "proofId": "cp26-checksum-diff-rollback-proof-s05",
+  "checkpoint": "CP26-S05",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s05_checksum_diff_rollback.mjs",
+  "artifactPaths": {
+    "checksumComparisonLedger": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/checksum-comparison-ledger.json",
+    "snapshotDiffSummary": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/snapshot-diff-summary.json",
+    "artifactDiffSummary": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/artifact-diff-summary.json",
+    "rollbackManifest": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/rollback-manifest.json",
+    "staleArtifactDetection": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/stale-artifact-detection.json"
+  },
+  "checksums": {
+    "checksumComparisonLedgerSha256": "A97E5D8D2050F5E01DFAD0488BBAE3D256A53AFBC3A9C7664D6609F25F4703B6",
+    "snapshotDiffSummarySha256": "57BEB0F7A48D5087407FA5062A7F226335025CC1718679F13D3CB3BB306D8931",
+    "artifactDiffSummarySha256": "0F30983ABC46CE2033076D2578E096FFF1595B28D76A6F79DAC55428E2DF05BF",
+    "rollbackManifestSha256": "2A09D1D0A1987AC9C05000535D1B05B7A560DEE2A340A0E4CBFC80520886381C",
+    "staleArtifactDetectionSha256": "D7CD214E9A7C2BBC3CBCD497BA088D3F0916A5B048ED2E7AA8FECC19C355DBDC"
+  },
+  "counts": {
+    "beforeSnapshotEntryCount": 13,
+    "afterRefreshEntryCount": 4,
+    "totalChecksumEntryCount": 17,
+    "unchangedCount": 13,
+    "addedCount": 4,
+    "changedCount": 0,
+    "removedCount": 0,
+    "staleArtifactCount": 0,
+    "mismatchedArtifactCount": 0,
+    "detectedMismatchProbeCount": 1,
+    "rollbackStepCount": 6,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S05 proof manifest is private-only. Public release remains blocked."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "cp27.graph-vault-checksum-comparison-ledger.v1",
+  "proofId": "cp27-g05-graph-vault-baseline-diff",
+  "checkpoint": "CP27-G05",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp27_g05_graph_vault_diff.mjs",
+  "entries": [
+    {
+      "entryId": "baseline:graph:manifest",
+      "status": "matched",
+      "path": "data/graphify/full-private/manifest.json",
+      "expectedChecksumSha256": "F39E2DA30A789F04B69888E34DDA20CC9B1D6AA5F2F0E39D2131CBEA81D2DAB4",
+      "actualChecksumSha256": "F39E2DA30A789F04B69888E34DDA20CC9B1D6AA5F2F0E39D2131CBEA81D2DAB4",
+      "checksumMatches": true
+    },
+    {
+      "entryId": "baseline:vault:manifest",
+      "status": "matched",
+      "path": "data/vault/full-private/manifest.json",
+      "expectedChecksumSha256": "013025043652D79168AC25CFB7BECED30CF4F3C86CBE7C1B9890CB0DCA0B2741",
+      "actualChecksumSha256": "013025043652D79168AC25CFB7BECED30CF4F3C86CBE7C1B9890CB0DCA0B2741",
+      "checksumMatches": true
+    },
+    {
+      "entryId": "refreshed:graph:manifest",
+      "status": "added",
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/manifest.json",
+      "expectedChecksumSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+      "actualChecksumSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+      "checksumMatches": true
+    },
+    {
+      "entryId": "refreshed:vault:manifest",
+      "status": "added",
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+      "expectedChecksumSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+      "actualChecksumSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+      "checksumMatches": true
+    }
+  ],
+  "counts": {
+    "totalEntries": 4,
+    "matchedCount": 2,
+    "addedCount": 2,
+    "removedCount": 0,
+    "changedCount": 0,
+    "deferredCount": 0,
+    "blockedCount": 0,
+    "mismatchedCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G05 checksum comparison ledger is private-only. Public release remains blocked."
+  }
+}

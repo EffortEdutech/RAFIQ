@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": "cp26.snapshot-batch-manifest.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "sourceCheckpoint": "CP26-S01",
+  "sourceScope": "Bounded private prototype snapshot export from checked-in CP22, CP24, and CP25 artifacts; no live database or secret-backed export.",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "sourceGroups": [
+    {
+      "groupKey": "source_registry",
+      "label": "Source Registry, Manifest, Licensing, Attribution, And Checksum Backbone",
+      "sourceTables": [
+        "ingest.source_registry",
+        "ingest.source_snapshots"
+      ],
+      "sourceFiles": [
+        "data/manifests/*.json",
+        "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+        "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+        "data/checksums/*",
+        "data/manifests/quran-translation-tafsir-topic manifests"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "schemaVersion": "cp26.source_registry.snapshot.v1",
+      "rowCount": 2,
+      "checksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+      "canonicalRefCount": 3,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 source_registry snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Prototype snapshot uses checked-in manifests and generated private artifacts, not a live database export.",
+        "Source licensing and attribution remain private review metadata."
+      ]
+    },
+    {
+      "groupKey": "raw_lineage",
+      "label": "Raw Object, Import, Validation, Transformation, And Lineage Summary",
+      "sourceTables": [
+        "ingest.raw_objects",
+        "ingest.import_runs",
+        "ingest.validation_findings",
+        "ingest.transformation_events",
+        "ingest.record_lineage",
+        "ingest.raw_object_parser_assignments"
+      ],
+      "sourceFiles": [
+        "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+        "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+        "data/checksums/*",
+        "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "schemaVersion": "cp26.raw_lineage.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B",
+      "canonicalRefCount": 0,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 raw_lineage snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Raw bodies are intentionally omitted from CP26-S03 prototype snapshots."
+      ]
+    },
+    {
+      "groupKey": "quran",
+      "label": "Quran Identity, Text Edition, Ayah, And Partition Snapshot Summary",
+      "sourceTables": [
+        "content.quran_surahs",
+        "content.quran_ayahs",
+        "content.quran_text_editions",
+        "content.quran_ayah_texts",
+        "content.quran_partition_schemes",
+        "content.quran_partitions"
+      ],
+      "sourceFiles": [
+        "data/manifests/quran-translation-tafsir-topic manifests",
+        "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "schemaVersion": "cp26.quran.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+      "canonicalRefCount": 25061,
+      "provenanceRefCount": 25061,
+      "releaseStateRefCount": 25061,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 quran snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Quran text bodies are not copied into this prototype snapshot."
+      ]
+    },
+    {
+      "groupKey": "translations",
+      "label": "Translation Edition, Text, Footnote, And Chunk Snapshot Summary",
+      "sourceTables": [
+        "content.translation_editions",
+        "content.translation_texts",
+        "content.translation_footnotes",
+        "content.translation_chunks"
+      ],
+      "sourceFiles": [
+        "data/manifests/quran-translation-tafsir-topic manifests",
+        "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "schemaVersion": "cp26.translations.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+      "canonicalRefCount": 31185,
+      "provenanceRefCount": 31185,
+      "releaseStateRefCount": 31185,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 translations snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Translation rights and attribution remain private review blockers unless separately approved."
+      ]
+    },
+    {
+      "groupKey": "tafsir",
+      "label": "Tafsir Edition, Passage, And Ayah Link Snapshot Summary",
+      "sourceTables": [
+        "content.tafsir_editions",
+        "content.tafsir_passages",
+        "content.tafsir_passage_ayahs"
+      ],
+      "sourceFiles": [
+        "data/manifests/quran-translation-tafsir-topic manifests",
+        "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "schemaVersion": "cp26.tafsir.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+      "canonicalRefCount": 18711,
+      "provenanceRefCount": 18711,
+      "releaseStateRefCount": 18711,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 2,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 tafsir snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Tafsir quality warnings remain visible; text bodies are not copied into this prototype snapshot."
+      ]
+    },
+    {
+      "groupKey": "topics_themes",
+      "label": "Source Topic, Theme, Mapping, And Ayah Group Snapshot Summary",
+      "sourceTables": [
+        "content.source_taxonomies",
+        "content.source_topics",
+        "content.source_topic_relations",
+        "content.source_topic_ayahs",
+        "content.themes",
+        "content.theme_labels",
+        "content.theme_relations",
+        "content.source_topic_theme_mappings",
+        "content.source_ayah_theme_groups",
+        "content.source_ayah_theme_group_ayahs"
+      ],
+      "sourceFiles": [
+        "data/manifests/quran-translation-tafsir-topic manifests",
+        "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "schemaVersion": "cp26.topics_themes.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80",
+      "canonicalRefCount": 3562,
+      "provenanceRefCount": 3562,
+      "releaseStateRefCount": 3562,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 topics_themes snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Topic and theme rows are metadata/mapping aids, not religious authority."
+      ]
+    },
+    {
+      "groupKey": "hadith",
+      "label": "Hadith Collection, Edition, Book, Chapter, Record, Text Version, And Reference Snapshot Summary",
+      "sourceTables": [
+        "content.hadith_collections",
+        "content.hadith_editions",
+        "content.hadith_books",
+        "content.hadith_chapters",
+        "content.hadith_records",
+        "content.hadith_text_versions",
+        "content.hadith_references",
+        "content.hadith_record_mappings"
+      ],
+      "sourceFiles": [
+        "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+        "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+        "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "schemaVersion": "cp26.hadith.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+      "canonicalRefCount": 483,
+      "provenanceRefCount": 483,
+      "releaseStateRefCount": 483,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 hadith snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Hadith raw text bodies are not exported in CP26-S03. Public rights remain blocked."
+      ]
+    },
+    {
+      "groupKey": "hadith_quality",
+      "label": "Hadith Grade, Normalization, Verification, And Quality Snapshot Summary",
+      "sourceTables": [
+        "content.hadith_grade_assertions",
+        "content.hadith_grade_normalizations",
+        "content.hadith_verification_claims",
+        "content.hadith_verification_references"
+      ],
+      "sourceFiles": [
+        "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+        "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+        "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "schemaVersion": "cp26.hadith_quality.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5",
+      "canonicalRefCount": 211,
+      "provenanceRefCount": 120,
+      "releaseStateRefCount": 120,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 91,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 hadith_quality snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Grade and verification claims remain source-qualified; conflicts must coexist."
+      ]
+    },
+    {
+      "groupKey": "cross_domain_links",
+      "label": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary",
+      "sourceTables": [
+        "content.theme_ayah_links",
+        "content.theme_hadith_links",
+        "content.quran_hadith_links",
+        "content.related_ayahs",
+        "content.related_hadiths"
+      ],
+      "sourceFiles": [
+        "data/graphify/full-private/indexes/by-canonical-ref.json",
+        "data/graphify/full-private/indexes/by-edge-id.json"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "schemaVersion": "cp26.cross_domain_links.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+      "canonicalRefCount": 79656,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 cross_domain_links snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Cross-domain links require origin/method/review state before public use."
+      ]
+    },
+    {
+      "groupKey": "private_retrieval",
+      "label": "Private Retrieval Candidate, Ranking, Evidence Route, And Validation Handoff Snapshot Summary",
+      "sourceTables": [
+        "content.private_search_documents",
+        "content.private_retrieval_traces"
+      ],
+      "sourceFiles": [
+        "data/retrieval/cp24/candidate-expansion.json",
+        "data/retrieval/cp24/ranking-selection.json",
+        "data/retrieval/cp24/validation-handoff.json"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "schemaVersion": "cp26.private_retrieval.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313",
+      "canonicalRefCount": 87,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 5,
+      "qualityWarningCount": 59,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 private_retrieval snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Retrieval snapshot rows express operational relevance only, not religious authority."
+      ]
+    },
+    {
+      "groupKey": "private_review",
+      "label": "Private Review Queue, Assignment, Blocker, And Remediation State Snapshot Summary",
+      "sourceTables": [
+        "content.private_review_queue_items"
+      ],
+      "sourceFiles": [
+        "data\\review\\cp25\\manifest.json",
+        "data\\review\\cp25\\review-queue.json",
+        "data\\review\\cp25\\remediation-state.json",
+        "data\\review\\cp25\\state-summary.json"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "schemaVersion": "cp26.private_review.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462",
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 1,
+      "qualityWarningCount": 18,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 private_review snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Reviewer queue snapshots are private workflow records, not publication decisions."
+      ]
+    },
+    {
+      "groupKey": "private_audit",
+      "label": "Private Reviewer Action, Decision Ledger, Audit Export, And Remediation Transition Snapshot Summary",
+      "sourceTables": [],
+      "sourceFiles": [
+        "data\\review\\cp25\\audit-decision-ledger-manifest.json",
+        "data\\review\\cp25\\audit-events.json",
+        "data\\review\\cp25\\decision-ledger.json",
+        "data\\review\\cp25\\invalid-action-fixtures.json",
+        "data\\review\\cp25\\transition-rules.json",
+        "data\\review\\cp25\\a07-export-manifest.json",
+        "data\\review\\cp25\\a07-audit-event-export.json",
+        "data\\review\\cp25\\a07-remediation-transition-export.json",
+        "data\\review\\cp25\\a07-reviewer-workload-summary.json",
+        "data\\review\\cp25\\a07-unresolved-action-report.json"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "schemaVersion": "cp26.private_audit.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B",
+      "canonicalRefCount": 72,
+      "provenanceRefCount": 0,
+      "releaseStateRefCount": 0,
+      "unresolvedReferenceCount": 66,
+      "qualityWarningCount": 12,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 private_audit snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Audit snapshot rows are append-aware proof artifacts and must not be overwritten silently."
+      ]
+    },
+    {
+      "groupKey": "graph_vault_baseline",
+      "label": "Existing CP22 Graph And Vault Baseline Snapshot Summary",
+      "sourceTables": [],
+      "sourceFiles": [
+        "data/graphify/full-private/manifest.json",
+        "data/vault/full-private/manifest.json"
+      ],
+      "snapshotPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "schemaVersion": "cp26.graph_vault_baseline.snapshot.v1",
+      "rowCount": 1,
+      "checksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+      "canonicalRefCount": 79657,
+      "provenanceRefCount": 18,
+      "releaseStateRefCount": 3,
+      "unresolvedReferenceCount": 0,
+      "qualityWarningCount": 0,
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 graph_vault_baseline snapshot is private-only. Public release remains blocked."
+      },
+      "warnings": [
+        "Graph and vault snapshots are derived metadata, not canonical source data."
+      ]
+    }
+  ],
+  "artifactRefs": [
+    {
+      "artifactId": "cp26:s03:snapshot:source_registry",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "checksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+      "rowCount": 2,
+      "byteCount": 2137,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:source_registry"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:raw_lineage",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "checksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B",
+      "rowCount": 1,
+      "byteCount": 2375,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:raw_lineage"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:quran",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "checksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+      "rowCount": 1,
+      "byteCount": 1613,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:quran"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:translations",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "checksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+      "rowCount": 1,
+      "byteCount": 1587,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:translations"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:tafsir",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "checksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+      "rowCount": 1,
+      "byteCount": 1511,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:tafsir"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:topics_themes",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "checksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80",
+      "rowCount": 1,
+      "byteCount": 1793,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:topics_themes"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "checksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+      "rowCount": 1,
+      "byteCount": 1787,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:hadith"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith_quality",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "checksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5",
+      "rowCount": 1,
+      "byteCount": 1721,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:hadith_quality"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:cross_domain_links",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "checksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+      "rowCount": 1,
+      "byteCount": 1576,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_retrieval",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "checksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313",
+      "rowCount": 1,
+      "byteCount": 1634,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_retrieval"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_review",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "checksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462",
+      "rowCount": 1,
+      "byteCount": 1614,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_review"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_audit",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "checksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B",
+      "rowCount": 1,
+      "byteCount": 1977,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_audit"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:graph_vault_baseline",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "checksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+      "rowCount": 1,
+      "byteCount": 1717,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    }
+  ],
+  "checksumLedgerPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/checksum-ledger.json",
+  "checksumLedgerSha256": "B491E10824F83D79ACD7E37E2700D378265A5CD5D2BF6005D336DAF56781295A",
+  "derivedOutputs": [],
+  "counts": {
+    "sourceGroupCount": 13,
+    "snapshotArtifactCount": 13,
+    "derivedOutputCount": 0,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 snapshot batch is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "CP26-S03 uses checked-in generated private artifacts and manifests, not live database rows.",
+    "No .env files, secrets, service-role keys, private tokens, or credentials are required or read.",
+    "Snapshot rows are bounded summaries for refresh prototyping; they are not canonical source replacements.",
+    "Public-safe counts remain zero."
+  ]
+}

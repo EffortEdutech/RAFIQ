@@ -1,0 +1,1284 @@
+{
+  "schemaVersion": "cp27.graph-partition.v1",
+  "checkpoint": "CP27-G03",
+  "partition": "hadith",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "nodeCount": 17,
+  "edgeCount": 15,
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "rawTextBodiesExported": false,
+  "nodes": [
+    {
+      "id": "cp27:hadith:cross_domain_links:edge_family:theme_to_hadith",
+      "type": "edge_family",
+      "label": "cross_domain_links theme_to_hadith",
+      "partition": "hadith",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge_family:theme_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:cross_domain_links:edge_family:theme_to_hadith is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "theme_to_hadith",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:cross_domain_links:quran_hadith_link:quran_hadith_link",
+      "type": "quran_hadith_link",
+      "label": "cross_domain_links quran_hadith_link",
+      "partition": "hadith",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:quran_hadith_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:cross_domain_links:quran_hadith_link:quran_hadith_link is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:cross_domain_links:snapshot_group:cross_domain_links",
+      "type": "snapshot_group",
+      "label": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary",
+      "partition": "hadith",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:cross_domain_links:snapshot_group:cross_domain_links is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 79656,
+        "provenanceRefCount": 0,
+        "releaseStateRefCount": 0,
+        "unresolvedReferenceCount": 5,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "changed",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_book_to_chapter",
+      "type": "edge_family",
+      "label": "hadith hadith_book_to_chapter",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_book_to_chapter"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_book_to_chapter is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_book_to_chapter",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_chapter_to_record",
+      "type": "edge_family",
+      "label": "hadith hadith_chapter_to_record",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_chapter_to_record"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_chapter_to_record is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_chapter_to_record",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_collection_to_edition",
+      "type": "edge_family",
+      "label": "hadith hadith_collection_to_edition",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_collection_to_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_collection_to_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_collection_to_edition",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_edition_to_book",
+      "type": "edge_family",
+      "label": "hadith hadith_edition_to_book",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_edition_to_book"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_edition_to_book is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_edition_to_book",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_record_to_reference",
+      "type": "edge_family",
+      "label": "hadith hadith_record_to_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_record_to_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_record_to_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_record_to_reference",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:edge_family:hadith_record_to_text_version_reference",
+      "type": "edge_family",
+      "label": "hadith hadith_record_to_text_version_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge_family:hadith_record_to_text_version_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:edge_family:hadith_record_to_text_version_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_record_to_text_version_reference",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_book:hadith_book",
+      "type": "hadith_book",
+      "label": "hadith hadith_book",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_book"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_book:hadith_book is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+      "type": "hadith_chapter",
+      "label": "hadith hadith_chapter",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_chapter"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_chapter:hadith_chapter is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_collection:hadith_collection",
+      "type": "hadith_collection",
+      "label": "hadith hadith_collection",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_collection"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_collection:hadith_collection is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_edition:hadith_edition",
+      "type": "hadith_edition",
+      "label": "hadith hadith_edition",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_edition:hadith_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_record:hadith_record",
+      "type": "hadith_record",
+      "label": "hadith hadith_record",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_record"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_record:hadith_record is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_reference:hadith_reference",
+      "type": "hadith_reference",
+      "label": "hadith hadith_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_reference:hadith_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+      "type": "hadith_text_version_reference",
+      "label": "hadith hadith_text_version_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:hadith_text_version_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:hadith:hadith:snapshot_group:hadith",
+      "type": "snapshot_group",
+      "label": "Hadith Collection, Edition, Book, Chapter, Record, Text Version, And Reference Snapshot Summary",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "private_reviewed",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:hadith:hadith:snapshot_group:hadith is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 483,
+        "provenanceRefCount": 483,
+        "releaseStateRefCount": 483,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 0,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cp27:edge:hadith_book_to_chapter:27a2d01fd1274eb3",
+      "type": "hadith_book_to_chapter",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_book_to_chapter",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_book_to_chapter"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_book_to_chapter:27a2d01fd1274eb3 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_book_to_chapter",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:hadith_chapter_to_record:2324d4aaf95ce47a",
+      "type": "hadith_chapter_to_record",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_chapter_to_record",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_chapter_to_record"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_chapter_to_record:2324d4aaf95ce47a is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_chapter_to_record",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:hadith_collection_to_edition:c584ceb709178113",
+      "type": "hadith_collection_to_edition",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_collection_to_edition",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_collection_to_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_collection_to_edition:c584ceb709178113 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_collection_to_edition",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:hadith_edition_to_book:2b9215b6af9f9e80",
+      "type": "hadith_edition_to_book",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_edition_to_book",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_edition_to_book"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_edition_to_book:2b9215b6af9f9e80 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_edition_to_book",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:hadith_record_to_reference:dd343a8f339e9733",
+      "type": "hadith_record_to_reference",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_record_to_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_record_to_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_record_to_reference:dd343a8f339e9733 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_record_to_reference",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:hadith_record_to_text_version_reference:1000fe3680e44f1a",
+      "type": "hadith_record_to_text_version_reference",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:edge_family:hadith_record_to_text_version_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:edge:hadith_record_to_text_version_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:hadith_record_to_text_version_reference:1000fe3680e44f1a is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "hadith_record_to_text_version_reference",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:15411886ce07a8ae",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_chapter:hadith_chapter",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_chapter"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:15411886ce07a8ae is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:295010ac9310188a",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_reference:hadith_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:295010ac9310188a is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:2bfdc3eb73f97aea",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_book:hadith_book",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_book"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:2bfdc3eb73f97aea is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:2dc0819ed00544d0",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_text_version_reference:hadith_text_version_reference",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_text_version_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:2dc0819ed00544d0 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:3bf0a0590910ea00",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_record:hadith_record",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_record"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:3bf0a0590910ea00 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:6c58f12bddd3f1f3",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_edition:hadith_edition",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:6c58f12bddd3f1f3 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:9da27fdc97da4746",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:hadith:snapshot_group:hadith",
+      "to": "cp27:hadith:hadith:hadith_collection:hadith_collection",
+      "partition": "hadith",
+      "sourceGroupKey": "hadith",
+      "canonicalRefs": [
+        "snapshot_group:hadith:node_family:hadith_collection"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+        "cp26:s03:snapshot:hadith",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:9da27fdc97da4746 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:a9999c1ef07a5ca6",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:hadith:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:hadith:cross_domain_links:quran_hadith_link:quran_hadith_link",
+      "partition": "hadith",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:node_family:quran_hadith_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:a9999c1ef07a5ca6 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "changed"
+      }
+    },
+    {
+      "id": "cp27:edge:theme_to_hadith:c6f6171e8afc2bd6",
+      "type": "theme_to_hadith",
+      "from": "cp27:hadith:cross_domain_links:snapshot_group:cross_domain_links",
+      "to": "cp27:hadith:cross_domain_links:edge_family:theme_to_hadith",
+      "partition": "hadith",
+      "sourceGroupKey": "cross_domain_links",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links:edge:theme_to_hadith"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+        "cp26:s03:snapshot:cross_domain_links",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:theme_to_hadith:c6f6171e8afc2bd6 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "theme_to_hadith",
+        "baselineComparisonMode": "changed"
+      }
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 hadith partition is private-only."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "cp27.refresh-vault-checksum-ledger.v1",
+  "checkpoint": "CP27-G04",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+  "artifacts": [
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+      "checksumSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+      "byteCount": 89481
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/summary.json",
+      "checksumSha256": "131B97A5CFD22FEB8E4EC381E30E4DE28DE71599B61384C73C1E6B7E6A974FEF",
+      "byteCount": 1276
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/release-gates/cp27-refresh-vault-boundary.md",
+      "checksumSha256": "728CF37760AB474C69DBE35A3538267BBB2539DAF187358A59C9D68B9F1265A8"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/release-gates/cp27-refresh-manifest-index.md",
+      "checksumSha256": "26550A61F83CA043C4916F49F50BA7A1014B9B0FF50E7CD0C94A06CCAE965073"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-governance.md",
+      "checksumSha256": "DF2A476B18672DCFDBC7E3CA563CACBB992C6FAFBBB59856EA1CDC07314ABF71"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-hadith.md",
+      "checksumSha256": "5D175FEF487FCA6E6C3E42FC7EA4501DC33EA1F407C9ECA73F59E73C8D4F344F"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-hadith-grades.md",
+      "checksumSha256": "DABB11EC268A3865FAB01D4004CCE5560B68238455E015E3ECBC65544DBB34F3"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-product-evidence.md",
+      "checksumSha256": "C02A1F4BC43526802555534DA553C2036DBBF9E6CE9A156C47DB473BA7E8A6BD"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-quality.md",
+      "checksumSha256": "1543B4E28EB2A334FB3666E0CA741D5F576F90E1F65B974CF1AD597AE10E3F26"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-quran.md",
+      "checksumSha256": "644B129817E5EAFD218AAD390CC414B43AF4CCF13BEC391268089F4E2ECE8D73"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-sources.md",
+      "checksumSha256": "82FAA528528DC688CDD865ECD65BD377CD559354ACB07490E1D5D1106095E90C"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-tafsir.md",
+      "checksumSha256": "C3941C37ABCE8CFE43A05F87D0CDEBDDA083EF46ACD43DD94B0B8A3CE18FDDB7"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-topics.md",
+      "checksumSha256": "3A82683B14E5184AA6945A4F46F89C5A04A8325A4891C0F7A0B1FB6C353FFFB3"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/partitions/partition-translations.md",
+      "checksumSha256": "6587640D7D3D8806135D50498B8090277F04B6F75DAB0E8DAE3F67C44BEEB7AA"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-cross-domain-links.md",
+      "checksumSha256": "1726E934F9FA7029CD582105D5D7F41750D464A435C131C292000C75B59473FA"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-graph-vault-baseline.md",
+      "checksumSha256": "F6F4AB611F0B254976405CD6B7263A19F77BD067810D1F5FB1F37FC09ED124A7"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-hadith.md",
+      "checksumSha256": "BAA690937236DEEAB6673F790EE0DC2BBCC8B948A58CE08D79E6EFD37397EEDF"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-hadith-quality.md",
+      "checksumSha256": "A893FFA6748C2FFA518AFB0628F78331AC36592D18FEB32CABF3236D203C7C55"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-private-audit.md",
+      "checksumSha256": "DDC3A7F163779E861E1E2EACE5E359E4C89D0EF9D3EC9C285C726FAAC8E50C90"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-private-retrieval.md",
+      "checksumSha256": "0CDA1BFD0CA2452AEBD16378BDF831EFAE6D2E7207782F0CFF86F76D31F4F0E5"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-private-review.md",
+      "checksumSha256": "C29DE7428A29582AD1815BEE3689CAADADF1EF519675C8F91F71A2F5D6172968"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-quran.md",
+      "checksumSha256": "39FE20956F49E17C4459ABC632BB2CEFAACC574D0F32DF929CAD96CD7DAAAE38"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-raw-lineage.md",
+      "checksumSha256": "9FB5C51B87FF2FDDFC1986CFDCBABCA5DB879F4672F4870C31475F462EE56BBF"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-source-registry.md",
+      "checksumSha256": "7F4AC7C867D83D5E4E96C3ABA08E9CDE39C4029AD1F50BE3DBEFBD08E0FEF812"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-tafsir.md",
+      "checksumSha256": "5A3E07321E7D7B64D6C0AEB612B65AA6F63CE54C9B6DF323E87B46831B75AC4E"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-topics-themes.md",
+      "checksumSha256": "C890BCE41C9CA16327B903FA8DA8E978B9D6532F9C0236D51CB32CF5DFB11D2E"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/source-groups/source-group-translations.md",
+      "checksumSha256": "DC9B0EA720B81924F95ADF2F6FB96CB8D931B3939A0D456FB2899F5F05B51244"
+    },
+    {
+      "path": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/packs/quality/cp27-refresh-quality-blockers.md",
+      "checksumSha256": "BCF966DD4C02CE9701F080542CE5AC2C8E784AC524865E15A7E9339699BC1E7D"
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G04 refreshed vault packs are private-only. Public release remains blocked."
+  }
+}

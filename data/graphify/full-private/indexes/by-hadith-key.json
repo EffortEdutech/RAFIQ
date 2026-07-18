@@ -1,0 +1,1255 @@
+{
+  "collections_abdullah-naseer-six-books_src:aggregate": {
+    "hadithNodeId": "hadith_record:collections_abdullah-naseer-six-books_src:aggregate",
+    "textVersions": [
+      "hadith_text:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_abdullah-naseer-six-books_src:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_database_linebyline:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_database_originals:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_database_originals:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_database_originals:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_database_originals:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_database_originals:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-abudawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-abudawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-abudawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-abudawud.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-abudawud.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-abudawud.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-abudawud.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-abudawud.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-abudawud.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-abudawud.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-abudawud1.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-abudawud1.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-abudawud1.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-abudawud1.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-abudawud1.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-bukhari1.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-bukhari1.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-bukhari1.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-ibnmajah.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-muslim1.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-muslim1.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-muslim1.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-muslim1.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-muslim1.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-nasai.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-nasai.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-nasai.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-nasai.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-nasai.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-nasai.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-nasai.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-nasai.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-nasai.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-nasai.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-abudawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-abudawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-abudawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-abudawud.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-abudawud.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-abudawud.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-abudawud.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-abudawud.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-abudawud.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-abudawud.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-ibnmajah.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-ibnmajah.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-ibnmajah.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-ibnmajah.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-ibnmajah.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-nasai.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-nasai.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-nasai.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-nasai.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-nasai.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-nasai.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-nasai.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-nasai.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-nasai.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-nasai.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ben-tirmidhi.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_eng-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_eng-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_eng-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_eng-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_fra-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_fra-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_fra-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_fra-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-abudawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-abudawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-abudawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-abudawud.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-abudawud.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_ind-nasai.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-nasai.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_ind-nasai.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_ind-nasai.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_ind-nasai.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_rus-abudawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_rus-abudawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_rus-abudawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_rus-abudawud.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_rus-abudawud.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_rus-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_rus-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_rus-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_rus-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_rus-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_rus-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_rus-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_rus-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_rus-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_rus-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tam-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tam-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tam-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tam-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tam-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tam-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tam-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tam-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tam-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tam-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tam-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tam-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tam-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tam-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tam-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tam-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tam-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tam-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tam-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tam-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tur-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tur-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tur-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tur-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tur-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tur-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tur-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tur-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tur-ibnmajah.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-ibnmajah.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tur-ibnmajah.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tur-ibnmajah.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tur-ibnmajah.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tur-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tur-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tur-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tur-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_tur-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_tur-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_tur-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_tur-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-abudawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-abudawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-abudawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-abudawud.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-abudawud.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-abudawud.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-abudawud.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-abudawud.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-abudawud.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-abudawud.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-bukhari.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-bukhari.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-bukhari.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-bukhari.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-bukhari.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-bukhari.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-muslim.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-muslim.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-muslim.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-muslim.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-muslim.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-muslim.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-muslim.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_editions_urd-tirmidhi.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-tirmidhi.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_editions_urd-tirmidhi.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_editions_urd-tirmidhi.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_editions_urd-tirmidhi.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_info.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_info.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_info.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_info.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_info.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_info.min.json:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_info.min.json:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_info.min.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_info.min.json:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_info.min.json:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_fawaz-hadith-api-v1_others:aggregate": {
+    "hadithNodeId": "hadith_record:collections_fawaz-hadith-api-v1_others:aggregate",
+    "textVersions": [
+      "hadith_text:collections_fawaz-hadith-api-v1_others:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_fawaz-hadith-api-v1_others:aggregate"
+    ],
+    "gradeAssertions": [
+      "grade_assertion:collections_fawaz-hadith-api-v1_others:aggregate"
+    ],
+    "verificationClaims": [],
+    "qualityFindings": [
+      "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_others"
+    ],
+    "retrievalEvidence": []
+  },
+  "collections_hf-all-hadiths-cleaned_all_hadiths_clean.csv:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-all-hadiths-cleaned_all_hadiths_clean.csv:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-all-hadiths-cleaned_all_hadiths_clean.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-all-hadiths-cleaned_all_hadiths_clean.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_hf-fawaz-hadith-data_data:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-fawaz-hadith-data_data:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-fawaz-hadith-data_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-fawaz-hadith-data_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_hf-jimlam-hadith-data_data:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-jimlam-hadith-data_data:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-jimlam-hadith-data_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-jimlam-hadith-data_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_hf-jimlam-hadith-data-hyphen_data:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-jimlam-hadith-data-hyphen_data:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-jimlam-hadith-data-hyphen_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-jimlam-hadith-data-hyphen_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_hf-maic-all-hadith_data:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-maic-all-hadith_data:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-maic-all-hadith_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-maic-all-hadith_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "collections_hf-ronnieaban-sunnah_sunnah.csv:aggregate": {
+    "hadithNodeId": "hadith_record:collections_hf-ronnieaban-sunnah_sunnah.csv:aggregate",
+    "textVersions": [
+      "hadith_text:collections_hf-ronnieaban-sunnah_sunnah.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:collections_hf-ronnieaban-sunnah_sunnah.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_jami_at-tirmidhi.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sahih_al-bukhari.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sahih_muslim.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sahih_muslim.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sahih_muslim.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_abi_dawud.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_an-nasa_i.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.csv:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.csv:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.csv:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.csv:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.json:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.json:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.json:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-meeatif-hadith-datasets_sunan_ibn_majah.json:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "multilingual_hf-sarnsrun-hadiths_hadiths.jsonl:aggregate": {
+    "hadithNodeId": "hadith_record:multilingual_hf-sarnsrun-hadiths_hadiths.jsonl:aggregate",
+    "textVersions": [
+      "hadith_text:multilingual_hf-sarnsrun-hadiths_hadiths.jsonl:aggregate"
+    ],
+    "references": [
+      "hadith_reference:multilingual_hf-sarnsrun-hadiths_hadiths.jsonl:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "official_sunnah-com-api_db:aggregate": {
+    "hadithNodeId": "hadith_record:official_sunnah-com-api_db:aggregate",
+    "textVersions": [
+      "hadith_text:official_sunnah-com-api_db:aggregate"
+    ],
+    "references": [
+      "hadith_reference:official_sunnah-com-api_db:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate": {
+    "hadithNodeId": "hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate",
+    "textVersions": [
+      "hadith_text:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate"
+    ],
+    "references": [
+      "hadith_reference:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [
+      "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_db"
+    ],
+    "retrievalEvidence": []
+  },
+  "quarantined_hf-sunnah-ar-en_sunnah_ar_en_dataset.jsonl.gz:aggregate": {
+    "hadithNodeId": "hadith_record:quarantined_hf-sunnah-ar-en_sunnah_ar_en_dataset.jsonl.gz:aggregate",
+    "textVersions": [
+      "hadith_text:quarantined_hf-sunnah-ar-en_sunnah_ar_en_dataset.jsonl.gz:aggregate"
+    ],
+    "references": [
+      "hadith_reference:quarantined_hf-sunnah-ar-en_sunnah_ar_en_dataset.jsonl.gz:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "quarantined_hf-sunnah-dataset_sunnah_com_dataset.parquet:aggregate": {
+    "hadithNodeId": "hadith_record:quarantined_hf-sunnah-dataset_sunnah_com_dataset.parquet:aggregate",
+    "textVersions": [
+      "hadith_text:quarantined_hf-sunnah-dataset_sunnah_com_dataset.parquet:aggregate"
+    ],
+    "references": [
+      "hadith_reference:quarantined_hf-sunnah-dataset_sunnah_com_dataset.parquet:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "research_hf-ar-quran-hadith14books-msa_data:aggregate": {
+    "hadithNodeId": "hadith_record:research_hf-ar-quran-hadith14books-msa_data:aggregate",
+    "textVersions": [
+      "hadith_text:research_hf-ar-quran-hadith14books-msa_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:research_hf-ar-quran-hadith14books-msa_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "research_hf-arbml-hadith_data:aggregate": {
+    "hadithNodeId": "hadith_record:research_hf-arbml-hadith_data:aggregate",
+    "textVersions": [
+      "hadith_text:research_hf-arbml-hadith_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:research_hf-arbml-hadith_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "research_hf-arbml-lk-hadith_data:aggregate": {
+    "hadithNodeId": "hadith_record:research_hf-arbml-lk-hadith_data:aggregate",
+    "textVersions": [
+      "hadith_text:research_hf-arbml-lk-hadith_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:research_hf-arbml-lk-hadith_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "research_hf-arbml-quran-hadith_data:aggregate": {
+    "hadithNodeId": "hadith_record:research_hf-arbml-quran-hadith_data:aggregate",
+    "textVersions": [
+      "hadith_text:research_hf-arbml-quran-hadith_data:aggregate"
+    ],
+    "references": [
+      "hadith_reference:research_hf-arbml-quran-hadith_data:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [],
+    "retrievalEvidence": []
+  },
+  "verification_semakhadis-api_database:aggregate": {
+    "hadithNodeId": "hadith_record:verification_semakhadis-api_database:aggregate",
+    "textVersions": [
+      "hadith_text:verification_semakhadis-api_database:aggregate"
+    ],
+    "references": [
+      "hadith_reference:verification_semakhadis-api_database:aggregate"
+    ],
+    "gradeAssertions": [],
+    "verificationClaims": [],
+    "qualityFindings": [
+      "quality_finding:payload-unselected:verification_semakhadis-api_database"
+    ],
+    "retrievalEvidence": []
+  }
+}

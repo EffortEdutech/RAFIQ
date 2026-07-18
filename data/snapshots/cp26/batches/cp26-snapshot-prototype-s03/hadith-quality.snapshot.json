@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "cp26.hadith_quality.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "hadith_quality",
+  "label": "Hadith Grade, Normalization, Verification, And Quality Snapshot Summary",
+  "sourceTables": [
+    "content.hadith_grade_assertions",
+    "content.hadith_grade_normalizations",
+    "content.hadith_verification_claims",
+    "content.hadith_verification_references"
+  ],
+  "sourceFiles": [
+    "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+    "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+    "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "hadith_quality_graph_partition_summary",
+      "partitions": [
+        "hadith-grades",
+        "quality"
+      ],
+      "gradeNodeCount": 120,
+      "qualityNodeCount": 91
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 hadith_quality snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Grade and verification claims remain source-qualified; conflicts must coexist."
+  ]
+}

@@ -11,9 +11,11 @@ const PRIMARY_NAV = [
 ];
 
 const INTERNAL_NAV = [
-  ['Product Home', '/'],
-  ['Library', '/search'],
-  ['Internal Review', '/review'],
+  ['Home', '/'],
+  ['Review', '/review'],
+  ['Work', '/review-workbench'],
+  ['Graph', '/knowledge-graphify'],
+  ['CP24', '/graph-aware-retrieval'],
 ];
 
 type Props = {
@@ -32,10 +34,12 @@ export function RafiqNavigationBar({
   return (
     <View style={styles.stickyWrap}>
       <View style={[styles.topBar, publicShadows.card]}>
-        <Link href="/" style={styles.brandBlock}>
-          <Text style={styles.brand}>RAFIQ</Text>
+        <View style={styles.brandBlock}>
+          <Link href="/" style={styles.brand}>
+            RAFIQ
+          </Link>
           <Text style={styles.brandTagline}>{subtitle}</Text>
-        </Link>
+        </View>
         <View style={styles.nav}>
           {navItems.map(([label, href]) => (
             <Link href={href as never} key={href} style={styles.navLink}>
@@ -67,7 +71,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     padding: publicSpacing.space16,
   },
-  brandBlock: { minHeight: 48 },
+  brandBlock: { flexShrink: 1, gap: publicSpacing.space4, minHeight: 48, minWidth: 0 },
   brand: {
     color: publicColors.deepGreen,
     fontSize: 34,
@@ -81,7 +85,15 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
     textTransform: 'uppercase',
   },
-  nav: { flexDirection: 'row', flexWrap: 'wrap', gap: publicSpacing.space8 },
+  nav: {
+    alignContent: 'flex-start',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: publicSpacing.space8,
+    justifyContent: 'flex-start',
+    maxWidth: '100%',
+    width: '100%',
+  },
   navLink: {
     backgroundColor: publicColors.mintSoft,
     borderRadius: publicRadii.pill,

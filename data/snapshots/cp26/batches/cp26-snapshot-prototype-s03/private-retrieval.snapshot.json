@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "cp26.private_retrieval.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "private_retrieval",
+  "label": "Private Retrieval Candidate, Ranking, Evidence Route, And Validation Handoff Snapshot Summary",
+  "sourceTables": [
+    "content.private_search_documents",
+    "content.private_retrieval_traces"
+  ],
+  "sourceFiles": [
+    "data/retrieval/cp24/candidate-expansion.json",
+    "data/retrieval/cp24/ranking-selection.json",
+    "data/retrieval/cp24/validation-handoff.json"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "cp24_retrieval_summary",
+      "checkpoint": "CP24-G05",
+      "fixtureCount": 10,
+      "candidateCount": 87,
+      "selectedCandidateCount": 15,
+      "remediationCount": 72
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 private_retrieval snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Retrieval snapshot rows express operational relevance only, not religious authority."
+  ]
+}

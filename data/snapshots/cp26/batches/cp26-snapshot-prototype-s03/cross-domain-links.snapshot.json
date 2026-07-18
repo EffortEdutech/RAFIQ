@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "cp26.cross_domain_links.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "cross_domain_links",
+  "label": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary",
+  "sourceTables": [
+    "content.theme_ayah_links",
+    "content.theme_hadith_links",
+    "content.quran_hadith_links",
+    "content.related_ayahs",
+    "content.related_hadiths"
+  ],
+  "sourceFiles": [
+    "data/graphify/full-private/indexes/by-canonical-ref.json",
+    "data/graphify/full-private/indexes/by-edge-id.json"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "cross_domain_edge_summary",
+      "graphEdgeCount": 147689,
+      "canonicalIndexEntryCount": 79656
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 cross_domain_links snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Cross-domain links require origin/method/review state before public use."
+  ]
+}

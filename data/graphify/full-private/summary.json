@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "cp22.full-private.v1",
+  "graphId": "rafiq-full-private-resource-graph",
+  "checkpoint": "CP22-G06",
+  "status": "generated",
+  "generatedAt": "2026-07-12T08:04:06.856Z",
+  "counts": {
+    "totalNodes": 79657,
+    "totalEdges": 147689,
+    "partitions": 11,
+    "indexes": 12,
+    "publicSafeNodes": 0,
+    "publicSafeEdges": 0
+  },
+  "partitionCounts": {
+    "sources": {
+      "nodes": 59,
+      "edges": 54
+    },
+    "governance": {
+      "nodes": 36,
+      "edges": 108
+    },
+    "quran": {
+      "nodes": 25061,
+      "edges": 43652
+    },
+    "translations": {
+      "nodes": 31185,
+      "edges": 62360
+    },
+    "tafsir": {
+      "nodes": 18711,
+      "edges": 37416
+    },
+    "topics": {
+      "nodes": 3562,
+      "edges": 2512
+    },
+    "hadith": {
+      "nodes": 483,
+      "edges": 546
+    },
+    "hadith-grades": {
+      "nodes": 120,
+      "edges": 118
+    },
+    "quality": {
+      "nodes": 91,
+      "edges": 15
+    },
+    "product-evidence": {
+      "nodes": 303,
+      "edges": 628
+    },
+    "cp21c-reference": {
+      "nodes": 46,
+      "edges": 280
+    }
+  },
+  "publicBoundary": {
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0,
+    "publicSafeNodes": [],
+    "publicSafeEdges": [],
+    "blockerCategories": {
+      "publicBlocked": 213891,
+      "privateOnly": 227346,
+      "approvalMissing": 214715,
+      "escalationBoundary": 3
+    }
+  },
+  "limitations": [
+    "CP21C product-evidence graph projection; no live product-evidence DB rows exported.",
+    "Retrieval evidence links are private validation links, not authoritative religious guidance."
+  ],
+  "next": "CP22-G07 Vault Packs."
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "cp26.unresolved-reference-report.v1",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "references": [
+    {
+      "referenceId": "cp26:s04:unresolved:cross_domain_links",
+      "referenceType": "canonical_ref",
+      "sourceGroupKey": "cross_domain_links",
+      "severity": "medium",
+      "blockingStatus": "review_required",
+      "message": "Quran, Hadith, Topic, Theme, And Related Resource Link Snapshot Summary has 5 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+      "affectedArtifactIds": [
+        "cp26:s04:refresh:cross_domain_links"
+      ]
+    },
+    {
+      "referenceId": "cp26:s04:unresolved:private_retrieval",
+      "referenceType": "retrieval_candidate",
+      "sourceGroupKey": "private_retrieval",
+      "severity": "medium",
+      "blockingStatus": "review_required",
+      "message": "Private Retrieval Candidate, Ranking, Evidence Route, And Validation Handoff Snapshot Summary has 5 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+      "affectedArtifactIds": [
+        "cp26:s04:refresh:private_retrieval"
+      ]
+    },
+    {
+      "referenceId": "cp26:s04:unresolved:private_review",
+      "referenceType": "review_queue_item",
+      "sourceGroupKey": "private_review",
+      "severity": "high",
+      "blockingStatus": "blocking",
+      "message": "Private Review Queue, Assignment, Blocker, And Remediation State Snapshot Summary has 1 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+      "affectedArtifactIds": [
+        "cp26:s04:refresh:private_review"
+      ]
+    },
+    {
+      "referenceId": "cp26:s04:unresolved:private_audit",
+      "referenceType": "audit_event",
+      "sourceGroupKey": "private_audit",
+      "severity": "critical",
+      "blockingStatus": "blocking",
+      "message": "Private Reviewer Action, Decision Ledger, Audit Export, And Remediation Transition Snapshot Summary has 66 unresolved reference(s) carried forward from CP26-S03 snapshot input.",
+      "affectedArtifactIds": [
+        "cp26:s04:refresh:private_audit"
+      ]
+    }
+  ],
+  "counts": {
+    "total": 77,
+    "blocking": 2,
+    "reviewRequired": 2,
+    "highOrCritical": 2
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S04 unresolved reference report is private-only. Public release remains blocked."
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "cp27.graph-partition.v1",
+  "checkpoint": "CP27-G03",
+  "partition": "tafsir",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "sourceMapperId": "cp27-g02-snapshot-graph-mapper",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "nodeCount": 7,
+  "edgeCount": 6,
+  "publicSafeNodeCount": 0,
+  "publicSafeEdgeCount": 0,
+  "rawTextBodiesExported": false,
+  "nodes": [
+    {
+      "id": "cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+      "type": "edge_family",
+      "label": "tafsir tafsir_edition_to_passage_reference",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge_family:tafsir_edition_to_passage_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_edition_to_passage_reference",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+      "type": "edge_family",
+      "label": "tafsir tafsir_passage_reference_to_ayah",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge_family:tafsir_passage_reference_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_passage_reference_to_ayah",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+      "type": "edge_family",
+      "label": "tafsir tafsir_passage_reference_to_source",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge_family:tafsir_passage_reference_to_source"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_passage_reference_to_source",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "type": "snapshot_group",
+      "label": "Tafsir Edition, Passage, And Ayah Link Snapshot Summary",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:snapshot_group:tafsir is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "rowCount": 1,
+        "canonicalRefCount": 18711,
+        "provenanceRefCount": 18711,
+        "releaseStateRefCount": 18711,
+        "unresolvedReferenceCount": 0,
+        "qualityWarningCount": 2,
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+      "type": "tafsir_ayah_link",
+      "label": "tafsir tafsir_ayah_link",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:tafsir_ayah_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+      "type": "tafsir_edition",
+      "label": "tafsir tafsir_edition",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:tafsir_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:tafsir_edition:tafsir_edition is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    },
+    {
+      "id": "cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference",
+      "type": "tafsir_passage_reference",
+      "label": "tafsir tafsir_passage_reference",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:tafsir_passage_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "releaseState": "private_blocked",
+      "qualityState": "review_required",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 node cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "sourceSnapshotChecksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+        "baselineComparisonMode": "matched",
+        "rawTextBodiesExported": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:1217de4d84ffef99",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:tafsir_edition:tafsir_edition",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:node_family:tafsir_edition"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:1217de4d84ffef99 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:be16e223fa0130b7",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:tafsir_ayah_link:tafsir_ayah_link",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:node_family:tafsir_ayah_link"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:be16e223fa0130b7 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:snapshot_group_to_node_family:fb75d6f3ea838df4",
+      "type": "snapshot_group_to_node_family",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:tafsir_passage_reference:tafsir_passage_reference",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:node_family:tafsir_passage_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:snapshot_group_to_node_family:fb75d6f3ea838df4 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:tafsir_edition_to_passage_reference:95645b178ed3acbb",
+      "type": "tafsir_edition_to_passage_reference",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:edge_family:tafsir_edition_to_passage_reference",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge:tafsir_edition_to_passage_reference"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:tafsir_edition_to_passage_reference:95645b178ed3acbb is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_edition_to_passage_reference",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:tafsir_passage_reference_to_ayah:bdd415b610482319",
+      "type": "tafsir_passage_reference_to_ayah",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_ayah",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge:tafsir_passage_reference_to_ayah"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:tafsir_passage_reference_to_ayah:bdd415b610482319 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_passage_reference_to_ayah",
+        "baselineComparisonMode": "matched"
+      }
+    },
+    {
+      "id": "cp27:edge:tafsir_passage_reference_to_source:78de4a6a4f3f45f7",
+      "type": "tafsir_passage_reference_to_source",
+      "from": "cp27:tafsir:tafsir:snapshot_group:tafsir",
+      "to": "cp27:tafsir:tafsir:edge_family:tafsir_passage_reference_to_source",
+      "partition": "tafsir",
+      "sourceGroupKey": "tafsir",
+      "canonicalRefs": [
+        "snapshot_group:tafsir:edge:tafsir_passage_reference_to_source"
+      ],
+      "sourceRefs": [
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+        "cp26:s03:snapshot:tafsir",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP27-G03 edge cp27:edge:tafsir_passage_reference_to_source:78de4a6a4f3f45f7 is private-only."
+      },
+      "metadata": {
+        "checkpoint": "CP27-G03",
+        "relationshipFamily": "tafsir_passage_reference_to_source",
+        "baselineComparisonMode": "matched"
+      }
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 tafsir partition is private-only."
+  }
+}

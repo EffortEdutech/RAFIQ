@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "cp27.latest-verification-pointer.v1",
+  "proofId": "cp27-combined-verification-g07",
+  "checkpoint": "CP27-G07",
+  "summaryPath": "data/graphify/cp27-refresh/verification/cp27-combined-verification-g07/combined-verification-summary.json",
+  "summarySha256": "7B6D57BA9953348773292D8517467CBA5BB5100920F69C08F2713E8738C64BDC",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G07 combines CP27 graph/vault rebuild, diff, internal UI proof, and public-boundary checks. Public release remains blocked and public-safe counts remain zero."
+  },
+  "refs": {
+    "summary": {
+      "path": "data/graphify/cp27-refresh/verification/cp27-combined-verification-g07/combined-verification-summary.json",
+      "sha256": "7B6D57BA9953348773292D8517467CBA5BB5100920F69C08F2713E8738C64BDC"
+    },
+    "latestMapper": {
+      "path": "data/graphify/cp27-refresh/latest-mapper.json",
+      "sha256": "32283636FEB01A60BA5597B765073FE011F00CA370956AFEFF6CA1480C1F8C3E"
+    },
+    "latestGraph": {
+      "path": "data/graphify/cp27-refresh/latest-graph.json",
+      "sha256": "D0BDD93CD09A26D514E3057D3B992E0860EB3B08C773BB86FDBD6DF8C08F7051"
+    },
+    "latestVault": {
+      "path": "data/vault/cp27-refresh/latest-vault.json",
+      "sha256": "20E2EC5BB17259AD81679F5797AC6EA994F3AB92B2EECF61984066C0C197F36C"
+    },
+    "latestDiff": {
+      "path": "data/graphify/cp27-refresh/latest-diff.json",
+      "sha256": "0BD2889A64D17FD0016205A1CBE3D65905E53C1BBC6B5104E347B9FF52165B5B"
+    },
+    "latestInternalUiProof": {
+      "path": "data/graphify/cp27-refresh/latest-internal-ui-proof.json",
+      "sha256": "96C48B158467889848D39E566E489A94CDD3C8A9CCDD2BFC456AA6A5D101853D"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "cp26.refreshed-reviewer-remediation-summary.v1",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s04_refresh_pipeline.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "deterministicIdPolicy": {
+    "mode": "preserve_cp25_queue_remediation_audit_ids",
+    "replacementMappingRequired": false,
+    "auditHistoryOverwriteAllowed": false
+  },
+  "counts": {
+    "reviewCanonicalRefCount": 72,
+    "auditCanonicalRefCount": 72,
+    "reviewerUnresolvedReferenceCount": 1,
+    "auditUnresolvedReferenceCount": 66,
+    "highOrCriticalReviewerBlockerCount": 18,
+    "highOrCriticalAuditBlockerCount": 12,
+    "totalUnresolvedReferenceCount": 67,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0
+  },
+  "sourceFiles": [
+    "data\\review\\cp25\\manifest.json",
+    "data\\review\\cp25\\review-queue.json",
+    "data\\review\\cp25\\remediation-state.json",
+    "data\\review\\cp25\\state-summary.json",
+    "data\\review\\cp25\\audit-decision-ledger-manifest.json",
+    "data\\review\\cp25\\audit-events.json",
+    "data\\review\\cp25\\decision-ledger.json",
+    "data\\review\\cp25\\invalid-action-fixtures.json",
+    "data\\review\\cp25\\transition-rules.json",
+    "data\\review\\cp25\\a07-export-manifest.json",
+    "data\\review\\cp25\\a07-audit-event-export.json",
+    "data\\review\\cp25\\a07-remediation-transition-export.json",
+    "data\\review\\cp25\\a07-reviewer-workload-summary.json",
+    "data\\review\\cp25\\a07-unresolved-action-report.json"
+  ],
+  "warnings": [
+    "Reviewer and audit refresh summaries are append-aware proof artifacts.",
+    "Open blockers and unresolved actions remain visible and are not silently resolved."
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S04 reviewer remediation summary is private-only. Public release remains blocked."
+  }
+}

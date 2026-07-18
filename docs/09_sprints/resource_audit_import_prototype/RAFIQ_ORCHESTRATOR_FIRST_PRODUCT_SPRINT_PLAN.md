@@ -69,6 +69,40 @@ Product gap:
 - model adapter remains disabled;
 - UI still shows too much structure and too little guided knowledge.
 
+## Direction From CP16 Forward
+
+The sprint is now moving from "routes exist" into "study-quality RAFIQ."
+
+RAFIQ is heading toward:
+
+1. Study-quality core: Quran reading, translation choice, tafsir context, Hadith reliability, and readable attribution.
+2. Guidance engine depth: better source ranking, Quran-theme-Hadith links, Sunnah practice support, and no invented evidence.
+3. Personal companion memory: saved sessions, reflections, unfinished actions, preferences, and return continuity.
+4. Product Owner GO/NO-GO: mobile QA, rights boundaries, private/public separation, and acceptance against the companion objective.
+
+Planned runway:
+
+- CP16 - Hadith meaning quality scan and Quran translation selection.
+- CP17 - Tafsir reading room and tafsir comparison/depth.
+- CP18 - Hadith quality queue and verification strengthening.
+- CP19 - Orchestration evaluation matrix for guidance quality, ranking, and blocked/no-evidence behavior.
+- CP20 - Product Owner GO/NO-GO for private companion MVP.
+
+Current CP20 decision:
+
+- Conditional GO for private companion MVP continuation.
+- NO-GO for public release, broad external testing, or public Islamic guidance publication.
+- Next runway is CP21 private MVP hardening: target-device Product Owner visual inspection, risk/scholar escalation, semantic ranking, backend Growth Memory, Hadith replacement queue, and deeper study paths.
+
+Current CP21 hardening lock:
+
+- CP21 is accepted as a backlog lock, not a release approval.
+- H0 hardening gates are target-device Product Owner UAT, risk/scholar escalation, semantic ranking, backend Growth Memory, Hadith replacement, and public-release gate register.
+- CP21A agent target-viewport UAT passed on 2026-07-08; physical Product Owner device sign-off remains pending.
+- CP21B risk and scholar escalation implementation passed on 2026-07-08.
+- Next checkpoint is CP21C - Semantic Ranking And Cross-Source Selection.
+- CP21C-E implementation remains pending evidence, and CP21F keeps public release blocked.
+
 ## Sprint Principle
 
 Build RAFIQ from the orchestration object outward.
@@ -577,7 +611,7 @@ CP14 evidence:
 
 ### CP15 - Translation Coverage And Attribution Data Upgrade
 
-Status: Next recommended checkpoint.
+Status: Pass for current scope, with production-rights follow-up required.
 
 Output:
 
@@ -589,6 +623,224 @@ Output:
 Acceptance:
 
 - common Quran study rooms show readable translation when available, attribution is meaningful, and damaged Hadith meaning records are measurable instead of discovered one screen at a time.
+
+CP15 evidence:
+
+- Root cause found: the retrieval RPC selected only `variant_type = 'plain'`, while imported display translations use `variant_type = 'simple'`.
+- `private_api.get_quran_surah` now prefers stored `simple` translation rows and falls back to `plain`.
+- Source Search translation results now carry `translationTextId` and route Attribution to `translation_text`.
+- Translation attribution now shows source, provider, license, and a careful private-study source statement while keeping rights/publication pending.
+- `node scripts/check_cp15_translation_attribution.mjs`, build, export, runtime, and 390 x 844 browser QA passed.
+- Next recommended checkpoint is CP16 - Study Data Quality Review: Hadith Meaning Scan And Quran Translation Selection.
+
+### CP16 - Study Data Quality Review: Hadith Meaning Scan And Quran Translation Selection
+
+Status: Pass for current scope, with review/replacement follow-up required.
+
+Output:
+
+- scan Hadith meaning records for repeated words, broken phrases, suspicious truncation, and unusable translations;
+- define a replacement/review queue for damaged Hadith meaning records;
+- expose Quran translation selection/comparison in the study room without cluttering reading;
+- document which translation editions are private-study only and which are candidates for public release.
+
+Acceptance:
+
+- RAFIQ can measure and quarantine damaged Hadith meaning records, and users can study Quran translation choices without the reading room becoming noisy.
+
+CP16 evidence:
+
+- Hadith meaning records are scanned by `scripts/check_cp16_hadith_quality_scan.mjs` for repeated words, known broken phrases, suspicious length, and blank text.
+- Current scan measured 406,459 non-Arabic meaning records and flagged 5,405 review candidates, including 13 known broken-phrase candidates.
+- The scan produces a review queue shape for damaged `hadith_text_version` records and a quarantine rule for user-facing guidance.
+- Ayah study rooms now offer compact translation selection for English and Malay editions without changing the main Quran reading room into a settings surface.
+- Source Search target OpenAPI documentation now includes `translationTextId`.
+- Fresh static export QA passed at 390 x 844 with no horizontal overflow or console errors; the running `8057` Expo dev server was stale and must be restarted before Product Owner inspection.
+- Next recommended checkpoint is CP17 - Tafsir Reading Room And Tafsir Learning Depth.
+
+### CP17 - Tafsir Reading Room And Tafsir Learning Depth
+
+Status: Pass for current development scope; imported tafsir resources are enabled for private RAFIQ study workflows.
+
+Output:
+
+- create a tafsir-focused study room from ayah/source links;
+- compare available tafsir passages where data supports it;
+- connect tafsir explanation back to Quran reading, Sunnah support, reflection, and one careful action;
+- keep tafsir rights/publication status separate from user-facing study.
+
+Acceptance:
+
+- user can move from an ayah to tafsir depth without landing in internal provenance tooling or a shallow snippet.
+
+CP17 evidence:
+
+- Added private tafsir study endpoint at `/api/private-content/tafsir/passage/:passageId`.
+- Added mobile tafsir study room at `/tafsir/:passageId`.
+- Tafsir source-search results and guidance learning-path tafsir steps now route to the tafsir room.
+- Ayah study now offers `Open tafsir room` from the tafsir panel.
+- Tafsir room shows Quran anchor, translation, tafsir explanation, comparison passages when available, continue-study actions, guidance handoff, and attribution.
+- `scripts/check_cp17_tafsir_room.mjs`, build, mobile export, runtime, and 390 x 844 browser QA passed.
+- Next recommended checkpoint is CP18 - Hadith Quality Queue And Verification Strengthening.
+
+### CP18 - Hadith Quality Queue And Verification Strengthening
+
+Status: Pass for current scope.
+
+Output:
+
+- turn CP16 Hadith scan candidates into a structured review/replacement workflow;
+- strengthen Hadith reliability display with clearer grade/verification/text-quality boundaries;
+- expose automated text-quality state in the Hadith API and narration room;
+- keep damaged meaning records out of guidance and user reading until reviewed.
+
+Acceptance:
+
+- user can study and practice Hadith with reliability, source, and text-quality boundaries visible without scrolling raw metadata.
+
+CP18 evidence:
+
+- Hadith detail API now enriches every text version with quality flags, severity, and summary.
+- Damaged meaning text is marked `withheld` and is not selected as orchestrator Sunnah support copy.
+- Narration study now shows a compact verification map and meaning-quality note.
+- `scripts/check_cp18_hadith_quality_verification.mjs`, build/export/runtime, and 390 x 844 browser QA passed.
+- Next recommended checkpoint is CP19 - Orchestration Evaluation Matrix for guidance quality, ranking, and blocked/no-evidence behavior.
+
+### CP19 - Orchestration Evaluation Matrix
+
+Status: Pass for current scope.
+
+Output:
+
+- define a repeatable evaluation matrix for natural guidance, direct ayah guidance, anchored Hadith guidance, source ranking, and no-evidence blocking;
+- score ready sessions against Quran anchor, tafsir route, Sunnah support, evidence counts, learning path, reflection/action, and source map;
+- tighten source ranking where the matrix exposes repeated low-value results;
+- document current engine level and remaining gaps.
+
+Acceptance:
+
+- RAFIQ selects Quran-first guidance for general user needs;
+- direct ayah guidance keeps the requested ayah as anchor;
+- Hadith-record guidance keeps the opened narration anchored first;
+- no-evidence input is blocked without invented guidance;
+- Source Search opens Quran, translation, and tafsir study routes without repeated Quran rows crowding the top results.
+
+CP19 evidence:
+
+- Added `scripts/check_cp19_orchestration_matrix.mjs`.
+- Natural patience, natural prayer focus, direct ayah `2:255`, anchored Bukhari #1, unknown no-evidence phrase, and `2:255` Source Search all passed.
+- Source Search dedupes exact Quran ayah rows by verse key, preserving distinct tafsir and translation results.
+- `corepack pnpm build`, CP19 matrix, and runtime check passed.
+- Next recommended checkpoint is CP20 - Product Owner Private Companion MVP Go/No-Go Review.
+
+### CP20 - Product Owner Private Companion MVP Go/No-Go Review
+
+Status: Conditional GO for private companion MVP continuation; NO-GO for public release.
+
+Output:
+
+- Product Owner-style decision document for the private companion MVP;
+- repeatable CP20 readiness script;
+- route-by-route mobile evidence at 390px;
+- explicit separation between private-local readiness and public-release readiness;
+- next hardening backlog for CP21.
+
+Acceptance:
+
+- RAFIQ's core private guidance loop works end-to-end: user need, Quran anchor, tafsir path, reflection, one action, and memory-capable session state;
+- no-evidence behavior blocks without invented guidance;
+- Quran/translation/tafsir source research opens study rooms without repeated exact Quran rows;
+- Hadith guidance anchors the opened narration and withholds damaged meaning text;
+- mobile routes avoid overflow, duplicate labels, console errors, and internal release/review language;
+- public release remains blocked until scholar/risk, rights, attribution, editorial, Hadith replacement, semantic ranking, backend memory, and final device Product Owner gates pass.
+
+CP20 evidence:
+
+- `scripts/check_cp20_private_mvp_go_no_go.mjs` returned `conditional_go_private_companion_mvp` and `publicRelease: no_go`.
+- CP17 tafsir room, CP18 Hadith quality, and CP19 orchestration matrix scripts passed.
+- Root build, mobile web export, and runtime check passed.
+- Browser QA passed at 390px for Today, Ask, Learn, Sources, Ayah Study, Tafsir, Hadith, Narration Study, Growth, and Settings.
+- Next recommended checkpoint is CP21 - Private Companion MVP Hardening Backlog.
+
+### CP21 - Private Companion MVP Hardening Backlog
+
+Status: Pass as hardening backlog lock.
+
+Output:
+
+- map every CP20 conditional-GO blocker to a named hardening gate;
+- separate H0 private-MVP blockers from H1 study-depth work;
+- keep public release explicitly blocked;
+- define CP21A as the immediate next checkpoint;
+- add a repeatable backlog verification script.
+
+Acceptance:
+
+- target-device Product Owner UAT is first before more route expansion;
+- risk/scholar escalation, semantic ranking, backend Growth Memory, Hadith replacement, and public-release gates are named H0 work;
+- Quran/tafsir/Hadith study depth and companion-device operating constraints are tracked as H1 work;
+- documentation and checklist identify the next action.
+
+CP21 evidence:
+
+- Added `docs/09_sprints/resource_audit_import_prototype/CP21_PRIVATE_COMPANION_MVP_HARDENING_BACKLOG.md`.
+- Added `scripts/check_cp21_hardening_backlog.mjs`.
+- `corepack pnpm exec node scripts/check_cp21_hardening_backlog.mjs` passed.
+- Next recommended checkpoint is CP21A - Target-Device Product Owner UAT Pack And Evidence Capture.
+
+### CP21A-F - Private MVP Hardening Contract Pack
+
+Status: Pack/contract/register pass; CP21A agent UAT and CP21B implementation passed; remaining implementation pending where required.
+
+Output:
+
+- CP21A target-device Product Owner UAT pack;
+- CP21B risk and scholar escalation contract;
+- CP21C semantic ranking and cross-source selection contract;
+- CP21D backend Growth Memory contract;
+- CP21E Hadith replacement and verification workflow;
+- CP21F public release gate register;
+- repeatable pack verification script.
+
+Acceptance:
+
+- CP21A is not accepted as executed until Product Owner target-device evidence is recorded;
+- CP21B is accepted as implemented; CP21C-E are not accepted as implemented until API/mobile/schema/script evidence exists;
+- CP21F keeps public release NO-GO;
+- CP21G/H remain planned hardening tracks after H0 gates.
+
+CP21A-F evidence:
+
+- Added CP21A-F docs under `docs/09_sprints/resource_audit_import_prototype/`.
+- Added `scripts/check_cp21a_f_contract_pack.mjs`.
+- `corepack pnpm exec node scripts/check_cp21a_f_contract_pack.mjs` passed.
+- Next recommended checkpoint is CP21C - Semantic Ranking And Cross-Source Selection.
+
+### CP21A - Target-Device UAT Execution
+
+Status: Agent target-viewport UAT Pass; physical Product Owner device sign-off pending.
+
+Output:
+
+- executed private local runtime check;
+- executed browser UAT at 390 x 844 and 430 x 932;
+- tested Today, Ask, Learn, Sources, Ayah Study, Tafsir, Hadith, Narration Study, Growth, and Settings;
+- retested `/hadith` at 390 x 844 after a longer settle window;
+- documented physical Product Owner sign-off as still pending.
+
+Acceptance:
+
+- automated target-viewport evidence may pass;
+- physical Product Owner device sign-off remains a separate acceptance signal;
+- public release remains NO-GO.
+
+CP21A evidence:
+
+- `scripts/check_phase5_runtime.ps1` passed.
+- Browser UAT passed both target viewports after `/hadith` settle retest.
+- Added `docs/09_sprints/resource_audit_import_prototype/CP21A_TARGET_DEVICE_UAT_EXECUTION_REPORT.md`.
+- Added `scripts/check_cp21a_target_device_uat_report.mjs`.
+- Next recommended checkpoint is CP21C - Semantic Ranking And Cross-Source Selection, unless Product Owner wants physical-device sign-off recorded first.
 
 ## Hard No-Go Conditions
 

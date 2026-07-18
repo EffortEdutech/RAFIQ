@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "cp26.raw_lineage.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "raw_lineage",
+  "label": "Raw Object, Import, Validation, Transformation, And Lineage Summary",
+  "sourceTables": [
+    "ingest.raw_objects",
+    "ingest.import_runs",
+    "ingest.validation_findings",
+    "ingest.transformation_events",
+    "ingest.record_lineage",
+    "ingest.raw_object_parser_assignments"
+  ],
+  "sourceFiles": [
+    "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+    "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+    "data/checksums/*",
+    "scripts/generate_cp22_hadith_grade_quality_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "lineage_backbone_summary",
+      "graphWarnings": [
+        "Live database content.entity_provenance and content.entity_release_states rows are not exported because no safe DB snapshot input was provided.",
+        "Hadith raw object inventory is summarized by subtree, not expanded to every raw object row, to keep CP22-G03 as a backbone checkpoint.",
+        "CP22-G04 does not export Quran, translation, or tafsir text bodies from raw files or live DB rows.",
+        "CP22-G05 exports hadith acquisition resources and subtree aggregate placeholders; it does not export raw hadith text bodies.",
+        "Live product-evidence database rows remain deferred until a safe content schema snapshot is available."
+      ],
+      "qualityPartitionNodeCount": 91,
+      "qualityPartitionEdgeCount": 15
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 raw_lineage snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Raw bodies are intentionally omitted from CP26-S03 prototype snapshots."
+  ]
+}

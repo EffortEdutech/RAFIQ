@@ -4,7 +4,18 @@ import type {
   HadithCollectionsResponse,
   HadithDetailResponse,
   HadithRecordsResponse,
+  PrivateKnowledgeGraphifyCp21cResponse,
+  PrivateKnowledgeGraphifyCp22Response,
+  PrivateCp27InternalUiInspectionResponse,
+  PrivateCp24GraphAwareRetrievalRequest,
+  PrivateCp24GraphAwareRetrievalResponse,
+  PrivateCp25ReviewerActionRequest,
+  PrivateCp25ReviewerActionResponse,
+  PrivateCp25WorkbenchStateResponse,
+  PrivateCp26SnapshotStatusResponse,
+  PrivateReviewWorkbenchCp23Response,
   QuranSurahResponse,
+  TafsirStudyResponse,
 } from '@rafiq/shared';
 
 export type PrivateSearchDomain =
@@ -63,6 +74,7 @@ export type PrivateSearchResult = {
     surahNumber?: number | null;
     ayahNumber?: number | null;
     verseKey?: string | null;
+    translationTextId?: string | null;
     passageId?: string | null;
     topicId?: string | null;
     sourceTopicKey?: string | null;
@@ -342,12 +354,32 @@ export type PrivateSourceDetailResponse = {
 
 const API_URL = process.env.EXPO_PUBLIC_API_URL ?? 'http://127.0.0.1:8056';
 
+function getApiBaseUrl(): string {
+  return API_URL;
+}
+
 async function getJson<T>(path: string): Promise<T> {
   const response = await fetch(`${API_URL}${path}`);
   if (!response.ok) {
     throw new Error(`RAFIQ API request failed: ${response.status}`);
   }
   return response.json() as Promise<T>;
+}
+
+async function postJson<T>(path: string, body: Record<string, unknown>): Promise<T> {
+  const baseUrl = getApiBaseUrl();
+  const response = await fetch(`${baseUrl}${path}`, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new Error(`Request failed ${response.status}: ${path}`);
+  }
+  return (await response.json()) as T;
 }
 
 export function getQuranSurah(
@@ -365,6 +397,12 @@ export function getQuranSurah(
   const suffix = query.toString() ? `?${query.toString()}` : '';
   return getJson<QuranSurahResponse>(
     `/api/private-content/quran/surah/${surahNumber}${suffix}`,
+  );
+}
+
+export function getTafsirPassage(passageId: string): Promise<TafsirStudyResponse> {
+  return getJson<TafsirStudyResponse>(
+    `/api/private-content/tafsir/passage/${encodeURIComponent(passageId)}`,
   );
 }
 
@@ -434,6 +472,63 @@ export function getSourceDetail(
   query.set('entityId', target.entityId);
   return getJson<PrivateSourceDetailResponse>(
     `/api/private-content/source/detail?${query.toString()}`,
+  );
+}
+
+export function getKnowledgeGraphifyCp21c(): Promise<PrivateKnowledgeGraphifyCp21cResponse> {
+  return getJson<PrivateKnowledgeGraphifyCp21cResponse>(
+    '/api/private-content/knowledge-graphify/cp21c',
+  );
+}
+
+export function getKnowledgeGraphifyCp22(): Promise<PrivateKnowledgeGraphifyCp22Response> {
+  return getJson<PrivateKnowledgeGraphifyCp22Response>(
+    '/api/private-content/knowledge-graphify/cp22',
+  );
+}
+
+export function getKnowledgeGraphifyCp27(): Promise<PrivateCp27InternalUiInspectionResponse> {
+  return getJson<PrivateCp27InternalUiInspectionResponse>(
+    '/api/private-content/knowledge-graphify/cp27',
+  );
+}
+
+export function getReviewWorkbenchCp23(): Promise<PrivateReviewWorkbenchCp23Response> {
+  return getJson<PrivateReviewWorkbenchCp23Response>(
+    '/api/private-content/review-workbench/cp23',
+  );
+}
+
+export function getReviewerWorkbenchCp25(): Promise<PrivateCp25WorkbenchStateResponse> {
+  return getJson<PrivateCp25WorkbenchStateResponse>(
+    '/api/private-content/reviewer-workbench/cp25',
+  );
+}
+
+export function getCp26SnapshotStatus(): Promise<PrivateCp26SnapshotStatusResponse> {
+  return getJson<PrivateCp26SnapshotStatusResponse>(
+    '/api/private-content/snapshots/cp26',
+  );
+}
+
+export function createReviewerWorkbenchCp25Action(
+  request: PrivateCp25ReviewerActionRequest,
+): Promise<PrivateCp25ReviewerActionResponse> {
+  return postJson<PrivateCp25ReviewerActionResponse>(
+    '/api/private-content/reviewer-workbench/cp25/actions',
+    request as unknown as Record<string, unknown>,
+  );
+}
+
+export function createGraphAwareRetrievalCp24(
+  request: Pick<PrivateCp24GraphAwareRetrievalRequest, 'queryText'> &
+    Partial<PrivateCp24GraphAwareRetrievalRequest> & {
+      maxDepth?: number;
+    },
+): Promise<PrivateCp24GraphAwareRetrievalResponse> {
+  return postJson<PrivateCp24GraphAwareRetrievalResponse>(
+    '/api/private-content/graph-aware-retrieval/cp24',
+    request as Record<string, unknown>,
   );
 }
 

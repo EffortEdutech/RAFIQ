@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "cp27.refresh-vault-summary.v1",
+  "checkpoint": "CP27-G04",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+  "sourceGraphId": "rafiq-cp27-refresh-private-resource-graph",
+  "counts": {
+    "artifacts": 26,
+    "categories": 4,
+    "graphNodesReferenced": 147,
+    "sourceGraphNodes": 147,
+    "sourceGraphEdges": 125,
+    "publicSafeArtifacts": 0,
+    "publicSafeGraphNodes": 0,
+    "publicSafeGraphEdges": 0,
+    "publicSafeSnapshotRowCount": 0,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30
+  },
+  "categoryCounts": {
+    "partitions": 10,
+    "quality": 1,
+    "release-gates": 2,
+    "source-groups": 13
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G04 refreshed vault packs are private-only. Public release remains blocked."
+  }
+}

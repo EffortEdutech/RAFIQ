@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "cp27.internal-ui-inspection-proof.v1",
+  "proofId": "cp27-g06-internal-ui-inspection-proof",
+  "checkpoint": "CP27-G06",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "route": "GET /api/private-content/knowledge-graphify/cp27",
+  "screen": "apps/mobile/app/knowledge-graphify.tsx",
+  "sourceCheckpoints": {
+    "graph": "CP27-G03",
+    "vault": "CP27-G04",
+    "diff": "CP27-G05"
+  },
+  "graph": {
+    "graphId": "rafiq-cp27-refresh-private-resource-graph",
+    "nodeCount": 147,
+    "edgeCount": 125,
+    "partitionCount": 10,
+    "indexCount": 12,
+    "partitionRowsReturned": 10,
+    "indexRowsReturned": 12,
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0
+  },
+  "vault": {
+    "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+    "artifactCount": 26,
+    "categoryCount": 4,
+    "graphNodesReferenced": 147,
+    "categoryRowsReturned": 4,
+    "publicSafeArtifactCount": 0
+  },
+  "diff": {
+    "proofId": "cp27-g05-graph-vault-baseline-diff",
+    "graphBaselineNodes": 79657,
+    "graphRefreshedNodes": 147,
+    "graphBaselineEdges": 147689,
+    "graphRefreshedEdges": 125,
+    "vaultBaselineArtifacts": 158,
+    "vaultRefreshedArtifacts": 26,
+    "matchedCount": 7,
+    "addedCount": 4,
+    "removedCount": 8,
+    "changedCount": 23,
+    "deferredCount": 6,
+    "blockedCount": 3
+  },
+  "responseBoundary": {
+    "fullGraphDumpIncluded": false,
+    "fullVaultDumpIncluded": false,
+    "rawSourceTextIncluded": false,
+    "fullPartitionBodiesIncluded": false,
+    "fullIndexBodiesIncluded": false,
+    "vaultMarkdownBodiesIncluded": false
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP27-G06 proves internal inspection only. Public release remains blocked."
+  },
+  "artifactPaths": {
+    "latestGraphPointer": "data/graphify/cp27-refresh/latest-graph.json",
+    "latestVaultPointer": "data/vault/cp27-refresh/latest-vault.json",
+    "latestDiffPointer": "data/graphify/cp27-refresh/latest-diff.json",
+    "graphSummary": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/summary.json",
+    "vaultSummary": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/summary.json"
+  }
+}

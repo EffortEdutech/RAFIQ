@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "cp27.vault-diff-summary.v1",
+  "proofId": "cp27-g05-graph-vault-baseline-diff",
+  "checkpoint": "CP27-G05",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp27_g05_graph_vault_diff.mjs",
+  "baseline": {
+    "manifestPath": "data/vault/full-private/manifest.json",
+    "vaultId": "rafiq-full-private-knowledge-vault",
+    "artifactCount": 158,
+    "categoryCount": 9,
+    "publicSafeArtifacts": 0,
+    "sourceGraphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98"
+  },
+  "refreshed": {
+    "manifestPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+    "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+    "artifactCount": 26,
+    "categoryCount": 4,
+    "publicSafeArtifacts": 0,
+    "sourceGraphChecksumSha256": "87A6E4DEDE1E1D5F2BB481119767BF8D9193832C6FDE410C9A3325B0AB6F8335"
+  },
+  "countDelta": {
+    "artifactDelta": -132,
+    "categoryDelta": -5,
+    "graphNodesReferencedDelta": -239
+  },
+  "categoryDiffs": [
+    {
+      "name": "governance",
+      "status": "removed",
+      "before": 11,
+      "after": null
+    },
+    {
+      "name": "hadith",
+      "status": "removed",
+      "before": 15,
+      "after": null
+    },
+    {
+      "name": "partitions",
+      "status": "added",
+      "before": null,
+      "after": 10
+    },
+    {
+      "name": "quality",
+      "status": "changed",
+      "before": 21,
+      "after": 1
+    },
+    {
+      "name": "quran",
+      "status": "removed",
+      "before": 4,
+      "after": null
+    },
+    {
+      "name": "release-gates",
+      "status": "matched",
+      "before": 2,
+      "after": 2
+    },
+    {
+      "name": "source-groups",
+      "status": "added",
+      "before": null,
+      "after": 13
+    },
+    {
+      "name": "sources",
+      "status": "removed",
+      "before": 60,
+      "after": null
+    },
+    {
+      "name": "tafsir",
+      "status": "removed",
+      "before": 10,
+      "after": null
+    },
+    {
+      "name": "topics",
+      "status": "removed",
+      "before": 11,
+      "after": null
+    },
+    {
+      "name": "validation",
+      "status": "removed",
+      "before": 24,
+      "after": null
+    }
+  ],
+  "classificationCounts": {
+    "matched": 1,
+    "added": 2,
+    "removed": 7,
+    "changed": 1,
+    "deferred": 3,
+    "blocked": 1
+  },
+  "unresolvedReferenceCount": 77,
+  "highOrCriticalBlockerCount": 30,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G05 vault diff is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "CP27 refreshed vault is a regenerated review/navigation vault from the CP27 summary graph and does not claim CP22 full-private vault parity.",
+    "The CP22 vault baseline is not overwritten.",
+    "Public-safe vault artifact count remains zero."
+  ]
+}

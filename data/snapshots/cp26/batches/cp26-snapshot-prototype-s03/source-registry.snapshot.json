@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "cp26.source_registry.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "source_registry",
+  "label": "Source Registry, Manifest, Licensing, Attribution, And Checksum Backbone",
+  "sourceTables": [
+    "ingest.source_registry",
+    "ingest.source_snapshots"
+  ],
+  "sourceFiles": [
+    "data/manifests/*.json",
+    "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+    "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+    "data/checksums/*",
+    "data/manifests/quran-translation-tafsir-topic manifests"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "graph_manifest_source_backbone",
+      "graphId": "rafiq-full-private-resource-graph",
+      "sourceInputCount": 13,
+      "sourcePartitionNodeCount": 59,
+      "sourcePartitionEdgeCount": 54,
+      "graphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98"
+    },
+    {
+      "rowType": "vault_source_pack_summary",
+      "vaultId": "rafiq-full-private-knowledge-vault",
+      "sourcePackCount": 60,
+      "vaultChecksumSourceGraphSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98"
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 source_registry snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Prototype snapshot uses checked-in manifests and generated private artifacts, not a live database export.",
+    "Source licensing and attribution remain private review metadata."
+  ]
+}

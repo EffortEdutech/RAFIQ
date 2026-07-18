@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "cp28.latest-retrieval-pointer.v1",
+  "checkpoint": "CP28-R02",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "retrievalDir": "data/retrieval/cp28",
+  "manifestPath": "data/retrieval/cp28/manifest.json",
+  "manifestSha256": "C3A55A5DE04F639D33D896657BE09989DB3C993DBFCEC8170B3A413F4F8A4337",
+  "candidateCollectionPath": "data/retrieval/cp28/candidate-collection.json",
+  "candidateCollectionSha256": "2586B628DCACDCB0F0BC18E6186530C474C41D2C8F1D23D07416F959E4158B8E",
+  "counts": {
+    "fixtureCount": 10,
+    "candidateCount": 70,
+    "collectedCount": 0,
+    "requiresReviewCandidateCount": 55,
+    "requiresEscalationCandidateCount": 15,
+    "unresolvedSeedCount": 0,
+    "remediationReasonCount": 5,
+    "sourceIndexCount": 6,
+    "cp27UnresolvedReferenceCount": 77,
+    "cp27HighOrCriticalBlockerCount": 30,
+    "publicSafeCandidateCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP28-R02 candidate collection is private-only. Public release remains blocked and public-safe candidate count is zero."
+  }
+}

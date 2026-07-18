@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "cp26.latest-refresh-pointer.v1",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+  "refreshRunSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26 latest refresh pointer is private-only. Public release remains blocked."
+  }
+}

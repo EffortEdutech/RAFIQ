@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "cp25.audit-decision-ledger-manifest.v1",
+  "checkpoint": "CP25-A04",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp25_audit_decision_ledger.mjs",
+  "sourceCheckpoint": "CP25-A03",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "sourceArtifacts": {
+    "a03Manifest": "data\\review\\cp25\\manifest.json",
+    "a03ManifestSha256": "8C0D8E86E2F859E47FEA4012FFFCD7674A406D16540B0639C23E5380D765813A",
+    "reviewQueue": "data\\review\\cp25\\review-queue.json",
+    "reviewQueueSha256": "945C9595F71DE51798D1D6F520382A09B9A781E2F07358AC20A7FF71A091EFFD",
+    "remediationState": "data\\review\\cp25\\remediation-state.json",
+    "remediationStateSha256": "F83E10E2F09DE9D1877A477E19BF87965DBB4F907A197FFB28FE8780032C2E73"
+  },
+  "artifactPaths": {
+    "manifest": "data\\review\\cp25\\audit-decision-ledger-manifest.json",
+    "auditEvents": "data\\review\\cp25\\audit-events.json",
+    "decisionLedger": "data\\review\\cp25\\decision-ledger.json",
+    "invalidActionFixtures": "data\\review\\cp25\\invalid-action-fixtures.json",
+    "transitionRules": "data\\review\\cp25\\transition-rules.json"
+  },
+  "counts": {
+    "queueItemCount": 72,
+    "remediationStateCount": 72,
+    "auditEventCount": 72,
+    "decisionLedgerEntryCount": 72,
+    "validActionCount": 72,
+    "invalidActionFixtureCount": 4,
+    "invalidTransitionFixtureCount": 3,
+    "missingRequiredNotesFixtureCount": 1,
+    "publicBoundaryFixtureCount": 1,
+    "publicReleaseApprovedEventCount": 0,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "actionSummary": {
+    "request_remediation": 54,
+    "request_content_review": 3,
+    "request_technical_review": 2,
+    "request_scholar_review": 7,
+    "reject": 6
+  },
+  "roleSummary": {
+    "technical_reviewer": 41,
+    "knowledge_editor": 16,
+    "scholar_reviewer": 9,
+    "product_owner": 6
+  },
+  "transitionSummary": {
+    "technical_review->remediation_required": 39,
+    "content_review->remediation_required": 13,
+    "remediation_required->content_review": 3,
+    "remediation_required->technical_review": 2,
+    "scholar_review->remediation_required": 2,
+    "remediation_required->scholar_review": 7,
+    "remediation_required->rejected": 6
+  },
+  "checksums": {
+    "auditEventsSha256": "B56BC03E087713B9837F9AD6CD9B65A689724973CD65306A120646EF8371F3FD",
+    "decisionLedgerSha256": "FAE9D1738CEE84B7009B45D556CBEC2388E9B75A9920017EFCA0894B82072592",
+    "invalidActionFixturesSha256": "9871DD92D94ED913A146EAF1339E5DD6D80F7245AABD61FB88D5EA261E8B1A6F",
+    "transitionRulesSha256": "BEF65B1B53659A56E50DB5AB727BFB03791FE3CCF487CB81E4DAF10534635D50"
+  },
+  "verifier": {
+    "command": "node scripts\\check_cp25_a04_audit_decision_ledger.mjs",
+    "status": "pass"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+  }
+}

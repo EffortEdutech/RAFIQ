@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "cp27.refresh-graph-checksum-ledger.v1",
+  "checkpoint": "CP27-G03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "graphId": "rafiq-cp27-refresh-private-resource-graph",
+  "artifacts": [
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/manifest.json",
+      "checksumSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+      "byteCount": 10305
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/summary.json",
+      "checksumSha256": "A7BBC31EAE4D86A5421940D8606B31E486ABDBEA5039DF3FA88463EA80740069",
+      "byteCount": 6480
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/governance.json",
+      "checksumSha256": "9F55C698193007ECBB85A25F046A1A79F35146A0688DA0F570BC9851D90447E6",
+      "byteCount": 40466
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/hadith.json",
+      "checksumSha256": "3B1FE31AE75D3AF6334336C36EBF315013F9AB256C695D5D37776E170B2FC96D",
+      "byteCount": 50194
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/hadith-grades.json",
+      "checksumSha256": "FB0D6CF66D638736D14040F203A76ADFDA27762A99118CE676E81BCF836E69D8",
+      "byteCount": 22203
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/product-evidence.json",
+      "checksumSha256": "860C73BD8FB01F9A07216F2B613230293850029356AA4987C700699AD458D9A5",
+      "byteCount": 79949
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/quality.json",
+      "checksumSha256": "4ACFEB6C1629489525193FD6EA899A119B50708A8231B2B71DB79E9714B15402",
+      "byteCount": 62200
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/quran.json",
+      "checksumSha256": "ABBAAC98F097A877CC899D8967D0D9786F920E2CC7968877F73FFFCCA36B86F5",
+      "byteCount": 47166
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/sources.json",
+      "checksumSha256": "4C109C6B51D63A27B358A19D8C7A938162BFE7C150EE2610C655241105BB19FB",
+      "byteCount": 51105
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/tafsir.json",
+      "checksumSha256": "F3DE4BE035D4F2233DB8BE80142B785A6DFB464B8B873669B0AB9095370B7782",
+      "byteCount": 21111
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/topics.json",
+      "checksumSha256": "76A9780841D9EB15F49C5BC8C12968A175843601F4942FD49B15A4B3C6963008",
+      "byteCount": 41548
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/partitions/translations.json",
+      "checksumSha256": "9D9566EA87FAAF05FDE0B06901C97081091277C1042CE17205C730CCC020AB7A",
+      "byteCount": 28775
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-ayah-key.json",
+      "checksumSha256": "BF063F13F606661D7FB037E7457C068BFF4FE62A7483DCFE47492D1404B7F743",
+      "byteCount": 1855
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-canonical-ref.json",
+      "checksumSha256": "C52C0655330B9FA1CC550A5E793776B4E95AEFF1D6854D1ABB1B670FC4D261F9",
+      "byteCount": 39831
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-edge-id.json",
+      "checksumSha256": "AA2C7132AB9AB167999E3D2C49AF6D2DBFBFA2995BD0D2B30B4E4FF6AE0D1DF2",
+      "byteCount": 10406
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-hadith-key.json",
+      "checksumSha256": "D2634AF6091968BE944190678890A63773F0FFBDD1C534F4320ABA3F95D42487",
+      "byteCount": 2557
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-node-id.json",
+      "checksumSha256": "E04EBA5E4863399EC0CEB68D79155BA064B19958C99DF08B9B70A9E09E0FC5E3",
+      "byteCount": 13669
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-quality-state.json",
+      "checksumSha256": "1917032B6FF34594979E86DA5F50BEA7A6D6BDF3168565FE3ECE911B14DB21D1",
+      "byteCount": 12129
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-release-state.json",
+      "checksumSha256": "4AA51F4B19E85C760929A10B50DF9AFF68EF9ACED6235310BF32F10D5359FED8",
+      "byteCount": 12097
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-review-state.json",
+      "checksumSha256": "146B097320E7A191B7DFBAD0DAE7C73FCD1747DA9C86864D80C6F7295F65F272",
+      "byteCount": 761
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-snapshot-id.json",
+      "checksumSha256": "2C5B6AAB1D8326CAB46D5879676A150ECC3D6D574CA3D723DA496B06D01A2FEA",
+      "byteCount": 12105
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-source-id.json",
+      "checksumSha256": "C2CCBDD6706B13623DFCEC3B1FA3C8928175ED670249A579C57567E6157BC870",
+      "byteCount": 12431
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/by-topic-key.json",
+      "checksumSha256": "B179E9BB947426343907ED1B29E1F91272BC6FF761D418C14C9DB2CA6BF6E694",
+      "byteCount": 1757
+    },
+    {
+      "path": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/indexes/public-boundary.json",
+      "checksumSha256": "3DAA26942825A7286F41E308BECE8CBF4AC579A6118A1ACB0CB0F3C48330B3A1",
+      "byteCount": 1130
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G03 refreshed graph is private-only. Public release remains blocked."
+  }
+}

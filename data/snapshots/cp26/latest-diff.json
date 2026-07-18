@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "cp26.latest-diff-pointer.v1",
+  "proofId": "cp26-checksum-diff-rollback-proof-s05",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "manifestPath": "data/snapshots/cp26/diff/cp26-checksum-diff-rollback-proof-s05/manifest.json",
+  "manifestSha256": "6EA40B4E4837FA51AADC51E82807E670C232BE981ED39076256885B111E5F2FD",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26 latest diff pointer is private-only. Public release remains blocked."
+  }
+}

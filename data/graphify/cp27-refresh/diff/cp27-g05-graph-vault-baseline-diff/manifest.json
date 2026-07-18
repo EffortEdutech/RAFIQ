@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "cp27.graph-vault-diff-proof-manifest.v1",
+  "proofId": "cp27-g05-graph-vault-baseline-diff",
+  "checkpoint": "CP27-G05",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp27_g05_graph_vault_diff.mjs",
+  "baselineGraphManifestPath": "data/graphify/full-private/manifest.json",
+  "baselineVaultManifestPath": "data/vault/full-private/manifest.json",
+  "refreshedGraphManifestPath": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/manifest.json",
+  "refreshedVaultManifestPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+  "artifactPaths": {
+    "graphDiffSummary": "data/graphify/cp27-refresh/diff/cp27-g05-graph-vault-baseline-diff/graph-diff-summary.json",
+    "vaultDiffSummary": "data/graphify/cp27-refresh/diff/cp27-g05-graph-vault-baseline-diff/vault-diff-summary.json",
+    "checksumComparisonLedger": "data/graphify/cp27-refresh/diff/cp27-g05-graph-vault-baseline-diff/checksum-comparison-ledger.json",
+    "publicBoundaryDiff": "data/graphify/cp27-refresh/diff/cp27-g05-graph-vault-baseline-diff/public-boundary-diff.json"
+  },
+  "checksums": {
+    "graphDiffSummarySha256": "EE3837C965BBE6E4941797031D21D330E46F53D5B3CA120B3FE281655654C0B6",
+    "vaultDiffSummarySha256": "ECB12BCF5F4AD6B8059F5E7F1B44CA79853AC2984FB355C41B2BE0D429CCC39A",
+    "checksumComparisonLedgerSha256": "9F664F50FA1A8470C2F716D1D65E1422766AEBC500074B0620D7A37DE19D3B76",
+    "publicBoundaryDiffSha256": "0BD2AE40F2B1E9FC0E73A1B27CD5CBE858E6D7BA7AE2E5E239927C29366BCB90"
+  },
+  "counts": {
+    "graphBaselineNodes": 79657,
+    "graphRefreshedNodes": 147,
+    "graphBaselineEdges": 147689,
+    "graphRefreshedEdges": 125,
+    "vaultBaselineArtifacts": 158,
+    "vaultRefreshedArtifacts": 26,
+    "matchedCount": 7,
+    "addedCount": 4,
+    "removedCount": 8,
+    "changedCount": 23,
+    "deferredCount": 6,
+    "blockedCount": 3,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G05 graph/vault diff proof is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "CP27-G05 proves difference visibility and baseline protection, not CP22 parity.",
+    "CP27 graph and vault are regenerated from summary snapshots; full parity remains deferred.",
+    "Public release remains blocked."
+  ]
+}

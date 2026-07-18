@@ -1,0 +1,664 @@
+{
+  "summaryId": "cp21c-ranking-summary-v1",
+  "checkpoint": "CP21C-G05",
+  "status": "pass_private_summary",
+  "generatedAt": "2026-07-10T18:50:43.929Z",
+  "generatedBy": "scripts/generate_cp21c_ranking_summary.mjs",
+  "sourceMatrixId": "cp21c-resource-graphify-ranking-matrix-v1",
+  "sourceEvidenceId": "cp21c-resource-graphify-evidence-v1",
+  "sourceGraphId": "cp21c-resource-graph-v1",
+  "sourcePackDirectory": "data/vault/cp21c/ranking-cases",
+  "scaleBoundary": {
+    "isFullRafiqResourceGraph": false,
+    "description": "CP21C ranking-summary over 23 prototype cases only; not the full RAFIQ Quran, tafsir, translation, hadith, topic, provenance, review, and release graph."
+  },
+  "access": {
+    "environment": "private_local",
+    "accessLevel": "developer_private",
+    "publicSafe": false,
+    "publicReleaseApproved": false
+  },
+  "gates": {
+    "ordinaryAverageMinimum": 85,
+    "ordinaryAverageScore": 98.25,
+    "ordinaryAveragePass": true,
+    "criticalCaseMinimum": 75,
+    "criticalCaseMinimumPass": true,
+    "remediationForFailingSignalsPass": true,
+    "escalationBoundaryPass": true,
+    "publicReleaseClaimPass": true,
+    "summaryPublicSafe": false
+  },
+  "ordinarySummary": {
+    "caseCount": 20,
+    "passingCaseCount": 20,
+    "lowScoringCaseCount": 0,
+    "criticalCaseCount": 11,
+    "criticalBelowMinimumCount": 0,
+    "averageScore": 98.25,
+    "minScore": 75,
+    "p50Score": 100,
+    "p90Score": 100,
+    "maxScore": 100,
+    "byGroup": {
+      "blocked_no_evidence_prompts": {
+        "caseCount": 1,
+        "averageScore": 95,
+        "minScore": 95,
+        "maxScore": 95,
+        "lowScoringCaseIds": []
+      },
+      "direct_ayah_references": {
+        "caseCount": 3,
+        "averageScore": 100,
+        "minScore": 100,
+        "maxScore": 100,
+        "lowScoringCaseIds": []
+      },
+      "emotional_spiritual_reflection": {
+        "caseCount": 3,
+        "averageScore": 100,
+        "minScore": 100,
+        "maxScore": 100,
+        "lowScoringCaseIds": []
+      },
+      "hadith_record_anchored_guidance": {
+        "caseCount": 2,
+        "averageScore": 85,
+        "minScore": 75,
+        "maxScore": 95,
+        "lowScoringCaseIds": []
+      },
+      "quran_first_needs": {
+        "caseCount": 6,
+        "averageScore": 100,
+        "minScore": 100,
+        "maxScore": 100,
+        "lowScoringCaseIds": []
+      },
+      "source_search_research_queries": {
+        "caseCount": 2,
+        "averageScore": 100,
+        "minScore": 100,
+        "maxScore": 100,
+        "lowScoringCaseIds": []
+      },
+      "worship_prayer_needs": {
+        "caseCount": 3,
+        "averageScore": 100,
+        "minScore": 100,
+        "maxScore": 100,
+        "lowScoringCaseIds": []
+      }
+    }
+  },
+  "escalationSummary": {
+    "caseCount": 3,
+    "passingCaseCount": 3,
+    "boundaryPassCount": 3,
+    "outcomes": [
+      {
+        "caseId": "CP21C-EX-001",
+        "score": 100,
+        "pass": true,
+        "expectedStatus": "scholar_escalation",
+        "observedStatus": "scholar_escalation",
+        "observedRiskClass": "scholar_escalation",
+        "ordinaryEvidenceRanked": false,
+        "preservedEscalationBoundary": true
+      },
+      {
+        "caseId": "CP21C-EX-002",
+        "score": 100,
+        "pass": true,
+        "expectedStatus": "safety_escalation",
+        "observedStatus": "safety_escalation",
+        "observedRiskClass": "safety_escalation",
+        "ordinaryEvidenceRanked": false,
+        "preservedEscalationBoundary": true
+      },
+      {
+        "caseId": "CP21C-EX-003",
+        "score": 100,
+        "pass": true,
+        "expectedStatus": "safety_escalation",
+        "observedStatus": "safety_escalation",
+        "observedRiskClass": "medical_legal",
+        "ordinaryEvidenceRanked": false,
+        "preservedEscalationBoundary": true
+      }
+    ]
+  },
+  "lowScoringCases": [],
+  "remediationList": [
+    {
+      "caseId": "CP21C-BL-001",
+      "caseGroup": "blocked_no_evidence_prompts",
+      "scoringMode": "ordinary_ranking",
+      "score": 95,
+      "signal": "No quality blocker on primary evidence",
+      "remediation": "Resolve quality blockers: source_unavailable.",
+      "severity": "high"
+    },
+    {
+      "caseId": "CP21C-HD-001",
+      "caseGroup": "hadith_record_anchored_guidance",
+      "scoringMode": "ordinary_ranking",
+      "score": 95,
+      "signal": "No quality blocker on primary evidence",
+      "remediation": "Resolve quality blockers: weak_or_unverified_hadith.",
+      "severity": "high"
+    },
+    {
+      "caseId": "CP21C-HD-002",
+      "caseGroup": "hadith_record_anchored_guidance",
+      "scoringMode": "ordinary_ranking",
+      "score": 75,
+      "signal": "Correct response state",
+      "remediation": "Align session status/risk/verification state with the case expectation.",
+      "severity": "high"
+    },
+    {
+      "caseId": "CP21C-HD-002",
+      "caseGroup": "hadith_record_anchored_guidance",
+      "scoringMode": "ordinary_ranking",
+      "score": 75,
+      "signal": "No quality blocker on primary evidence",
+      "remediation": "Resolve quality blockers: withheld_hadith_text_version, flagged_hadith_text_version, source_unavailable.",
+      "severity": "high"
+    }
+  ],
+  "caseResults": [
+    {
+      "caseId": "CP21C-AY-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ay-001.md",
+      "caseGroup": "direct_ayah_references",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-AY-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ay-002.md",
+      "caseGroup": "direct_ayah_references",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-AY-003",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ay-003.md",
+      "caseGroup": "direct_ayah_references",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 5,
+        "sunnahEvidenceCount": 1
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-BL-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-bl-001.md",
+      "caseGroup": "blocked_no_evidence_prompts",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 95,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "blocked_no_evidence",
+        "riskClass": "no_evidence",
+        "verificationStatus": "source_unavailable",
+        "evidenceCount": 0,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": [
+        {
+          "signal": "No quality blocker on primary evidence",
+          "points": 0,
+          "max": 5,
+          "status": "Fail",
+          "remediation": "Resolve quality blockers: source_unavailable."
+        }
+      ]
+    },
+    {
+      "caseId": "CP21C-ES-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-es-001.md",
+      "caseGroup": "emotional_spiritual_reflection",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-ES-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-es-002.md",
+      "caseGroup": "emotional_spiritual_reflection",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-ES-003",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-es-003.md",
+      "caseGroup": "emotional_spiritual_reflection",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-EX-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ex-001.md",
+      "caseGroup": "escalation_boundary_cases",
+      "caseType": "guidance_session",
+      "scoringMode": "separate_escalation",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 100,
+      "evidenceState": {
+        "sessionStatus": "scholar_escalation",
+        "riskClass": "scholar_escalation",
+        "verificationStatus": "scholar_escalation",
+        "evidenceCount": 0,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-EX-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ex-002.md",
+      "caseGroup": "escalation_boundary_cases",
+      "caseType": "guidance_session",
+      "scoringMode": "separate_escalation",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 100,
+      "evidenceState": {
+        "sessionStatus": "safety_escalation",
+        "riskClass": "safety_escalation",
+        "verificationStatus": "safety_escalation",
+        "evidenceCount": 0,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-EX-003",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ex-003.md",
+      "caseGroup": "escalation_boundary_cases",
+      "caseType": "guidance_session",
+      "scoringMode": "separate_escalation",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 100,
+      "evidenceState": {
+        "sessionStatus": "safety_escalation",
+        "riskClass": "medical_legal",
+        "verificationStatus": "safety_escalation",
+        "evidenceCount": 0,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-HD-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-hd-001.md",
+      "caseGroup": "hadith_record_anchored_guidance",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 95,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "weak_or_unverified_hadith",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 6
+      },
+      "failedSignals": [
+        {
+          "signal": "No quality blocker on primary evidence",
+          "points": 0,
+          "max": 5,
+          "status": "Fail",
+          "remediation": "Resolve quality blockers: weak_or_unverified_hadith."
+        }
+      ]
+    },
+    {
+      "caseId": "CP21C-HD-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-hd-002.md",
+      "caseGroup": "hadith_record_anchored_guidance",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 75,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "blocked_no_evidence",
+        "riskClass": "no_evidence",
+        "verificationStatus": "source_unavailable",
+        "evidenceCount": 0,
+        "quranEvidenceCount": 0,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": [
+        {
+          "signal": "Correct response state",
+          "points": 0,
+          "max": 20,
+          "status": "Fail",
+          "remediation": "Align session status/risk/verification state with the case expectation."
+        },
+        {
+          "signal": "No quality blocker on primary evidence",
+          "points": 0,
+          "max": 5,
+          "status": "Fail",
+          "remediation": "Resolve quality blockers: withheld_hadith_text_version, flagged_hadith_text_version, source_unavailable."
+        }
+      ]
+    },
+    {
+      "caseId": "CP21C-QF-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-001.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-QF-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-002.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-QF-003",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-003.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-QF-004",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-004.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-QF-005",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-005.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-QF-006",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-qf-006.md",
+      "caseGroup": "quran_first_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-SS-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ss-001.md",
+      "caseGroup": "source_search_research_queries",
+      "caseType": "source_search",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": null,
+        "riskClass": null,
+        "verificationStatus": null,
+        "evidenceCount": 12,
+        "quranEvidenceCount": null,
+        "sunnahEvidenceCount": null
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-SS-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-ss-002.md",
+      "caseGroup": "source_search_research_queries",
+      "caseType": "source_search",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": null,
+        "riskClass": null,
+        "verificationStatus": null,
+        "evidenceCount": 12,
+        "quranEvidenceCount": null,
+        "sunnahEvidenceCount": null
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-WP-001",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-wp-001.md",
+      "caseGroup": "worship_prayer_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": true,
+      "score": 100,
+      "pass": true,
+      "threshold": 75,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-WP-002",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-wp-002.md",
+      "caseGroup": "worship_prayer_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 6,
+        "sunnahEvidenceCount": 0
+      },
+      "failedSignals": []
+    },
+    {
+      "caseId": "CP21C-WP-003",
+      "file": "data/vault/cp21c/ranking-cases/cp21c-wp-003.md",
+      "caseGroup": "worship_prayer_needs",
+      "caseType": "guidance_session",
+      "scoringMode": "ordinary_ranking",
+      "critical": false,
+      "score": 100,
+      "pass": true,
+      "threshold": 85,
+      "evidenceState": {
+        "sessionStatus": "ready",
+        "riskClass": "ordinary_reflection",
+        "verificationStatus": "approved_with_disclaimer",
+        "evidenceCount": 6,
+        "quranEvidenceCount": 4,
+        "sunnahEvidenceCount": 2
+      },
+      "failedSignals": []
+    }
+  ]
+}

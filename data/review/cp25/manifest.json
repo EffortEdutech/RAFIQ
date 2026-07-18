@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "cp25.review-queue-remediation-state-manifest.v1",
+  "checkpoint": "CP25-A03",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp25_review_queue_remediation_state.mjs",
+  "sourceCheckpoint": "CP24-G09",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "sourceArtifacts": {
+    "cp24Manifest": "data/retrieval/cp24/manifest.json",
+    "cp24ManifestSha256": "273F3B555BB628410DE49F6E06B0F3C1132CE76184F138138487A09A26FA477D",
+    "cp24ValidationHandoff": "data/retrieval/cp24/validation-handoff.json",
+    "cp24ValidationHandoffSha256": "E583909B02DA97BF7EF9BB01D4DAB371D07DE908958D706BFBB8371D1A5D8D09"
+  },
+  "artifactPaths": {
+    "manifest": "data\\review\\cp25\\manifest.json",
+    "reviewQueue": "data\\review\\cp25\\review-queue.json",
+    "remediationState": "data\\review\\cp25\\remediation-state.json",
+    "stateSummary": "data\\review\\cp25\\state-summary.json"
+  },
+  "counts": {
+    "cp24RemediationCount": 72,
+    "representedCp24RemediationCount": 72,
+    "explicitlyDeferredCp24RemediationCount": 0,
+    "queueItemCount": 72,
+    "remediationStateCount": 72,
+    "highOrCriticalQueueItemCount": 18,
+    "openBlockingCount": 18,
+    "unresolvedReferenceCount": 1,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "roleAssignmentSummary": {
+    "technical_reviewer": 41,
+    "knowledge_editor": 16,
+    "scholar_reviewer": 9,
+    "product_owner": 6
+  },
+  "queueTypeSummary": {
+    "remediation": 27,
+    "source_gap": 5,
+    "grade_assertion": 2,
+    "verification_claim": 5,
+    "escalation": 13,
+    "answer_validation": 10,
+    "release_boundary": 10
+  },
+  "severitySummary": {
+    "low": 32,
+    "medium": 22,
+    "high": 5,
+    "critical": 13
+  },
+  "blockerSummary": {
+    "review_required": 54,
+    "blocking": 18
+  },
+  "checksums": {
+    "reviewQueueSha256": "945C9595F71DE51798D1D6F520382A09B9A781E2F07358AC20A7FF71A091EFFD",
+    "remediationStateSha256": "F83E10E2F09DE9D1877A477E19BF87965DBB4F907A197FFB28FE8780032C2E73",
+    "stateSummarySha256": "CF59C128514FB19D660198BA46390087CF496C811189E88C32BF185B939D265E"
+  },
+  "verifier": {
+    "command": "node scripts\\check_cp25_a03_review_queue_exports.mjs",
+    "status": "pass"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A03 exports private reviewer workbench state only. Public release remains blocked."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "cp26.latest-snapshot-pointer.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "manifestPath": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+  "manifestSha256": "BF2796637C3E44C9EA81EA9AF23EB9BA13D87F4C15A3FC726F2249E84EF51FE2",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26 latest snapshot pointer is private-only. Public release remains blocked."
+  }
+}

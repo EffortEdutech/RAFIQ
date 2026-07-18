@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "cp22.full-private.v1",
+  "contractVersion": "RAFIQ_KNOWLEDGE_GRAPHIFY_GRAPH_CONTRACT_V1+CP22-G06",
+  "graphId": "rafiq-full-private-resource-graph",
+  "graphKind": "resource_graph",
+  "scope": "CP22-G06 guidance evidence, validation links, product-evidence, and CP21C reference export plus CP22-G05 resource graph.",
+  "environment": "private_local",
+  "deploymentMode": "private_local",
+  "sourceDatabaseSnapshot": "checked-in-manifest-backbone-no-live-db",
+  "exportedAt": "2026-07-12T08:04:06.856Z",
+  "exportedBy": "scripts/generate_cp22_guidance_evidence_graph.mjs",
+  "accessLevel": "developer_private",
+  "publicSafe": false,
+  "partitions": [
+    {
+      "name": "cp21c-reference",
+      "path": "partitions/cp21c-reference.json",
+      "nodeCount": 46,
+      "edgeCount": 280,
+      "checksumSha256": "5CDC209010E94F1FC150086F24EDB98D2D7DED8DFAE1B66E1BB97201712B2D6E",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "governance",
+      "path": "partitions/governance.json",
+      "nodeCount": 36,
+      "edgeCount": 108,
+      "checksumSha256": "02180CE38880F2A7CC010896E10D49A7B41D052DC80259FE0131B2EA1025C48A",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "hadith",
+      "path": "partitions/hadith.json",
+      "nodeCount": 483,
+      "edgeCount": 546,
+      "checksumSha256": "FC0B8D9CA0C96023517E3EBB099F07378EA9D965955BF2DA7C3351202466A767",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "hadith-grades",
+      "path": "partitions/hadith-grades.json",
+      "nodeCount": 120,
+      "edgeCount": 118,
+      "checksumSha256": "79A72D931C2EE911BD3ABA00B912133A9EB3CC268E3E9458DCFBE60E0BEB7DB9",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "product-evidence",
+      "path": "partitions/product-evidence.json",
+      "nodeCount": 303,
+      "edgeCount": 628,
+      "checksumSha256": "078BE21DB30F9BE5748F3DD3B58A6A0C101CD9049D4E6C9F6FA9DCF9B0BC5B6C",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "quality",
+      "path": "partitions/quality.json",
+      "nodeCount": 91,
+      "edgeCount": 15,
+      "checksumSha256": "81E87A34484D7E0FF421F9233A992B43623E85C5E021189FEF60BA6FCBD007AE",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "quran",
+      "path": "partitions/quran.json",
+      "nodeCount": 25061,
+      "edgeCount": 43652,
+      "checksumSha256": "28A2095C19EC0DA07E96A5208B9FCB158018399E77FE9A747C6599F2CCF5823C",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "sources",
+      "path": "partitions/sources.json",
+      "nodeCount": 59,
+      "edgeCount": 54,
+      "checksumSha256": "3C32DF8D818CE9946FE4D2D400614E68ABCEE645019C25C50466B445DAEC620F",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "tafsir",
+      "path": "partitions/tafsir.json",
+      "nodeCount": 18711,
+      "edgeCount": 37416,
+      "checksumSha256": "8BA7DAA48AA32A31A87C8FD91038B384F33AE1CE57647BEFEB5DD14709F02336",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "topics",
+      "path": "partitions/topics.json",
+      "nodeCount": 3562,
+      "edgeCount": 2512,
+      "checksumSha256": "79A14CFA488AB799BF841F6A411B74E07A668641BDAE875271CD0E114FAEB353",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    },
+    {
+      "name": "translations",
+      "path": "partitions/translations.json",
+      "nodeCount": 31185,
+      "edgeCount": 62360,
+      "checksumSha256": "F4AE0680678EDB7A50C1B5466947DEE1FFE3D6C0602ED191F7A8FB0F71DE3418",
+      "publicSafeNodeCount": 0,
+      "publicSafeEdgeCount": 0
+    }
+  ],
+  "indexes": [
+    {
+      "name": "by-ayah-key",
+      "path": "indexes/by-ayah-key.json",
+      "checksumSha256": "FCC35A0D637925883544BE3BC4A74BA36658199194293F6267657109D76F8419",
+      "entryCount": 6236
+    },
+    {
+      "name": "by-canonical-ref",
+      "path": "indexes/by-canonical-ref.json",
+      "checksumSha256": "1410D59137C41742292CE68BA160A706CB9BB4D439EBE5E6B2A6B8C5D1590293",
+      "entryCount": 79656
+    },
+    {
+      "name": "by-edge-id",
+      "path": "indexes/by-edge-id.json",
+      "checksumSha256": "B79E5853C723E635D1003E6176842F9F2BBC8DE19E124F0902E63B877A2F92C5",
+      "entryCount": 147689
+    },
+    {
+      "name": "by-hadith-key",
+      "path": "indexes/by-hadith-key.json",
+      "checksumSha256": "865627055004C4272B8621489D439D1BFFB387074DAF93D9B5C448E60697F26C",
+      "entryCount": 87
+    },
+    {
+      "name": "by-node-id",
+      "path": "indexes/by-node-id.json",
+      "checksumSha256": "524C64DCFAB784C2AD40898951A9C099A4BD0FCF36B017B3CF23C45069566B4B",
+      "entryCount": 79657
+    },
+    {
+      "name": "by-quality-state",
+      "path": "indexes/by-quality-state.json",
+      "checksumSha256": "F3F85800F27CECF448ACC8D9416A1E1BDA06DE63A4038E137A73155A66E59894",
+      "entryCount": 4
+    },
+    {
+      "name": "by-release-state",
+      "path": "indexes/by-release-state.json",
+      "checksumSha256": "D90DEE1A4F0CD766526C6A626772A642A1CEF4A820451A515C87ACEBC21C1C04",
+      "entryCount": 3
+    },
+    {
+      "name": "by-review-state",
+      "path": "indexes/by-review-state.json",
+      "checksumSha256": "3867EE84CA33AD751FC9FE46D2103B0A725209AD122B1BD211C129560482457C",
+      "entryCount": 6
+    },
+    {
+      "name": "by-snapshot-id",
+      "path": "indexes/by-snapshot-id.json",
+      "checksumSha256": "E4B7B36A691F0EC2866DB619D9EEDD54EEBF59A8F047AC5F13456BCF817FD69F",
+      "entryCount": 18
+    },
+    {
+      "name": "by-source-id",
+      "path": "indexes/by-source-id.json",
+      "checksumSha256": "50E8508A861062B6B10E62F1DF8036CF71394A7C913E831A97EE5A8E38B465B1",
+      "entryCount": 3
+    },
+    {
+      "name": "by-topic-key",
+      "path": "indexes/by-topic-key.json",
+      "checksumSha256": "5F543AD8F099BEBB2CA2A04554D037F5331173F586456DCAA7D668BB053F072F",
+      "entryCount": 3561
+    },
+    {
+      "name": "public-boundary",
+      "path": "indexes/public-boundary.json",
+      "checksumSha256": "955FB54CF2FF99AE79B5DE4FDCCE3BC6E3DA5611B7A69CB30D528735BAA99090",
+      "entryCount": 5
+    }
+  ],
+  "sourceInputs": [
+    "data/manifests/*.json",
+    "data/manifests/hadith-acquisition-category-summary-2026-06-14.csv",
+    "data/manifests/hadith-raw-subtrees-2026-06-14.csv",
+    "data/checksums/*",
+    "docs/09_sprints/resource_audit_import_prototype/CP22_G02_GRAPH_SCHEMA_EXPANSION_AND_PARTITION_PLAN.md",
+    "data/manifests/quran-translation-tafsir-topic manifests",
+    "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs",
+    "scripts/generate_cp22_hadith_grade_quality_graph.mjs",
+    "data/graphify/cp21c/cases.json",
+    "data/graphify/cp21c/evidence.json",
+    "data/graphify/cp21c/ranking-summary.json",
+    "data/vault/cp21c/ranking-cases/*.md",
+    "scripts/generate_cp22_guidance_evidence_graph.mjs"
+  ],
+  "counts": {
+    "totalNodes": 79657,
+    "totalEdges": 147689,
+    "partitions": 11,
+    "indexes": 12,
+    "publicSafeNodes": 0,
+    "publicSafeEdges": 0
+  },
+  "checksums": {
+    "partitionChecksums": {
+      "cp21c-reference": "5CDC209010E94F1FC150086F24EDB98D2D7DED8DFAE1B66E1BB97201712B2D6E",
+      "governance": "02180CE38880F2A7CC010896E10D49A7B41D052DC80259FE0131B2EA1025C48A",
+      "hadith": "FC0B8D9CA0C96023517E3EBB099F07378EA9D965955BF2DA7C3351202466A767",
+      "hadith-grades": "79A72D931C2EE911BD3ABA00B912133A9EB3CC268E3E9458DCFBE60E0BEB7DB9",
+      "product-evidence": "078BE21DB30F9BE5748F3DD3B58A6A0C101CD9049D4E6C9F6FA9DCF9B0BC5B6C",
+      "quality": "81E87A34484D7E0FF421F9233A992B43623E85C5E021189FEF60BA6FCBD007AE",
+      "quran": "28A2095C19EC0DA07E96A5208B9FCB158018399E77FE9A747C6599F2CCF5823C",
+      "sources": "3C32DF8D818CE9946FE4D2D400614E68ABCEE645019C25C50466B445DAEC620F",
+      "tafsir": "8BA7DAA48AA32A31A87C8FD91038B384F33AE1CE57647BEFEB5DD14709F02336",
+      "topics": "79A14CFA488AB799BF841F6A411B74E07A668641BDAE875271CD0E114FAEB353",
+      "translations": "F4AE0680678EDB7A50C1B5466947DEE1FFE3D6C0602ED191F7A8FB0F71DE3418"
+    },
+    "indexChecksums": {
+      "by-ayah-key": "FCC35A0D637925883544BE3BC4A74BA36658199194293F6267657109D76F8419",
+      "by-canonical-ref": "1410D59137C41742292CE68BA160A706CB9BB4D439EBE5E6B2A6B8C5D1590293",
+      "by-edge-id": "B79E5853C723E635D1003E6176842F9F2BBC8DE19E124F0902E63B877A2F92C5",
+      "by-hadith-key": "865627055004C4272B8621489D439D1BFFB387074DAF93D9B5C448E60697F26C",
+      "by-node-id": "524C64DCFAB784C2AD40898951A9C099A4BD0FCF36B017B3CF23C45069566B4B",
+      "by-quality-state": "F3F85800F27CECF448ACC8D9416A1E1BDA06DE63A4038E137A73155A66E59894",
+      "by-release-state": "D90DEE1A4F0CD766526C6A626772A642A1CEF4A820451A515C87ACEBC21C1C04",
+      "by-review-state": "3867EE84CA33AD751FC9FE46D2103B0A725209AD122B1BD211C129560482457C",
+      "by-snapshot-id": "E4B7B36A691F0EC2866DB619D9EEDD54EEBF59A8F047AC5F13456BCF817FD69F",
+      "by-source-id": "50E8508A861062B6B10E62F1DF8036CF71394A7C913E831A97EE5A8E38B465B1",
+      "by-topic-key": "5F543AD8F099BEBB2CA2A04554D037F5331173F586456DCAA7D668BB053F072F",
+      "public-boundary": "955FB54CF2FF99AE79B5DE4FDCCE3BC6E3DA5611B7A69CB30D528735BAA99090"
+    },
+    "graphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98"
+  },
+  "warnings": [
+    "CP22-G03 exports only the source/governance backbone.",
+    "Live database content.entity_provenance and content.entity_release_states rows are not exported because no safe DB snapshot input was provided.",
+    "All artifacts are private and publicSafe=false.",
+    "Hadith raw object inventory is summarized by subtree, not expanded to every raw object row, to keep CP22-G03 as a backbone checkpoint.",
+    "CP22-G04 does not export Quran, translation, or tafsir text bodies from raw files or live DB rows.",
+    "Topic labels and ayah links are placeholder identities when only manifest counts are available.",
+    "All Quran, translation, tafsir, and topic nodes remain private and publicSafe=false.",
+    "CP22-G05 exports hadith acquisition resources and subtree aggregate placeholders; it does not export raw hadith text bodies.",
+    "CP22-G05 does not claim record-level canonical hadith coverage without a safe content schema snapshot.",
+    "Grade assertions and verification claims remain source-qualified and aggregate unless record-level rows are available.",
+    "Quarantined and research sources remain private and publicSafe=false.",
+    "CP22-G06 exports private CP21C product evidence as derived validation evidence, not as public guidance.",
+    "Retrieval and validation evidence links do not upgrade candidate routes into religious authority.",
+    "Live product-evidence database rows remain deferred until a safe content schema snapshot is available.",
+    "CP21C reference partition remains prototype evidence and is not the full RAFIQ resource graph."
+  ],
+  "checkpoint": "CP22-G06"
+}

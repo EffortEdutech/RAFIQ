@@ -1,0 +1,4393 @@
+{
+  "schemaVersion": "cp22.full-private.v1",
+  "graphId": "rafiq-full-private-resource-graph",
+  "partition": "quality",
+  "generatedAt": "2026-07-12T06:52:10.596Z",
+  "nodes": [
+    {
+      "id": "quality_finding:category:api_snapshots",
+      "type": "validation_finding",
+      "label": "Hadith api_snapshots acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:api_snapshots"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_api_snapshots"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_api_snapshots:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_api_snapshots:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:api_snapshots:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "api_snapshots",
+        "resourceDirectories": 0,
+        "fileCount": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "id": "quality_finding:category:collections",
+      "type": "validation_finding",
+      "label": "Hadith collections acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:collections"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_collections"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_collections:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_collections:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:collections:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "collections",
+        "resourceDirectories": 9,
+        "fileCount": 653047,
+        "bytes": 4301718931
+      }
+    },
+    {
+      "id": "quality_finding:category:evidence",
+      "type": "validation_finding",
+      "label": "Hadith evidence acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:evidence"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_evidence"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_evidence:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_evidence:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:evidence:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "evidence",
+        "resourceDirectories": 0,
+        "fileCount": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "id": "quality_finding:category:grades",
+      "type": "validation_finding",
+      "label": "Hadith grades acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:grades"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_grades"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_grades:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_grades:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:grades:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "grades",
+        "resourceDirectories": 0,
+        "fileCount": 0,
+        "bytes": 0
+      }
+    },
+    {
+      "id": "quality_finding:category:multilingual",
+      "type": "validation_finding",
+      "label": "Hadith multilingual acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:multilingual"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_multilingual"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_multilingual:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_multilingual:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:multilingual:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "multilingual",
+        "resourceDirectories": 3,
+        "fileCount": 113,
+        "bytes": 229021537
+      }
+    },
+    {
+      "id": "quality_finding:category:official",
+      "type": "validation_finding",
+      "label": "Hadith official acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:official"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_official"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_official:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_official:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:official:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "official",
+        "resourceDirectories": 1,
+        "fileCount": 47,
+        "bytes": 1891466
+      }
+    },
+    {
+      "id": "quality_finding:category:quarantined",
+      "type": "validation_finding",
+      "label": "Hadith quarantined acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:quarantined"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_quarantined"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_quarantined:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_quarantined:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "withheld",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:quarantined:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "withheld",
+        "resolutionStatus": "open",
+        "category": "quarantined",
+        "resourceDirectories": 4,
+        "fileCount": 783,
+        "bytes": 305833829
+      }
+    },
+    {
+      "id": "quality_finding:category:research",
+      "type": "validation_finding",
+      "label": "Hadith research acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:research"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_research"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_research:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_research:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:research:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "resourceDirectories": 5,
+        "fileCount": 558,
+        "bytes": 14953192530
+      }
+    },
+    {
+      "id": "quality_finding:category:verification",
+      "type": "validation_finding",
+      "label": "Hadith verification acquisition category finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "category:verification"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:hadith"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:hadith_verification"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:hadith_verification:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:hadith_verification:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_acquisition_category",
+        "targetId": "hadith_collection:verification:category-summary",
+        "findingCode": "hadith_category_inventory_status",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "verification",
+        "resourceDirectories": 2,
+        "fileCount": 422,
+        "bytes": 10089524
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_command.txt",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Command Txt payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/command.txt"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_command.txt:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/command.txt",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "0F69514D0FDDC886FE448DEEAE1421E53F453EF7C3C077027251F09879B8C3C2"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-dehlawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Dehlawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-dehlawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-dehlawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-dehlawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "EBC64F10E5EC399BB295515B474D85F01D163A38DE627679E92C58C8F97AEE82"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-dehlawi1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Dehlawi1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-dehlawi1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-dehlawi1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-dehlawi1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "05FA3CDF0DC43E8C85AB20C1C57088E328CD73857E759192EEA1E673EF70BBDE"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Ibnmajah1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-ibnmajah1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-ibnmajah1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-ibnmajah1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "3D1FF769C230D9FCE4BFB968B0DA6A347FD0E2ADE5C3522ADEF2F971F9C1EED9"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "67B50653E26C0F057C8C500056CF4D7747166FEDB5CB5D3AFEDB654F7436B7F7"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-malik1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Malik1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-malik1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-malik1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-malik1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "DEA0F77612DE233173F541EE6FF98F4D23F4053764857B14E6915AFBFBC1CD4C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-nasai1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Nasai1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-nasai1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-nasai1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-nasai1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "4FBC382E8C2D410F89BD7FFC58E9CAF694513DB7EBA7309A8509F0DC8085529C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-nawawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Nawawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-nawawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-nawawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-nawawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "DFE1FC556D4FD27833186E7EB8040441778B40210D962EBF159A876D4894A7C3"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-nawawi1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Nawawi1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-nawawi1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-nawawi1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-nawawi1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "AD9B555B17D6CFC996E6AD058C9C27B468CEC79FF8036239AE90B13CD57223CB"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-qudsi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Qudsi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-qudsi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-qudsi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-qudsi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "34D2FF75EB80D12F18B798A14607263A9AFFF864BC6872A9174CD0D316220066"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-qudsi1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Qudsi1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-qudsi1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-qudsi1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-qudsi1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "8A26635B01865FE1777C4DBEA2300B079E031A2358F403CA1038B896BAEA1327"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi1.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ara Tirmidhi1 Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ara-tirmidhi1.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ara-tirmidhi1.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ara-tirmidhi1.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "51D18CBF4D4DA64D6BD4A35AE1814D87829B87557694B5D86F641F5901B47D5E"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ben-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ben Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ben-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ben-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "F226E47D6FAC5186EFDBA5F68E3FCCA4A55AC6F465B490240685EC518D0698CF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ben-nawawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ben Nawawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ben-nawawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ben-nawawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ben-nawawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "45499672F2BBA5FE9694B42A3F0BF3400DD95037E3B103CD65BF8C40479BBE67"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-abudawud.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Abudawud Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-abudawud.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-abudawud.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-abudawud.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "8672D2899B2CF7EBF3B237BF406BC31301418AD937E35A4485A04E028DAB4255"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-dehlawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Dehlawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-dehlawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-dehlawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-dehlawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "58AF8897B29AA54E157C5DF1337C192C26BD073B6F9ACBBB74BC07528A4ADF7F"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-ibnmajah.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Ibnmajah Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-ibnmajah.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-ibnmajah.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-ibnmajah.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "80BDEA353C7138F67010786BAB126BE3987631A642B05EEA21D74D6AE87FE278"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "C4FD179B5BE87811978B5AAE942B2423FF01F6E2C6A011B04B8447E20D792632"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-muslim.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Muslim Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-muslim.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-muslim.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-muslim.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "141E3C0C41A65BB2D4CCD51DE40B9C4BE98B95101131C71E0A3B1506D7D61002"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-nasai.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Nasai Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-nasai.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-nasai.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-nasai.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "B77E420A77E70859F6644F6E16D89C1919619DBCF39BB9C420C8840615CC3409"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-nawawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Nawawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-nawawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-nawawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-nawawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "686169D6A5A92CB7AD4B2826EAAA1E1C2D7E88D1A4DD1C0DC5A73FED0944C80C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-qudsi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Qudsi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-qudsi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-qudsi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-qudsi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "E4F7F35E4B1EE56F13E0F757EED82FD98C15C1E56A30EFBA599274805C69C5E8"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_eng-tirmidhi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Eng Tirmidhi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/eng-tirmidhi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_eng-tirmidhi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/eng-tirmidhi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "B4C33D2A41AE79DF7C02F797CC86AE7AECE739D2B7BD0EA53F7124F00F885A40"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-abudawud.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Abudawud Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-abudawud.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-abudawud.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-abudawud.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "E1C0312EF7935216B2BEE7D75E29B91729403F661BC05B1EF9A976724135421C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-dehlawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Dehlawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-dehlawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-dehlawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-dehlawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "16D3DC09EBACFA38EAB4430B54DC7FFD1A21F801806474D6DEF9C5468ADA968C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-ibnmajah.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Ibnmajah Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-ibnmajah.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-ibnmajah.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-ibnmajah.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "A12BFE5F39751E5D1699F0D27D9D3F29B75D8C9163FF8437369A98ABE11662B8"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "DD5812B9A5D7AF2592963E39A9EA63D6577970234E7E3E584C5734D0FB5108A4"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-muslim.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Muslim Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-muslim.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-muslim.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-muslim.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "6C3946F854C5A7940F8E51004A35C3E5E35518378098714BFB196F936B038DE2"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-nasai.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Nasai Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-nasai.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-nasai.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-nasai.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "A0A1A981E4D2573C113B445E075765FBB031D036912F142E73E97E2D820B6D1B"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-nawawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Nawawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-nawawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-nawawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-nawawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "D90B211C325AC5A6CAB20D5CDBDDBD19021EF474A1C191E922AE01C05AD05D8C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_fra-qudsi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Fra Qudsi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/fra-qudsi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_fra-qudsi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/fra-qudsi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "B30045459B300D41B6CC41547717984A3A203E4F588FF7D056A8F3ADC24EE2EE"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ind-ibnmajah.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ind Ibnmajah Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ind-ibnmajah.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-ibnmajah.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ind-ibnmajah.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "F5987D9CD61BD7D82E3782D4B2D9BD68B17A973A4F0A49CC6B90D529232D8738"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ind-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ind Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ind-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ind-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "988A2F60B18F36D18E818C0B6F2AB977C24A8D383490F67FAACFF655AF6C7CCF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_ind-tirmidhi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Ind Tirmidhi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/ind-tirmidhi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_ind-tirmidhi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/ind-tirmidhi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "03E92A32ED42F45ECBC941B21793270368688E6615F81C3D1DA3304572D9F01C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_rus-muslim.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Rus Muslim Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/rus-muslim.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_rus-muslim.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/rus-muslim.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "55206C2362C66C486B9AEFF52C5208EE31170432F14BBDD2FB71E8DA6303B5AD"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_tur-abudawud.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Tur Abudawud Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/tur-abudawud.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-abudawud.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/tur-abudawud.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "772D6A210238212343267395C4059F341EAB8496043A77EFEDF7E23A68711634"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_tur-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Tur Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/tur-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/tur-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "BB067B7858C354CC217FB8A2A8F4F2A8AB6933CCCE5C392B2508B3E34D3DE0B0"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_tur-nasai.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Tur Nasai Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/tur-nasai.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-nasai.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/tur-nasai.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "4925029B2DA8C8BAD1CA96DA1622A2DE329AA5D2343347F4D4540CB224ADB640"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_tur-nawawi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Tur Nawawi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/tur-nawawi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-nawawi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/tur-nawawi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "71A539A16018EC73F5673DE9DD03A48EEA30384BC2C8BCAEF72ABA4B118CCDD3"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_tur-tirmidhi.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Tur Tirmidhi Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/tur-tirmidhi.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_tur-tirmidhi.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/tur-tirmidhi.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "5EB3411DF1BEB4E9528EAA87A1F0E939EF8A77AC231EC5ED86E1CA5359C943E0"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_urd-ibnmajah.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Urd Ibnmajah Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/urd-ibnmajah.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-ibnmajah.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/urd-ibnmajah.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "966E82570831CE79FBB67E264DE030C77B47B853DDF14704C804798AEA7014D4"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_urd-malik.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Urd Malik Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/urd-malik.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-malik.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/urd-malik.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "9CF1B04999C2BCEB28D961CC0F1FD83242053E3853D4492F3DC97AC1DE0D31DA"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions_urd-nasai.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Urd Nasai Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions/urd-nasai.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions_urd-nasai.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions/urd-nasai.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "723F8750C64063859198B8BB1B18E61DB5F063FD33A07D2E5D85DAEB2575F00D"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_editions.json",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Editions Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/editions.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_editions.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/editions.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "CD02B06F1349074D9D8F97ECA19487583BF9E3B1338D40A0CCF27753561DE2B5"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_log.txt",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Log Txt payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/log.txt"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_log.txt:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/log.txt",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "3FF1CE87CDC985B2D5B3E950400024EAAB0842AE7B8DA744604084D065EE24AC"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_others",
+      "type": "validation_finding",
+      "label": "Collections Fawaz Hadith Api V1 Others payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/fawaz-hadith-api-v1/others"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_fawaz-hadith-api-v1:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_fawaz-hadith-api-v1_others:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/fawaz-hadith-api-v1/others",
+        "roleCounts": {
+          "payload_unselected": 1,
+          "principal": 1,
+          "support": 5
+        },
+        "aggregateSha256": "216B14780C33DD968AB9D4E104482D7C9C173F8E5761ED74219772CC739EE8AC"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:collections_hf-sarfarazmir-hadith-dataset_prompts.csv",
+      "type": "validation_finding",
+      "label": "Collections Hf Sarfarazmir Hadith Dataset Prompts Csv payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:collections/hf-sarfarazmir-hadith-dataset/prompts.csv"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_hf-sarfarazmir-hadith-dataset"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:collections_hf-sarfarazmir-hadith-dataset:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:collections_hf-sarfarazmir-hadith-dataset:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:collections_hf-sarfarazmir-hadith-dataset_prompts.csv:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "collections/hf-sarfarazmir-hadith-dataset/prompts.csv",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "320FA71E3B2DF927BAACB82D0325579E8189CD79FCCD8DFC064ED58A0E44CCC4"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:official_sunnah-com-api_requirements.txt",
+      "type": "validation_finding",
+      "label": "Official Sunnah Com Api Requirements Txt payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:official/sunnah-com-api/requirements.txt"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:official"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:official_sunnah-com-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:official_sunnah-com-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:official_sunnah-com-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:official_sunnah-com-api_requirements.txt:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "official/sunnah-com-api/requirements.txt",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "9CBFFB56957452D5D0395C1B167A599041D8DF93872A52CEE9DA4418688CE6FC"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-api_.prettierrc.json",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Api Prettierrc Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:quarantined/ahmedbaset-hadith-api/.prettierrc.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:quarantined_ahmedbaset-hadith-api_.prettierrc.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "quarantined/ahmedbaset-hadith-api/.prettierrc.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "FB181A4131C3E568BE6E24AE13C8F96D8283768741AB10ADDB31DACBC460C7F5"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-api_tsconfig.json",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Api Tsconfig Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:quarantined/ahmedbaset-hadith-api/tsconfig.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:quarantined_ahmedbaset-hadith-api_tsconfig.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "quarantined/ahmedbaset-hadith-api/tsconfig.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "01A700DC66526290B478FD5B4C86F7A8C94D0340FDCCDE640E75AAC5759A28DF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_biome.json",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Json V1 2 0 Biome Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:quarantined/ahmedbaset-hadith-json-v1.2.0/biome.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_biome.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "quarantined/ahmedbaset-hadith-json-v1.2.0/biome.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "CA1BA9C0C9D5ACA03F8C85C309057D1A4A07377E779D44EFE2BCA13AB649DABF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_db",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Json V1 2 0 Db payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:quarantined/ahmedbaset-hadith-json-v1.2.0/db"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "quarantined/ahmedbaset-hadith-json-v1.2.0/db",
+        "roleCounts": {
+          "payload_unselected": 618,
+          "principal": 6
+        },
+        "aggregateSha256": "49404AB221A5B8F702937172A525004FB83B4532CE0C076C56B5315C8C75E233"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_tsconfig.json",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Json V1 2 0 Tsconfig Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:quarantined/ahmedbaset-hadith-json-v1.2.0/tsconfig.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_tsconfig.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "quarantined/ahmedbaset-hadith-json-v1.2.0/tsconfig.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "080D04FBBB6BCE30398A21938ACB3CCEC537DBE406BB9C40AA9E1B967E23F3D3"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_hf-ar-quran-hadith14books-msa_metadata.csv",
+      "type": "validation_finding",
+      "label": "Research Hf Ar Quran Hadith14books Msa Metadata Csv payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/hf-ar-quran-hadith14books-msa/metadata.csv"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_hf-ar-quran-hadith14books-msa_metadata.csv:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/hf-ar-quran-hadith14books-msa/metadata.csv",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "8CBFFAB80922DFE36C4728FC1D6CE4B594BFB517201935CE5DA309AE2696B908"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_abudaud",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus AbuDaud payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/AbuDaud"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_abudaud:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/AbuDaud",
+        "roleCounts": {
+          "payload_unselected": 43,
+          "support": 1
+        },
+        "aggregateSha256": "9F8DFAE269EC9177340453620486A6F0575B5A35266DAB12E3046A8815A8D055"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_bukhari",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus Bukhari payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/Bukhari"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_bukhari:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/Bukhari",
+        "roleCounts": {
+          "payload_unselected": 97,
+          "support": 1
+        },
+        "aggregateSha256": "85F7D8574365F77916C9F0363CF4012D960A694673024704A393470DC7AC9E3A"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_ibnmaja",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus IbnMaja payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/IbnMaja"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_ibnmaja:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/IbnMaja",
+        "roleCounts": {
+          "payload_unselected": 38,
+          "support": 1
+        },
+        "aggregateSha256": "4F84B81D5339C4B45C2004563DAFCE5D3985ECFE77901AEB7775736ED9973557"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_muslim",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus Muslim payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/Muslim"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_muslim:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/Muslim",
+        "roleCounts": {
+          "payload_unselected": 57,
+          "support": 1
+        },
+        "aggregateSha256": "4061B9EE2433179C29923410C20A6D1D747CE268635775933BFBCD746E3D7D2C"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_nesai",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus Nesai payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/Nesai"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_nesai:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/Nesai",
+        "roleCounts": {
+          "payload_unselected": 51,
+          "support": 1
+        },
+        "aggregateSha256": "8ED8B704544D8D0BCC4E5F990C34AEE30D04FBD983A9A10043E8608E43169861"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:research_lk-hadith-corpus_tirmizi",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus Tirmizi payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:research/lk-hadith-corpus/Tirmizi"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:research_lk-hadith-corpus_tirmizi:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "research/lk-hadith-corpus/Tirmizi",
+        "roleCounts": {
+          "payload_unselected": 49,
+          "support": 1
+        },
+        "aggregateSha256": "B2718F554477620B71921F5AE05FDC694496D0D622579069120B66571E7090E8"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-api_composer.json",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api Composer Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-api/composer.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-api_composer.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-api/composer.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "3D2AD225E3AC9F76B68476983D422AFF72AB33FC8514D1221195EFC4790A5075"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-api_database",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api Database payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-api/database"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-api_database:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-api/database",
+        "roleCounts": {
+          "payload_unselected": 8,
+          "principal": 1,
+          "support": 28
+        },
+        "aggregateSha256": "BA1BF45B026045C7113FDAE349E9CA66E6EB5E904CD43DEDB599B9EBA375A23A"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-api_notes.txt",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api Notes Txt payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-api/notes.txt"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-api_notes.txt:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-api/notes.txt",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "43A54B5C2417E0D0D98FF58B9DDC4EC4A8DC73B087C309B71DFB5519D2539AC8"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-api_phpunit.xml",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api Phpunit Xml payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-api/phpunit.xml"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-api_phpunit.xml:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-api/phpunit.xml",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "BAE80B90A8C098AB2DCBC786843A0B3777F482A2E0CB626D59E8E546BC5B2AFF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-api_public",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api Public payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-api/public"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-api_public:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-api/public",
+        "roleCounts": {
+          "payload_unselected": 1,
+          "support": 5
+        },
+        "aggregateSha256": "ABF9A5712E08A51AFA99A90BFB2DA8BF4A987949BAF6BEEF6EDC60B195527ECA"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-frontend_.angular-cli.json",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Frontend Angular Cli Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-frontend/.angular-cli.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-frontend_.angular-cli.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-frontend/.angular-cli.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "8D93B71CD1A6EF984BB92CEB08673B857904ED1E664CBA1D73220EF167C69CCA"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-frontend_e2e",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Frontend E2e payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-frontend/e2e"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-frontend_e2e:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-frontend/e2e",
+        "roleCounts": {
+          "payload_unselected": 1,
+          "support": 2
+        },
+        "aggregateSha256": "D49F6E0A0721C0623207EC4EFA87848E5FB3710268F7BAB790ED2CB456269EC8"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-frontend_tsconfig.json",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Frontend Tsconfig Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-frontend/tsconfig.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-frontend_tsconfig.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-frontend/tsconfig.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "886DD6CA340330889083A7C3BC62154906F78474F953F987C8F39CD2E87D5CBF"
+      }
+    },
+    {
+      "id": "quality_finding:payload-unselected:verification_semakhadis-frontend_tslint.json",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Frontend Tslint Json payload unselected finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "payload-unselected:verification/semakhadis-frontend/tslint.json"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_record",
+        "targetId": "hadith_record:verification_semakhadis-frontend_tslint.json:aggregate",
+        "findingCode": "payload_unselected_in_raw_inventory",
+        "severity": "warning",
+        "resolutionStatus": "requires_parser_review",
+        "groupKey": "verification/semakhadis-frontend/tslint.json",
+        "roleCounts": {
+          "payload_unselected": 1
+        },
+        "aggregateSha256": "5A65AA6EB3AE20CAA7CC2C16171B15D0BFA0384DD28C7B97E34F217CB36B8DC2"
+      }
+    },
+    {
+      "id": "quality_finding:resource:official_sunnah-com-api",
+      "type": "validation_finding",
+      "label": "Official Sunnah Com Api governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:official/sunnah-com-api"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:official"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:official_sunnah-com-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:official_sunnah-com-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:official_sunnah-com-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:official_sunnah-com-api",
+        "findingCode": "hadith_official_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "review_required",
+        "category": "official",
+        "fileCount": 20,
+        "bytes": 1515575,
+        "aggregateSha256": "5A7C7A3E5D9C337DB33F355660AE73DCBBA722FDD2A52BAB38C4A6F6F5B0F26C"
+      }
+    },
+    {
+      "id": "quality_finding:resource:quarantined_ahmedbaset-hadith-api",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Api governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:quarantined/ahmedbaset-hadith-api"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "withheld",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:quarantined_ahmedbaset-hadith-api",
+        "findingCode": "hadith_quarantined_source_boundary",
+        "severity": "withheld",
+        "resolutionStatus": "open",
+        "category": "quarantined",
+        "fileCount": 22,
+        "bytes": 18786,
+        "aggregateSha256": "0000DF3551ED5FD800EB6F45E647255B8708DFB2A203D7098CC1662198032EE9"
+      }
+    },
+    {
+      "id": "quality_finding:resource:quarantined_ahmedbaset-hadith-json-v1.2.0",
+      "type": "validation_finding",
+      "label": "Quarantined Ahmedbaset Hadith Json V1 2 0 governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:quarantined/ahmedbaset-hadith-json-v1.2.0"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "withheld",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:quarantined_ahmedbaset-hadith-json-v1.2.0",
+        "findingCode": "hadith_quarantined_source_boundary",
+        "severity": "withheld",
+        "resolutionStatus": "open",
+        "category": "quarantined",
+        "fileCount": 641,
+        "bytes": 148046924,
+        "aggregateSha256": "E5C1FA05872C38775620CB36DED4A5432F5D01EE0ADD0B899D122E8100E1F270"
+      }
+    },
+    {
+      "id": "quality_finding:resource:quarantined_hf-sunnah-ar-en",
+      "type": "validation_finding",
+      "label": "Quarantined Hf Sunnah Ar En governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:quarantined/hf-sunnah-ar-en"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_hf-sunnah-ar-en"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_hf-sunnah-ar-en:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_hf-sunnah-ar-en:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "withheld",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:quarantined_hf-sunnah-ar-en",
+        "findingCode": "hadith_quarantined_source_boundary",
+        "severity": "withheld",
+        "resolutionStatus": "open",
+        "category": "quarantined",
+        "fileCount": 3,
+        "bytes": 16693925,
+        "aggregateSha256": "B1B58B25248F0B58DA95FC667B23164F5FD7457150D3A110FA66EEBBB813216F"
+      }
+    },
+    {
+      "id": "quality_finding:resource:quarantined_hf-sunnah-dataset",
+      "type": "validation_finding",
+      "label": "Quarantined Hf Sunnah Dataset governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:quarantined/hf-sunnah-dataset"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_hf-sunnah-dataset"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:quarantined_hf-sunnah-dataset:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:quarantined_hf-sunnah-dataset:manifest"
+      ],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "withheld",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:quarantined_hf-sunnah-dataset",
+        "findingCode": "hadith_quarantined_source_boundary",
+        "severity": "withheld",
+        "resolutionStatus": "open",
+        "category": "quarantined",
+        "fileCount": 3,
+        "bytes": 45208408,
+        "aggregateSha256": "73370F689FAD60ECE8F8EE90B93A476F1C8772147B7105E8CAB69918A7090B68"
+      }
+    },
+    {
+      "id": "quality_finding:resource:research_hf-ar-quran-hadith14books-msa",
+      "type": "validation_finding",
+      "label": "Research Hf Ar Quran Hadith14books Msa governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:research/hf-ar-quran-hadith14books-msa"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:research_hf-ar-quran-hadith14books-msa",
+        "findingCode": "hadith_research_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "fileCount": 27,
+        "bytes": 7340367374,
+        "aggregateSha256": "B594555C87343E411A55D63BB0A0A73BED77FF2A8593486BE7BCEFD04C95616C"
+      }
+    },
+    {
+      "id": "quality_finding:resource:research_hf-arbml-hadith",
+      "type": "validation_finding",
+      "label": "Research Hf Arbml Hadith governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:research/hf-arbml-hadith"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-hadith"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_hf-arbml-hadith:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_hf-arbml-hadith:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:research_hf-arbml-hadith",
+        "findingCode": "hadith_research_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "fileCount": 3,
+        "bytes": 35387728,
+        "aggregateSha256": "FC48AA1D8F1E8C37B6A1F91CC4903BE9A64EC2E057CC05157E269AF9F0EA89DA"
+      }
+    },
+    {
+      "id": "quality_finding:resource:research_hf-arbml-lk-hadith",
+      "type": "validation_finding",
+      "label": "Research Hf Arbml Lk Hadith governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:research/hf-arbml-lk-hadith"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-lk-hadith"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_hf-arbml-lk-hadith:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_hf-arbml-lk-hadith:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:research_hf-arbml-lk-hadith",
+        "findingCode": "hadith_research_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "fileCount": 3,
+        "bytes": 38556803,
+        "aggregateSha256": "D0C1150A4DADB9BD256CBEFD5A30A4F6126DB348AEC915727AD2781879811C64"
+      }
+    },
+    {
+      "id": "quality_finding:resource:research_hf-arbml-quran-hadith",
+      "type": "validation_finding",
+      "label": "Research Hf Arbml Quran Hadith governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:research/hf-arbml-quran-hadith"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-quran-hadith"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_hf-arbml-quran-hadith:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_hf-arbml-quran-hadith:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:research_hf-arbml-quran-hadith",
+        "findingCode": "hadith_research_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "fileCount": 3,
+        "bytes": 3251751,
+        "aggregateSha256": "C61E58857B27CBF041244E141EFA6CCF699199668F69884F6BC6B2931691F667"
+      }
+    },
+    {
+      "id": "quality_finding:resource:research_lk-hadith-corpus",
+      "type": "validation_finding",
+      "label": "Research Lk Hadith Corpus governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:research/lk-hadith-corpus"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:research_lk-hadith-corpus:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:research_lk-hadith-corpus",
+        "findingCode": "hadith_research_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "research",
+        "fileCount": 343,
+        "bytes": 106397062,
+        "aggregateSha256": "132A4AEF1C6899FE12916BB00938DB4CD316F394455BDA912873C1A3FF250FCC"
+      }
+    },
+    {
+      "id": "quality_finding:resource:verification_semakhadis-api",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Api governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:verification/semakhadis-api"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-api:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:verification_semakhadis-api",
+        "findingCode": "hadith_verification_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "verification",
+        "fileCount": 148,
+        "bytes": 1117643,
+        "aggregateSha256": "B290215B36C989FD0693AAA54CF8674811DC83E937F2BB65DEA54FDBD6802A09"
+      }
+    },
+    {
+      "id": "quality_finding:resource:verification_semakhadis-frontend",
+      "type": "validation_finding",
+      "label": "Verification Semakhadis Frontend governance finding",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "data",
+        "table": "hadith_quality_inventory",
+        "id": "resource:verification/semakhadis-frontend"
+      },
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-resource:verification_semakhadis-frontend:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "targetType": "hadith_collection",
+        "targetId": "hadith_collection:verification_semakhadis-frontend",
+        "findingCode": "hadith_verification_source_boundary",
+        "severity": "warning",
+        "resolutionStatus": "open",
+        "category": "verification",
+        "fileCount": 220,
+        "bytes": 5458520,
+        "aggregateSha256": "8C47A57EEC8AF3FF1A704E6882A34456A4DE4D1E8EEF242725BB270E639599AE"
+      }
+    },
+    {
+      "id": "transformation:cp22-g05-hadith-aggregate-export",
+      "type": "transformation_event",
+      "label": "CP22-G05 hadith aggregate graph export",
+      "partition": "quality",
+      "canonicalRef": {
+        "schema": "scripts",
+        "table": "exporters",
+        "id": "generate_cp22_hadith_grade_quality_graph.mjs"
+      },
+      "sourceRefs": [
+        {
+          "type": "source_manifest",
+          "path": "data/manifests/hadith-raw-subtrees-2026-06-14.csv"
+        }
+      ],
+      "provenanceRefs": [
+        "provenance:source_snapshot:hadith-acquisition:manifest"
+      ],
+      "releaseStateRefs": [
+        "release_state:source_snapshot:hadith-acquisition:manifest"
+      ],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "qualityState": "warning",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {
+        "eventType": "aggregate_graph_export",
+        "importRunId": null,
+        "method": "manifest_backed_projection",
+        "version": "CP22-G05",
+        "scope": "hadith_grade_verification_quality"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:official_sunnah-com-api:quality_finding:resource:official_sunnah-com-api:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:official_sunnah-com-api",
+      "to": "quality_finding:resource:official_sunnah-com-api",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:official"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:official_sunnah-com-api"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:quarantined_ahmedbaset-hadith-api:quality_finding:resource:quarantined_ahmedbaset-hadith-api:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:quarantined_ahmedbaset-hadith-api",
+      "to": "quality_finding:resource:quarantined_ahmedbaset-hadith-api",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-api"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:quarantined_ahmedbaset-hadith-json-v1.2.0:quality_finding:resource:quarantined_ahmedbaset-hadith-json-v1.2.0:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:quarantined_ahmedbaset-hadith-json-v1.2.0",
+      "to": "quality_finding:resource:quarantined_ahmedbaset-hadith-json-v1.2.0",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:quarantined_hf-sunnah-ar-en:quality_finding:resource:quarantined_hf-sunnah-ar-en:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:quarantined_hf-sunnah-ar-en",
+      "to": "quality_finding:resource:quarantined_hf-sunnah-ar-en",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_hf-sunnah-ar-en"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:quarantined_hf-sunnah-dataset:quality_finding:resource:quarantined_hf-sunnah-dataset:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:quarantined_hf-sunnah-dataset",
+      "to": "quality_finding:resource:quarantined_hf-sunnah-dataset",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_hf-sunnah-dataset"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:research_hf-ar-quran-hadith14books-msa:quality_finding:resource:research_hf-ar-quran-hadith14books-msa:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:research_hf-ar-quran-hadith14books-msa",
+      "to": "quality_finding:resource:research_hf-ar-quran-hadith14books-msa",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-ar-quran-hadith14books-msa"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:research_hf-arbml-hadith:quality_finding:resource:research_hf-arbml-hadith:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:research_hf-arbml-hadith",
+      "to": "quality_finding:resource:research_hf-arbml-hadith",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-hadith"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:research_hf-arbml-lk-hadith:quality_finding:resource:research_hf-arbml-lk-hadith:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:research_hf-arbml-lk-hadith",
+      "to": "quality_finding:resource:research_hf-arbml-lk-hadith",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-lk-hadith"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:research_hf-arbml-quran-hadith:quality_finding:resource:research_hf-arbml-quran-hadith:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:research_hf-arbml-quran-hadith",
+      "to": "quality_finding:resource:research_hf-arbml-quran-hadith",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_hf-arbml-quran-hadith"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:research_lk-hadith-corpus:quality_finding:resource:research_lk-hadith-corpus:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:research_lk-hadith-corpus",
+      "to": "quality_finding:resource:research_lk-hadith-corpus",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:research"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:research_lk-hadith-corpus"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:verification_semakhadis-api:quality_finding:resource:verification_semakhadis-api:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:verification_semakhadis-api",
+      "to": "quality_finding:resource:verification_semakhadis-api",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_collection:verification_semakhadis-frontend:quality_finding:resource:verification_semakhadis-frontend:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_collection:verification_semakhadis-frontend",
+      "to": "quality_finding:resource:verification_semakhadis-frontend",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-frontend"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_record:collections_fawaz-hadith-api-v1_others:aggregate:quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_others:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_record:collections_fawaz-hadith-api-v1_others:aggregate",
+      "to": "quality_finding:payload-unselected:collections_fawaz-hadith-api-v1_others",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:collections"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:collections_fawaz-hadith-api-v1"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate:quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_db:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_record:quarantined_ahmedbaset-hadith-json-v1.2.0_db:aggregate",
+      "to": "quality_finding:payload-unselected:quarantined_ahmedbaset-hadith-json-v1.2.0_db",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:quarantined"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:quarantined_ahmedbaset-hadith-json-v1.2.0"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "private_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    },
+    {
+      "id": "edge:entity_has_quality_finding:hadith_record:verification_semakhadis-api_database:aggregate:quality_finding:payload-unselected:verification_semakhadis-api_database:cp22-g05",
+      "type": "entity_has_quality_finding",
+      "from": "hadith_record:verification_semakhadis-api_database:aggregate",
+      "to": "quality_finding:payload-unselected:verification_semakhadis-api_database",
+      "fromPartition": "hadith",
+      "toPartition": "quality",
+      "status": "technical_verified",
+      "confidence": null,
+      "sourceRefs": [
+        {
+          "type": "source",
+          "id": "source:hadith-category:verification"
+        },
+        {
+          "type": "source_snapshot",
+          "id": "snapshot:hadith-resource:verification_semakhadis-api"
+        }
+      ],
+      "evidenceRefs": [],
+      "releaseState": "public_blocked",
+      "reviewState": "technical_review",
+      "accessLevel": "developer_private",
+      "publicSafe": false,
+      "metadata": {}
+    }
+  ],
+  "stats": {
+    "nodeCount": 91,
+    "edgeCount": 15,
+    "publicSafeNodeCount": 0,
+    "publicSafeEdgeCount": 0
+  }
+}

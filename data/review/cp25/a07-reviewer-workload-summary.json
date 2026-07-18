@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "cp25.a07-reviewer-workload-summary.v1",
+  "checkpoint": "CP25-A07",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "sourceCheckpoint": "CP25-A04",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "counts": {
+    "reviewerRoleCount": 4,
+    "queueItemCount": 72,
+    "auditEventCount": 72,
+    "remediationTransitionCount": 72,
+    "unresolvedActionCount": 66,
+    "openBlockingCount": 12,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "reviewerWorkload": [
+    {
+      "reviewerRole": "technical_reviewer",
+      "queueItemCount": 41,
+      "auditEventCount": 41,
+      "remediationTransitionCount": 41,
+      "openBlockingCount": 2,
+      "severitySummary": {
+        "low": 32,
+        "high": 2,
+        "medium": 7
+      },
+      "queueTypeSummary": {
+        "remediation": 14,
+        "source_gap": 2,
+        "verification_claim": 5,
+        "answer_validation": 10,
+        "release_boundary": 10
+      },
+      "actionSummary": {
+        "request_remediation": 39,
+        "request_technical_review": 2
+      },
+      "unresolvedQueueItemIds": [
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:1",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:2",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:verification_evidence:3",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:surah:1",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:source_map_result:3",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:translation_edition:qul-translation-malay-292",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:source_map_result:3",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:1",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:2",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:search_document:cp21c-ay-002:verification_evidence:3",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:tafsir_edition:qul-tafsir-arabic-saadi-308",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_collection:collections_abdullah-naseer-six-books",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_book:collections_abdullah-naseer-six-books_src",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_chapter:collections_abdullah-naseer-six-books_src:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_edition:collections_abdullah-naseer-six-books:inventory",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_reference:collections_abdullah-naseer-six-books_src:aggregate",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:1",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:2",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:3",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:4",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:5",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:source_map_result:6",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:1",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:2",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:3",
+        "cp25-queue:candidate:cp24-fixture-validation-history-001:search_document:cp21c-ay-001:verification_evidence:4",
+        "cp25-queue:candidate:cp24-fixture-source-gap-001:unresolved",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:1",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:2",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:3",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:4",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:5",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:source_map_result:6",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:1",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:2",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:3",
+        "cp25-queue:candidate:cp24-fixture-public-boundary-001:search_document:cp21c-ay-002:verification_evidence:4"
+      ]
+    },
+    {
+      "reviewerRole": "knowledge_editor",
+      "queueItemCount": 16,
+      "auditEventCount": 16,
+      "remediationTransitionCount": 16,
+      "openBlockingCount": 3,
+      "severitySummary": {
+        "medium": 13,
+        "high": 3
+      },
+      "queueTypeSummary": {
+        "remediation": 13,
+        "source_gap": 3
+      },
+      "actionSummary": {
+        "request_remediation": 13,
+        "request_content_review": 3
+      },
+      "unresolvedQueueItemIds": [
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:qul-quran-script-uthmani-88",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+        "cp25-queue:candidate:cp24-fixture-quran-anchor-001:ayah:1:1",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:translation_text:qul-translation-malay-292:1",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:qul-quran-script-uthmani-88",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+        "cp25-queue:candidate:cp24-fixture-translation-context-001:ayah:1:1",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-qpc-hafs-86",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:qul-quran-script-uthmani-88",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:quran_text:1:tanzil-quran-uthmani-v1-1",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:tafsir_passage:qul-tafsir-arabic-saadi-308:1",
+        "cp25-queue:candidate:cp24-fixture-tafsir-context-001:ayah:1:1",
+        "cp25-queue:candidate:cp24-fixture-topic-001:source_ayah_theme_group:qul-ayah-themes-62:1"
+      ]
+    },
+    {
+      "reviewerRole": "scholar_reviewer",
+      "queueItemCount": 9,
+      "auditEventCount": 9,
+      "remediationTransitionCount": 9,
+      "openBlockingCount": 7,
+      "severitySummary": {
+        "medium": 2,
+        "critical": 7
+      },
+      "queueTypeSummary": {
+        "grade_assertion": 2,
+        "escalation": 7
+      },
+      "actionSummary": {
+        "request_remediation": 2,
+        "request_scholar_review": 7
+      },
+      "unresolvedQueueItemIds": [
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_record:collections_abdullah-naseer-six-books_src:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-support-001:hadith_text:collections_abdullah-naseer-six-books_src:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:grade_assertion:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:grade_normalization:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_chapter:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_edition:collections_fawaz-hadith-api-v1:inventory",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_record:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_reference:collections_fawaz-hadith-api-v1_database_linebyline:aggregate",
+        "cp25-queue:candidate:cp24-fixture-hadith-grade-escalation-001:hadith_text:collections_fawaz-hadith-api-v1_database_linebyline:aggregate"
+      ]
+    },
+    {
+      "reviewerRole": "product_owner",
+      "queueItemCount": 6,
+      "auditEventCount": 6,
+      "remediationTransitionCount": 6,
+      "openBlockingCount": 6,
+      "severitySummary": {
+        "critical": 6
+      },
+      "queueTypeSummary": {
+        "escalation": 6
+      },
+      "actionSummary": {
+        "reject": 6
+      },
+      "unresolvedQueueItemIds": []
+    }
+  ],
+  "severitySummary": {
+    "low": 32,
+    "medium": 22,
+    "high": 5,
+    "critical": 13
+  },
+  "queueTypeSummary": {
+    "remediation": 27,
+    "source_gap": 5,
+    "grade_assertion": 2,
+    "verification_claim": 5,
+    "escalation": 13,
+    "answer_validation": 10,
+    "release_boundary": 10
+  },
+  "actionSummary": {
+    "request_remediation": 54,
+    "request_content_review": 3,
+    "request_technical_review": 2,
+    "request_scholar_review": 7,
+    "reject": 6
+  },
+  "finalStateSummary": {
+    "open": 66,
+    "resolved_private": 0,
+    "deferred": 0,
+    "rejected": 6,
+    "retired": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "message": "CP25-A07 exports are private reviewer proof only. Public release remains blocked."
+  }
+}

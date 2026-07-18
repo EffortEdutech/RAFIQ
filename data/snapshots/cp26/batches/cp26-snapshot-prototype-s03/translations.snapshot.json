@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "cp26.translations.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "translations",
+  "label": "Translation Edition, Text, Footnote, And Chunk Snapshot Summary",
+  "sourceTables": [
+    "content.translation_editions",
+    "content.translation_texts",
+    "content.translation_footnotes",
+    "content.translation_chunks"
+  ],
+  "sourceFiles": [
+    "data/manifests/quran-translation-tafsir-topic manifests",
+    "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "translation_graph_partition_summary",
+      "partition": "translations",
+      "nodeCount": 31185,
+      "edgeCount": 62360
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 translations snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Translation rights and attribution remain private review blockers unless separately approved."
+  ]
+}

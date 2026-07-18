@@ -54,7 +54,15 @@ Do not use `Done` unless Product Owner acceptance also passes.
 | CP12E | Ayah And Narration Study Rooms | Pass | Quran lens/source results now land on `/quran/:surah/:ayah`; narration detail includes study/research actions and guidance deep links. |
 | CP13 | Product Owner Study UX Review And Mobile QA | Pass | Today, Learn, Sources, Ayah Study, and Sunnah Practice passed 390x844 Chrome QA; Source Search density and Ayah Study attribution/theme wording were corrected. |
 | CP14 | Study Room Product Polish And Data Quality Triage | Pass | Hadith study typography softened; damaged Hadith meaning text is withheld from guidance/display; source attribution is now user-facing; mobile QA passed. |
-| CP10 | Product Owner Go/No-Go | Pending | Product Owner decision required with known Quran, tafsir, Hadith, and learning-path limits. |
+| CP15 | Translation Coverage And Attribution Data Upgrade | Pass | Stored Quran translations now render in ayah study, translation Source Search returns results, and translation attribution routes to `translation_text` with readable source acknowledgement. |
+| CP16 | Study Data Quality Review: Hadith Meaning Scan And Quran Translation Selection | Pass | Hadith meaning scan produces a damaged-record review queue and ayah study now has compact English/Malay translation selection. |
+| CP17 | Tafsir Reading Room And Tafsir Learning Depth | Pass | Tafsir source results and learning-path steps now open `/tafsir/:passageId`, with Quran anchor, explanation, comparisons, guidance handoff, and attribution. |
+| CP18 | Hadith Quality Queue And Verification Strengthening | Pass | Hadith API now exposes text-quality flags/severity; damaged meaning text is withheld from guidance/display; narration study shows grade, meaning-quality, and share boundaries. |
+| CP19 | Orchestration Evaluation Matrix | Pass | Natural guidance, direct ayah guidance, anchored Hadith, no-evidence blocking, and `2:255` Source Search ranking/deep routing passed the CP19 matrix. |
+| CP20 | Product Owner Private Companion MVP Go/No-Go | Pass | Conditional GO for private companion MVP continuation; public release remains NO-GO until scholar/risk, rights, attribution, editorial, Hadith replacement, semantic ranking, backend memory, and final device PO gates pass. |
+| CP21 | Private Companion MVP Hardening Backlog | Pass | H0 gates locked for target-device UAT, risk/scholar escalation, semantic ranking, backend Growth Memory, Hadith replacement, and public-release gate register. |
+| CP21A-F | Private MVP Hardening Contract Pack | Pass | CP21A UAT pack, CP21B risk contract, CP21C ranking contract, CP21D memory contract, CP21E Hadith workflow, and CP21F release register are locked; CP21A agent UAT and CP21B implementation now have evidence. |
+| CP21A | Target-Device UAT Execution | Pass | Agent target-viewport UAT passed at 390 x 844 and 430 x 932 after `/hadith` settle retest; physical Product Owner device sign-off remains pending. |
 
 ## Checkpoint Close-Out Log
 
@@ -84,6 +92,16 @@ Do not use `Done` unless Product Owner acceptance also passes.
 | CP12E | Ayah study route added; Quran reader links to study ayah/source Sunnah; backend route targets now point to ayah rooms, including indexed Quran/tafsir source results; narration detail upgraded with research/deep-link actions; build/export/runtime/API checks passed. | CP13 - Product Owner Study UX Review And Mobile QA, or data-first translation/verification indexing. | None blocking. Translation and verification index data remains follow-up. | CP12E Pass for current mobile scope; TECH-019 added. | CP12E report, sprint plan, checklist, dual-search plan, and decision register updated. |
 | CP13 | Mobile study-flow QA completed across Today, Learn, Source Search, Ayah Study, and Sunnah Practice; Source Search density corrected; Ayah Study repeated themes and internal attribution wording corrected; source-to-ayah and ayah-to-guidance interactions verified. | CP14 - Study Room Product Polish And Data Quality Triage. | None blocking. Recommended first CP14 work: Hadith text-quality triage, softer study-room typography, and user-facing attribution panel. | CP13 Pass for mobile study-flow QA; TECH-020 added. | CP13 report, sprint plan, checklist, and decision register updated. |
 | CP14 | Hadith study typography softened; API Sunnah support now avoids damaged Hadith snippets; narration detail hides flagged meaning text behind a quality note; source attribution rebuilt as a user-facing page; build/export/runtime/browser QA passed. | CP15 - Translation Coverage And Attribution Data Upgrade. | None blocking before CP15. Data-quality import triage should happen before final Product Owner GO. | CP14 Pass; TECH-021 added. | CP14 report, sprint plan, checklist, and decision register updated. |
+| CP15 | Translation retrieval RPC fixed to select stored `simple` variants; translation Source Search now carries `translationTextId`; attribution routes to `translation_text`; API UAT, build, export, runtime, and browser QA passed. | CP16 - Study Data Quality Review: Hadith Meaning Scan And Quran Translation Selection. | None blocking. Production-rights approval remains a release blocker, not a private-study blocker. | CP15 Pass; TECH-022 added. | CP15 report, sprint plan, checklist, and decision register updated. |
+| CP16 | Hadith meaning quality scan script added; damaged meaning records now produce a review queue shape and quarantine rule; ayah study room now supports compact English/Malay translation selection; sprint runway clarified through CP20. | CP17 - Tafsir Reading Room And Tafsir Learning Depth. | Review/replace flagged Hadith meaning records before public release; restart stale `8057` Expo dev server before PO inspection or review the fresh static build. | CP16 Pass; TECH-023 added. | CP16 report, sprint plan, checklist, and decision register updated. |
+| CP17 | Tafsir study endpoint and mobile tafsir room added; tafsir source-search results, guidance deep links, and learning-path tafsir steps route to `/tafsir/:passageId`; ayah study links into tafsir room; mobile QA passed. | CP18 - Hadith Quality Queue And Verification Strengthening. | All imported tafsir resources are available for development and private RAFIQ study workflows; future tafsir work should improve source selection and language preference. | CP17 Pass; TECH-024 added. | CP17 report, sprint plan, checklist, and decision register updated. |
+| CP18 | Hadith detail API now enriches text versions with quality flags, severity, and summary; damaged meaning text is withheld from user display and orchestrator support; narration study shows compact grade/meaning/share boundaries. | CP19 - Orchestration Evaluation Matrix. | Continue replacement/verification work for flagged Hadith meaning records before final Product Owner GO; all resources remain available for development. | CP18 Pass; TECH-025 added. | CP18 report, sprint plan, checklist, and decision register updated. |
+| CP19 | Orchestration matrix added and passed for natural patience, prayer focus, direct ayah `2:255`, anchored Hadith intention, no-evidence blocking, and `2:255` Source Search. Source Search now dedupes exact Quran ayah rows. | CP20 - Product Owner Private Companion MVP Go/No-Go Review. | Semantic ranking, risk classification, scholar escalation, and Hadith meaning replacement remain follow-up before broader release. | CP19 Pass; TECH-026 added. | CP19 report, sprint plan, checklist, and decision register updated. |
+| CP20 | Private companion MVP GO/NO-GO review completed. CP20 script, CP17-CP19 scripts, build, mobile export, runtime, and 390px browser route QA passed. Decision is conditional GO for private MVP continuation and NO-GO for public release. | CP21 - Private Companion MVP Hardening Backlog. | Target-device Product Owner visual inspection, scholar/risk escalation, semantic ranking, backend Growth Memory, Hadith replacement, and public rights gates must happen before broader release. | CP20 Pass; TECH-027 added; route matrix updated. | CP20 report, sprint plan, checklist, and decision register updated. |
+| CP21 | Private companion MVP hardening backlog locked with H0 and H1 gates. CP21A target-device UAT is now the immediate next checkpoint before any new route expansion. | CP21A - Target-Device Product Owner UAT Pack And Evidence Capture. | Do not start new route chrome before target-device UAT evidence; keep public release blocked. | CP21 Pass; TECH-028 added. | CP21 report, sprint plan, checklist, and decision register updated. |
+| CP21A-F | UAT/contract/register pack completed for target-device UAT, risk/scholar escalation, semantic ranking, backend Growth Memory, Hadith replacement, and public release gates. CP21A agent UAT and CP21B implementation now have evidence. | CP21C - Semantic Ranking And Cross-Source Selection. | CP21A still needs physical Product Owner target-device evidence; CP21C-E still need implementation checks; CP21F keeps public release blocked. | CP21A-F Pass as contract pack; TECH-029 added. | CP21A-F docs, sprint plan, checklist, and decision register updated. |
+| CP21A | Agent target-viewport UAT executed at 390 x 844 and 430 x 932 across the ten-route pack. Runtime passed. `/hadith` first 390px sweep caught a loading state and passed after settle retest. | CP21B - Risk And Scholar Escalation Implementation, or physical Product Owner device sign-off if required first. | Physical Product Owner device sign-off remains pending; public release remains blocked. | CP21A Pass for agent target-viewport UAT; TECH-030 added. | CP21A execution report, UAT pack, sprint plan, checklist, and decision register updated. |
+| CP21B | Risk and scholar escalation implemented in shared GuidanceSession contract, API precheck, resolved risk states, Ask boundary UI, and CP21B matrix script. | CP21C - Semantic Ranking And Cross-Source Selection. | Physical Product Owner CP21A device sign-off remains pending; public release remains blocked. | CP21B Pass; TECH-031 added. | CP21B contract/report, backlog, sprint plan, checklist, and decision register updated. |
 
 ## Ad-Hoc Completion Log
 
@@ -99,18 +117,31 @@ Do not use `Done` unless Product Owner acceptance also passes.
 | ADHOC-003 | Hadith landing density correction. | Pass | Removed collection stat panel, collection cards, selected-collection metadata, repeated review/source labels, and placeholder list copy. `/hadith` now uses one compact source selector and real narration previews where available. | Continue Product Owner review of Hadith reading density. |
 | ADHOC-004 | User-POV guided knowledge UI correction. | Pass | `/search` now starts from user need and `/hadith` now starts from Sunnah practice. Source browsing is secondary behind guided knowledge delivery. | Proceed to deeper tafsir, Quran learning, and Hadith practice quality. |
 | CP14 | Study Room Product Polish And Data Quality Triage. | Pass | Hadith damaged meaning text is guarded, source attribution is user-facing, and CP14 mobile browser QA passed. | Proceed CP15 - Translation Coverage And Attribution Data Upgrade. |
+| CP15 | Translation Coverage And Attribution Data Upgrade. | Pass | Ayah 2:255 translation appears from stored data; translation Source Search and attribution pass CP15 API/browser checks. | Proceed CP16 - Study Data Quality Review. |
+| CP16 | Study Data Quality Review. | Pass | Hadith meaning quality scan reports review candidates; ayah study translation selector supports English/Malay editions. | Proceed CP17 - Tafsir Reading Room And Tafsir Learning Depth. |
+| CP17 | Tafsir Reading Room And Tafsir Learning Depth. | Pass | `/tafsir/:passageId` renders Quran anchor, tafsir explanation, comparisons, actions, guidance, and attribution. | Proceed CP18 - Hadith Quality Queue And Verification Strengthening. |
+| CP18 | Hadith Quality Queue And Verification Strengthening. | Pass | Hadith quality flags/severity are exposed in API and mobile; damaged meaning text is withheld from guidance/display. | Proceed CP19 - Orchestration Evaluation Matrix. |
+| CP19 | Orchestration Evaluation Matrix. | Pass | Matrix scored natural guidance, Quran/tafsir routing, Hadith anchoring, no-evidence blocking, and source ranking. | Proceed CP20 - Product Owner Private Companion MVP Go/No-Go Review. |
+| CP20 | Product Owner Private Companion MVP Go/No-Go Review. | Pass | Conditional private MVP GO; public release NO-GO. CP20 evidence script, build/export/runtime, CP17-CP19 scripts, and 390px route QA passed. | Proceed CP21 - Private Companion MVP Hardening Backlog. |
+| CP21 | Private Companion MVP Hardening Backlog. | Pass | H0 hardening gates and CP21A next checkpoint are locked; public release remains NO-GO. | Proceed CP21A - Target-Device Product Owner UAT Pack And Evidence Capture. |
+| CP21A-F | Private MVP Hardening Contract Pack. | Pass | A-F UAT/contract/register docs are locked and verified; CP21A agent UAT and CP21B implementation now have evidence. | Proceed CP21C - Semantic Ranking And Cross-Source Selection. |
+| CP21A | Target-Device UAT Execution. | Pass | Agent target-viewport UAT passed at 390 x 844 and 430 x 932; physical Product Owner device sign-off pending. | Proceed CP21C or record physical Product Owner sign-off first. |
+| CP21B | Risk And Scholar Escalation Implementation. | Pass | Shared/API/mobile risk boundary implemented; CP21B matrix passed for ordinary, no-evidence, scholar, safety, medical/legal, and weak/withheld-Hadith cases. | Proceed CP21C - Semantic Ranking And Cross-Source Selection. |
 
 ## Route Acceptance Matrix
 
 | Route | Must Feel Like | Current Assessment | Required Change |
 | --- | --- | --- | --- |
-| `/` Today | Receiving guidance immediately | Pending | Compact segmented need selector and quieter guidance surfaces implemented; awaits mobile visual QA with data runtime. |
-| `/answer` Ask | Companion creates sourced guidance | Pending | Smaller question surface, starter rows, Quran/guidance panels, reflection, and action implemented; awaits mobile visual QA with data runtime. |
-| `/quran/1` Read | Quran reading room | Pending | Reader-first Arabic display and compact reading/layer controls implemented; awaits mobile visual QA with data runtime. |
+| `/` Today | Receiving guidance immediately | Pass | CP20 390px browser QA shows Quran anchor, tafsir link, guidance, reflection, one action, no overflow, no console errors, and no duplicate/internal wording. |
+| `/answer` Ask | Companion creates sourced guidance | Pass | CP20 390px browser QA shows sourced Quran guidance, study links, reflection/action path, no overflow, no console errors, and no duplicate/internal wording. |
+| `/quran/2/255` Read | Quran/ayah study room | Pass | CP20 390px browser QA shows Arabic ayah, translation choices, no overflow, no console errors, and no duplicate/internal wording. |
 | `/search` Learn | Guided discovery from a user need | Pass | CP11A starts with `What do you need guidance for?`, renders `RAFIQ Path`, and then `Guided Steps` from `GuidanceSession.learningPath`. |
+| `/sources` Source Search | Serious source research | Pass | CP20 390px browser QA shows grouped Quran, translation, and tafsir results for `2:255`, with Open/Attribution/Guide actions and no overflow. |
+| `/tafsir/:passageId` Tafsir | Tafsir reading depth | Pass | CP20 390px browser QA shows Quran anchor, translation, tafsir explanation, comparison links, no overflow, and no duplicate/internal wording. |
 | `/hadith` Sunnah | Sunnah practice from a user goal | Pass | CP11B starts with `What Sunnah do you want to practice?`, renders Quran lens, Sunnah support, caution, one action, and keeps source browsing behind `Browse sources`. |
-| `/profile` Growth | Memory and continuity | Pending | Growth now focuses on memory/continuity only; settings moved to the global top gear; awaits mobile visual QA. |
-| `/settings` Reading Settings | Quiet configuration | Pending | Dedicated language, rhythm, guidance lens, and Quran font settings implemented behind the top gear; awaits mobile visual QA. |
+| `/hadith/:hadithRecordId` Narration | Read with verification | Pass | CP20 390px browser QA shows reliability first, Arabic narration, meaning quality state, source actions, no overflow, and no duplicate/internal wording. |
+| `/profile` Growth | Memory and continuity | Pass | CP20 390px browser QA shows resume, saved guidance, reflection, action state, no overflow, no console errors, and no duplicate/internal wording. |
+| `/settings` Reading Settings | Quiet configuration | Pass | CP20 390px browser QA shows language, rhythm, guidance lens, Quran font options, Arabic preview, no overflow, no console errors, and no duplicate/internal wording. |
 
 ## Per-Checkpoint Product Owner Questions
 
@@ -127,7 +158,7 @@ Answer `Pass` or `Fail`.
 | Does RAFIQ give one action? | Pass | CP01 contract includes one action with completion state. |
 | Does RAFIQ save or resume memory? | Pass | CP01 contract includes saved state, reflection text, journal id, and resumed session id. |
 | Does the screen avoid dashboard/card clutter? | Pass | CP03 Today removed old hardcoded dashboard/demo content and renders one session flow. |
-| Does the screen feel professional on mobile? | Fail | Product Owner rejected the current UI as dated, oversized, box-heavy, and not yet a modern RAFIQ companion. |
+| Does the screen feel professional on mobile? | Pass | ADHOC-002 was accepted for current status, and CP20 390px browser QA passed. Final target-device Product Owner inspection can still override before broader release. |
 
 ## UI Rejection Checklist
 
@@ -144,7 +175,7 @@ Any `Yes` below means fail.
 | Developer/process words appear in user UI. | Pass | Browser scans returned no visible internal/process terms in completed route batches. |
 | Tap target does not look tappable. | Pass | Browser tap-target scan found no visible interactive target under 44px in completed route batches. |
 | Font sizes feel like marketing headlines rather than reading UI. | Pass | Route QA confirmed compact companion shell and reading-oriented text hierarchy. |
-| Product Owner says it still feels unprofessional. | Fail | Product Owner rejected the UI before CP10 and stated it would be NO-GO. |
+| Product Owner says it still feels unprofessional. | Pass | Previous rejection was addressed by ADHOC-002 and later study UX checkpoints. CP20 recommends conditional private MVP GO while preserving final Product Owner override. |
 
 ## Technical Verification Checklist
 
@@ -171,15 +202,25 @@ Any `Yes` below means fail.
 | TECH-019 | CP12E ayah/narration study rooms build and route checks pass. | Pass | Build, mobile export, and runtime passed; guidance/source-search route targets verified `/quran/7/155`, `/quran/2/255`, and indexed tafsir route `/quran/20/109`. |
 | TECH-020 | CP13 mobile study-flow browser QA passes. | Pass | Chrome 390x844 QA passed for Today, Learn, Sources, Ayah Study, and Sunnah Practice; source-to-ayah and ayah-to-guidance interactions passed; build, mobile export, and runtime passed. |
 | TECH-021 | CP14 study-room polish and data-quality browser QA passes. | Pass | Build, mobile export, runtime, and Chrome 390x844 QA passed for `/hadith`, narration study, source attribution, and ayah study; no console errors, no horizontal overflow, and no damaged Hadith phrase or internal/reviewer language on tested user routes. |
+| TECH-022 | CP15 translation coverage and attribution checks pass. | Pass | `node scripts/check_cp15_translation_attribution.mjs`, `corepack pnpm build`, mobile export, runtime, and Chrome 390x844 QA passed for ayah translation display, translation Source Search, and translation attribution. |
+| TECH-023 | CP16 study data quality and translation selection checks pass. | Pass | `corepack pnpm exec node scripts/check_cp16_hadith_quality_scan.mjs`, build, mobile export, runtime, and Chrome 390x844 QA passed for ayah translation selection on fresh static export. `8057` dev server is stale and needs restart before PO inspection. |
+| TECH-024 | CP17 tafsir study room checks pass. | Pass | `corepack pnpm exec node scripts/check_cp17_tafsir_room.mjs`, build, mobile export, runtime, and Chrome 390x844 QA passed for `/tafsir/bd7fc272-cafb-4619-810a-3c77bb00e31a`. |
+| TECH-025 | CP18 Hadith quality and verification checks pass. | Pass | `corepack pnpm exec node scripts/check_cp18_hadith_quality_verification.mjs`, build, mobile export, runtime, and Chrome 390x844 QA passed for damaged and normal narration study cases. |
+| TECH-026 | CP19 orchestration matrix checks pass. | Pass | `corepack pnpm exec node scripts/check_cp19_orchestration_matrix.mjs`, `corepack pnpm build`, and `scripts/check_phase5_runtime.ps1` passed. |
+| TECH-027 | CP20 private MVP GO/NO-GO checks pass. | Pass | `corepack pnpm exec node scripts/check_cp20_private_mvp_go_no_go.mjs`, CP17-CP19 scripts, root build, mobile export, runtime check, and 390px browser route QA passed. |
+| TECH-028 | CP21 hardening backlog check passes. | Pass | `corepack pnpm exec node scripts/check_cp21_hardening_backlog.mjs` passed and verified all H0/H1 hardening gates plus public-release NO-GO wording. |
+| TECH-029 | CP21A-F hardening contract pack check passes. | Pass | `corepack pnpm exec node scripts/check_cp21a_f_contract_pack.mjs` passed and verified all A-F docs plus execution/implementation boundaries. |
+| TECH-030 | CP21A target-device UAT execution report check passes. | Pass | `scripts/check_phase5_runtime.ps1` passed; browser UAT passed at 390 x 844 and 430 x 932 after `/hadith` settle retest; `corepack pnpm exec node scripts/check_cp21a_target_device_uat_report.mjs` passed. |
+| TECH-031 | CP21B risk and scholar escalation matrix passes. | Pass | `corepack pnpm exec node scripts/check_cp21b_risk_scholar_escalation.mjs`, `corepack pnpm build`, `corepack pnpm build:mobile:web`, and `scripts/check_phase5_runtime.ps1` passed after restarting stale NestJS API on `8056`. |
 
 ## Decision Rule
 
-CP10 is `GO` only if:
+CP20 is `GO` for private companion MVP continuation only if:
 
-- all CP01-CP09 gates pass;
-- Product Owner accepts the first mobile inspection;
+- all CP01-CP19 gates pass;
+- Product Owner accepts current private MVP inspection or gives conditional continuation approval;
 - no route feels like a dashboard;
 - the MVP Core guidance loop is end-to-end;
 - RAFIQ visibly behaves like an orchestrator-led Islamic companion.
 
-Otherwise CP10 is `NO-GO`.
+CP20 does not approve public release. Public release remains `NO-GO` until rights, attribution, editorial, scholar review, risk escalation, content quality, backend memory, and target-device Product Owner gates pass.

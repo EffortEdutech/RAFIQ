@@ -1,0 +1,472 @@
+{
+  "schemaVersion": "cp26.rollback-manifest.v1",
+  "rollbackManifestId": "cp26-rollback-manifest-s05",
+  "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+  "refreshRunId": "cp26-refresh-prototype-s04",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "rollbackTarget": "generated_private_artifacts_only",
+  "priorManifestRefs": [
+    {
+      "artifactId": "cp26:s03:snapshot:source_registry",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/source-registry.snapshot.json",
+      "checksumSha256": "EF7F544AD93AB88C2C4C45D6253A13F21CE5E95678CC112DC7BB5CE954CC8A7E",
+      "rowCount": 2,
+      "byteCount": 2137,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:source_registry"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:raw_lineage",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/raw-lineage.snapshot.json",
+      "checksumSha256": "FA0771A1F2F63A2906907A8ADCF5FCE08A70DAB36B01C168AB09B0A07067BD9B",
+      "rowCount": 1,
+      "byteCount": 2375,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:raw_lineage"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:quran",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/quran.snapshot.json",
+      "checksumSha256": "48F0460465B784AB3B58048EFD14814B129DA95E2AE2266EAE426894EFD7C85F",
+      "rowCount": 1,
+      "byteCount": 1613,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:quran"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:translations",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/translations.snapshot.json",
+      "checksumSha256": "BD6C780F9C9B0CC752C3CC5EED9BCFF5816B1184EC0A9CBDEAF431C1D069ECA8",
+      "rowCount": 1,
+      "byteCount": 1587,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:translations"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:tafsir",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/tafsir.snapshot.json",
+      "checksumSha256": "EEAF5CA45E079C5EE23076F0298EB8B8BBBE5EA4BC106ECD54D3FB0B891F33BE",
+      "rowCount": 1,
+      "byteCount": 1511,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:tafsir"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:topics_themes",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/topics-themes.snapshot.json",
+      "checksumSha256": "B1A3918D449587184C16E9F22D91DE3E60330CD057EA7F8575C8B4ACBEF3BE80",
+      "rowCount": 1,
+      "byteCount": 1793,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:topics_themes"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith.snapshot.json",
+      "checksumSha256": "C11B1647F66AB4039F9C1CA687B0045CC02EEE1C1DE6095EB55BB0DD41A9760E",
+      "rowCount": 1,
+      "byteCount": 1787,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:hadith"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:hadith_quality",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+      "checksumSha256": "8BF1122920324ED13B565586BACC4F56ACF04C36952EC35B7245E16B563453C5",
+      "rowCount": 1,
+      "byteCount": 1721,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:hadith_quality"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:cross_domain_links",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/cross-domain-links.snapshot.json",
+      "checksumSha256": "6FFC26A1AA4D7960D01DDAB4C438F4C81435ABBD8318CF39FA0887F414395132",
+      "rowCount": 1,
+      "byteCount": 1576,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:cross_domain_links"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_retrieval",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-retrieval.snapshot.json",
+      "checksumSha256": "CEF07824A5755ABAE9334BF7C87D8F8B008BB6ABD7C2ECB65B95D347648C5313",
+      "rowCount": 1,
+      "byteCount": 1634,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_retrieval"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_review",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json",
+      "checksumSha256": "CEAAA393251A31BEF11CB32ABDB65367382552D38C3018F4D576F184D079D462",
+      "rowCount": 1,
+      "byteCount": 1614,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_review"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:private_audit",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-audit.snapshot.json",
+      "checksumSha256": "D65ED12091779819718DD5088D28F827E2519FD2BC318FF8EC733A6CE107EB3B",
+      "rowCount": 1,
+      "byteCount": 1977,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:private_audit"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    },
+    {
+      "artifactId": "cp26:s03:snapshot:graph_vault_baseline",
+      "artifactFamily": "snapshot_input",
+      "path": "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/graph-vault-baseline.snapshot.json",
+      "checksumSha256": "15885605C2AD785B4FCDE935EA07617D1DD05CCDAF2B666F1F50BEEB82319DBA",
+      "rowCount": 1,
+      "byteCount": 1717,
+      "sourceSnapshotBatchId": "cp26-snapshot-prototype-s03",
+      "sourceCheckpoint": "CP26-S03",
+      "canonicalRefs": [
+        "snapshot_group:graph_vault_baseline"
+      ],
+      "graphNodeIds": [],
+      "graphEdgeIds": [],
+      "vaultPackIds": [],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeSnapshotRowCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "publicSafeRetrievalCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeReviewItemCount": 0,
+        "publicSafeAuditEventCount": 0,
+        "message": "CP26-S03 prototype snapshot artifact is private-only. Public release remains blocked."
+      }
+    }
+  ],
+  "restoreSteps": [
+    {
+      "stepId": "rollback-refresh-output-01",
+      "action": "restore_artifact",
+      "targetPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-graph-input-summary.json",
+      "priorChecksumSha256": "NO_PRIOR_REFRESH_ARTIFACT",
+      "notes": "Remove or quarantine this generated S04 refresh output, then restore from the S03 snapshot manifest and checksum ledger. Do not mutate canonical source tables or reviewer audit history."
+    },
+    {
+      "stepId": "rollback-refresh-output-02",
+      "action": "restore_artifact",
+      "targetPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-retrieval-handoff-summary.json",
+      "priorChecksumSha256": "NO_PRIOR_REFRESH_ARTIFACT",
+      "notes": "Remove or quarantine this generated S04 refresh output, then restore from the S03 snapshot manifest and checksum ledger. Do not mutate canonical source tables or reviewer audit history."
+    },
+    {
+      "stepId": "rollback-refresh-output-03",
+      "action": "restore_artifact",
+      "targetPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refreshed-reviewer-remediation-summary.json",
+      "priorChecksumSha256": "NO_PRIOR_REFRESH_ARTIFACT",
+      "notes": "Remove or quarantine this generated S04 refresh output, then restore from the S03 snapshot manifest and checksum ledger. Do not mutate canonical source tables or reviewer audit history."
+    },
+    {
+      "stepId": "rollback-refresh-output-04",
+      "action": "restore_artifact",
+      "targetPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/unresolved-reference-report.json",
+      "priorChecksumSha256": "NO_PRIOR_REFRESH_ARTIFACT",
+      "notes": "Remove or quarantine this generated S04 refresh output, then restore from the S03 snapshot manifest and checksum ledger. Do not mutate canonical source tables or reviewer audit history."
+    },
+    {
+      "stepId": "rollback-latest-refresh-pointer",
+      "action": "restore_manifest_pointer",
+      "targetPath": "data/snapshots/cp26/latest-refresh.json",
+      "priorChecksumSha256": "NO_PRIOR_REFRESH_POINTER",
+      "notes": "Clear or repoint the generated latest refresh pointer only after confirming S03 snapshot manifest checksums still match."
+    },
+    {
+      "stepId": "rollback-run-status",
+      "action": "mark_refresh_rolled_back",
+      "targetPath": "data/snapshots/cp26/refresh/cp26-refresh-prototype-s04/refresh-run.json",
+      "priorChecksumSha256": "966780625BC6DB726BB82A854DADA99921DFCE13DE48CAA016AB458EC6B08B22",
+      "notes": "Record rollback in the private operations log; do not overwrite reviewer audit or remediation history."
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S05 rollback manifest is private-only. Public release remains blocked."
+  }
+}

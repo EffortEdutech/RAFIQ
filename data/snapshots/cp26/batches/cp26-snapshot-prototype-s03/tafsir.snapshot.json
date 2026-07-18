@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "cp26.tafsir.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "tafsir",
+  "label": "Tafsir Edition, Passage, And Ayah Link Snapshot Summary",
+  "sourceTables": [
+    "content.tafsir_editions",
+    "content.tafsir_passages",
+    "content.tafsir_passage_ayahs"
+  ],
+  "sourceFiles": [
+    "data/manifests/quran-translation-tafsir-topic manifests",
+    "scripts/generate_cp22_quran_translation_tafsir_topics_graph.mjs"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "tafsir_graph_partition_summary",
+      "partition": "tafsir",
+      "nodeCount": 18711,
+      "edgeCount": 37416
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 tafsir snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Tafsir quality warnings remain visible; text bodies are not copied into this prototype snapshot."
+  ]
+}

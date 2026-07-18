@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "cp27.latest-internal-ui-proof-pointer.v1",
+  "proofId": "cp27-g06-internal-ui-inspection-proof",
+  "checkpoint": "CP27-G06",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "statusProofPath": "data/graphify/cp27-refresh/internal-ui/cp27-g06-internal-ui-inspection-proof/status-proof.json",
+  "statusProofSha256": "4433BA2BF2098F4DA100C3078CB0B24364CC0B1DC1F9A2B99F3F96A6B04E95D9"
+}

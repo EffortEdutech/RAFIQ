@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "cp26.graph_vault_baseline.snapshot.v1",
+  "snapshotBatchId": "cp26-snapshot-prototype-s03",
+  "checkpoint": "CP26-S03",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp26_s03_private_snapshot_export.mjs",
+  "groupKey": "graph_vault_baseline",
+  "label": "Existing CP22 Graph And Vault Baseline Snapshot Summary",
+  "sourceTables": [],
+  "sourceFiles": [
+    "data/graphify/full-private/manifest.json",
+    "data/vault/full-private/manifest.json"
+  ],
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "rows": [
+    {
+      "rowType": "graph_vault_baseline_summary",
+      "graphId": "rafiq-full-private-resource-graph",
+      "graphNodeCount": 79657,
+      "graphEdgeCount": 147689,
+      "graphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98",
+      "vaultId": "rafiq-full-private-knowledge-vault",
+      "vaultArtifactCount": 158,
+      "vaultSourceGraphChecksumSha256": "F3C874422F30778B549D40D3D60A30E1DA3F787E3535634991C03971B4869F98"
+    }
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP26-S03 graph_vault_baseline snapshot is private-only. Public release remains blocked."
+  },
+  "warnings": [
+    "Graph and vault snapshots are derived metadata, not canonical source data."
+  ]
+}

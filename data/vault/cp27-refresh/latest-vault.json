@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "cp27.latest-refresh-vault-pointer.v1",
+  "checkpoint": "CP27-G04",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "vaultId": "rafiq-cp27-refresh-private-knowledge-vault",
+  "vaultDir": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault",
+  "manifestPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/manifest.json",
+  "manifestSha256": "2871E009BCD166859656D1FEBFE2B01F10C71F799F6203AB5194CFF044805678",
+  "summaryPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/summary.json",
+  "checksumLedgerPath": "data/vault/cp27-refresh/vault/cp27-g04-refresh-vault/checksum-ledger.json",
+  "checksumLedgerSha256": "A1429F48A85CC8397FD779943103C4B4A026DA2BC1A303E889DFAEDBF19A7257",
+  "sourceGraphId": "rafiq-cp27-refresh-private-resource-graph",
+  "sourceGraphManifestPath": "data/graphify/cp27-refresh/graph/cp27-g03-refresh-graph/manifest.json",
+  "sourceGraphManifestSha256": "4D9B0DF426D3B12B50EAC2F69FA716A821E314E48719240DDE0C6429C10C6558",
+  "counts": {
+    "artifacts": 26,
+    "categories": 4,
+    "graphNodesReferenced": 147,
+    "sourceGraphNodes": 147,
+    "sourceGraphEdges": 125,
+    "publicSafeArtifacts": 0,
+    "publicSafeGraphNodes": 0,
+    "publicSafeGraphEdges": 0,
+    "publicSafeSnapshotRowCount": 0,
+    "unresolvedReferenceCount": 77,
+    "highOrCriticalBlockerCount": 30
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP27-G04 refreshed vault packs are private-only. Public release remains blocked."
+  }
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "fixtureId": "cp25-a04-invalid-transition-001",
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3",
+    "action": "request_product_owner_review",
+    "fromStatus": "technical_review",
+    "notes": "Attempt Product Owner routing from technical review.",
+    "validation": {
+      "allowed": false,
+      "toStatus": "product_owner_review",
+      "notesRequired": true,
+      "missingRequiredNotes": false,
+      "invalidTransition": true,
+      "blockedReasons": [
+        "Transition technical_review -> product_owner_review is not allowed."
+      ],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+      }
+    }
+  },
+  {
+    "fixtureId": "cp25-a04-missing-notes-001",
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:ayah:1:1",
+    "action": "request_remediation",
+    "fromStatus": "remediation_required",
+    "notes": "",
+    "validation": {
+      "allowed": false,
+      "toStatus": "remediation_required",
+      "notesRequired": true,
+      "missingRequiredNotes": true,
+      "invalidTransition": true,
+      "blockedReasons": [
+        "Transition remediation_required -> remediation_required is not allowed.",
+        "Required notes are missing."
+      ],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+      }
+    }
+  },
+  {
+    "fixtureId": "cp25-a04-public-candidate-without-po-001",
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-quran-anchor-001:search_document:cp21c-ay-002:source_map_result:3",
+    "action": "mark_public_candidate",
+    "fromStatus": "technical_review",
+    "notes": "Attempt to mark public candidate without Product Owner review.",
+    "validation": {
+      "allowed": false,
+      "toStatus": "approved_public_candidate",
+      "notesRequired": true,
+      "missingRequiredNotes": false,
+      "invalidTransition": true,
+      "blockedReasons": [
+        "Transition technical_review -> approved_public_candidate is not allowed."
+      ],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+      }
+    }
+  },
+  {
+    "fixtureId": "cp25-a04-public-safe-request-001",
+    "queueItemId": "cp25-queue:candidate:cp24-fixture-safety-escalation-001:answer_draft:cp21c-bl-001",
+    "action": "reject",
+    "fromStatus": "remediation_required",
+    "notes": "Attempt action while asking for a public-safe change.",
+    "boundaryAcknowledgement": {
+      "privateOnly": true,
+      "publicReleaseApproved": false,
+      "publicRouteExposed": false,
+      "publicSafeChangeRequested": true
+    },
+    "validation": {
+      "allowed": false,
+      "toStatus": "rejected",
+      "notesRequired": true,
+      "missingRequiredNotes": false,
+      "invalidTransition": false,
+      "blockedReasons": [
+        "Public-safe change requests are outside CP25."
+      ],
+      "publicBoundary": {
+        "privateOnly": true,
+        "publicReleaseApproved": false,
+        "publicRouteExposed": false,
+        "publicSafeChangeRequested": false,
+        "publicSafeCandidateCount": 0,
+        "publicSafeRouteItemCount": 0,
+        "publicSafeGraphNodeCount": 0,
+        "publicSafeGraphEdgeCount": 0,
+        "publicSafeVaultArtifactCount": 0,
+        "message": "CP25-A04 audit ledger is private-only. Public release remains blocked."
+      }
+    }
+  }
+]

@@ -14,6 +14,7 @@ import type {
   PrivateSearchResponse,
   PrivateSourceDetailResponse,
   QuranSurahResponse,
+  TafsirStudyResponse,
 } from '@rafiq/shared';
 
 type QuranOptions = {
@@ -104,6 +105,139 @@ export class PrivateContentRepository implements OnModuleDestroy {
     return this.queryJson<HadithDetailResponse>(
       'select private_api.get_hadith_record($1::uuid) as payload',
       [hadithRecordId],
+    );
+  }
+
+  async getTafsirPassage(passageId: string): Promise<TafsirStudyResponse> {
+    return this.queryJson<TafsirStudyResponse>(
+      `
+        with selected as (
+          select
+            tp.id,
+            tp.passage_key,
+            tp.passage_text,
+            tp.blank_text,
+            te.edition_key,
+            te.title,
+            te.author_name,
+            te.language_code
+          from content.tafsir_passages tp
+          join content.tafsir_editions te on te.id = tp.edition_id
+          where tp.id = $1::uuid
+        ),
+        selected_ayahs as (
+          select
+            qa.id as ayah_id,
+            qa.surah_number,
+            qa.ayah_number,
+            qa.verse_key,
+            (
+              select qat.text_value
+              from content.quran_ayah_texts qat
+              join content.quran_text_editions qte on qte.id = qat.edition_id
+              where qat.ayah_id = qa.id and qte.active
+              order by qte.edition_key
+              limit 1
+            ) as quran_text,
+            (
+              select tt.text_value
+              from content.translation_texts tt
+              join content.translation_editions te on te.id = tt.edition_id
+              where tt.ayah_id = qa.id
+                and te.active
+                and te.language_code = 'en'
+                and tt.variant_type in ('simple', 'plain')
+              order by case when tt.variant_type = 'simple' then 0 else 1 end, te.edition_key
+              limit 1
+            ) as translation_text
+          from selected s
+          join content.tafsir_passage_ayahs tpa on tpa.passage_id = s.id
+          join content.quran_ayahs qa on qa.id = tpa.ayah_id
+          order by qa.surah_number, qa.ayah_number
+        ),
+        comparison_passages as (
+          select distinct on (tp.id)
+            tp.id,
+            tp.passage_key,
+            tp.passage_text,
+            tp.blank_text,
+            tpa.source_role,
+            tpa.source_order,
+            te.edition_key,
+            te.title,
+            te.author_name,
+            te.language_code
+          from selected_ayahs sa
+          join content.tafsir_passage_ayahs tpa on tpa.ayah_id = sa.ayah_id
+          join content.tafsir_passages tp on tp.id = tpa.passage_id
+          join content.tafsir_editions te on te.id = tp.edition_id
+          where tp.id <> $1::uuid
+            and not tp.blank_text
+            and coalesce(tp.passage_text, '') <> ''
+          order by tp.id, te.language_code, te.edition_key
+          limit 6
+        )
+        select jsonb_build_object(
+          'notice', jsonb_build_object(
+            'label', 'UNAPPROVED CONTENT - NOT FOR PUBLICATION',
+            'message', 'Private RAFIQ development and testing only. Do not expose through public API, public app, exports, or AI answers until approval gates pass.',
+            'rightsStatus', 'pending',
+            'attributionStatus', 'pending',
+            'editorialStatus', 'unreviewed',
+            'scholarContentStatus', 'unreviewed',
+            'publicationStatus', 'private_only'
+          ),
+          'passage', (
+            select jsonb_build_object(
+              'passageId', s.id,
+              'passageKey', s.passage_key,
+              'text', coalesce(s.passage_text, ''),
+              'blankText', s.blank_text,
+              'sourceRole', 'tafsir',
+              'sourceOrder', 1,
+              'edition', jsonb_build_object(
+                'editionKey', s.edition_key,
+                'title', s.title,
+                'authorName', s.author_name,
+                'languageCode', s.language_code,
+                'sourceDetailTarget', jsonb_build_object('entityType', 'tafsir_edition', 'entityId', s.edition_key)
+              ),
+              'sourceDetailTarget', jsonb_build_object('entityType', 'tafsir_passage', 'entityId', s.id)
+            )
+            from selected s
+          ),
+          'ayahs', coalesce((
+            select jsonb_agg(jsonb_build_object(
+              'surahNumber', sa.surah_number,
+              'ayahNumber', sa.ayah_number,
+              'verseKey', sa.verse_key,
+              'quranText', sa.quran_text,
+              'translationText', sa.translation_text
+            ) order by sa.surah_number, sa.ayah_number)
+            from selected_ayahs sa
+          ), '[]'::jsonb),
+          'comparisons', coalesce((
+            select jsonb_agg(jsonb_build_object(
+              'passageId', cp.id,
+              'passageKey', cp.passage_key,
+              'text', cp.passage_text,
+              'blankText', cp.blank_text,
+              'sourceRole', cp.source_role,
+              'sourceOrder', cp.source_order,
+              'edition', jsonb_build_object(
+                'editionKey', cp.edition_key,
+                'title', cp.title,
+                'authorName', cp.author_name,
+                'languageCode', cp.language_code,
+                'sourceDetailTarget', jsonb_build_object('entityType', 'tafsir_edition', 'entityId', cp.edition_key)
+              ),
+              'sourceDetailTarget', jsonb_build_object('entityType', 'tafsir_passage', 'entityId', cp.id)
+            ) order by cp.language_code, cp.edition_key)
+            from comparison_passages cp
+          ), '[]'::jsonb)
+        ) as payload
+      `,
+      [passageId],
     );
   }
 

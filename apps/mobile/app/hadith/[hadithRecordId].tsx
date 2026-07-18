@@ -128,8 +128,24 @@ function cleanDisplayText(text: string) {
   return text.replace(/\s+/g, ' ').replace(/\b(\w+)\s+\1\b/gi, '$1').trim();
 }
 
-function hasTextQualityConcern(text: string) {
+function hasTextQualityConcern(text: string, qualitySeverity?: string) {
+  if (qualitySeverity === 'withheld') return true;
   return /\bthe\s+the\b/i.test(text) || /\bprayer\s+prayer\b/i.test(text) || /\bdid reply to him but\b/i.test(text);
+}
+
+function qualityStatusLabel(qualitySeverity?: string) {
+  if (qualitySeverity === 'withheld') return 'Meaning review needed';
+  if (qualitySeverity === 'review') return 'Meaning needs checking';
+  return 'Meaning scan clear';
+}
+
+function qualityFlagLabel(flag: string) {
+  if (flag === 'blank_text') return 'blank text';
+  if (flag === 'known_broken_phrase') return 'damaged wording';
+  if (flag === 'repeated_word') return 'repeated wording';
+  if (flag === 'suspicious_short') return 'very short text';
+  if (flag === 'suspicious_long') return 'unusually long text';
+  return 'text review';
 }
 
 export default function HadithDetailScreen() {
@@ -148,10 +164,18 @@ export default function HadithDetailScreen() {
   const preferredText = useMemo(() => {
     if (!payload) return null;
     for (const languageCode of MEANING_LANGUAGE_PRIORITY) {
-      const version = payload.textVersions.find((item) => item.languageCode === languageCode);
+      const version = payload.textVersions.find(
+        (item) => item.languageCode === languageCode && item.qualitySeverity !== 'withheld',
+      );
       if (version) return version;
     }
-    return payload.textVersions.find((version) => version.languageCode !== 'ar') ?? payload.textVersions[0] ?? null;
+    return (
+      payload.textVersions.find((version) => version.languageCode !== 'ar' && version.qualitySeverity !== 'withheld') ??
+      payload.textVersions.find((version) => version.qualitySeverity !== 'withheld') ??
+      payload.textVersions.find((version) => version.languageCode !== 'ar') ??
+      payload.textVersions[0] ??
+      null
+    );
   }, [payload]);
 
   const arabicText = useMemo(
@@ -215,7 +239,15 @@ export default function HadithDetailScreen() {
   const primarySupport = session?.sunnahSupport[0];
   const visibleSteps = session?.learningPath?.steps.filter((step) => step.available).slice(0, 4) ?? [];
   const preferredDisplayText = cleanDisplayText(preferredText.fullText);
-  const qualityConcern = hasTextQualityConcern(preferredText.fullText);
+  const qualityConcern = hasTextQualityConcern(preferredText.fullText, preferredText.qualitySeverity);
+  const qualityFlags = preferredText.qualityFlags ?? [];
+  const hasAnyQualityReview = Boolean(payload.qualitySummary?.flaggedTextVersionCount);
+  const hasWithheldMeaning = Boolean(payload.qualitySummary?.withheldTextVersionCount);
+  const overallQualityLabel = hasWithheldMeaning
+    ? 'Meaning review needed'
+    : hasAnyQualityReview
+      ? qualityStatusLabel(preferredText.qualitySeverity)
+      : 'Meaning scan clear';
 
   return (
     <PrivateWorkspaceShell
@@ -231,6 +263,22 @@ export default function HadithDetailScreen() {
         <View style={styles.metaRow}>
           <Text style={styles.metaChip}>Ref {reference}</Text>
           <Text style={styles.metaChip}>{payload.record.collectionName ?? payload.record.collectionKey}</Text>
+        </View>
+        <View style={styles.verificationMap}>
+          <View style={styles.verificationItem}>
+            <Text style={styles.practiceLabel}>Grade</Text>
+            <Text style={styles.verificationValue}>{grade}</Text>
+          </View>
+          <View style={styles.verificationItem}>
+            <Text style={styles.practiceLabel}>Meaning</Text>
+            <Text style={styles.verificationValue}>
+              {overallQualityLabel}
+            </Text>
+          </View>
+          <View style={styles.verificationItem}>
+            <Text style={styles.practiceLabel}>Share</Text>
+            <Text style={styles.verificationValue}>Keep reference visible</Text>
+          </View>
         </View>
       </View>
 
@@ -253,6 +301,19 @@ export default function HadithDetailScreen() {
           <Text style={styles.qualityNote}>
             Meaning text for this narration needs review. Use the Arabic, reference, and reliability note before quoting or sharing.
           </Text>
+        ) : null}
+        {hasAnyQualityReview ? (
+          <View style={styles.qualityPanel}>
+            <Text style={styles.qualityTitle}>{overallQualityLabel}</Text>
+            <Text style={styles.qualityBody}>
+              {qualityConcern || hasWithheldMeaning
+                ? 'RAFIQ is withholding damaged meaning text from guidance until it is reviewed.'
+                : 'This meaning can be read with care, while other text versions for this narration may need review.'}
+            </Text>
+            {qualityFlags.length > 0 ? (
+              <Text style={styles.qualityFlags}>{qualityFlags.map(qualityFlagLabel).join(', ')}</Text>
+            ) : null}
+          </View>
         ) : null}
       </View>
 
@@ -390,6 +451,26 @@ const styles = StyleSheet.create({
   reliabilityBody: {
     ...companionTypography.body,
     color: companionColors.ink,
+  },
+  verificationMap: {
+    borderTopColor: companionColors.line,
+    borderTopWidth: 1,
+    gap: companionSpacing.xs,
+    paddingTop: companionSpacing.sm,
+  },
+  verificationItem: {
+    alignItems: 'flex-start',
+    flexDirection: 'row',
+    gap: companionSpacing.sm,
+    justifyContent: 'space-between',
+  },
+  verificationValue: {
+    color: companionColors.ink,
+    flex: 1,
+    fontSize: 13,
+    fontWeight: '700',
+    lineHeight: 18,
+    textAlign: 'right',
   },
   metaRow: {
     flexDirection: 'row',
@@ -579,6 +660,32 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     lineHeight: 18,
     padding: companionSpacing.sm,
+  },
+  qualityPanel: {
+    backgroundColor: companionColors.paperWarm,
+    borderColor: companionColors.line,
+    borderRadius: companionRadii.sm,
+    borderWidth: 1,
+    gap: 3,
+    padding: companionSpacing.sm,
+  },
+  qualityTitle: {
+    color: companionColors.ink,
+    fontSize: 13,
+    fontWeight: '800',
+    lineHeight: 18,
+  },
+  qualityBody: {
+    color: companionColors.inkSoft,
+    fontSize: 13,
+    fontWeight: '500',
+    lineHeight: 19,
+  },
+  qualityFlags: {
+    color: companionColors.muted,
+    fontSize: 12,
+    fontWeight: '700',
+    lineHeight: 17,
   },
   cautionPanel: {
     backgroundColor: companionColors.nightSoft,
