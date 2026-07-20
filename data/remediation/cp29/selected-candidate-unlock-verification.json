@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "cp29.selected-candidate-unlock-verification.v1",
+  "checkpoint": "CP29-R06",
+  "generatedAt": "2026-07-19T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r06_r08_combined_close_out.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "selected_candidate_unlock_verification",
+  "sourceArtifacts": {
+    "cp29R05RegenerationDiffProof": {
+      "path": "data/remediation/cp29/regeneration-diff-proof.json",
+      "checksumSha256": "2DEDE6DA555BFE2A48C238898EA5BCC1EEA09B0EC962897BEF154C0666799129",
+      "byteCount": 4897
+    },
+    "cp28CombinedVerification": {
+      "path": "data/retrieval/cp28/combined-verification.json",
+      "checksumSha256": "383E79E1C75CC199C0363837D8C77101C7921DB8E7202DE8C6EC1D39062A6956",
+      "byteCount": 4474
+    }
+  },
+  "verificationOutcome": "blocked_as_expected",
+  "selectedCandidateUnlockAllowed": false,
+  "selectedRouteItemUnlockAllowed": false,
+  "selectedCandidateCount": 0,
+  "selectedRouteItemCount": 0,
+  "escalationCandidateLeakageIntoOrdinaryUnlock": 0,
+  "unmetUnlockPreconditions": [
+    {
+      "precondition": "reference_provenance_repairs_applied",
+      "met": false
+    },
+    {
+      "precondition": "quality_review_decisions_applied",
+      "met": false
+    },
+    {
+      "precondition": "escalation_decisions_applied",
+      "met": false
+    },
+    {
+      "precondition": "cp27_regenerated",
+      "met": false
+    },
+    {
+      "precondition": "cp28_retrieval_regenerated",
+      "met": false
+    },
+    {
+      "precondition": "selected_candidates_greater_than_zero",
+      "met": false
+    },
+    {
+      "precondition": "selected_route_items_greater_than_zero",
+      "met": false
+    },
+    {
+      "precondition": "no_escalation_leakage",
+      "met": true
+    }
+  ],
+  "blockingReasons": [
+    "reference_provenance_repairs_applied",
+    "quality_review_decisions_applied",
+    "escalation_decisions_applied",
+    "cp27_regenerated",
+    "cp28_retrieval_regenerated",
+    "selected_candidates_greater_than_zero",
+    "selected_route_items_greater_than_zero"
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R06 verifies selected-candidate unlock remains blocked because real remediation/regeneration has not occurred."
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "cp29.escalation-lane-separation.v1",
+  "checkpoint": "CP29-R04",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r04_r05_fast_sprint.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "escalation_lane_separation",
+  "sourceArtifacts": {
+    "cp29R03QualityReviewBurnDownPlan": {
+      "path": "data/remediation/cp29/quality-review-burn-down-plan.json",
+      "checksumSha256": "EB8CFE993956828AC47982F73A31EA83B3176B74129D66AB554B9D044BD8CA2E",
+      "byteCount": 39357
+    },
+    "cp28ValidationHandoff": {
+      "path": "data/retrieval/cp28/validation-handoff.json",
+      "checksumSha256": "C724F661A5494E25D4517532C88F25347C640A681708DEE8CD2499B12E0A8CF1",
+      "byteCount": 553909
+    },
+    "cp28RankingSelection": {
+      "path": "data/retrieval/cp28/ranking-selection.json",
+      "checksumSha256": "5F93293494AF96F2CBB33D417EE9AB41BD7FE440472FB2DC020605B78795FC77",
+      "byteCount": 392421
+    }
+  },
+  "baseline": {
+    "escalationCandidateCount": 15,
+    "gradeEscalationCandidateCount": 7,
+    "safetyEscalationCandidateCount": 8,
+    "criticalEscalationCandidateCount": 15,
+    "ordinaryUnlockExcludedCandidateCount": 15,
+    "selectedCandidateCount": 0,
+    "selectedRouteItemCount": 0,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "groupingSummary": {
+    "byReasonFamily": {
+      "grade_uncertainty_requires_escalation_review": 7,
+      "safety_escalation_required": 8
+    },
+    "byRecommendedOwner": {
+      "scholar_reviewer": 7,
+      "product_owner": 8
+    },
+    "byFixture": {
+      "cp28-fixture-hadith-grade-escalation-001": 7,
+      "cp28-fixture-safety-escalation-001": 8
+    },
+    "byGraphPartition": {
+      "hadith-grades": 7,
+      "product-evidence": 5,
+      "quality": 3
+    },
+    "bySourceGroupKey": {
+      "hadith_quality": 7,
+      "private_review": 8
+    }
+  },
+  "escalationLanes": [
+    {
+      "escalationLaneId": "cp29:r04:escalation-lane:1",
+      "reasonFamily": "grade_uncertainty_requires_escalation_review",
+      "targetCheckpoint": "CP29-R04",
+      "recommendedOwner": "scholar_reviewer",
+      "severity": "critical",
+      "fixtureId": "cp28-fixture-hadith-grade-escalation-001",
+      "graphPartition": "hadith-grades",
+      "sourceGroupKey": "hadith_quality",
+      "candidateIds": [
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+        "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+      ],
+      "remediationIds": [
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+        "cp28:remediation:cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+      ],
+      "graphNodeIds": [
+        "cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+        "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+        "cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+        "cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+        "cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+        "cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+        "cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality"
+      ],
+      "canonicalRefs": [
+        "snapshot_group:hadith_quality",
+        "snapshot_group:hadith_quality:edge_family:grade_assertion_to_quality_state",
+        "snapshot_group:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+        "snapshot_group:hadith_quality:edge_family:hadith_record_to_verification_claim",
+        "snapshot_group:hadith_quality:hadith_grade_assertion",
+        "snapshot_group:hadith_quality:hadith_verification_claim",
+        "snapshot_group:hadith_quality:quality_finding"
+      ],
+      "sourceRefs": [
+        "cp26:s03:snapshot:hadith_quality",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/hadith-quality.snapshot.json",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json"
+      ],
+      "graphEdgeIds": [
+        "cp27:edge:grade_assertion_to_quality_state:3ce9d9cd5334d4af",
+        "cp27:edge:hadith_record_to_grade_assertion:c98ceafb08610136",
+        "cp27:edge:hadith_record_to_verification_claim:0507715c51b5d2a4",
+        "cp27:edge:snapshot_group_to_node_family:1af3411fb682d7fc",
+        "cp27:edge:snapshot_group_to_node_family:5f3458db9d82fbcf",
+        "cp27:edge:snapshot_group_to_node_family:ef2fef0d2be51e42"
+      ],
+      "vaultPackIds": [
+        "vault:cp27:partition:hadith-grades",
+        "vault:cp27:quality:blockers",
+        "vault:cp27:source-group:hadith_quality"
+      ],
+      "overlappingReasonFamilies": [
+        "cp27_quality_state_review_required",
+        "cp27_unresolved_references_present"
+      ],
+      "recommendedActions": [
+        "Keep hadith-grade uncertainty outside ordinary selected-candidate unlock.",
+        "Route to scholar reviewer for private grade/verification review.",
+        "Require CP29-R04 escalation decision before CP29-R05 regeneration can affect selection."
+      ],
+      "ordinaryUnlockExcluded": true,
+      "escalationDecisionRequired": true,
+      "selectedCandidateUnlockAllowed": false,
+      "publicReleaseApproved": false,
+      "publicSafe": false,
+      "candidateCount": 7
+    },
+    {
+      "escalationLaneId": "cp29:r04:escalation-lane:2",
+      "reasonFamily": "safety_escalation_required",
+      "targetCheckpoint": "CP29-R04",
+      "recommendedOwner": "product_owner",
+      "severity": "critical",
+      "fixtureId": "cp28-fixture-safety-escalation-001",
+      "graphPartition": "product-evidence",
+      "sourceGroupKey": "private_review",
+      "candidateIds": [
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review"
+      ],
+      "remediationIds": [
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review"
+      ],
+      "graphNodeIds": [
+        "cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+        "cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+        "cp27:product-evidence:private_review:review_blocker:review_blocker",
+        "cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+        "cp27:product-evidence:private_review:snapshot_group:private_review"
+      ],
+      "canonicalRefs": [
+        "snapshot_group:private_review",
+        "snapshot_group:private_review:edge_family:review_queue_item_to_graph_ref",
+        "snapshot_group:private_review:private_review_queue_item",
+        "snapshot_group:private_review:review_blocker",
+        "snapshot_group:private_review:review_decision_context"
+      ],
+      "sourceRefs": [
+        "cp26:s03:snapshot:private_review",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json"
+      ],
+      "graphEdgeIds": [
+        "cp27:edge:review_queue_item_to_blocker:c4dda3220c9e5e89",
+        "cp27:edge:review_queue_item_to_graph_ref:ea41d0c0da9d8769",
+        "cp27:edge:review_queue_item_to_review_state:f6c168d2edc1ec66",
+        "cp27:edge:snapshot_group_to_node_family:3df33538ecc43960",
+        "cp27:edge:snapshot_group_to_node_family:5d57e45845a0ca8b",
+        "cp27:edge:snapshot_group_to_node_family:6d0c098f643f0dcc"
+      ],
+      "vaultPackIds": [
+        "vault:cp27:partition:product-evidence",
+        "vault:cp27:quality:blockers",
+        "vault:cp27:source-group:private_review"
+      ],
+      "overlappingReasonFamilies": [
+        "cp27_quality_state_review_required",
+        "cp27_unresolved_references_present"
+      ],
+      "recommendedActions": [
+        "Keep safety-sensitive candidate outside ordinary selected-candidate unlock.",
+        "Route to product owner for private safety and product-boundary review.",
+        "Require CP29-R04 escalation decision before CP29-R05 regeneration can affect selection."
+      ],
+      "ordinaryUnlockExcluded": true,
+      "escalationDecisionRequired": true,
+      "selectedCandidateUnlockAllowed": false,
+      "publicReleaseApproved": false,
+      "publicSafe": false,
+      "candidateCount": 5
+    },
+    {
+      "escalationLaneId": "cp29:r04:escalation-lane:3",
+      "reasonFamily": "safety_escalation_required",
+      "targetCheckpoint": "CP29-R04",
+      "recommendedOwner": "product_owner",
+      "severity": "critical",
+      "fixtureId": "cp28-fixture-safety-escalation-001",
+      "graphPartition": "quality",
+      "sourceGroupKey": "private_review",
+      "candidateIds": [
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+        "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+      ],
+      "remediationIds": [
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+        "cp28:remediation:cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+      ],
+      "graphNodeIds": [
+        "cp27:quality:private_review:remediation_state:remediation_state",
+        "cp27:quality:private_review:review_assignment:review_assignment",
+        "cp27:quality:private_review:snapshot_group:private_review"
+      ],
+      "canonicalRefs": [
+        "snapshot_group:private_review",
+        "snapshot_group:private_review:remediation_state",
+        "snapshot_group:private_review:review_assignment"
+      ],
+      "sourceRefs": [
+        "cp26:s03:snapshot:private_review",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/manifest.json",
+        "data/snapshots/cp26/batches/cp26-snapshot-prototype-s03/private-review.snapshot.json"
+      ],
+      "graphEdgeIds": [
+        "cp27:edge:review_blocker_to_remediation_state:ca211e135c562ed4",
+        "cp27:edge:review_queue_item_to_assignment:abfd5621959f20fc",
+        "cp27:edge:snapshot_group_to_node_family:54557274349fcd91",
+        "cp27:edge:snapshot_group_to_node_family:fff839e72eb1f410"
+      ],
+      "vaultPackIds": [
+        "vault:cp27:partition:quality",
+        "vault:cp27:quality:blockers",
+        "vault:cp27:source-group:private_review"
+      ],
+      "overlappingReasonFamilies": [
+        "cp27_quality_state_review_required",
+        "cp27_unresolved_references_present"
+      ],
+      "recommendedActions": [
+        "Keep safety-sensitive candidate outside ordinary selected-candidate unlock.",
+        "Route to product owner for private safety and product-boundary review.",
+        "Require CP29-R04 escalation decision before CP29-R05 regeneration can affect selection."
+      ],
+      "ordinaryUnlockExcluded": true,
+      "escalationDecisionRequired": true,
+      "selectedCandidateUnlockAllowed": false,
+      "publicReleaseApproved": false,
+      "publicSafe": false,
+      "candidateCount": 3
+    }
+  ],
+  "ordinaryUnlockPolicy": {
+    "excludesEscalationCandidateIds": [
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:grade_assertion_to_quality_state",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_grade_assertion",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:edge_family:hadith_record_to_verification_claim",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_grade_assertion:hadith_grade_assertion",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:hadith_verification_claim:hadith_verification_claim",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:quality_finding:quality_finding",
+      "cp28:candidate:cp28-fixture-hadith-grade-escalation-001:cp27:hadith-grades:hadith_quality:snapshot_group:hadith_quality",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:edge_family:review_queue_item_to_graph_ref",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:private_review_queue_item:private_review_queue_item",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_blocker:review_blocker",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:review_decision_context:review_decision_context",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:product-evidence:private_review:snapshot_group:private_review",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:remediation_state:remediation_state",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:review_assignment:review_assignment",
+      "cp28:candidate:cp28-fixture-safety-escalation-001:cp27:quality:private_review:snapshot_group:private_review"
+    ],
+    "ordinaryUnlockAllowedForEscalationCandidates": false,
+    "escalationDecisionRequiredBeforeRegenerationImpact": true,
+    "nextCheckpoint": "CP29-R05"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R04 separates escalation lanes. Public release remains blocked and public-safe counts remain zero."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "cp29.private-route-readiness-decision.v1",
+  "checkpoint": "CP29-R07",
+  "generatedAt": "2026-07-19T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r06_r08_combined_close_out.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "private_route_readiness_decision",
+  "sourceArtifacts": {
+    "cp29R06SelectedCandidateUnlockVerification": {
+      "path": "data/remediation/cp29/selected-candidate-unlock-verification.json",
+      "checksumSha256": "E393480EBD27E18DE02B1D7156141B1A5668E599192EC38D7B6CD3F20293C25F",
+      "byteCount": 2681
+    },
+    "cp28CombinedVerification": {
+      "path": "data/retrieval/cp28/combined-verification.json",
+      "checksumSha256": "383E79E1C75CC199C0363837D8C77101C7921DB8E7202DE8C6EC1D39062A6956",
+      "byteCount": 4474
+    }
+  },
+  "decision": "defer_private_route_implementation",
+  "privateRouteReady": false,
+  "reason": "Selected candidates and selected route items remain zero, so a real private selected-evidence route has no approved payload to expose yet.",
+  "payloadCaps": {
+    "selectedCandidateLimit": 0,
+    "selectedRouteItemLimit": 0,
+    "escalationCandidateLimit": 0,
+    "publicRouteExposed": false
+  },
+  "nextAllowedRouteWork": [
+    "Keep existing internal remediation/inspection artifacts available for private development.",
+    "Implement a real selected-evidence private route only after CP29-R06 can verify selected candidates and route items are greater than zero.",
+    "Do not expose public routes for private graph, vault, retrieval, remediation, review, or audit artifacts."
+  ],
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R07 defers private selected-evidence route readiness. Public release remains blocked."
+  }
+}

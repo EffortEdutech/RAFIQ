@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "cp29.remediation-unlock-plan.v1",
+  "checkpoint": "CP29-R01",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r01_remediation_unlock_plan.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "retrieval_remediation_selected_candidate_unlock_baseline",
+  "sourceArtifacts": {
+    "cp28CombinedVerification": {
+      "path": "data/retrieval/cp28/combined-verification.json",
+      "checksumSha256": "383E79E1C75CC199C0363837D8C77101C7921DB8E7202DE8C6EC1D39062A6956",
+      "byteCount": 4474
+    },
+    "cp28ValidationHandoff": {
+      "path": "data/retrieval/cp28/validation-handoff.json",
+      "checksumSha256": "C724F661A5494E25D4517532C88F25347C640A681708DEE8CD2499B12E0A8CF1",
+      "byteCount": 553909
+    },
+    "cp28RankingSelection": {
+      "path": "data/retrieval/cp28/ranking-selection.json",
+      "checksumSha256": "5F93293494AF96F2CBB33D417EE9AB41BD7FE440472FB2DC020605B78795FC77",
+      "byteCount": 392421
+    },
+    "cp27LatestGraph": {
+      "path": "data/graphify/cp27-refresh/latest-graph.json",
+      "checksumSha256": "D0BDD93CD09A26D514E3057D3B992E0860EB3B08C773BB86FDBD6DF8C08F7051",
+      "byteCount": 1936
+    },
+    "cp27LatestVault": {
+      "path": "data/vault/cp27-refresh/latest-vault.json",
+      "checksumSha256": "20E2EC5BB17259AD81679F5797AC6EA994F3AB92B2EECF61984066C0C197F36C",
+      "byteCount": 1896
+    }
+  },
+  "baseline": {
+    "cp27GraphNodes": 147,
+    "cp27GraphEdges": 125,
+    "cp27VaultArtifacts": 26,
+    "cp27UnresolvedReferenceCount": 77,
+    "cp27HighOrCriticalBlockerCount": 30,
+    "cp28CandidateCount": 70,
+    "cp28SelectedCandidateCount": 0,
+    "cp28SelectedRouteItemCount": 0,
+    "cp28RemediationCount": 70,
+    "cp28HighOrCriticalRemediationCount": 38,
+    "publicSafeCandidateCount": 0,
+    "publicSafeRouteItemCount": 0
+  },
+  "blockerTaxonomy": {
+    "reasonCounts": {
+      "cp27_unresolved_references_present": 70,
+      "cp27_quality_state_review_required": 38,
+      "grade_uncertainty_requires_escalation_review": 7,
+      "source_or_provenance_gap_fixture": 8,
+      "safety_escalation_required": 8
+    },
+    "severityCounts": {
+      "medium": 32,
+      "high": 23,
+      "critical": 15
+    },
+    "ownerCounts": {
+      "knowledge_editor": 31,
+      "scholar_reviewer": 7,
+      "technical_reviewer": 24,
+      "product_owner": 8
+    },
+    "fixtureCounts": {
+      "cp28-fixture-quran-anchor-001": 8,
+      "cp28-fixture-translation-context-001": 8,
+      "cp28-fixture-tafsir-context-001": 7,
+      "cp28-fixture-hadith-support-001": 8,
+      "cp28-fixture-hadith-grade-escalation-001": 7,
+      "cp28-fixture-topic-001": 8,
+      "cp28-fixture-validation-history-001": 8,
+      "cp28-fixture-source-gap-001": 8,
+      "cp28-fixture-safety-escalation-001": 8
+    }
+  },
+  "unlockBlockers": [
+    {
+      "reason": "cp27_unresolved_references_present",
+      "candidateCount": 70,
+      "targetCheckpoint": "CP29-R02",
+      "recommendedAction": "Resolve CP27 graph/vault unresolved references, regenerate CP27 artifacts, then rerun CP28 retrieval."
+    },
+    {
+      "reason": "cp27_quality_state_review_required",
+      "candidateCount": 38,
+      "targetCheckpoint": "CP29-R03",
+      "recommendedAction": "Complete quality review for affected refreshed graph nodes and snapshot source groups."
+    },
+    {
+      "reason": "safety_escalation_required",
+      "candidateCount": 8,
+      "targetCheckpoint": "CP29-R04",
+      "recommendedAction": "Route safety-sensitive items through product-owner escalation and keep them out of selected ordinary candidates."
+    },
+    {
+      "reason": "source_or_provenance_gap_fixture",
+      "candidateCount": 8,
+      "targetCheckpoint": "CP29-R02",
+      "recommendedAction": "Repair source/provenance linkage for raw-lineage and source-gap candidates."
+    },
+    {
+      "reason": "grade_uncertainty_requires_escalation_review",
+      "candidateCount": 7,
+      "targetCheckpoint": "CP29-R04",
+      "recommendedAction": "Route hadith grade uncertainty to scholar/content escalation before ordinary unlock."
+    }
+  ],
+  "selectedUnlockPolicy": {
+    "selectedCandidateBaseline": 0,
+    "unlockTarget": "selected_candidates_greater_than_zero_only_after_reference_quality_and_escalation_gates_pass",
+    "ordinaryUnlockExcludesEscalation": true,
+    "requiresCp27Regeneration": true,
+    "requiresCp28Rerun": true,
+    "publicReleaseApproved": false
+  },
+  "phasePlan": [
+    {
+      "checkpoint": "CP29-R01",
+      "title": "Remediation Architecture And Unlock Baseline",
+      "objective": "Lock blocker taxonomy, input artifacts, unlock gates, and no-public boundary.",
+      "exitCriteria": [
+        "baseline counts recorded",
+        "reason families mapped",
+        "selected candidates remain zero"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R02",
+      "title": "Reference And Provenance Repair Plan",
+      "objective": "Target unresolved references and source/provenance gap candidates first.",
+      "expectedReasonFamilies": [
+        "cp27_unresolved_references_present",
+        "source_or_provenance_gap_fixture"
+      ],
+      "exitCriteria": [
+        "repair plan generated",
+        "rerun command sequence documented",
+        "public-safe counts remain zero"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R03",
+      "title": "Quality Review Burn-Down Plan",
+      "objective": "Route review_required quality candidates to private reviewer queues.",
+      "expectedReasonFamilies": [
+        "cp27_quality_state_review_required"
+      ],
+      "exitCriteria": [
+        "quality review targets grouped by owner",
+        "high/critical count can be measured after rerun"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R04",
+      "title": "Escalation Lane Separation",
+      "objective": "Keep hadith-grade and safety escalations out of ordinary selected-candidate unlock.",
+      "expectedReasonFamilies": [
+        "grade_uncertainty_requires_escalation_review",
+        "safety_escalation_required"
+      ],
+      "exitCriteria": [
+        "escalation items remain separate",
+        "ordinary unlock excludes escalation candidates"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R05",
+      "title": "Regeneration And Diff Proof",
+      "objective": "Regenerate CP27/CP28 after remediation and compare selected-candidate unlock deltas.",
+      "exitCriteria": [
+        "CP27 pointers refreshed",
+        "CP28 ranking rerun",
+        "diff proof records selected count delta"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R06",
+      "title": "Selected-Candidate Unlock Verification",
+      "objective": "Prove selected candidates can appear only when validation gates allow them.",
+      "exitCriteria": [
+        "selected candidates have complete operational refs",
+        "selected route items have validation handoff",
+        "public route remains false"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R07",
+      "title": "Private Route Readiness Decision",
+      "objective": "Decide whether CP28 private source route can be implemented after unlock proof.",
+      "exitCriteria": [
+        "route readiness is approved or deferred",
+        "payload caps remain bounded"
+      ]
+    },
+    {
+      "checkpoint": "CP29-R08",
+      "title": "Combined Verification And Close-Out",
+      "objective": "Close CP29 and select the next product scope.",
+      "exitCriteria": [
+        "combined verifier passes",
+        "next scope selected",
+        "public release remains blocked"
+      ]
+    }
+  ],
+  "candidateUnlockPreview": {
+    "ordinaryCandidateCount": 55,
+    "escalationCandidateCount": 15,
+    "blockedByUnresolvedReferences": 70,
+    "blockedByQualityReview": 38,
+    "blockedByEscalation": 15,
+    "selectedCandidatesRemainZero": true
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R01 is a private remediation/unlock baseline. Public release remains blocked and public-safe counts remain zero."
+  }
+}

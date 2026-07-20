@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "cp29.combined-verification.v1",
+  "checkpoint": "CP29-R08",
+  "generatedAt": "2026-07-19T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r06_r08_combined_close_out.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "combined_verification_and_close_out",
+  "sourceArtifacts": {
+    "cp29R01RemediationUnlockPlan": {
+      "path": "data/remediation/cp29/remediation-unlock-plan.json",
+      "checksumSha256": "ABBB7CF1D0C169505EAB038F5A2B376DFB71E36DA4D2CC85251753A00A8F55D0",
+      "byteCount": 8394
+    },
+    "cp29R02ReferenceProvenanceRepairPlan": {
+      "path": "data/remediation/cp29/reference-provenance-repair-plan.json",
+      "checksumSha256": "9964D9833F577E208160C984D3FEE3FC44FBB15E3E045B4B3A5FDC79AC84DFFE",
+      "byteCount": 63014
+    },
+    "cp29R03QualityReviewBurnDownPlan": {
+      "path": "data/remediation/cp29/quality-review-burn-down-plan.json",
+      "checksumSha256": "EB8CFE993956828AC47982F73A31EA83B3176B74129D66AB554B9D044BD8CA2E",
+      "byteCount": 39357
+    },
+    "cp29R04EscalationLaneSeparation": {
+      "path": "data/remediation/cp29/escalation-lane-separation.json",
+      "checksumSha256": "DEA849B4C0ED21E3117C48342E1CADC8A78EACC7F6E17AE99635EF52FB567FDF",
+      "byteCount": 17399
+    },
+    "cp29R05RegenerationDiffProof": {
+      "path": "data/remediation/cp29/regeneration-diff-proof.json",
+      "checksumSha256": "2DEDE6DA555BFE2A48C238898EA5BCC1EEA09B0EC962897BEF154C0666799129",
+      "byteCount": 4897
+    },
+    "cp29R06SelectedCandidateUnlockVerification": {
+      "path": "data/remediation/cp29/selected-candidate-unlock-verification.json",
+      "checksumSha256": "E393480EBD27E18DE02B1D7156141B1A5668E599192EC38D7B6CD3F20293C25F",
+      "byteCount": 2681
+    },
+    "cp29R07PrivateRouteReadinessDecision": {
+      "path": "data/remediation/cp29/private-route-readiness-decision.json",
+      "checksumSha256": "5C83DBC26CCCB22D0F80D094F5589431988DAF4619F19EBADAA132D4B00306C9",
+      "byteCount": 2177
+    },
+    "cp28CombinedVerification": {
+      "path": "data/retrieval/cp28/combined-verification.json",
+      "checksumSha256": "383E79E1C75CC199C0363837D8C77101C7921DB8E7202DE8C6EC1D39062A6956",
+      "byteCount": 4474
+    }
+  },
+  "checks": [
+    {
+      "checkId": "cp29-r01-baseline-present",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r02-repair-plan-present",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r03-quality-plan-present",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r04-escalation-separated",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r05-zero-delta-proof",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r06-unlock-blocked",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp29-r07-private-route-deferred",
+      "status": "pass"
+    },
+    {
+      "checkId": "cp28-remains-valid",
+      "status": "pass"
+    },
+    {
+      "checkId": "public-boundary-zero",
+      "status": "pass"
+    }
+  ],
+  "counts": {
+    "cp27UnresolvedReferences": 77,
+    "cp27HighOrCriticalBlockers": 30,
+    "cp28Candidates": 70,
+    "cp28SelectedCandidates": 0,
+    "cp28SelectedRouteItems": 0,
+    "cp28RemediationItems": 70,
+    "cp28HighOrCriticalRemediationItems": 38,
+    "escalationCandidates": 15,
+    "publicSafeCandidates": 0,
+    "publicSafeRouteItems": 0
+  },
+  "cp29Outcome": {
+    "status": "complete_blocked_unlock_handoff",
+    "selectedCandidateUnlockProven": false,
+    "privateRouteReady": false,
+    "nextScope": "CP30 - Private Guidance Loop Integration",
+    "handoffReason": "CP29 completed the remediation architecture, repair plans, review queues, escalation separation, and zero-delta proof. Actual repair/regeneration remains future work before selected evidence can unlock."
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R08 closes CP29 as private remediation planning and blocked-unlock proof. Public release remains blocked."
+  }
+}

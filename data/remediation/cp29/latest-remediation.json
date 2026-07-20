@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "cp29.latest-remediation-pointer.v1",
+  "checkpoint": "CP29-R08",
+  "generatedAt": "2026-07-19T00:00:00.000Z",
+  "remediationDir": "data/remediation/cp29",
+  "manifestPath": "data/remediation/cp29/manifest.json",
+  "manifestSha256": "7E8E3738C69D9E741EA15F8F97514575C4FB005A7B6FF6BAB385FBC9B0F9048D",
+  "combinedVerificationPath": "data/remediation/cp29/combined-verification.json",
+  "combinedVerificationSha256": "9DFE0D7972893AA30343379FAB1A5C685DCC342F9F9172B6AED4EC33EFDC3F15",
+  "counts": {
+    "cp27UnresolvedReferences": 77,
+    "cp27HighOrCriticalBlockers": 30,
+    "cp28Candidates": 70,
+    "cp28SelectedCandidates": 0,
+    "cp28SelectedRouteItems": 0,
+    "cp28RemediationItems": 70,
+    "cp28HighOrCriticalRemediationItems": 38,
+    "escalationCandidates": 15,
+    "publicSafeCandidates": 0,
+    "publicSafeRouteItems": 0
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R08 closes CP29 as private remediation planning and blocked-unlock proof. Public release remains blocked."
+  }
+}

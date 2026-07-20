@@ -28,6 +28,8 @@ The roadmap starts from the current state:
 | CP25 reviewer workbench action workflow | Complete | `CP25_A09_CLOSE_OUT_AND_NEXT_SCOPE_DECISION.md` |
 | CP26 live snapshot export and refresh | Complete | `CP26_S08_CLOSE_OUT_AND_NEXT_SCOPE_DECISION.md` |
 | CP27 refresh-backed graph and vault rebuild | Complete | `CP27_G07_COMBINED_VERIFICATION_AND_CLOSE_OUT.md` |
+| CP28 retrieval integration from refreshed graph | Complete | `CP28_R07_CLOSE_OUT.md` |
+| CP29 retrieval remediation and selected-candidate unlock | Complete | `CP29_R08_COMBINED_VERIFICATION_AND_CLOSE_OUT.md` |
 
 Current private graph/snapshot facts:
 
@@ -119,48 +121,56 @@ Exit gate:
 
 Goal: make graph-aware retrieval consume refreshed graph/vault/snapshot outputs rather than static CP24 fixtures.
 
-Planned checkpoints:
+Status: Complete. See `CP28_R07_CLOSE_OUT.md`.
 
-| Checkpoint | Purpose |
-| --- | --- |
-| CP28-R01 | Retrieval architecture from refreshed graph/vault |
-| CP28-R02 | Candidate collection from snapshot-backed graph indexes |
-| CP28-R03 | Ranking and explanation using allowed operational signals |
-| CP28-R04 | Evidence route rebuild and validation handoff |
-| CP28-R05 | Retrieval API and private UI integration |
-| CP28-R06 | Retrieval regression suite and public-boundary verifier |
-| CP28-R07 | Close-out |
+Completed checkpoints:
+
+| Checkpoint | Purpose | Status |
+| --- | --- | --- |
+| CP28-R01 | Retrieval architecture from refreshed graph/vault | Complete |
+| CP28-R02 | Candidate collection from snapshot-backed graph indexes | Complete |
+| CP28-R03 | Ranking and explanation using allowed operational signals | Complete |
+| CP28-R04 | Evidence route rebuild and validation handoff | Complete |
+| CP28-R05 | Retrieval API and private UI integration proof | Complete |
+| CP28-R06 | Retrieval regression suite and public-boundary verifier | Complete |
+| CP28-R07 | Close-out | Complete |
 
 Exit gate:
 
 - Retrieval can use refreshed graph/vault artifacts.
-- Validation handoff is stable and reviewer-ready.
+- Validation handoff is remediation-first and blocker-visible.
 - Ranking never implies religious authority.
+- Selected candidates and selected route items remain zero while blockers remain.
 - Public answer surfaces do not use private graph evidence.
 
-### CP29 - Reviewer Workbench Productionization
+### CP29 - Retrieval Remediation And Selected-Candidate Unlock
 
-Goal: turn CP25 reviewer actions into a more production-like private review workflow.
+Goal: remediate CP27/CP28 blocker families that keep CP28 selected candidates and selected route items at zero, then prove selected-candidate unlock without bypassing validation gates.
 
-Planned checkpoints:
+Note: this CP29 scope supersedes the earlier planning label `CP29 - Reviewer Workbench Productionization`. Reviewer workbench productionization remains important, but CP28 close-out selected remediation/unlock first because selected candidates are blocked by unresolved references and high/critical blocker state.
 
-| Checkpoint | Purpose |
-| --- | --- |
-| CP29-A01 | Reviewer identity, roles, and assignment architecture |
-| CP29-A02 | Persistent review action and audit model |
-| CP29-A03 | Remediation lifecycle and blocker board |
-| CP29-A04 | Scholar/content escalation lane |
-| CP29-A05 | Product Owner approval lane for private readiness only |
-| CP29-A06 | Reviewer workbench UX hardening |
-| CP29-A07 | Audit export and rollback proof |
-| CP29-A08 | Combined verification and close-out |
+Status: Complete. CP29 closed as a private remediation planning and blocked-unlock proof. Selected-candidate unlock remains blocked because no real source repair, quality decision, escalation decision, CP27 regeneration, or CP28 rerun was applied in CP29.
+
+Completed checkpoints:
+
+| Checkpoint | Purpose | Status |
+| --- | --- | --- |
+| CP29-R01 | Remediation architecture and unlock baseline | Complete |
+| CP29-R02 | Reference and provenance repair plan | Complete |
+| CP29-R03 | Quality review burn-down plan | Complete |
+| CP29-R04 | Escalation lane separation | Complete |
+| CP29-R05 | Regeneration and diff proof | Complete |
+| CP29-R06 | Selected-candidate unlock verification | Complete |
+| CP29-R07 | Private route readiness decision | Complete |
+| CP29-R08 | Combined verification and close-out | Complete |
 
 Exit gate:
 
-- Reviewer actions persist safely or have a documented bridge to persistence.
-- Audit history is append-aware.
-- High/critical blockers remain visible.
-- `approve_private` cannot be mistaken for public or religious approval.
+- CP27 unresolved reference and blocker deltas are visible.
+- CP28 selected-candidate unlock is proven only after validation gates allow it.
+- Escalation candidates remain separate from ordinary selected-candidate unlock.
+- Public-safe candidate and route item counts remain zero.
+- CP28 private source route is approved or deferred based on selected route item proof.
 
 ### CP30 - Private Guidance Loop Integration
 
@@ -353,9 +363,9 @@ Exit gate:
 
 Immediate sequence:
 
-1. Start CP28 retrieval integration from refreshed graph/vault outputs.
-2. Start CP29 reviewer workbench productionization.
-3. Start CP30 private MVP guidance loop integration.
+1. Start CP30 private MVP guidance loop integration.
+2. Continue CP31 internal product UX completion.
+3. Continue CP32 data quality and remediation burn-down.
 4. Continue CP31 through CP37 according to the private product readiness gates.
 
 Do not start public release implementation as a release activity. Public-route work may only continue as private/release-filtered simulation, with public release blocked.
@@ -380,7 +390,7 @@ Any checkpoint that changes one of these values must stop and become a separate 
 Start the next major implementation track:
 
 ```text
-CP28 - Retrieval Engine Integration From Refreshed Graph
+CP30 - Private Guidance Loop Integration
 ```
 
-Reason: CP27 is complete and the long-term roadmap now depends on proving that graph-aware retrieval can consume refreshed graph/vault outputs rather than static CP24 fixtures, while keeping public release blocked.
+Reason: CP29 is complete as private remediation planning and blocked-unlock proof. CP30 should now integrate the private guidance loop while keeping unresolved references, review blockers, escalation separation, and public-release boundaries visible.

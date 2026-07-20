@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "cp29.regeneration-diff-proof.v1",
+  "checkpoint": "CP29-R05",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "generatedBy": "scripts/generate_cp29_r04_r05_fast_sprint.mjs",
+  "privateOnly": true,
+  "publicReleaseApproved": false,
+  "artifactKind": "regeneration_and_diff_proof",
+  "sourceArtifacts": {
+    "cp29R01RemediationUnlockPlan": {
+      "path": "data/remediation/cp29/remediation-unlock-plan.json",
+      "checksumSha256": "ABBB7CF1D0C169505EAB038F5A2B376DFB71E36DA4D2CC85251753A00A8F55D0",
+      "byteCount": 8394
+    },
+    "cp29R02ReferenceProvenanceRepairPlan": {
+      "path": "data/remediation/cp29/reference-provenance-repair-plan.json",
+      "checksumSha256": "9964D9833F577E208160C984D3FEE3FC44FBB15E3E045B4B3A5FDC79AC84DFFE",
+      "byteCount": 63014
+    },
+    "cp29R03QualityReviewBurnDownPlan": {
+      "path": "data/remediation/cp29/quality-review-burn-down-plan.json",
+      "checksumSha256": "EB8CFE993956828AC47982F73A31EA83B3176B74129D66AB554B9D044BD8CA2E",
+      "byteCount": 39357
+    },
+    "cp29R04EscalationLaneSeparation": {
+      "path": "data/remediation/cp29/escalation-lane-separation.json",
+      "checksumSha256": "DEA849B4C0ED21E3117C48342E1CADC8A78EACC7F6E17AE99635EF52FB567FDF",
+      "byteCount": 17399
+    },
+    "cp28CombinedVerification": {
+      "path": "data/retrieval/cp28/combined-verification.json",
+      "checksumSha256": "383E79E1C75CC199C0363837D8C77101C7921DB8E7202DE8C6EC1D39062A6956",
+      "byteCount": 4474
+    },
+    "cp27LatestGraph": {
+      "path": "data/graphify/cp27-refresh/latest-graph.json",
+      "checksumSha256": "D0BDD93CD09A26D514E3057D3B992E0860EB3B08C773BB86FDBD6DF8C08F7051",
+      "byteCount": 1936
+    },
+    "cp27LatestVault": {
+      "path": "data/vault/cp27-refresh/latest-vault.json",
+      "checksumSha256": "20E2EC5BB17259AD81679F5797AC6EA994F3AB92B2EECF61984066C0C197F36C",
+      "byteCount": 1896
+    }
+  },
+  "regenerationState": {
+    "actualSourceRepairApplied": false,
+    "actualQualityReviewDecisionsApplied": false,
+    "actualEscalationDecisionsApplied": false,
+    "cp26SnapshotRegeneratedInR05": false,
+    "cp27GraphRegeneratedInR05": false,
+    "cp27VaultRegeneratedInR05": false,
+    "cp28RetrievalRegeneratedInR05": false,
+    "reason": "Fast CP29-R04/R05 records lane separation and diff baseline only. No source, graph, vault, or retrieval regeneration was applied in this checkpoint."
+  },
+  "beforeCounts": {
+    "cp27GraphNodes": 147,
+    "cp27GraphEdges": 125,
+    "cp27VaultArtifacts": 26,
+    "cp27UnresolvedReferences": 77,
+    "cp27HighOrCriticalBlockers": 30,
+    "cp28Candidates": 70,
+    "cp28SelectedCandidates": 0,
+    "cp28SelectedRouteItems": 0,
+    "cp28RemediationItems": 70,
+    "cp28HighOrCriticalRemediationItems": 38,
+    "cp28EscalationCandidates": 15,
+    "publicSafeCandidates": 0,
+    "publicSafeRouteItems": 0
+  },
+  "afterCounts": {
+    "cp27GraphNodes": 147,
+    "cp27GraphEdges": 125,
+    "cp27VaultArtifacts": 26,
+    "cp27UnresolvedReferences": 77,
+    "cp27HighOrCriticalBlockers": 30,
+    "cp28Candidates": 70,
+    "cp28SelectedCandidates": 0,
+    "cp28SelectedRouteItems": 0,
+    "cp28RemediationItems": 70,
+    "cp28HighOrCriticalRemediationItems": 38,
+    "cp28EscalationCandidates": 15,
+    "publicSafeCandidates": 0,
+    "publicSafeRouteItems": 0
+  },
+  "deltas": {
+    "cp27UnresolvedReferenceDelta": 0,
+    "cp27HighOrCriticalBlockerDelta": 0,
+    "cp28SelectedCandidateDelta": 0,
+    "cp28SelectedRouteItemDelta": 0,
+    "cp28RemediationDelta": 0,
+    "cp28HighOrCriticalRemediationDelta": 0,
+    "escalationCandidateLeakageIntoOrdinaryUnlock": 0,
+    "publicSafeCandidateDelta": 0,
+    "publicSafeRouteItemDelta": 0
+  },
+  "preconditionsForRealRegeneration": [
+    "Apply CP29-R02 reference/provenance repairs.",
+    "Record CP29-R03 quality review decisions.",
+    "Record CP29-R04 escalation decisions for hadith-grade and safety lanes.",
+    "Rerun CP26, CP27, and CP28 generation commands.",
+    "Regenerate this CP29-R05 diff proof from the new pointers."
+  ],
+  "unlockBoundary": {
+    "selectedCandidateUnlockAllowed": false,
+    "selectedRouteItemUnlockAllowed": false,
+    "reason": "R05 has no applied regeneration delta yet, so selected-candidate unlock remains blocked.",
+    "nextCheckpoint": "CP29-R06"
+  },
+  "publicBoundary": {
+    "privateOnly": true,
+    "publicReleaseApproved": false,
+    "publicRouteExposed": false,
+    "publicSafeChangeRequested": false,
+    "publicSafeSnapshotRowCount": 0,
+    "publicSafeGraphNodeCount": 0,
+    "publicSafeGraphEdgeCount": 0,
+    "publicSafeVaultArtifactCount": 0,
+    "publicSafeRetrievalCandidateCount": 0,
+    "publicSafeRouteItemCount": 0,
+    "publicSafeReviewItemCount": 0,
+    "publicSafeAuditEventCount": 0,
+    "message": "CP29-R05 records private regeneration/diff proof baseline only. Public release remains blocked and public-safe counts remain zero."
+  }
+}
